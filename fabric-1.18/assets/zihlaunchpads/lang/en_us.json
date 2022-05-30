@@ -1,0 +1,10 @@
+{
+  "block.zihlaunchpads.launch_block": "Launchpad",
+  "block.zihlaunchpads.directionallaunch_block": "Directional Launchpad",
+  "block.zihlaunchpads.launch_plate_block": "Launchplate",
+  "block.zihlaunchpads.directionallaunch_plate_block": "Directional Launchplate",
+
+  "launchgui.title": "Launchpad Editor",
+  "launchgui.invalid": "Invalid values",
+  "launchgui.renderenabled" : "Show direction: "
+}

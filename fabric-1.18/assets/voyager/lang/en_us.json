@@ -1,0 +1,72 @@
+{
+  "itemGroup.voyager.voyager_items": "Voyager Items",
+
+  "item.voyager.infused_gem_shard": "Infused Gem Shard",
+  "item.voyager.infused_gem": "Infused Gem",
+
+  "enchantment.voyager.touch_of_inability": "Touch of Inability",
+  "enchantment.voyager.touch_of_inability.desc": "Your enemies get Inability for 4 seconds.",
+
+  "effect.voyager.inability": "Inability",
+  "effect.voyager.upgrading": "Upgrading",
+  "effect.voyager.powered": "Powered",
+
+  "origin.voyager.voyager.name": "Voyager",
+  "origin.voyager.voyager.description": "You are descended from an adventurous race. Your ancestors found ancient gems that gave them magical abilities, but the gems broke and you only have some of the magical abilities.",
+
+  "origin.voyager.infused_voyager.name": "Infused Voyager",
+  "origin.voyager.infused_voyager.description": "You have found the ancient gems that your ancestors once left within the depths of the stronghold. The ancient gems have infused with you and all of your magical abilities have been restored.",
+
+  "power.voyager.upgrade.name": "Ancient Gems",
+  "power.voyager.upgrade.description": "Legend has it that the shattered ancient gems were left within the depths of the stronghold, and if you put them back together, they might start to work properly once again.",
+
+  "power.voyager.crafting.name": "Crafting",
+  "power.voyager.crafting.description": "You have the ability to craft without the need of a crafting table.",
+
+  "power.voyager.dash.name": "Dash",
+  "power.voyager.dash.description": "You have the ability to dash further, the break you take between dashes has also shortened.",
+
+  "power.voyager.leap.name": "Leap",
+  "power.voyager.leap.description": "You have the ability to leap, however you need a break before you leap again.",
+
+  "power.voyager.advanced_dash.name": "Advanced Dash",
+  "power.voyager.advanced_dash.description": "You have the ability to dash, The break you take between dashes has shortened.",
+
+  "power.voyager.magical_landing.name": "Magical Landing",
+  "power.voyager.magical_landing.description": "As a magical being, you don't take fall damage.",
+
+  "power.voyager.blast_of_magic.name": "Blast of Magic",
+  "power.voyager.blast_of_magic.description": "You set out a strike of pure magic, which explodes on target.",
+
+  "power.voyager.regenerative.name": "Regenerative",
+  "power.voyager.regenerative.description": "You have the ability to regenerate occasionally, however you lose all of your powers for a short time.",
+
+  "power.voyager.health.name": "Wellbeing",
+  "power.voyager.health.description": "Your species has a lower health and size compared to humans, but also has a higher agility level.",
+
+  "power.voyager.advanced_health.name": "Infused Wellbeing",
+  "power.voyager.advanced_health.description": "Infusion has made your health and size shrink, but you also now have a even higher agility level.",
+
+  "power.voyager.death.name": "Magical Ending",
+  "power.voyager.death.description": "Upon death, You let out a blast of magic as you drop gunpowder.",
+
+  "power.voyager.death_upgraded.name": "Infused Ending",
+  "power.voyager.death_upgraded.description": "Upon death, You let out a blast of magic as you drop an Infused Gem Shard.",
+
+  "power.voyager.inability.name": "Inability",
+  "power.voyager.inability.description": "When you have been hit, you are unable to use your powers for a short time.",
+
+  "power.voyager.appetite.name": "Appetite",
+  "power.voyager.appetite.description": "Your species doesn't eat as much compared to humans, however you cannot eat meat.",
+
+  "power.voyager.sleep.name": "Sleeping on the Clouds",
+  "power.voyager.sleep.description": "You need to be over 128 blocks high to sleep.",
+  "power.voyager.sleep.message": "You need to be over Y: 128 to sleep!",
+
+  "power.voyager.sleep_upgraded.name": "Sleeping on the Mountain",
+  "power.voyager.sleep_upgraded.description": "You need to be over 80 blocks high to sleep.",
+  "power.voyager.sleep_upgraded.message": "You need to be over Y: 80 to sleep!",
+
+  "power.voyager.natural_protection.name": "Magical Shield",
+  "power.voyager.natural_protection.description": "You have a magical shield that protects you against thorns. You are not slowed down by blocks such as sweet berry bushes or cobwebs. You can also walk on powder snow."
+}

@@ -1,0 +1,20 @@
+{
+  "config.healthoverlay.health": "Health",
+  "config.healthoverlay.health_vanilla": "Vanilla heart",
+  "config.healthoverlay.health_colors": "Heart colors",
+  "config.healthoverlay.health_poison_colors": "Poisoned colors",
+  "config.healthoverlay.health_wither_colors": "Withered colors",
+  "config.healthoverlay.health_frozen_colors": "Freezing colors",
+  "config.healthoverlay.absorption": "Absorption",
+  "config.healthoverlay.absorption_vanilla": "Vanilla heart",
+  "config.healthoverlay.absorption_colors": "Heart colors",
+  "config.healthoverlay.absorption_poison_colors": "Poisoned colors",
+  "config.healthoverlay.absorption_wither_colors": "Withered colors",
+  "config.healthoverlay.absorption_frozen_colors": "Freezing colors",
+  "config.healthoverlay.absorption.advanced": "Advanced",
+  "config.healthoverlay.absorption_over_health": "Show absorption over health",
+  "config.healthoverlay.absorption_over_health_mode": "Display mode",
+  "config.healthoverlay.invalid_hex_color": "Invalid color",
+  "config.healthoverlay.list_too_small": "The list is too short",
+  "config.healthoverlay.list_too_big": "The list is too big"
+}

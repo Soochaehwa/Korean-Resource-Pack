@@ -1,0 +1,61 @@
+{
+  "zoomify.key.zoom": "Zoom",
+  "zoomify.key.gui": "Open GUI",
+  "zoomify.key.category": "Zoomify",
+
+
+  "zoomify.gui.title": "Zoomify",
+
+  "zoomify.gui.category.behaviour": "Behaviour",
+  "zoomify.gui.initialZoom.name": "Initial Zoom",
+  "zoomify.gui.initialZoom.description": "The zoom level when you first zoomify.",
+  "zoomify.gui.zoomSpeed.name": "Zoom Speed",
+  "zoomify.gui.zoomSpeed.description": "Speed at which the zoom animation will occur.",
+  "zoomify.gui.zoomTransition.name": "Zoom Transition",
+  "zoomify.gui.zoomTransition.description": "The transition type used when zooming.",
+  "zoomify.gui.zoomOppositeTransitionOut.name": "Opposite Transition Out",
+  "zoomify.gui.zoomOppositeTransitionOut.description": "Inverts the transition type when zooming out.",
+
+  "zoomify.gui.category.scrolling": "Scrolling",
+  "zoomify.gui.scrollZoom.name": "Enable Scroll Zoom",
+  "zoomify.gui.scrollZoom.description": "Allow you to zoom in and out more with scroll wheel.",
+  "zoomify.gui.maxScrollZoom.name": "Max Scroll Zoom",
+  "zoomify.gui.maxScrollZoom.description": "The maximum zoom level that can be achieved when scrolling.",
+  "zoomify.gui.scrollZoomSpeed.name": "Scroll Zoom Speed",
+  "zoomify.gui.scrollZoomSpeed.description": "Speed at which the scroll zoom animation will occur.",
+  "zoomify.gui.scrollZoomTransition.name": "Scroll Zoom Transition",
+  "zoomify.gui.scrollZoomTransition.description": "The transition type used when scrolling to zoom.",
+  "zoomify.gui.scrollZoomOppositeTransitionOut.name": "Opposite Transition Out",
+  "zoomify.gui.scrollZoomOppositeTransitionOut.description": "Inverts the transition type when zooming out.",
+
+  "zoomify.gui.category.controls": "Controls",
+  "zoomify.gui.zoomKeyBehaviour.name": "Zoom Key Behaviour",
+  "zoomify.gui.zoomKeyBehaviour.description": "The behaviour of the zoom key.",
+  "zoomify.gui.relativeSensitivity.name": "Relative Sensitivity",
+  "zoomify.gui.relativeSensitivity.description": "Scales the sensitivity down depending on the zoom level.",
+  "zoomify.gui.cinematicCam.name": "Cinematic Camera",
+  "zoomify.gui.cinematicCam.description": "Make the camera move smoothly when zoomed.",
+
+
+  "zoomify.transition.instant": "Instant",
+  "zoomify.transition.linear": "Linear",
+  "zoomify.transition.ease_in_sine": "Ease In Sine",
+  "zoomify.transition.ease_out_sine": "Ease Out Sine",
+  "zoomify.transition.ease_in_out_sine": "Ease In Out Sine",
+  "zoomify.transition.ease_in_quad": "Ease In Quad",
+  "zoomify.transition.ease_out_quad": "Ease Out Quad",
+  "zoomify.transition.ease_in_out_quad": "Ease In Out Quad",
+  "zoomify.transition.ease_in_cubic": "Ease In Cubic",
+  "zoomify.transition.ease_out_cubic": "Ease Out Cubic",
+  "zoomify.transition.ease_in_out_cubic": "Ease In Out Cubic",
+  "zoomify.transition.ease_in_exp": "Ease In Exponential",
+  "zoomify.transition.ease_out_exp": "Ease Out Exponential",
+  "zoomify.transition.ease_in_out_exp": "Ease In Out Exponential",
+
+
+  "zoomify.zoom_key_behaviour.hold": "Hold",
+  "zoomify.zoom_key_behaviour.toggle": "Toggle",
+
+
+  "zoomify.update.available": "Zoomify %s is available for download: "
+}

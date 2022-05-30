@@ -1,0 +1,38 @@
+{
+  "block.postmateria.phantasmite_ore": "Phantasmite Ore",
+  "item.postmateria.phantasmite": "Phantasmite",
+  "item.postmateria.phantasmite_sword": "Phantasmite Sword",
+  "item.postmateria.phantasmite_pickaxe": "Phantasmite Pickaxe",
+  "item.postmateria.phantasmite_shovel": "Phantasmite Shovel",
+  "item.postmateria.phantasmite_axe": "Phantasmite Axe",
+  "item.postmateria.phantasmite_hoe": "Phantasmite Hoe",
+  "item.postmateria.thundering_phantasm": "Thundering Phantasm",
+  "item.postmateria.phantasmite_helmet": "Phantasmite Helmet",
+  "item.postmateria.phantasmite_chestplate": "Phantasmite Chestplate",
+  "item.postmateria.phantasmite_leggings": "Phantasmite Leggings",
+  "item.postmateria.phantasmite_boots": "Phantasmite Boots",
+
+  "block.postmateria.soulblaze_ore": "Soulblaze Ore",
+  "item.postmateria.soulblaze": "Soulblaze",
+  "item.postmateria.soulblaze_sword": "Soulblaze Sword",
+  "item.postmateria.soulblaze_pickaxe": "Soulblaze Pickaxe",
+  "item.postmateria.soulblaze_shovel": "Soulblaze Shovel",
+  "item.postmateria.soulblaze_axe": "Soulblaze Axe",
+  "item.postmateria.soulblaze_hoe": "Soulblaze Hoe",
+  "item.postmateria.soulblaze_helmet": "Soulblaze Helmet",
+  "item.postmateria.soulblaze_chestplate": "Soulblaze Chestplate",
+  "item.postmateria.soulblaze_leggings": "Soulblaze Leggings",
+  "item.postmateria.soulblaze_boots": "Soulblaze Boots",
+  "item.postmateria.soul_surfer": "Soul Surfer",
+
+  "block.postmateria.phantasmite_block": "Phantasmite Block",
+  "block.postmateria.phantasmite_geyser": "Phantasmite Geyser",
+  "block.postmateria.phantasma_spawner": "Phantasma Spawner",
+
+  "postmateria.translation.soulblaze": "§bSoulblaze: §7you inflict §bSoul Fire §7on hit.",
+  "postmateria.translation.phantasmite": "§Phantasmal Wrath: §7you recover §b10% §7of dealt damage.",
+  "postmateria.translation.phantasmite_armor": "§7Provides §b10% §7healing buff.",
+  "postmateria.translation.phantasmite_set": "§7Set bonus: additional §b10% §7healing buff.",
+  "postmateria.translation.phantasmite_pickaxe": "§7Soulblaze: you recover §b1 heart §7after mining ore.",
+  "postmateria.translation.soulblaze_generation": "§7The §bblazing §7Nether has accepted the cries of your §bsoul§7..."
+}
