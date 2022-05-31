@@ -306,7 +306,6 @@
     "desc.immersiveengineering.info.redstoneChannel.send": "채널 출력: %1$s",
     "desc.immersiveengineering.info.redstoneChannel.rec": "채널 입력: %1$s",
     "desc.immersiveengineering.info.blastFuelTime": "연소 시간: %1$s",
-    "desc.immersiveengineering.info.multiblock.IE:MetalPress": "금속 압축기",
     "desc.immersiveengineering.info.circuit_table.slot.backplane": "회로판",
     "desc.immersiveengineering.info.circuit_table.slot.logic": "논리 구성요소",
     "desc.immersiveengineering.info.circuit_table.slot.solder": "땜납",
