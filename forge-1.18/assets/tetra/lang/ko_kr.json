@@ -2071,10 +2071,7 @@
     "tetra.tweak.scanner/adjustable_span.tooltip": "가로, 세로의 폭을 조절합니다",
     "tetra.tweak.scanner/adjustable_span.left": "세로",
     "tetra.tweak.scanner/adjustable_span.right": "가로",
-    "tetra.improvement.enchantment/xercamod_enchantment_grappling.description": "그랩 갈고리 마법부여. 블록을 지정하고 블록을 향해 그래플링 후크를 발사해 이동할 수 있습니다",
     "tetra.improvement.enchantment/ma-enchants_combo.description": "타격 성공 시마다 피해가 증가하고, 공기 또는 블록에 닿으면 초기화됩니다",
-    "tetra.improvement.enchantment/ensorcellation_vitality.description": "착용자의 최대 체력이 증가합니다",
     "tetra.improvement.enchantment/ensorcellation_tilling.description": "반경의 추가 블록 경작합니다",
-    "tetra.improvement.enchantment/apotheosis_splitting.description": "모루가 책에서 여러 마법을 분리할 수 있습니다",
     "tetra.improvement.destabilized/enchantable_excavator.name": "§5불안정한:굴착"
 }
