@@ -1,1 +1,18 @@
-{}
+{
+    "block.adorn.light_gray_sofa": "회백색 소파",
+    "block.adorn.gray_sofa": "회색 소파",
+    "block.adorn.brown_sofa": "갈색 소파",
+    "block.adorn.red_sofa": "빨강색 소파",
+    "block.adorn.orange_sofa": "주황색 소파",
+    "block.adorn.lime_sofa": "연두색 소파",
+    "block.adorn.green_sofa": "초록색 소파",
+    "block.adorn.cyan_sofa": "청록색 소파",
+    "block.adorn.light_blue_sofa": "하늘색 소파",
+    "block.adorn.blue_sofa": "파란색 소파",
+    "block.adorn.purple_sofa": "보라색 소파",
+    "block.adorn.white_sofa": "하얀색 소파",
+    "block.adorn.black_sofa": "검은색 소파",
+    "block.adorn.yellow_sofa": "노랑색 소파",
+    "block.adorn.magenta_sofa": "자홍색 소파",
+    "block.adorn.pink_sofa": "분홍색 소파"
+}
