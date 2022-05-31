@@ -40,10 +40,7 @@
     "message.rftoolsstorage.storage_module.items": "내용: ",
     "message.rftoolsstorage.storage_module.advanced": "고급: ",
     "message.rftoolsstorage.modular_storage.header": "이 모듈러 저장 시스템은 많은 아이템을 저장할 수 있으며 검색 및 여과가 용이합니다. 먼저 저장 모듈 항목을 삽입해야 사용할 수 있습니다.",
-    "rftoolsstorage.category.main.description": "RF툴즈 스토리지는 아이템을 저장하고 쉽게 접속할 수 있는 기능을 가지고 있습니다.",
     "rftoolsstorage.category.modularstorage.description": "유연한 저장 솔루션입니다.",
-    "rftoolsstorage.category.scanner.description": "중앙 집중식 장소에서 인근 인벤토리에 접속할 수 있는 강력한 블록입니다.",
     "rftoolsstorage.page.modularstorage0": "모듈러 저장 블록은 최대 500개의 스택(적절한 저장 모듈 포함)을 저장할 수 있는 강력한 패시브 인벤토리입니다.",
-    "rftoolsstorage.page.storagemodules0": "모듈러 저장 블록에서 직접 사용할 수 있는 저장 모듈의 티어는 4개입니다.",
     "rftoolsstorage.page.scanner0": "저장 스캐너는 근처의 인벤토리를 검색하고 해당 인벤토리에 아이템을 표시할 수 있는 강력한 블록입니다. 이러한 아이템에 접속하여 다시 저장할 수도 있습니다."
 }
