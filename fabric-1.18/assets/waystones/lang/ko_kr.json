@@ -1,12 +1,8 @@
 {
     "itemGroup.waystones.waystones": "전송석",
     "block.waystones.waystone": "전송석",
-    "block.waystones.brown_sharestone": "갈색 공명석",
     "gui.waystones.waystone_selection.next_page": "다음",
-    "chat.waystones.scroll_bound": "주문서 연결: %s",
     "tooltip.waystones.portstone": "이동할 수 없습니다.",
-    "tooltip.waystones.red_sharestone": "다른 빨간색 공명석으로 이동할 수 있습니다",
     "text.autoconfig.waystones.option.xpCost.dimensionalWarpXpCost": "차원 전송 XP 비용",
-    "text.autoconfig.waystones.option.restrictions.dimensionalWarpAllowList": "차원 전송 허용 목록",
     "text.autoconfig.waystones.option.worldGen": "월드 생성"
 }
