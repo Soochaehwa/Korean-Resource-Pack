@@ -1,1 +1,19 @@
-{}
+{
+    "text.skinlayers.enable.hat": "3D 모자",
+    "text.skinlayers.enable.jacket": "3D 재킷",
+    "text.skinlayers.enable.leftsleeve": "3D 왼쪽 소매",
+    "text.skinlayers.enable.leftpants": "3D 왼쪽 바지",
+    "text.skinlayers.enable.rightpants": "3D 오른쪽 바지",
+    "text.skinlayers.skulls.enable": "3D 해골",
+    "text.skinlayers.skullsitems.enable": "3D 해골 아이템",
+    "text.skinlayers.basevoxelsize": "복셀 크기",
+    "text.skinlayers.headvoxelsize": "머리 복셀 크기",
+    "text.skinlayers.bodyvoxelheightsize": "몸 복셀 높이",
+    "text.skinlayers.bodyvoxelwidthsize": "몸 복셀 너비",
+    "text.skinlayers.skulls.voxelsize": "해골 복셀 크기",
+    "text.skinlayers.title": "3D 스킨 레이어 설정",
+    "text.skinlayers.enable.rightsleeve": "3D 오른쪽 소매",
+    "text.skinlayers.reset": "기본",
+    "text.skinlayers.fastrender.enable": "빠른 렌더",
+    "text.skinlayers.renderdistancelod": "디테일 렌더 거리"
+}
