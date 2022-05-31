@@ -2070,6 +2070,5 @@
     "tetra.tweak.scanner/adjustable_span.label": "폭",
     "tetra.tweak.scanner/adjustable_span.tooltip": "가로, 세로의 폭을 조절합니다",
     "tetra.tweak.scanner/adjustable_span.left": "세로",
-    "tetra.tweak.scanner/adjustable_span.right": "가로",
-    "tetra.improvement.enchantment/ensorcellation_tilling.description": "반경의 추가 블록 경작합니다"
+    "tetra.tweak.scanner/adjustable_span.right": "가로"
 }
