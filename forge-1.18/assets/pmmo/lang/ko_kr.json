@@ -79,7 +79,6 @@
     "pmmo.totalLevelUp": "%1$s의 총합 레벨에 도달했습니다!",
     "pmmo.gainedExtraHeart": "추가 체력을 획득 하셨습니다!",
     "pmmo.levelUpSprintSpeedBonus": "%1$s %2$s 레벨 업! %3$s 질주 속도 보너스를 받습니다!",
-    "pmmo.levelUpDamageBoostArchery": "%1$s %2$s 레벨 업! %3$s 궁술 데미지 보너스!",
     "pmmo.levelUpReachBoost": "%1$s %2$s 레벨 업! %3$s 사거리가 증가 합니다!",
     "pmmo.levelUpEnduranceBoost": "%1$s %2$s 레벨 업! %3$s%% 인내력이 증가 합니다!",
     "pmmo.durabilityInfo": "%1$s %2$s%%",
