@@ -25,21 +25,13 @@
     "block.corail_woodcutter.nightshroom_woodcutter": "Nightshroom 제재소",
     "block.corail_woodcutter.shadowroot_woodcutter": "Shadowroot 제재소",
     "block.corail_woodcutter.viridshroom_woodcutter": "Viridshroom 제재소",
-    "block.corail_woodcutter.black_stained_woodcutter": "검은색 제재소",
     "block.corail_woodcutter.blue_stained_woodcutter": "파란색 제재소",
-    "block.corail_woodcutter.brown_stained_woodcutter": "갈색 제재소",
     "block.corail_woodcutter.cyan_stained_woodcutter": "청록색 제재소",
-    "block.corail_woodcutter.gray_stained_woodcutter": "회색 제재소",
     "block.corail_woodcutter.green_stained_woodcutter": "초록색 제재소",
-    "block.corail_woodcutter.light_blue_stained_woodcutter": "하늘색 제재소",
     "block.corail_woodcutter.light_gray_stained_woodcutter": "회백색 제재소",
-    "block.corail_woodcutter.lime_stained_woodcutter": "연두색 제재소",
     "block.corail_woodcutter.magenta_stained_woodcutter": "자홍색 제재소",
-    "block.corail_woodcutter.orange_stained_woodcutter": "주황색 제재소",
     "block.corail_woodcutter.pink_stained_woodcutter": "분홍색 제재소",
-    "block.corail_woodcutter.purple_stained_woodcutter": "보라색 제재소",
     "block.corail_woodcutter.red_stained_woodcutter": "빨간색 제재소",
-    "block.corail_woodcutter.white_stained_woodcutter": "하얀색 제재소",
     "block.corail_woodcutter.yellow_stained_woodcutter": "노란색 제재소",
     "block.corail_woodcutter.twilight_oak_woodcutter": "Twilight Oak 제재소",
     "block.corail_woodcutter.canopy_woodcutter": "Canopy 제재소",
@@ -73,4 +65,4 @@
     "corail_woodcutter.message.datapack.remove.success": "데이터팩을 삭제했습니다.",
     "corail_woodcutter.message.datapack.remove.absent": "데이터팩이 존재하지 않습니다.",
     "corail_woodcutter.message.datapack.remove.fail": "데이터팩이 제거되지 않았습니다.: %s"
-  }
+}
