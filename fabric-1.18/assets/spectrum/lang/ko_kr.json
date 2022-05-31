@@ -1,1 +1,17 @@
-{}
+{
+    "itemGroup.spectrum.general.tab.worldgen": "세계",
+    "itemGroup.spectrum.general.tab.items": "자원",
+    "itemGroup.spectrum.blocks": "Spectrum 장식",
+    "itemGroup.spectrum.blocks.tab.decoration": "건축 블록",
+    "itemGroup.spectrum.blocks.tab.mob_heads": "몹 머리",
+    "itemGroup.spectrum.general.button.discord": "Spectrum 디스코드 참여하기",
+    "itemGroup.spectrum.general.button.github": "Spectrum 깃헙",
+    "itemGroup.spectrum.general.button.curseforge": "Spectrum 커스포지",
+    "itemGroup.spectrum.general.button.modrinth": "Spectrum 모드린스",
+    "itemGroup.spectrum.blocks.button.discord": "Spectrum 디스코드 참여하기",
+    "itemGroup.spectrum.blocks.button.github": "Spectrum 깃헙",
+    "itemGroup.spectrum.blocks.button.modrinth": "Spectrum 모드린스",
+    "itemGroup.spectrum.general.tab.tools": "도구",
+    "itemGroup.spectrum.blocks.tab.colored_wood": "색상 나무",
+    "itemGroup.spectrum.blocks.button.curseforge": "Spectrum 커스포지"
+}
