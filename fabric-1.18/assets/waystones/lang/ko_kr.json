@@ -1,8 +1,6 @@
 {
     "itemGroup.waystones.waystones": "전송석",
     "block.waystones.waystone": "전송석",
-    "gui.waystones.waystone_selection.next_page": "다음",
     "tooltip.waystones.portstone": "이동할 수 없습니다.",
-    "text.autoconfig.waystones.option.xpCost.dimensionalWarpXpCost": "차원 전송 XP 비용",
     "text.autoconfig.waystones.option.worldGen": "월드 생성"
 }
