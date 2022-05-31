@@ -43,7 +43,6 @@
     "message.xnet.advanced_connector.header": "연결기를 네트워크에 연결해야 하는 블록 또는 기계 옆에 놓습니다.",
     "message.xnet.advanced_connector.info": "최대 RF: ",
     "message.xnet.advanced_connector.gold": "다른 측면에 대한 액세스를 허용합니다. 보다 빠른 아이템 전송을 지원합니다.",
-    "message.xnet.router": "이 블록으로 여러 채널을 연결할 수 있습니다. (제어기)",
     "message.xnet.wireless_router.header": "이 블록으로 여러 채널을 원격으로 연결할 수 있습니다. 라우터 케이블을 사용하여 일반 라우터에 연결합니다.",
     "message.xnet.wireless_router.gold": "이를 위해 안테나가 필요합니다!",
     "message.xnet.antenna.header": "안테나 베이스 위에 1~2개의 안테나를 놓으세요.",
@@ -56,13 +55,8 @@
     "message.xnet.redstone_proxy.gold": "이 버전은 업데이트를 차단하지 않습니다!",
     "message.xnet.redstone_proxy_upd.header": "레드스톤의 프록시 블록 역할을 합니다. 엑스넷은 여기에 연결할 수 있습니다.",
     "message.xnet.redstone_proxy_upd.gold": "이 버전은 업데이트를 차단합니다!",
-    "xnet.category.main.description": "엑스넷은 아이템, 유체 및 전력 분배에 대한 모드입니다. 매우 효율적인 방법으로 이 작업을 수행합니다.",
     "xnet.category.simple.description": "단순한 네트워크입니다.",
-    "xnet.category.network.description": "라우터로 여러 네트워크를 연결합니다.",
     "xnet.category.wireless.description": "여러 네트워크를 무선으로 연결합니다.",
-    "xnet.page.controller0": "제어기가 이 모드의 가장 중요한 블록입니다. 이 기계에서는 여러 채널을 편집하고 아이템, 액체 또는 전력이 해당 채널을 통해 이동하는 방식을 정의합니다.",
     "xnet.page.cables0": "서로 연결되지 않는 4가지 색의 케이블이 있습니다.",
-    "xnet.page.connector0": "케이블을 실제로 블록이나 기계에 연결하려면 연결기가 필요합니다.",
-    "xnet.page.router0": "라우터는 여러 네트워크를 연결할 수 있습니다. 라우팅 케이블이 필요합니다.",
-    "xnet.page.wireless_router0": "네트워크의 무선 연결입니다. @todo"
+    "xnet.page.router0": "라우터는 여러 네트워크를 연결할 수 있습니다. 라우팅 케이블이 필요합니다."
 }
