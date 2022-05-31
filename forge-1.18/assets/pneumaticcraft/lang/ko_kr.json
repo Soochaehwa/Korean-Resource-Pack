@@ -179,5 +179,17 @@
     "block.pneumaticcraft.wall_lamp_inverted_red": "빨간색 벽 램프 (반전됨)",
     "entity.pneumaticcraft.harvesting_drone": "재배 드론",
     "entity.pneumaticcraft.programmable_controller": "프로그램된 컨트롤러",
-    "fluid.pneumaticcraft.lubricant": "휘발유"
+    "fluid.pneumaticcraft.lubricant": "휘발유",
+    "gui.tooltip.block.pneumaticcraft.advanced_pressure_tube": "가장 강력한 압력 튜브 유형입니다. 추가 기능을 위해 위장할 수 있으며 튜브 모듈을 장착할 수 있습니다. ${br}최대 안전 압력: 20bar",
+    "gui.tooltip.block.pneumaticcraft.air_compressor": "이 기계는 압축 공기를 발생 시키는 데 사용됩니다. 이렇게 하려면 연료 슬롯의 화로에서 연소할 수 있는 고체 연료 항목을 삽입합니다. 참고: 액체 연료로는 작동하지 않습니다. 액체 연료를 연소하려면 액체 압축기를 사용하십시오.",
+    "gui.tooltip.block.pneumaticcraft.aphorism_tile.reset": "타일의 색과 텍스트를 초기화 하고싶다면 크래프팅 테이블에 놓으세요",
+    "gui.tooltip.block.pneumaticcraft.aphorism_tile.text": "이 타일의 텍스트:",
+    "gui.tooltip.block.pneumaticcraft.assembly_controller": "이 기계는 다른 조립 기계를 제어하는 데 사용됩니다. 연결된 모든 조립 기계를 제어할 수 있고, 이 조립 기계들을 연결하는 기계도 제어할 수 있습니다. 조립을 시작하려면 프로그램 슬롯에 프로그램을 넣으십시오.",
+    "gui.tooltip.block.pneumaticcraft.creative_compressor": "이 블럭은 크리에이티브 모드 전용 블럭이며, 당신이 원하는 압력을 생성할 수 있습니다.",
+    "gui.tooltip.block.pneumaticcraft.creative_compressed_iron_block": "이 블럭은 크리에이티브 모드 전용 블럭이며, 당신이 원하는 온도를 적용할 수 있습니다.",
+    "gui.tooltip.block.pneumaticcraft.advanced_liquid_compressor": "액체 압축기의 고급 버전입니다. 훨씬 빠른 생성 속도(50mL/tick)이지만 열을 발생 시키기도 합니다. 열이 높을수록 효율은 떨어집니다. 온도 게이지의 아래쪽 화살표는 효율이 떨어지기 시작할 위치를 나타내고 위쪽 화살표는 0%% 효율 표시를 나타냅니다. ${br}${br}이 모드에서 예상할 수 있는 것과 달리 온도가 너무 높아지면 이 시스템이 폭발하지 않습니다.",
+    "gui.tooltip.block.pneumaticcraft.advanced_air_compressor": "이 기계는 공기 압축기의 Tier 2 버전입니다. 화로에서 연소할 수 있는 모든 연료를 사용하여 압축 공기를 생성할 수 있습니다. 그러나 이것은 50 mL/tick에서 발생하며 또한 열을 발생 시킵니다. 열이 높을수록 효율은 떨어집니다. 온도 게이지의 아래쪽 화살표는 효율이 떨어지기 시작할 위치를 나타내고 위쪽 화살표는 0%% 효율 표시를 나타냅니다. ${br}${br}이 모드에서 예상할 수 있는 것과 달리 온도가 너무 높아지면 이 시스템이 폭발하지 않습니다.",
+    "gui.tooltip.block.pneumaticcraft.air_cannon": "이 기계는 물건을 공기를 통해 운반하는 데 사용될 수 있습니다. 그것을 사용하려면 GPS 도구를 만들어야 합니다. 완료되면 아이템을 이동할 블록을 마우스 오른쪽 버튼으로 클릭하고 GPS 슬롯에 GPS 도구를 넣습니다.",
+    "gui.tooltip.block.pneumaticcraft.aphorism_tile": "스마트 표지판은 임의의 양의 텍스트를 저장하고 표시할 수 있으며, 텍스트가 항상 적합하도록 크기가 조정됩니다. ${br} 빈 손으로 마우스 오른쪽 버튼을 클릭하여 타일을 편집합니다.(타일이 보이지 않는다면, 웅크리기와 우클릭을 같이 해주시길 바랍니다.) ${br}아무 염료로 우클릭하여 타일을 색칠할 수 있으며, 테두리와 배경을 개별적으로 색칠할 수 있습니다.",
+    "gui.tooltip.block.pneumaticcraft.display_table": "이 테이블은 자동화를 통해 상호 작용할 수 있는 단일 항목을 저장하고 표시할 수 있습니다. (호퍼/드론/파이프 등등...)"
 }
