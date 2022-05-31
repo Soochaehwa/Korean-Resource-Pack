@@ -54,6 +54,5 @@
     "message.xnet.redstone_proxy.header": "레드스톤의 프록시 블록 역할을 합니다. 엑스넷은 여기에 연결할 수 있습니다.",
     "message.xnet.redstone_proxy.gold": "이 버전은 업데이트를 차단하지 않습니다!",
     "message.xnet.redstone_proxy_upd.header": "레드스톤의 프록시 블록 역할을 합니다. 엑스넷은 여기에 연결할 수 있습니다.",
-    "message.xnet.redstone_proxy_upd.gold": "이 버전은 업데이트를 차단합니다!",
-    "xnet.page.router0": "라우터는 여러 네트워크를 연결할 수 있습니다. 라우팅 케이블이 필요합니다."
+    "message.xnet.redstone_proxy_upd.gold": "이 버전은 업데이트를 차단합니다!"
 }
