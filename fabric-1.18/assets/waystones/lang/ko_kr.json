@@ -1,5 +1,4 @@
 {
     "itemGroup.waystones.waystones": "전송석",
-    "block.waystones.waystone": "전송석",
-    "text.autoconfig.waystones.option.worldGen": "월드 생성"
+    "block.waystones.waystone": "전송석"
 }
