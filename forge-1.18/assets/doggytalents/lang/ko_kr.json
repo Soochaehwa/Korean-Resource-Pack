@@ -201,7 +201,6 @@
     "modgui.config.general.tooltip": "General settings for the mod",
     "modgui.config.talents": "Talents",
     "modgui.config.talents.tooltip": "Enable and disable talents",
-    "dogbed.missing": "Missing: %s",
     "dogbed.bedding.minecraft.white_wool": "침구-하얀색 양털",
     "dogbed.bedding.minecraft.orange_wool": "침구-주황색 양털",
     "dogbed.bedding.minecraft.magenta_wool": "침구-자홍색 양털",
@@ -253,13 +252,9 @@
     "dogbed.casing.forestry:planks.1.10": "Padauk Plank Casing",
     "dogbed.casing.forestry:planks.1.11": "Cocobolo Plank Casing",
     "dogbed.casing.forestry:planks.1.12": "Zebrawood Plank Casing",
-    "dogbed.casing.biomesoplenty:planks_0.1": "Cherry Plank Casing",
     "dogbed.casing.biomesoplenty:planks_0.3": "Fir Plank Casing",
-    "dogbed.casing.biomesoplenty:planks_0.5": "Magic Plank Casing",
     "dogbed.casing.biomesoplenty:planks_0.7": "Palm Plank Casing",
-    "dogbed.casing.biomesoplenty:planks_0.9": "Willow Plank Casing",
     "dogbed.casing.biomesoplenty:planks_0.11": "Hellbark Plank Casing",
-    "dogbed.casing.biomesoplenty:planks_0.13": "Mahogany Plank Casing",
     "dogbed.casing.biomesoplenty:planks_0.15": "Eucalyptus Plank Casing",
     "dogbed.casing.extratrees:planks.0.0": "Apple Plank Casing",
     "dogbed.casing.extratrees:planks.0.1": "Fig Plank Casing",
@@ -333,6 +328,5 @@
     "dogbed.casing.natura:overworld_planks.6": "Hopspeed Plank Casing",
     "dogbed.casing.natura:overworld_planks.7": "Sakura Plank Casing",
     "dogbed.casing.natura:overworld_planks.8": "Redwood Plank Casing",
-    "dogbed.casing.botania:livingwood.1": "Livingwood Plank Casing",
     "dogbed.casing.botania:dreamwood.1": "Dreamwood Plank Casing"
 }
