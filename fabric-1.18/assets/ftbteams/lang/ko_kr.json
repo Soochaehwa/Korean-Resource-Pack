@@ -1,1 +1,25 @@
-{}
+{
+    "ftbteams.team_not_found": "'%s'팀을 찾을 수 없습니다!",
+    "ftbteams.cant_edit": "당신은 %s를 수정할 수 없습니다!",
+    "ftbteams.not_invited": "당신은 %s에 초대되지 않았습니다!",
+    "ftbteams.info.owner.none": "없음",
+    "ftbteams.info.members": "구성원:",
+    "ftbteams.info.members.none": "구성원 없음",
+    "ftbteams.list": "모든 FTB 팀: %s",
+    "ftbteams.api_override": "이 모드 팩에서는 인벤토리 창 좌측 상단 '내 팀' 버튼에서만 파티를 만들 수 있습니다!",
+    "ftbteams.info.owner": "소유주: %s",
+    "ftbteams.cant_kick_owner": "소유주는 내보낼 수 없습니다!",
+    "sidebar_button.ftbteams.my_team": "내 팀",
+    "ftbteamsconfig": "FTB 팀 수정",
+    "ftbteamsconfig.ftbteams.display_name": "이름 표시",
+    "ftbteamsconfig.ftbteams.description": "설명",
+    "ftbteamsconfig.ftbteams.color": "색",
+    "ftbteamsconfig.ftbteams.free_to_join": "자유로운 가입",
+    "ftbteams.privacy_mode.allies": "동료",
+    "ftbteams.create_party": "파티 만들기",
+    "ftbteams.already_in_party": "당신은 이미 파티에 속해있습니다!",
+    "ftbteams.not_in_party": "당신은 파티에 들어가거나 만들 수 없습니다!",
+    "ftbteams.not_member": "%s는 %s의 구성원이 아닙니다!",
+    "ftbteams.owner_cant_leave": "당신은 팀의 소유권을 이전해야 팀 탈퇴가 가능합니다!",
+    "ftbteams.create_party.info": "팀을 만들어 구성원을 초대하고 함께 진행"
+}
