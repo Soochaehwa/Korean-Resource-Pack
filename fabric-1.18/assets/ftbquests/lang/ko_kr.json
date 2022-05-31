@@ -1,1 +1,9 @@
-{}
+{
+    "block.ftbquests.screen.missing_data": "여기 채워주샘 /데이터 누락!",
+    "block.ftbquests.screen.task_index": "임무 / 작업 / 퀘스트 색인\nㄴ 이것도 골라주샘",
+    "block.ftbquests.screen.size": "크기",
+    "block.ftbquests.screen.skin": "스킨",
+    "block.ftbquests.screen.indestructible": "파괴 불가능",
+    "ftbquests": "FTQ 퀘스트",
+    "block.ftbquests.screen": "임무 / 작업 / 퀘스트 화면\nㄴ 셋중에 골라줘"
+}
