@@ -1,6 +1,5 @@
 {
     "itemGroup.waystones.waystones": "전송석",
     "block.waystones.waystone": "전송석",
-    "tooltip.waystones.portstone": "이동할 수 없습니다.",
     "text.autoconfig.waystones.option.worldGen": "월드 생성"
 }
