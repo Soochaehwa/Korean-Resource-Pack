@@ -38,7 +38,5 @@
     "message.rftoolspower.dimensionalcell_creative.header": "이 블록은 전력을 저장할 수 있습니다. 선택적으로 큰 다차원 구조에서 사용할 수 있습니다.",
     "message.rftoolspower.dimensionalcell_creative.gold": "주입 보너스: 장거리 전력 추출 비용이 절감되고 RF/눈금 출력이 증가합니다.",
     "message.rftoolspower.dimensionalcell_creative.info": "에너지: ",
-    "rftoolspower.category.powergeneration.description": "전원을 생성할 수 있는 시스템입니다.",
-    "rftoolspower.page.coalgenerator0": "석탄 발전기는 석탄과 석탄 블록을 전원으로 변환할 수 있습니다.",
-    "rftoolspower.page.dimensionalcell0": "차원 셀은 다차원 전원 스토리지입니다. 연결된 모든 차원 셀이 분산된 멀티블록을 형성합니다."
+    "rftoolspower.page.coalgenerator0": "석탄 발전기는 석탄과 석탄 블록을 전원으로 변환할 수 있습니다."
 }
