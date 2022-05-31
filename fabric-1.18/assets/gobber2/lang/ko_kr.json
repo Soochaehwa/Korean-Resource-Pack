@@ -156,7 +156,6 @@
     "item.gobber2.gobber2_chestplate_dragon": "드래곤 흉갑 (비행)",
     "item.gobber2.gobber2_leggings_dragon": "드래곤 레깅스 (비행)",
     "item.gobber2.gobber2_boots_dragon": "드래곤 부츠 (비행)",
-    "item.gobber2.gobber2_chestplate_dragon_no_flight": "드래곤 흉갑",
     "item.gobber2.gobber2_boots_dragon_no_flight": "드래곤 부츠",
     "item.gobber2.status_changed": "상태 변경됨!",
     "item.gobber2.range_changed": "범위 변경됨!",
@@ -487,6 +486,5 @@
     "advancements.gobber2.block_protector.desc": "프로텍터 블록을 만드세요",
     "advancements.gobber2.block_maturator.title": "자라라! 아기야! 자라라!",
     "advancements.gobber2.block_maturator.desc": "성장 블록을 만드세요",
-    "item.gobber2.nemesis_spawn_egg": "고버 네메시스 생성 알",
     "itemGroup.gobber2.gobber2_group": "Gobber 2"
 }
