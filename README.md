@@ -1,3 +1,9 @@
+
+| Fabric 1.18 | Forge 1.18 |
+| :--: | :--: |
+| [![Fabric 번역 현황](https://weblate.shwa.space/widgets/fabric-1-18/ko_kr/svg-badge.svg)](https://weblate.shwa.space/engage/fabric-1-18/ko_kr) | [![Forge 번역 현황](https://weblate.shwa.space/widgets/forge-1-18/ko_kr/svg-badge.svg)](https://weblate.shwa.space/engage/forge-1-18/ko_kr)  |
+
+
 ## Forge
 - [All the Mods 7 - ATM7 - 1.18.2](https://www.curseforge.com/minecraft/modpacks/all-the-mods-7)
 - [Enigmatica 8 - E8 - 1.18](https://www.curseforge.com/minecraft/modpacks/enigmatica8)
