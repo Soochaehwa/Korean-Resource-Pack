@@ -1,13 +1,11 @@
 {
     "block.advgenerators.fluid_input": "액체 주입 밸브",
     "block.advgenerators.fuel_tank": "연료 탱크",
-    "block.advgenerators.PowerCapacitor": "축전기",
     "block.advgenerators.fuel_turbine_controller": "터빈 조작기",
     "block.advgenerators.eu_output_lv": "LV 방출블럭",
     "block.advgenerators.eu_output_mv": "MV 방출블럭",
     "block.advgenerators.eu_output_hv": "HV 방출블럭",
     "block.advgenerators.fe_output": "플럭스 발전기",
-    "item.advgenerators.TurbineRotor": "터빈 로터",
     "item.advgenerators.iron_frame": "철 프레임",
     "item.advgenerators.power_io": "파워 IO 모듈",
     "item.advgenerators.iron_tubing": "철 배관",
