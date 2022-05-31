@@ -1,21 +1,12 @@
 {
     "itemGroup.waystones.waystones": "전송석",
     "block.waystones.waystone": "전송석",
-    "block.waystones.yellow_sharestone": "노란색 공명석",
     "block.waystones.brown_sharestone": "갈색 공명석",
-    "item.waystones.return_scroll": "귀환 주문서",
     "gui.waystones.waystone_selection.next_page": "다음",
-    "gui.waystones.waystone_selection.level_requirement": "레벨 요구량: %d",
     "chat.waystones.scroll_bound": "주문서 연결: %s",
-    "chat.waystones.only_owner_can_edit": "설치한 사람만 이름을 수정할 수 있습니다.",
     "tooltip.waystones.portstone": "이동할 수 없습니다.",
-    "tooltip.waystones.pink_sharestone": "다른 분홍색 공명석으로 이동할 수 있습니다",
     "tooltip.waystones.red_sharestone": "다른 빨간색 공명석으로 이동할 수 있습니다",
-    "waystones:warp_plate": "전송판",
     "text.autoconfig.waystones.option.xpCost.dimensionalWarpXpCost": "차원 전송 XP 비용",
-    "text.autoconfig.waystones.option.restrictions": "제한",
     "text.autoconfig.waystones.option.restrictions.dimensionalWarpAllowList": "차원 전송 허용 목록",
-    "text.autoconfig.waystones.option.cooldowns.scrollUseTime": "스크롤 충전 시간",
-    "text.autoconfig.waystones.option.worldGen": "월드 생성",
-    "text.autoconfig.waystones.option.worldGen.forceSpawnInVillages": "마을에서 강제 생성"
+    "text.autoconfig.waystones.option.worldGen": "월드 생성"
 }
