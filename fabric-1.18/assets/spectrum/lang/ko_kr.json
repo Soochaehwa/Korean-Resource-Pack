@@ -13,5 +13,8 @@
     "itemGroup.spectrum.blocks.button.modrinth": "Spectrum 모드린스",
     "itemGroup.spectrum.general.tab.tools": "도구",
     "itemGroup.spectrum.blocks.tab.colored_wood": "색상 나무",
-    "itemGroup.spectrum.blocks.button.curseforge": "Spectrum 커스포지"
+    "itemGroup.spectrum.blocks.button.curseforge": "Spectrum 커스포지",
+    "recipeGroup.spectrum.amethyst_lamps": "자수정 램프",
+    "recipeGroup.spectrum.citrine_lamps": "황수정 램프",
+    "recipeGroup.spectrum.topaz_lamps": "토파즈 램프"
 }
