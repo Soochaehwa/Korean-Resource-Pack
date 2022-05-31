@@ -83,6 +83,5 @@
     "gui.valhelsia_structures.config.spacing_solution": "Using %s as Spacing Value instead (Separation + 1)",
     "gui.valhelsia_structures.config.invalid_biome_category": "List contains invalid Biome Category:",
     "gui.valhelsia_structures.config.invalid_blacklisted_biome": "List contains invalid Biome:",
-    "comment.filled_maps": "---Filled Maps---",
-    "filled_map.valhelsia_structures:castle": "Castle Explorer Map"
+    "comment.filled_maps": "---Filled Maps---"
 }
