@@ -1,0 +1,32 @@
+name: Release
+
+on:
+  push:
+    branches: [ master ]
+    paths: 
+      - 'fabric-1.18/**'
+      - 'forge-1.18/**'
+      
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        
+      - name: Fabric zip
+        run: zip -r Fabric-1.18-Korean-Resource-Pack.zip './fabric-1.18'
+        
+      - name: Forge zip
+        run: zip -r Forge-1.18-Korean-Resource-Pack.zip './forge-1.18'
+        
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            Fabric-1.18-Korean-Resource-Pack.zip
+            Forge-1.18-Korean-Resource-Pack.zip
