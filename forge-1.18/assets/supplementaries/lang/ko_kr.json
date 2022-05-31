@@ -215,6 +215,5 @@
     "death.attack.supplementaries.amethyst_shard.player": "%1$s was sharded to death by %2$s",
     "item.supplementaries.amethyst_arrow": "Amethyst Arrow",
     "block.supplementaries.present": "Present",
-    "block.supplementaries.laser_block": "Ender Beamer",
-    "item.supplementaries.sign_post_sitrus": "Sitrus 이정표"
+    "block.supplementaries.laser_block": "Ender Beamer"
 }
