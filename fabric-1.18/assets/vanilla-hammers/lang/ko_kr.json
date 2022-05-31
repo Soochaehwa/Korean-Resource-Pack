@@ -20,7 +20,6 @@
     "item.vanilla-hammers.nether_hammer": "네더 망치",
     "text.autoconfig.vanilla-hammers.option.enableExtraMaterials": "엑스트라 바닐라 소재 망치",
     "text.autoconfig.vanilla-hammers.option.enableTaterHammer": "감자 망치",
-    "text.autoconfig.vanilla-hammers.title": "바닐라 망치 환경설정",
     "text.autoconfig.vanilla-hammers.option.durabilityModifier": "망치 내구성 변경",
     "item.vanilla-hammers.dynagear_hammer": "%s 망치",
     "vanilla-hammers.advancements.root.title": "바닐라 망치",
