@@ -1,1 +1,7 @@
-{}
+{
+  "item.vanilla_degus.degu_spawn_egg": "데구 생성 알",
+  "entity.vanilla_degus.degu": "데구",
+  "subtitles.vanilla_degus.ambient": "데구 짹짹거림",
+  "subtitles.vanilla_degus.angry": "데구 상처를 입음",
+  "subtitles.vanilla_degus.death": "데구 죽음"
+}
