@@ -16,3 +16,9 @@
 - [Another Quality Modpack 3 - 1.18.1](https://www.curseforge.com/minecraft/modpacks/another-quality-modpack-3)
 - [Better Minecraft [FORGE] - 1.18.2](https://www.curseforge.com/minecraft/modpacks/better-minecraft-modpack-new)
 
+
+
+## 기여자
+<a href="https://github.com/Soochaehwa/Korean-Resource-Pack/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Soochaehwa/Korean-Resource-Pack" />
+</a>
