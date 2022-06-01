@@ -1,1 +1,8 @@
-{}
+{
+    "block.chimes.iron_chimes": "철 윈드차임",
+    "block.chimes.copper_chimes": "구리 윈드차임",
+    "block.chimes.amethyst_chimes": "자수정 윈드차임",
+    "chimes.configGui.title": "Chimes 설정",
+    "block.chimes.bamboo_chimes": "대나무 윈드차임",
+    "chimes.subtitles.wind_chime.chimes": "윈드차임이 울림"
+}
