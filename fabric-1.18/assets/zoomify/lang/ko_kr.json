@@ -1,1 +1,5 @@
-{}
+{
+    "zoomify.key.category": "Zoomify",
+    "zoomify.gui.title": "Zoomify",
+    "zoomify.key.gui": "GUI 열기"
+}
