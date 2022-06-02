@@ -1,1 +1,4 @@
-{}
+{
+    "enchantment.doublejump.doublejump": "2단 점프",
+    "enchantment.doublejump.doublejump.desc": "공중에서 점프할 수 있습니다."
+}
