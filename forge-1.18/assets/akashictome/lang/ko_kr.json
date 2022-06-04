@@ -1,1 +1,5 @@
-{}
+{
+    "akashictome.click_morph": "쉬프트-우클릭 하여 변경",
+    "akashictome.sudo_name": "아카식 책 (%s)",
+    "item.akashictome.tome": "아카식 책"
+}
