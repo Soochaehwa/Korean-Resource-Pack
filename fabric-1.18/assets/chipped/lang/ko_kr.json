@@ -1,1 +1,9 @@
-{}
+{
+    "block.chipped.glassblower": "유리 세공업자의 작업대",
+    "block.chipped.carpenters_table": "목수의 작업대",
+    "block.chipped.loom_table": "양치기의 작업대",
+    "block.chipped.mechanist_workbench": "땜장이의 작업대",
+    "block.chipped.mason_table": "석공의 작업대",
+    "block.chipped.botanist_workbench": "식물학자의 작업대",
+    "block.chipped.alchemy_bench": "학자의 작업대"
+}
