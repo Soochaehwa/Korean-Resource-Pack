@@ -16,5 +16,20 @@
     "itemGroup.spectrum.blocks.button.curseforge": "Spectrum 커스포지",
     "recipeGroup.spectrum.amethyst_lamps": "자수정 램프",
     "recipeGroup.spectrum.citrine_lamps": "황수정 램프",
-    "recipeGroup.spectrum.topaz_lamps": "토파즈 램프"
+    "recipeGroup.spectrum.topaz_lamps": "토파즈 램프",
+    "itemGroup.spectrum.general.tab.general": "Spectrum",
+    "itemGroup.spectrum.blocks.tab.predefined_items": "견본 아이템",
+    "recipeGroup.spectrum.topaz_runes": "토파즈 룬",
+    "recipeGroup.spectrum.amethyst_runes": "자수정 룬",
+    "recipeGroup.spectrum.citrine_runes": "황수정 룬",
+    "recipeGroup.spectrum.onyx_runes": "오닉스 룬",
+    "recipeGroup.spectrum.moonstone_runes": "문스톤 룬",
+    "recipeGroup.spectrum.colored_lamps": "색상 램프",
+    "recipeGroup.spectrum.gemstone_glass": "보석 유리",
+    "recipeGroup.spectrum.gemstone_chimes": "보석 풍경",
+    "itemGroup.spectrum.general": "Spectrum",
+    "recipeGroup.spectrum.onyx_lamps": "오닉스 램프",
+    "recipeGroup.spectrum.moonstone_lamps": "문스톤 램프",
+    "recipeGroup.spectrum.decostones": "장식용 돌",
+    "recipeGroup.spectrum.colored_saplings": "색상 묘목"
 }
