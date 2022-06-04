@@ -31,5 +31,19 @@
     "recipeGroup.spectrum.onyx_lamps": "오닉스 램프",
     "recipeGroup.spectrum.moonstone_lamps": "문스톤 램프",
     "recipeGroup.spectrum.decostones": "장식용 돌",
-    "recipeGroup.spectrum.colored_saplings": "색상 묘목"
+    "recipeGroup.spectrum.colored_saplings": "색상 묘목",
+    "recipeGroup.spectrum.colored_spore_blossoms": "색상 포자 꽃",
+    "recipeGroup.spectrum.glowblocks": "발광 블록",
+    "recipeGroup.spectrum.player_only_glass": "반투과성 유리",
+    "recipeGroup.spectrum.bedrock_tools": "기반암 도구",
+    "recipeGroup.spectrum.bedrock_armor": "기반암 갑옷",
+    "recipeGroup.spectrum.fusion_shrines": "융합 제단",
+    "recipeGroup.spectrum.item_bowls": "아이템 그릇",
+    "recipeGroup.spectrum.enchanter_exchange_staff": "교환 지팡이",
+    "recipeGroup.spectrum.pastel_network": "파스텔 네트워크",
+    "recipeGroup.spectrum.vanilla_potions": "바닐라 물약",
+    "recipeGroup.spectrum.horse_armor": "말 갑옷",
+    "recipeGroup.spectrum.memories": "기억",
+    "recipeGroup.spectrum.boss_memories": "보스 기억",
+    "recipeGroup.spectrum.vanilla": "바닐라 시스템 상향"
 }
