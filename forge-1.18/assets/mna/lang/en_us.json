@@ -1357,6 +1357,7 @@
 	
 	"mna.commands.tier.success": "Set %s's tier to %d.",
 	"mna.commands.completeProgression.success": "Completed %s's current tier progression.",
+	"mna.commands.fullReset.success": "Fully reset %s's M&A progression.",
 	"mna.commands.factionRaid.success": "Set %s's raid chance to 100%.  They will be raided as soon as it can be spawned.",
 	"mna.commands.faction.success": "Set %s's faction to %s.",
 	"mna.commands.magicLevel.success": "Set %s's magic level to %d.",	

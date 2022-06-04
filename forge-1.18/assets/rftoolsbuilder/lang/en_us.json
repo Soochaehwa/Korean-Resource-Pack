@@ -33,6 +33,8 @@
   "item.rftoolsbuilder.vehicle_card": "Vehicle Card",
   "itemGroup.rftoolsbuilder": "RFTools Builder",
 
+  "key.unmountVehicle": "Unmount Vehicle",
+
   "message.rftoolsbuilder.shiftmessage": "<Press Shift>",
 
   "message.rftoolsbuilder.builder.header": "This block can quarry areas, pump liquids, move/copy/swap structures, collect items and XP, move entities, build structures, ...",
@@ -64,6 +66,7 @@
 
   "message.rftoolsbuilder.vehicle_builder.header": "Using a space card linked to a space chamber, this block can make a vehicle in the vehicle card (WIP)",
   "message.rftoolsbuilder.vehicle_card.header": "A vehicle card. Use the Vehicle Builder to put a vehicle in this card",
+  "message.rftoolsbuilder.vehicle_card.name": "Name: ",
   "message.rftoolsbuilder.vehicle_card.contents": "Contents: ",
 
   "message.rftoolsbuilder.space_chamber_card.header": "Use this card to link with a space chamber",

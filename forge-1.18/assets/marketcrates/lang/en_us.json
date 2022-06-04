@@ -1,0 +1,10 @@
+{
+  "block.marketcrates.oak_crate": "Oak Crate",
+  "block.marketcrates.spruce_crate":"Spruce Crate",
+  "block.marketcrates.birch_crate":"Birch Crate",
+  "block.marketcrates.jungle_crate":"Jungle Crate",
+  "block.marketcrates.acacia_crate":"Acacia Crate",
+  "block.marketcrates.dark_oak_crate":"Dark Oak Crate",
+  "block.marketcrates.crimson_crate":"Crimson Crate",
+  "block.marketcrates.warped_crate": "Warped Crate"
+}

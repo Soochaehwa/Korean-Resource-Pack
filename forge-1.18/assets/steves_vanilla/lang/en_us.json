@@ -16,13 +16,17 @@
   "item.steves_vanilla.soaked_bunch_boggord_wool": "a bunch of soaked Boggord Wool",
   "item.steves_vanilla.water_hyacinth_flower": "Water Hyacinth Flower",
   "item.steves_vanilla.mountain_buds_on_a_stick": "Mountain Buds on a Stick",
+  "item.steves_vanilla.mountain_buds": "Mountain Buds",
+  "item.steves_vanilla.mountain_buds_seeds": "Mountain Buds Seeds",
   //Blocks
   "block.steves_vanilla.mountain_buds": "Mountain Buds",
+  "block.steves_vanilla.mountain_buds_block": "Block of Mountain Buds",
   "block.steves_vanilla.mountain_grass": "Mountain Grass",
   "block.steves_vanilla.water_hyacinth": "Water Hyacinth",
   "block.steves_vanilla.potted_mountain_buds": "Potted Mountain Buds",
   "block.steves_vanilla.tall_mountain_grass": "Tall Mountain Grass",
   "block.steves_vanilla.boggord_wool_block": "Boggord Wool",
+  "block.steves_vanilla.boggord_wool_carpet": "Boggord Wool Carpet",
   //Advancements
   "advancements.spyglass_at_boggord.title": "Is It a Cow?",
   "advancements.spyglass_at_boggord.description": "Look at a Boggord through a spyglass",
