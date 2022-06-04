@@ -1,4 +1,13 @@
 {
     "advancementinfo.infopane": "정보",
-    "text.autoconfig.advancementinfo.title": "AdvancementInfo 설정"
+    "text.autoconfig.advancementinfo.title": "AdvancementInfo 설정",
+    "text.autoconfig.advancementinfo.option.marginX": "여유공간 X값",
+    "text.autoconfig.advancementinfo.option.marginY": "여유공간 Y값",
+    "text.autoconfig.advancementinfo.option.infoWidth.min": "최소",
+    "text.autoconfig.advancementinfo.option.infoWidth.max": "최대",
+    "text.autoconfig.advancementinfo.option.infoWidth.percent": "백분율",
+    "text.autoconfig.advancementinfo.option.infoWidth.enabled": "활성화",
+    "text.autoconfig.advancementinfo.option.colorHave": "완료된 요구사항 색상",
+    "text.autoconfig.advancementinfo.option.colorHaveNot": "완료되지 않은 요구사항 색상",
+    "text.autoconfig.advancementinfo.option.infoWidth": "정보 너비"
 }
