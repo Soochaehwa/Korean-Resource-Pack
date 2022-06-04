@@ -127,5 +127,6 @@
     "block.additionalbars.waxed_crossed_copper_bars": "밀랍칠한 십자형 구리 창",
     "block.additionalbars.waxed_crossed_weathered_copper_bars": "밀랍칠한 녹슨 십자형 구리 창",
     "block.additionalbars.waxed_horizontal_oxidized_copper_bars": "밀랍칠한 산화된 수평 구리 창",
-    "tooltip.gamma1772.metal": "금속"
+    "tooltip.gamma1772.metal": "금속",
+    "__author": "Marko Dujović (CodenameRevy)"
 }
