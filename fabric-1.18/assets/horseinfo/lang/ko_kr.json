@@ -1,4 +1,4 @@
 {
-    "tooltip.horseinfo.speed": "속도: %s m/s",
-    "tooltip.horseinfo.jump": "점프: %s 블록"
+  "tooltip.horseinfo.speed": "속도: %s m/s",
+  "tooltip.horseinfo.jump": "점프: %s 블록"
 }

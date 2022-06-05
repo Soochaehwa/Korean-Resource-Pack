@@ -139,8 +139,6 @@
   "item.croptopia.ginger": "생강",
   "item.croptopia.basil": "바질",
   "item.croptopia.chile_pepper": "칠레고추",
-
-
   "item.croptopia.apple_sapling": "사과나무 묘목",
   "item.croptopia.banana_sapling": "바나나나무 묘목",
   "item.croptopia.orange_sapling": "오랜지나무 묘목",
@@ -167,7 +165,6 @@
   "item.croptopia.cashew_sapling": "캐슈넛나무 묘목",
   "item.croptopia.pecan_sapling": "피칸나무 묘목",
   "item.croptopia.walnut_sapling": "호두나무 묘목",
-
   "item.croptopia.olive_oil": "올리브 오일",
   "item.croptopia.cheese": "치즈",
   "item.croptopia.flour": "밀가루",
@@ -288,7 +285,6 @@
   "item.croptopia.raisin_oatmeal_cookie": "건포도 귀리 아이스크림",
   "item.croptopia.roasted_nuts": "구운 견과류",
   "item.croptopia.trail_mix": "견과류 믹스",
-
   "item.croptopia.burrito": "부리또",
   "item.croptopia.tostada": "토스타다",
   "item.croptopia.horchata": "오르차타",
@@ -304,18 +300,15 @@
   "item.croptopia.refried_beans": "튀긴 콩",
   "item.croptopia.chimichanga": "치미창가",
   "item.croptopia.quesadilla": "케사디야",
-
   "item.croptopia.cinnamon": "계피",
   "item.croptopia.corn_husk": "옥수수 껍질",
   "item.croptopia.whipping_cream": "휘핑크림",
   "item.croptopia.vanilla_seeds": "바닐라 씨앗",
-
   "item.croptopia.cinnamon_sapling": "시나몬나무 묘목",
   "item.croptopia.cinnamon_log": "시나몬나무 원목",
   "item.croptopia.stripped_cinnamon_log": "껍질 벗긴 시나몬나무 원목",
   "item.croptopia.cinnamon_wood": "시나몬 나무",
   "item.croptopia.stripped_cinnamon_wood": "껍질 벗긴 시나몬나무",
-
   "item.croptopia.shepherds_pie": "코타지 파이",
   "item.croptopia.beef_wellington": "비프 웰링턴",
   "item.croptopia.fish_and_chips": "피쉬앤 칩스",
@@ -331,7 +324,6 @@
   "item.croptopia.milk_bottle": "우유 병",
   "item.croptopia.tea_leaves": "차 잎",
   "item.croptopia.tea_seed": "차 씨앗",
-
   "item.croptopia.ajvar": "아이바르",
   "item.croptopia.ajvar_toast": "아이바르 토스트",
   "item.croptopia.avocado_toast": "아보카도 토스트",
@@ -365,15 +357,12 @@
   "item.croptopia.stir_fry": "채소볶음",
   "item.croptopia.stuffed_artichoke": "속이 채워진 아티초크",
   "item.croptopia.toast_sandwich": "토스트 샌드위치",
-
   "item.croptopia.food_press": "착즙기",
   "item.croptopia.frying_pan": "프라이팬",
   "item.croptopia.cooking_pot": "냄비",
   "item.croptopia.mortar_and_pestle": "손절구",
   "item.croptopia.guide": "크롭토피아 가이드북",
-
   "item.croptopia.salt_ore": "소금덩이",
-
   "block.croptopia.salt_ore": "소금덩이",
   "block.croptopia.apple_crop": "사과 작물",
   "block.croptopia.banana_crop": "바나나 작물",
@@ -486,12 +475,10 @@
   "block.croptopia.pecan_sapling": "피칸 묘목",
   "block.croptopia.walnut_sapling": "호두 묘목",
   "block.croptopia.cinnamon_sapling": "계피 묘목",
-
   "block.croptopia.cinnamon_log": "시나몬나무 원목",
   "block.croptopia.stripped_cinnamon_log": "껍질 벗긴 시나몬나무 원목",
   "block.croptopia.cinnamon_wood": "시나몬나무",
   "block.croptopia.stripped_cinnamon_wood": "껍질 벗긴 시나몬나무",
-
   "advancements.croptopia.root.description": " '그런식으로 호미질해서 되겠나?' ",
   "advancements.croptopia.getseed.description": "야생씨앗을 부수다!",
   "advancements.croptopia.getseed.title": "여분의 씨앗장소",
@@ -531,9 +518,7 @@
   "advancements.croptopia.gather_food.description": "거기있는거 다먹어! 과식",
   "advancements.croptopia.knife.title": "금속의 접촉",
   "advancements.croptopia.knife.description": "식칼을 만들다",
-
   "itemGroup.croptopia.croptopia": "크롭토피아",
   "itemGroup.croptopia": "크롭토피아",
-
   "info.croptopia.seed": "이씨앗은 다음과 같이 분류된 바이옴에 드롭됩니다"
 }

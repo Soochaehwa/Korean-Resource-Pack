@@ -46,7 +46,6 @@
   "lootr.advancements.root.title": "Belongs in a Museum",
   "lootr.advancements.root.description": "Bring instanced, per-player Loot into your world.",
   "itemGroup.lootr.lootr": "Lootr",
-
   "text.autoconfig.lootr.title": "Lootr",
   "text.autoconfig.lootr.option.debug": "Debug",
   "text.autoconfig.lootr.option.debug.debugMode": "Debug Mode",

@@ -1,12 +1,12 @@
 {
-    "item.display_case.display_case": "진열장",
-    "block.display_case.display_case": "진열장",
-    "advancement.display_case.collapse.title": "붕괴",
-    "advancement.display_case.display_item.title": "훌륭한 아이템이군요!",
-    "advancement.display_case.display_item.description": "진열장에 아이템을 전시하세요",
-    "advancement.display_case.infinity_case.title": "무한한 공간 저 너머로",
-    "advancement.display_case.infinity_case.description": "진열장에 진열장을 넣으세요",
-    "advancement.display_case.colorful.title": "알록달록!",
-    "advancement.display_case.collapse.description": "",
-    "advancement.display_case.colorful.description": "진열장의 색깔을 바꾸세요"
+  "item.display_case.display_case": "진열장",
+  "block.display_case.display_case": "진열장",
+  "advancement.display_case.collapse.title": "붕괴",
+  "advancement.display_case.display_item.title": "훌륭한 아이템이군요!",
+  "advancement.display_case.display_item.description": "진열장에 아이템을 전시하세요",
+  "advancement.display_case.infinity_case.title": "무한한 공간 저 너머로",
+  "advancement.display_case.infinity_case.description": "진열장에 진열장을 넣으세요",
+  "advancement.display_case.colorful.title": "알록달록!",
+  "advancement.display_case.collapse.description": "",
+  "advancement.display_case.colorful.description": "진열장의 색깔을 바꾸세요"
 }

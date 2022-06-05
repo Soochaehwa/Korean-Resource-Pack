@@ -1,14 +1,14 @@
 {
-    "clickthrough.config.sneaktodye": "웅크려서 표지판 염색",
-    "clickthrough.config.tt.sneaktodye": "ON: 일반 클릭은 표지판을 통과하며, 웅크리면 표지판을 염색합니다\nOFF: 일반 클릭 시 표지판을 염색하며, 웅크리면 하지 않습니다",
-    "clickthrough.config.ignore.1": "Ignore signs if row 1 matches: ",
-    "clickthrough.config.ignore.2": "Ignore signs if row 2 matches: ",
-    "clickthrough.config.ignore.3": "Ignore signs if row 3 matches: ",
-    "clickthrough.config.ignore.4": "Ignore signs if row 4 matches: ",
-    "clickthrough.config.onlycontainers": "Only click through to containers",
-    "clickthrough.config.tt.ignore.1": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.2": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.3": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.4": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.onlycontainers": "Click through to chests, barrels etc., but not crafting tables, composters and similar"
+  "clickthrough.config.sneaktodye": "웅크려서 표지판 염색",
+  "clickthrough.config.tt.sneaktodye": "ON: 일반 클릭은 표지판을 통과하며, 웅크리면 표지판을 염색합니다\nOFF: 일반 클릭 시 표지판을 염색하며, 웅크리면 하지 않습니다",
+  "clickthrough.config.ignore.1": "Ignore signs if row 1 matches: ",
+  "clickthrough.config.ignore.2": "Ignore signs if row 2 matches: ",
+  "clickthrough.config.ignore.3": "Ignore signs if row 3 matches: ",
+  "clickthrough.config.ignore.4": "Ignore signs if row 4 matches: ",
+  "clickthrough.config.onlycontainers": "Only click through to containers",
+  "clickthrough.config.tt.ignore.1": "Do not click through those signs for the benefit of chest shops",
+  "clickthrough.config.tt.ignore.2": "Do not click through those signs for the benefit of chest shops",
+  "clickthrough.config.tt.ignore.3": "Do not click through those signs for the benefit of chest shops",
+  "clickthrough.config.tt.ignore.4": "Do not click through those signs for the benefit of chest shops",
+  "clickthrough.config.tt.onlycontainers": "Click through to chests, barrels etc., but not crafting tables, composters and similar"
 }

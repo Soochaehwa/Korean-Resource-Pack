@@ -1,9 +1,7 @@
 {
   "itemGroup.gofish.group": "Go Fish",
-
   "gofish.crate_tooltip": "Shift-click to open.",
   "enchantment.gofish.deepfry": "Deepfry",
-
   "item.gofish.spikerfish": "Spikerfish",
   "item.gofish.smokey_salmon": "Smokey Salmon",
   "item.gofish.blackstone_trout": "Blackstone Trout",
@@ -37,29 +35,23 @@
   "item.gofish.dragonfish": "Dragonfish",
   "item.gofish.chorus_cod": "Chorus Cod",
   "item.gofish.portal_puffer": "Portal Puffer",
-
   "item.gofish.steamed_bass": "Steamed Bass",
   "item.gofish.steamed_bass.tooltip_1": "It almost disappeared in the oven,",
   "item.gofish.steamed_bass.tooltip_2": "but it still tastes good!",
-
   "item.gofish.lunarfish": "Lunarfish",
   "item.gofish.starry_salmon": "Starry Salmon",
   "item.gofish.galaxy_starfish": "Galaxy Starfish",
   "item.gofish.nebula_swordfish": "Nebula Swordfish",
-
   "item.gofish.aquatic_astral_stew": "Aquatic Astral Stew",
   "item.gofish.aquatic_astral_stew.tooltip_1": "This Aquatic Astral Stew",
   "item.gofish.aquatic_astral_stew.tooltip_2": "is a mix of various astral fish",
   "item.gofish.aquatic_astral_stew.tooltip_3": "and contains a galaxy of flavors.",
-
   "item.gofish.simple_lure": "Simple Lure",
   "item.gofish.golden_fish": "Golden Fish",
   "item.gofish.soul_lure": "Soul Lure",
-
   "gofish.lure.tooltip_1": "When kept in inventory,",
   "gofish.lure.tooltip_2": "provides §2+%d§r lure.",
   "gofish.lots.tooltip_2": "provides §2+%d§r luck%s.",
-
   "item.gofish.endfish_and_chorus": "Endfish n' Chorus",
   "item.gofish.endfish_and_chorus.tooltip_1": "This sweet and savory dish",
   "item.gofish.endfish_and_chorus.tooltip_2": "reminds you of Fish n' Chips.",
@@ -73,7 +65,6 @@
   "item.gofish.grilled_blackstone_deluxe.tooltip_1": "The savory meat of this grilled Blackstone Trout",
   "item.gofish.grilled_blackstone_deluxe.tooltip_2": "is wonderfully complimented by buttery potatoes",
   "item.gofish.grilled_blackstone_deluxe.tooltip_3": "and a touch of fresh greens.",
-
   "item.gofish.blaze_rod": "Blaze Rod",
   "item.gofish.skeletal_rod": "Skeletal Rod",
   "item.gofish.diamond_reinforced_rod": "Diamond Reinforced Rod",
@@ -82,10 +73,8 @@
   "item.gofish.slime_rod": "Slime Rod",
   "item.gofish.soul_rod": "Rod of Souls",
   "item.gofish.matrix_rod": "Matrix Rod",
-
   "item.gofish.celestial_rod": "Celestial Rod",
   "item.gofish.celestial_rod.tooltip_1": "+1 luck at night.",
-
   "block.gofish.wooden_crate": "Wooden Crate",
   "block.gofish.iron_crate": "Iron Crate",
   "block.gofish.golden_crate": "Golden Crate",
@@ -98,7 +87,6 @@
   "block.gofish.supply_crate": "Supply Crate",
   "block.gofish.astral_crate": "Astral Crate",
   "block.gofish.end_crate": "End Crate",
-
   "advancements.fishing.root.title": "Fishing Journey",
   "advancements.fishing.root.description": "Begin your fishing journey by obtaining a Fishing Rod.",
   "advancements.fishing.full_moon_fish.title": "Fishing under a Full Moon",

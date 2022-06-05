@@ -1,8 +1,8 @@
 {
-    "effect.creeperspores.generic_spore": "%s 포자",
-    "effect.creeperspores.creeper_spore": "크리퍼 포자",
-    "entity.creeperspores.creeperling": "크리퍼링",
-    "item.creeperspores.creeperling_spawn_egg": "크리퍼링 생성 알",
-    "gamerule.creeper-spores:creeperGrief.vanilla": "항상",
-    "gamerule.creeper-spores:creeperGrief.charged": "충전된 상태일 때만"
+  "effect.creeperspores.generic_spore": "%s 포자",
+  "effect.creeperspores.creeper_spore": "크리퍼 포자",
+  "entity.creeperspores.creeperling": "크리퍼링",
+  "item.creeperspores.creeperling_spawn_egg": "크리퍼링 생성 알",
+  "gamerule.creeper-spores:creeperGrief.vanilla": "항상",
+  "gamerule.creeper-spores:creeperGrief.charged": "충전된 상태일 때만"
 }

@@ -13,9 +13,7 @@
   "item.xps.patchouli_book.tooltip": "§cPatchouli mod is missing",
   "item.xps.xp_berries": "XP Berries",
   "item.xps.xp_berries_seeds": "XP Berrie Seeds",
-
   "item.xps.more.info.tooltip": "§8Hold §6Shift §8For More Info",
-
   "page.info.title": "Xp Storage Info",
   "handbook.main.text": "XP Obelisk Mod introduces a safe method to store experience points inside a spiritual cage. Normally the XP points will only linger around the ground for a minute then disappear forever or get destroyed when the player die's. With XP Obelisk, players’ can safe store more than 21,863 level's.",
   "handbook.categories.block": "Learn more about the Xp Storage block's",
@@ -48,7 +46,6 @@
   "handbook.tooltip.age6": "Age 6",
   "handbook.tooltip.age7": "Age 7",
   "handbook.tooltip.shapeless": "Shapeless",
-
   "page.text.info.description": "The XP Storage is made out of Magical Soulcopper.$(br)After you place it, you can put Experience in and out with the Transceiver or Fluid Interface's.$(br2)$(l)Note:$() If you hold more than 1 item the transfer rate act accordingly.",
   "page.text.info.insert_heading": "XP Insertion",
   "page.text.info.insert_text": "Insert $(l)8$() Level's to XP Storage",
@@ -61,14 +58,11 @@
   "page.text.info.vacuum.heading": "XP Storage Vacuum",
   "page.text.info.vacuum.text": "Use on XP Storage to Toggle Vacuum Mode",
   "page.text.info.vacuum.detail": "The Glass Block's Represent the Vacuum Range. 9x5x9 Blocks",
-
   "block.xps.block_xp_obelisk": "XP Storage",
   "block.xps.xp": "Experience",
   "block.xps.xp_fluid": "Liquid Experience",
   "block.xps.block_soul_copper": "Block of Soulcopper",
-
   "itemGroup.xps.general": "XP Storage",
-
   "text.storageBlock.denied": "Access Denied!",
   "text.storageBlock.locked": "Container Locked!",
   "text.storageBlock.isLocked": "Container Already Locked!",
@@ -77,7 +71,6 @@
   "text.storageBlock.data": "%d Level at %s%%",
   "text.storageBlock.level": "%d Level",
   "text.storageBlock.vacuum": "Vacuum mode is on",
-
   "item.tooltip.inspector": "Use on XP Storage to inspect it.",
   "item.tooltip.xp_rod": "Use on XP Storage to receive level.",
   "item.tooltip.xp_remover": "Use on XP Storage to store level.",
@@ -88,12 +81,10 @@
   "item.tooltip.lock": "Use on XP Storage to lock it.",
   "item.tooltip.key": "Use on XP Storage to unlock it.",
   "item.tooltip.owner": "Owner: %s",
-
   "item.debug_info.xp.container_info": "Stored XP: %s/%s",
   "item.debug_info.xp.container_fill": "Fill level: %s",
   "item.debug_info.xp.container_no_owner": "No Owner",
   "item.debug_info.xp.player_info": "Your XP: %s",
-
   "xps.advancements.xp_obelisk.title": "Storage To Infinity",
   "xps.advancements.xp_obelisk.description": "Craft a XP Storage"
 }

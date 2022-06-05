@@ -1,11 +1,8 @@
 {
-  //Item Group
   "itemGroup.steves_vanilla_tab": "Steve's Vanilla",
-  //Mobs
   "entity.steves_vanilla.boggord": "Boggord",
   "entity.steves_vanilla.chest_toad": "Chest Toad",
   "entity.steves_vanilla.sheep_leg": "Sheep Leg",
-  //Items
   "item.steves_vanilla.boggord_spawn_egg": "Boggord Spawn Egg",
   "item.steves_vanilla.chest_toad_spawn_egg": "Chest Toad Spawn Egg",
   "item.steves_vanilla.sheep_leg_spawn_egg": "Sheep Leg Spawn Egg",
@@ -18,7 +15,6 @@
   "item.steves_vanilla.mountain_buds_on_a_stick": "Mountain Buds on a Stick",
   "item.steves_vanilla.mountain_buds": "Mountain Buds",
   "item.steves_vanilla.mountain_buds_seeds": "Mountain Buds Seeds",
-  //Blocks
   "block.steves_vanilla.mountain_buds": "Mountain Buds",
   "block.steves_vanilla.mountain_buds_block": "Block of Mountain Buds",
   "block.steves_vanilla.mountain_grass": "Mountain Grass",
@@ -27,7 +23,6 @@
   "block.steves_vanilla.tall_mountain_grass": "Tall Mountain Grass",
   "block.steves_vanilla.boggord_wool_block": "Boggord Wool",
   "block.steves_vanilla.boggord_wool_carpet": "Boggord Wool Carpet",
-  //Advancements
   "advancements.spyglass_at_boggord.title": "Is It a Cow?",
   "advancements.spyglass_at_boggord.description": "Look at a Boggord through a spyglass",
   "advancements.husbandry.ride_boggord.title": "Riding a Big Guy is Fun!",

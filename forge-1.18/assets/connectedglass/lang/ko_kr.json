@@ -16,7 +16,6 @@
   "block.connectedglass.borderless_glass_red": "연결된 빨간색 색유리",
   "block.connectedglass.borderless_glass_white": "연결된 하얀색 색유리",
   "block.connectedglass.borderless_glass_yellow": "연결된 노란색 색유리",
-  
   "block.connectedglass.borderless_glass_pane": "연결된 유리판",
   "block.connectedglass.borderless_glass_black_pane": "연결된 검은색 색유리판",
   "block.connectedglass.borderless_glass_blue_pane": "연결된 파란색 색유리판",
@@ -34,7 +33,6 @@
   "block.connectedglass.borderless_glass_red_pane": "연결된 빨간색 색유리판",
   "block.connectedglass.borderless_glass_white_pane": "연결된 하얀색 색유리판",
   "block.connectedglass.borderless_glass_yellow_pane": "연결된 노란색 색유리판",
-  
   "block.connectedglass.clear_glass": "깨끗한 유리",
   "block.connectedglass.clear_glass_black": "깨끗한 검은색 색유리",
   "block.connectedglass.clear_glass_blue": "깨끗한 파란색 색유리",
@@ -52,7 +50,6 @@
   "block.connectedglass.clear_glass_red": "깨끗한 빨간색 색유리",
   "block.connectedglass.clear_glass_white": "깨끗한 하얀색 색유리",
   "block.connectedglass.clear_glass_yellow": "깨끗한 노란색 색유리",
-  
   "block.connectedglass.clear_glass_pane": "깨끗한 유리판",
   "block.connectedglass.clear_glass_black_pane": "깨끗한 검은색 색유리판",
   "block.connectedglass.clear_glass_blue_pane": "깨끗한 파란색 색유리판",
@@ -70,7 +67,6 @@
   "block.connectedglass.clear_glass_red_pane": "깨끗한 빨간색 색유리판",
   "block.connectedglass.clear_glass_white_pane": "깨끗한 하얀색 색유리판",
   "block.connectedglass.clear_glass_yellow_pane": "깨끗한 노란색 색유리판",
-  
   "block.connectedglass.scratched_glass": "긁힌 유리",
   "block.connectedglass.scratched_glass_black": "긁힌 검은색 색유리",
   "block.connectedglass.scratched_glass_blue": "긁힌 파란색 색유리",
@@ -88,7 +84,6 @@
   "block.connectedglass.scratched_glass_red": "긁힌 빨간색 색유리",
   "block.connectedglass.scratched_glass_white": "긁힌 하얀색 색유리",
   "block.connectedglass.scratched_glass_yellow": "긁힌 노란색 색유리",
-  
   "block.connectedglass.scratched_glass_pane": "긁힌 유리판",
   "block.connectedglass.scratched_glass_black_pane": "긁힌 검은색 색유리판",
   "block.connectedglass.scratched_glass_blue_pane": "긁힌 파란색 색유리판",
@@ -106,7 +101,6 @@
   "block.connectedglass.scratched_glass_red_pane": "긁힌 빨간색 색유리판",
   "block.connectedglass.scratched_glass_white_pane": "긁힌 하얀색 색유리판",
   "block.connectedglass.scratched_glass_yellow_pane": "긁힌 노란색 색유리판",
-  
   "block.connectedglass.tinted_borderless_glass": "연결된 차광 유리",
   "block.connectedglass.tinted_borderless_glass_black": "연결된 차광 검은색 색유리",
   "block.connectedglass.tinted_borderless_glass_blue": "연결된 차광 파란색 색유리",
@@ -124,6 +118,5 @@
   "block.connectedglass.tinted_borderless_glass_red": "연결된 차광 빨간색 색유리",
   "block.connectedglass.tinted_borderless_glass_white": "연결된 차광 하얀색 색유리",
   "block.connectedglass.tinted_borderless_glass_yellow": "연결된 차광 노란색 색유리",
-  
   "itemGroup.connectedglass": "Connected Glass"
 }

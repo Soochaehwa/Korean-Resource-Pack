@@ -1,5 +1,4 @@
 {
-  // ModMenu
   "text.autoconfig.hookshot.title": "Hookshot",
   "text.autoconfig.hookshot.option.useClassicHookshotLogic": "Use Old Hookshot Fire/Retract Logic",
   "text.autoconfig.hookshot.option.unhookableBlacklist": "Unhookable Tag Acts Like Blacklist",
@@ -12,8 +11,6 @@
   "text.autoconfig.hookshot.option.durabilityMultiplier": "Durability Upgrade Multiplier",
   "text.autoconfig.hookshot.option.defaultMaxDurability": "Hookshot Durability",
   "text.autoconfig.hookshot.option.hookshotRepairItem": "Item to Use For Repairing Hookshot",
-
-  // Items
   "item.hookshot.white_hookshot": "White Hookshot",
   "item.hookshot.orange_hookshot": "Orange Hookshot",
   "item.hookshot.magenta_hookshot": "Magenta Hookshot",
@@ -30,11 +27,7 @@
   "item.hookshot.green_hookshot": "Green Hookshot",
   "item.hookshot.red_hookshot": "Red Hookshot",
   "item.hookshot.black_hookshot": "Black Hookshot",
-
-  // Entities
   "entity.hookshot.hookshot": "Hookshot",
-
-  // Modifiers
   "hookshot.modifier.durability": "Durability",
   "hookshot.modifier.automatic": "Automatic",
   "hookshot.modifier.swinging": "Swinging",
@@ -43,7 +36,5 @@
   "hookshot.modifier.quick": "Quick",
   "hookshot.modifier.range": "Range",
   "hookshot.modifier.bleed": "Bleed",
-
-  // Subtitles
   "subtitles.hookshot.hookshot_reel": "Hookshot Reel"
 }

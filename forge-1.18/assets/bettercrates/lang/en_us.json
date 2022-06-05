@@ -1,6 +1,5 @@
 {
   "itemGroup.bettercrates": "Better crates",
-
   "block.bettercrates.wooden_crate": "§fWooden crate",
   "block.bettercrates.copper_crate": "§fCopper crate",
   "block.bettercrates.tin_crate": "§fTin crate",
@@ -8,10 +7,8 @@
   "block.bettercrates.golden_crate": "§fGolden crate",
   "block.bettercrates.diamond_crate": "§fDiamond crate",
   "block.bettercrates.obsidian_crate": "§fObsidian crate",
-
   "item.crate_base.tooltip": "§3Saves content",
   "item.crate_base2.tooltip": "§4Protected explosions",
-
   "item.bettercrates.up_wooden": "Wooden upgrade",
   "item.bettercrates.up_copper": "Copper upgrade",
   "item.bettercrates.up_tin": "Tin upgrade",
@@ -21,7 +18,6 @@
   "item.bettercrates.up_golden3": "Tin/Golden upgrade",
   "item.bettercrates.up_diamond": "Diamond upgrade",
   "item.bettercrates.up_obsidian": "Obsidian upgrade",
-
   "item.up.tooltip_base": "§7(§6§oTo use Shift + Right Click§7)",
   "item.bettercrates.up_wooden.tooltip": "§3Upgrade §4Chest §7> §2Wooden crate",
   "item.bettercrates.up_copper.tooltip": "§3Upgrade §4Chest §7> §2Copper crate",

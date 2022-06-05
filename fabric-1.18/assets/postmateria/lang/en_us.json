@@ -11,7 +11,6 @@
   "item.postmateria.phantasmite_chestplate": "Phantasmite Chestplate",
   "item.postmateria.phantasmite_leggings": "Phantasmite Leggings",
   "item.postmateria.phantasmite_boots": "Phantasmite Boots",
-
   "block.postmateria.soulblaze_ore": "Soulblaze Ore",
   "item.postmateria.soulblaze": "Soulblaze",
   "item.postmateria.soulblaze_sword": "Soulblaze Sword",
@@ -24,11 +23,9 @@
   "item.postmateria.soulblaze_leggings": "Soulblaze Leggings",
   "item.postmateria.soulblaze_boots": "Soulblaze Boots",
   "item.postmateria.soul_surfer": "Soul Surfer",
-
   "block.postmateria.phantasmite_block": "Phantasmite Block",
   "block.postmateria.phantasmite_geyser": "Phantasmite Geyser",
   "block.postmateria.phantasma_spawner": "Phantasma Spawner",
-
   "postmateria.translation.soulblaze": "§bSoulblaze: §7you inflict §bSoul Fire §7on hit.",
   "postmateria.translation.phantasmite": "§Phantasmal Wrath: §7you recover §b10% §7of dealt damage.",
   "postmateria.translation.phantasmite_armor": "§7Provides §b10% §7healing buff.",

@@ -44,11 +44,9 @@
   "enchantment.additionaladditions.precision": "Precision",
   "enchantment.additionaladditions.precision.desc": "Improves crossbow accuracy.",
   "enchantment.additionaladditions.speed": "Speed",
-  "enchantment.additionaladditions.speed.desc": "Increases movement speed.", 
+  "enchantment.additionaladditions.speed.desc": "Increases movement speed.",
   "entity.additionaladditions.glow_stick": "Glow Stick",
-
   "depth_meter.elevation": "Altitude: %s",
-
   "item.minecraft.potion.effect.haste_potion": "Potion of Haste",
   "item.minecraft.potion.effect.long_haste_potion": "Potion of Haste",
   "item.minecraft.potion.effect.strong_haste_potion": "Potion of Haste",
@@ -61,7 +59,6 @@
   "item.minecraft.tipped_arrow.effect.haste_potion": "Arrow of Haste",
   "item.minecraft.tipped_arrow.effect.long_haste_potion": "Arrow of Haste",
   "item.minecraft.tipped_arrow.effect.strong_haste_potion": "Arrow of Haste",
-
   "additionaladditions.advancements.obtain_adoghr_disc": "adoghr",
   "additionaladditions.advancements.obtain_adoghr_disc.desc": "Obtain one of adoghr's music discs",
   "additionaladditions.advancements.obtain_chicken_nugget": "What a Nugget, Once Again!",
@@ -82,7 +79,6 @@
   "additionaladditions.advancements.shot_self_scoped_crossbow.desc": "Hit yourself with your own arrow using Crossbow with Spyglass",
   "additionaladditions.advancements.use_watering_can": "Water it can",
   "additionaladditions.advancements.use_watering_can.desc": "Obtain and use the Watering Can to fertilize your crops",
-
   "additionaladditions.gui.config.restart": "Restart the game to apply the changes",
   "additionaladditions.gui.pocket_jukebox.tooltip": "Secondary Click with a Music Disc to play"
 }

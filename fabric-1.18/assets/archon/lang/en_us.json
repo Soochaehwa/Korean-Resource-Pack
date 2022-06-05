@@ -1,6 +1,5 @@
 {
   "itemGroup.archon.archon": "Archon",
-
   "block.archon.fire_node": "Fire Node",
   "block.archon.water_node": "Water Node",
   "block.archon.earth_node": "Earth Node",
@@ -12,7 +11,6 @@
   "block.archon.glisteel_block": "Glisteel Block",
   "block.archon.mana_berry_bush": "Mana Berry Bush",
   "block.archon.summoning_pedestal": "Summoning Pedestal",
-
   "item.archon.grimoire": "Grimoire",
   "item.archon.channeler": "Channeler",
   "item.archon.ender_blade": "Ender Blade",
@@ -59,11 +57,9 @@
   "item.archon.terranite_stone": "Terranite Stone",
   "item.archon.angelic_star": "Angelic Star",
   "item.archon.heaven_dial": "Heaven's Dial",
-
   "item.archon.capacity_scroll": "Ancient Scroll",
   "item.archon.accelerate_scroll": "Ancient Scroll",
   "item.archon.removal_scroll": "Ancient Scroll",
-
   "entity.archon.water_bolt": "Water Bolt",
   "entity.minecraft.villager.wizard": "Wizard",
   "entity.archon.skelt": "Skelt",
@@ -72,14 +68,11 @@
   "entity.archon.mana_leech": "Mana Leech",
   "entity.archon.tar": "Tar",
   "entity.archon.ayla": "Ayla",
-
   "effect.archon.rage": "Rage",
   "effect.archon.obstructed": "Obstructed",
   "effect.archon.sturdy": "Sturdy",
-
   "enchantment.archon.arcane": "Arcane",
   "enchantment.archon.arcane.desc": "Reduces the mana cost of weapons by 20%",
-
   "text.archon.capacity": "Capacity",
   "text.archon.accelerate": "Accelerate",
   "text.archon.removal": "Removal",
@@ -92,19 +85,15 @@
   "text.archon.invalid_summon": "Must have air above pedestal!",
   "text.archon.dial_mode_heal": "Dial Set To: Heal",
   "text.archon.dial_mode_blind": "Dial Set To: Blind",
-
   "text.archon.tar.spawn": "[Tar] You think you can challenge me? HOW FOOLISH!",
   "text.archon.tar.kill": "[Tar] Ha! This is too easy!",
   "text.archon.alya.spawn": "[Ayla] Oh my, such lovely specimen",
   "text.archon.alya.kill": "[Ayla] Delightful!",
-
   "command.archon.mana_add_one": "Added %s mana to %s",
   "command.archon.mana_add_multiple": "Added %s mana to %s players",
   "command.archon.mana_set_one": "Set max mana of %s for %s",
   "command.archon.mana_set_multiple": "Set max mana %s players to %s",
-
   "rei.archon.channeling": "Channeling",
-
   "advancements.archon.root.title": "Archon",
   "advancements.archon.root.description": "Welcome to Archon!",
   "advancements.archon.soul_scythe.title": "Your Soul Shall Be Mine",
@@ -123,7 +112,6 @@
   "advancements.archon.kill_tar.description": "Defeat Tar",
   "advancements.archon.kill_ayla.title": "Fall of the Sky",
   "advancements.archon.kill_ayla.description": "Defeat Ayla",
-
   "text.archon.book.landing_text": "This magical book will guide you through your adventures as a sorcerer",
   "text.archon.book.subtitle": "A sorcerer's guide"
 }

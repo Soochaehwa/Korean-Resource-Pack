@@ -435,7 +435,6 @@
   "item.mythicmetals.unobtainium": "Unobtainium",
   "item.mythicmetals.unobtainium_dust": "Unobtainium Dust",
   "item.mythicmetals.unobtainium_nugget": "Unobtainium Nugget",
-
   "text.autoconfig.mythicmetals_config.option.blacklist": "Biome Blacklist",
   "text.autoconfig.mythicmetals_config.option.enableAnvils": "Enable Anvils",
   "text.autoconfig.mythicmetals_config.option.enableDusts": "Enable Dust Items",
@@ -658,11 +657,8 @@
   "text.autoconfig.mythicmetals_config.option.unobtainium.top": "Unobtainium Maximum Spawn Height",
   "text.autoconfig.mythicmetals_config.option.unobtainium.trapezoid": "Should Unobtainium use trapezoid range?",
   "text.autoconfig.mythicmetals_config.option.unobtainium.veinSize": "Max Unobtainium Vein Size",
-
   "text.autoconfig.mythicmetals_config.title": "Mythic Metals Configuration",
-
   "subtitles.mythicmetals.equip_runite": "Familiar armor clank",
-
   "itemGroup.mythicmetals.main": "Mythic Metals",
   "itemGroup.mythicmetals.main.button.github": "Mythic Metals Issue Tracker",
   "itemGroup.mythicmetals.main.button.curseforge": "Mythic Metals CurseForge Page",
@@ -672,7 +668,6 @@
   "itemGroup.mythicmetals.main.tab.tools": "Tools",
   "itemGroup.mythicmetals.main.tab.blocks": "Blocks",
   "itemGroup.mythicmetals.main.tab.armor": "Armor",
-
   "advancement.mythicmetals.root.title": "Mythic Metals",
   "advancement.mythicmetals.root.description": "Discover all the ores deep underground",
   "advancement.mythicmetals.unobtainium.title": "How Did You Get this?",
@@ -729,7 +724,6 @@
   "advancement.mythicmetals.runite.description": "Find Runite Ore, just below the surface hidden in the walls",
   "advancement.mythicmetals.steel.title": "But Steel Is Heavier Than ...",
   "advancement.mythicmetals.steel.description": "Forge Steel, a simple alloy from Iron and Manganese",
-
   "abilities.mythicmetals.aqua_affinity": "Natural Aqua Affinity",
   "abilities.mythicmetals.blast_mining": "Blast Mining",
   "abilities.mythicmetals.knockback": "Natural Knockback",

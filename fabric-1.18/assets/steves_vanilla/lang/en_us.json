@@ -1,13 +1,9 @@
 {
   "itemGroup.steves_vanilla.item_group": "Steve's Vanilla!",
-
   "item.steves_vanilla.boggord_spawn_egg": "Boggord Spawn Egg",
   "item.steves_vanilla.boggord_wool": "Boggord Wool",
   "item.steves_vanilla.boggord_meat": "Boggord Meat",
   "item.steves_vanilla.cooked_boggord_meat": "Cooked Boggord Meat",
-
   "block.steves_vanilla.boggord_wool_block": "Boggord Wool Block",
-
   "entity.steves_vanilla.boggord": "Boggord"
-
 }

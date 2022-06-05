@@ -7,22 +7,17 @@
   "item.mantori.honeydew_bottle": "Honeydew Bottle",
   "item.mantori.greater_aphid_spawn_egg": "Greater Aphid Spawn Egg",
   "item.mantori.lesser_aphid_spawn_egg": "Lesser Aphid Spawn Egg",
-
   "item.mantori.chitin_sword": "Chitin Sword",
   "item.mantori.chitin_axe": "Chitin Axe",
   "item.mantori.chitin_pickaxe": "Chitin Pickaxe",
   "item.mantori.chitin_shovel": "Chitin Shovel",
   "item.mantori.chitin_hoe": "Chitin Hoe",
-
   "item.mantori.chitin_helmet": "Chitin Helmet",
   "item.mantori.chitin_chestplate": "Chitin Chestplate",
   "item.mantori.chitin_leggings": "Chitin Leggings",
   "item.mantori.chitin_boots": "Chitin Boots",
-
   "block.mantori.beetleberry_bush": "Beetleberry Bush",
   "item.mantori.beetleberry": "Beetleberry",
-
-
   "mantori.wing_flap": "Wings flap",
   "mantori.ambient": "Aphid shrieks",
   "mantori.angry": "Aphid shrieks angrily",
@@ -36,9 +31,7 @@
   "mantori.footstep": "Footsteps",
   "mantori.footstep.wood": "Footsteps",
   "mantori.honk": "Goose honks",
-
   "entity.mantori.greater_aphid": "Greater Aphid",
   "entity.mantori.lesser_aphid": "Lesser Aphid",
-
   "itemGroup.mantori.mantori": "Aphid Additions"
 }

@@ -1,6 +1,5 @@
 {
   "effect.earth.rubia": "Rubia",
-
   "item.minecraft.potion.effect.sickness": "Potion of Sickness",
   "item.minecraft.potion.effect.long_sickness": "Potion of Sickness",
   "item.minecraft.splash_potion.effect.sickness": "Splash Potion of Sickness",
@@ -9,7 +8,6 @@
   "item.minecraft.lingering_potion.effect.long_sickness": "Lingering Potion of Sickness",
   "item.minecraft.tipped_arrow.effect.sickness": "Arrow of Sickness",
   "item.minecraft.tipped_arrow.effect.long_sickness": "Arrow of Sickness",
-
   "item.earth.flinging_potion": "Flinging Potion",
   "item.earth.flinging_potion.effect.empty": "Flinging Uncraftable Potion",
   "item.earth.flinging_potion.effect.water": "Flinging Water Bottle",
@@ -35,7 +33,6 @@
   "item.earth.flinging_potion.effect.slow_falling": "Flinging Potion of Slow Falling",
   "item.earth.flinging_potion.effect.sickness": "Flinging Potion of Sickness",
   "item.earth.flinging_potion.effect.long_sickness": "Flinging Potion of Sickness",
-
   "item.earth.flingshot": "Flingshot",
   "item.earth.carboranea_bucket": "Bucket of Carboranea",
   "item.earth.glow_grease": "Glow Grease",
@@ -48,7 +45,6 @@
   "item.earth.carboranea_spawn_egg": "Carboranea Spawn Egg",
   "item.earth.rubro_spawn_egg": "Rubro Spawn Egg",
   "item.earth.pertilyo_spawn_egg": "Pertilyo Spawn Egg",
-
   "item.earth.powered_beetroot": "Powered Beetroot",
   "item.earth.cobbled_pebble": "Cobbled Pebble",
   "item.earth.andesite_pebble": "Andesite Pebble",
@@ -59,7 +55,6 @@
   "item.earth.crimson_quartz": "Crimson Quartz",
   "item.earth.blushed_flints": "Blushed Flints",
   "item.earth.red_brick": "Red Brick",
-
   "entity.earth.carboranea": "Carboranea",
   "entity.earth.coal_chunk": "Chunk of Coal",
   "entity.earth.rubro": "Rubro",
@@ -69,7 +64,6 @@
   "entity.earth.copper_buck": "Copper Buck",
   "entity.earth.madder_buck": "Madder Buck",
   "entity.earth.flinging_potion": "Flinging Potion",
-
   "block.earth.redstone_fossil": "Redstone Fossil",
   "block.earth.gilded_redstone_fossil": "Gilded Redstone Fossil",
   "block.earth.crystalline_redstone_fossil": "Crystalline Redstone Fossil",
@@ -84,7 +78,6 @@
   "block.earth.deepslate_crimson_redstone_fossil": "Deepslate Crimson Redstone Fossil",
   "block.earth.glow_grease_splat": "Glow Grease Splat",
   "block.earth.redstone_fossil.desc": "Is it rattling?",
-
   "death.attack.rubro.pounce": "%1$s was pounced by %2$s",
   "death.attack.rubro.tail_spin": "%1$s was killed by %2$s",
   "death.attack.shimmer_shell": "%1$s was struck by %2$s's Shimmer Shell",
@@ -92,7 +85,6 @@
   "death.attack.shimmer_explosion": "%1$s was pulverized",
   "death.attack.copper_buck.player": "%1$s was knocked out by %2$s",
   "death.attack.copper_buck": "%1$s was knocked out",
-
   "enchantment.earth.crumble": "Crumble",
   "enchantment.earth.crumble.desc": "Increases damage against Earthen mobs - Breaking blocks may yield different rewards",
   "enchantment.earth.force": "Force",
@@ -103,7 +95,6 @@
   "enchantment.earth.automation.desc": "Allows the Flingshot to fire automatically when fully drawn",
   "enchantment.earth.versatility": "Versatility",
   "enchantment.earth.versatility.desc": "Allows the Flingshot to fling item drops",
-
   "advancement.earth.breed_carboranea.title": "It's Getting Hot",
   "advancement.earth.breed_carboranea.desc": "Breed two Carboranea together",
   "advancement.earth.crumble_enchantment.title": "Turn All Into Crumbs",
@@ -162,17 +153,13 @@
   "advancement.earth.shoot_glow_grease_at_block.desc": "Use Glow Grease from afar to light up a dark area",
   "advancement.earth.use_amethyst_dust.title": "Ooo, Glitter...",
   "advancement.earth.use_amethyst_dust.desc": "Obtain and use some Amethyst Dust, with the help of a Crumble pickaxe",
-
   "subtitles.earth.block.redstone_fossil.creak": "Redstone Fossil Creek",
-
   "itemGroup.earth.placeables": "Earthbounds Placeables",
   "itemGroup.earth.combat": "Earthbounds Combat",
   "itemGroup.earth.misc": "Earthbounds Miscellaneous",
   "itemGroup.earth.brewing": "Earthbounds Brewing",
-
   "origin.earth.rubian.name": "Rubian",
   "origin.earth.rubian.description": "Rubians are redstone powered creatures. As such they must consume redstone to survive, and do not require food. Additionally, they are in good terms with other Rubian creatures.",
-
   "power.earth.power_food_replacement.name": "Redstone Powered",
   "power.earth.power_food_replacement.description": "You are powered by Redstone Foods, changing your attributes based on your power level.",
   "power.earth.fall_resistance.name": "Fall Resistance",
@@ -187,5 +174,4 @@
   "power.earth.no_swimming.description": "Due to your weight, you are unable to swim.",
   "power.earth.shoot_madder_buck.name": "Madder Buck",
   "power.earth.shoot_madder_buck.description": "Using 2 redstone (hunger) points, you can shoot a Madder Buck."
-
 }

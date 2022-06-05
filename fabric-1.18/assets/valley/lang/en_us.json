@@ -6,23 +6,16 @@
   "itemGroup.valley.furniture": "Building",
   "itemGroup.valley.fishing": "Fishing",
   "itemGroup.valley.artefacts": "Artefacts",
-
   "block.valley.keg.tooltip": "Refills all your buckets & bottles!",
   "block.valley.gear.tooltip": "It must have been used",
   "block.valley.gear.tooltip_2": "by some ancient civilization.",
-
   "block.valley.encrusted_sandstone": "Encrusted Sandstone",
-
   "block.valley.screen.tooltip": "Pets cannot jump over this,",
   "block.valley.screen.tooltip_2": "protecting them from burning.",
-
   "block.valley.stargazing_supplies": "Stargazing Spyglass",
-
   "block.valley.clam": "Clam",
   "block.valley.sand_dollar": "Sand Dollar",
-
   "block.valley.rice_crop.tooltip": "Needs water to grow",
-
   "item.valley.sea_urchin_soup": "Sea Urchin Soup",
   "item.valley.cooked_perch": "Cooked Perch",
   "item.valley.cooked_lobster": "Cooked Lobster",
@@ -58,9 +51,7 @@
   "item.valley.sea_creature_eye": "Sea Creature Eye",
   "item.valley.sea_creature_eye.tooltip_1": "Whatever creature this belonged to",
   "item.valley.sea_creature_eye.tooltip_2": "had to have been massive...",
-
   "container.valley.stove": "Stove",
-
   "block.valley.giant_scallop": "Giant Scallop",
   "block.valley.dancing_sea_fern": "Dancing Sea Fern",
   "block.valley.sea_urchin": "Sea Urchin",
@@ -72,7 +63,6 @@
   "block.valley.tube_worms": "Tube Worms",
   "block.valley.thoracica_barnacle": "Thoracica Barnacle",
   "block.valley.prismarine_cluster": "Prismarine Cluster",
-
   "item.valley.fire_eel_bucket": "Bucket of Fire Eel",
   "item.valley.red_porgy_bucket": "Bucket of Red Porgy",
   "item.valley.perch_bucket": "Bucket of Perch",
@@ -81,27 +71,20 @@
   "item.valley.red_porgy": "Red Porgy",
   "item.valley.cooked_red_porgy": "Cooked Red Porgy",
   "block.valley.starfish": "Starfish",
-
   "item.valley.coin": "Ancient Coin",
   "block.valley.coin_stack": "Stack of Ancient Coins",
   "block.valley.coin_stack.tooltip": "An ancient currency",
   "block.valley.coin_stack.tooltip_2": "devalued by emeralds.",
-
   "block.valley.bone_joint_block": "Bone Joint Block",
-
   "item.valley.copper_billet.tooltip": "Used to knap Arrowheads",
   "item.valley.copper_billet.tooltip_2": "with Flint, Obsidian or Dripstone",
-
   "block.valley.gear": "Rusty Gear",
-
   "block.valley.soul_jack_o_lantern": "Soul Jack o'Lantern",
   "block.valley.haunted_scarecrow": "Haunted Scarecrow",
   "block.valley.hatted_n_haunted_scarecrow": "Hatted 'n' Haunted Scarecrow",
   "block.valley.copperflame_jack_o_lantern": "Copperflame Jack o'Lantern",
-
   "block.valley.apple_leaves": "Fruit-Bearing Apple Leaves",
   "block.valley.apple_sapling": "Apple Tree Sapling",
-
   "block.valley.mossy_carmine_bricks": "Mossy Carmine Bricks",
   "block.valley.chiseled_carmine": "Chiseled Carmine Bricks",
   "block.valley.cracked_carmine_bricks": "Cracked Carmine Bricks",
@@ -109,10 +92,8 @@
   "block.valley.carmine_brick_slab": "Carmine Brick Slab",
   "block.valley.carmine_bricks": "Carmine Bricks",
   "block.valley.polished_carmine": "Polished Carmine",
-
   "block.valley.crystal_ball": "Runic Crystal Ball",
   "block.valley.hanging_glass_planter": "Hanging Glass Planter",
-
   "block.valley.small_cactus": "Small Cactus",
   "block.valley.flowering_cactus": "Flowering Cactus",
   "block.valley.small_rose_bush": "Small Rose Bush",
@@ -161,7 +142,6 @@
   "block.valley.jasper": "Jasper",
   "block.valley.pumice": "Pumice",
   "block.valley.limestone": "Limestone",
-
   "block.valley.mixed_ore": "Mixed Ore",
   "block.valley.deepslate_mixed_ore": "Deepslate Mixed Ore",
   "block.valley.saltpeter_ore": "Saltpeter Ore",
@@ -169,14 +149,11 @@
   "block.valley.salt_ore": "Rock Salt Ore",
   "block.valley.nether_salt_ore": "Nether Rock Salt Ore",
   "block.valley.nether_coal_ore": "Nether Coal Ore",
-
   "item.valley.copper_billet": "Copper Billet",
   "item.valley.knapped_flint_arrowhead": "Knapped Flint Arrowhead",
   "item.valley.knapped_dripstone_arrowhead": "Knapped Dripstone Arrowhead",
   "item.valley.knapped_obsidian_arrowhead": "Knapped Obsidian Arrowhead",
-
   "item.valley.spiny_lobster": "Spiny Lobster",
-
   "block.valley.sour_berries": "Sour Berry",
   "block.valley.sour_berry_crate": "Sour Berry Crate",
   "item.valley.golden_sour_berries": "Golden Sour Berry",
@@ -185,7 +162,6 @@
   "item.valley.sour_berry_wine": "Sour Berry Wine",
   "item.valley.sour_berry_pie_dough": "Sour Berry Pie Dough",
   "item.valley.sour_berry_pie": "Sour Berry Pie",
-
   "item.valley.moss_clump": "Moss Clump",
   "item.valley.dry_moss_clump": "Dry Moss Clump",
   "item.valley.salt": "Rock Salt",
@@ -197,7 +173,6 @@
   "item.valley.saltpeter": "Saltpeter",
   "item.valley.squid_sucker": "Squid Sucker",
   "item.valley.plant_fiber": "Plant Fiber",
-
   "item.valley.fern_tea": "Fern Tea",
   "item.valley.sweet_berry_tea": "Sweet Berry Tea",
   "item.valley.bitter_berry_tea": "Bitter Berry Tea",
@@ -226,13 +201,9 @@
   "block.valley.miners_lettuce": "Miner's Lettuce",
   "block.valley.campfire_stew_pot": "Campfire Stew Pot",
   "block.valley.stew_campfire_pot.tooltip": "Place this above a campfire.",
-
-
-
   "item.valley.steamed_cod": "Steamed Cod",
   "item.valley.creamy_heart_stew": "Creamy Heart Stew",
   "item.valley.carrot_stew": "Carrot Stew",
-
   "block.valley.apple_crate": "Apple Crate",
   "block.valley.carrot_crate": "Carrot Crate",
   "block.valley.beetroot_crate": "Beetroot Crate",
@@ -260,7 +231,6 @@
   "block.valley.eggplant_crate": "Eggplant Crate",
   "block.valley.bundled_bamboo": "Bundled Bamboo",
   "block.valley.bundled_sugar_cane": "Bundled Sugar Cane",
-
   "item.valley.hot_cocoa": "Hot Cocoa",
   "item.valley.mead": "Mead",
   "item.valley.sweet_berry_cyser": "Sweet Berry Cyser",
@@ -326,13 +296,11 @@
   "block.valley.spicy_berries": "Spicy Berries",
   "block.valley.bitter_berries": "Bitter Berries",
   "block.valley.corn_stalks": "Corn",
-
   "item.valley.climbing_axe": "Climbing Axe",
   "item.valley.worm_soup": "Worm Soup",
   "item.valley.sardine_soup": "Sardine Soup",
   "item.valley.creamy_chowder": "Creamy Chowder",
   "item.valley.cooked_sardine": "Cooked Sardine",
-
   "item.valley.skeleton_cookie_dough": "Skeleton Cookie Dough",
   "item.valley.skeleton_cookie": "Skeleton Cookie",
   "item.valley.pumpkin_puppy_treat": "Pumpkin Puppy Treat",
@@ -343,16 +311,13 @@
   "item.valley.glistering_melon_juice": "Glistering Melon Juice",
   "item.valley.drumstick": "Drumstick",
   "item.valley.glazed_apple": "Glazed Apple",
-
   "block.valley.mead_mug": "Mead Mug",
   "block.valley.tea_mug": "Tea Mug",
   "block.valley.bowl_block": "Bowl Block",
   "block.valley.bento_box": "Bento Box",
-
   "item.valley.puff_ball": "Puff Ball",
   "item.valley.puff_ball_seeds": "Puff Ball Seeds",
   "block.valley.puff_balls": "Puff Ball Crop Block",
-
   "item.valley.fire_eel": "Fire Eel",
   "item.valley.ghostfin": "Ghostfin",
   "item.valley.perch": "Perch",
@@ -366,21 +331,17 @@
   "item.valley.glistering_angler": "Glistering Anglerfish",
   "item.valley.octorok": "Octorok",
   "item.valley.canvas": "Canvas",
-
   "item.valley.crab_cake_dough": "Crab Cake Dough",
   "item.valley.crab_cake": "Crab Cake",
-
   "item.valley.eggplant_juice": "Eggplant Juice",
   "item.valley.chicken_soup": "Chicken Soup",
   "item.valley.fish_platter": "Fish Platter",
-
   "item.valley.pork_sandwich": "Pork Sandwich",
   "item.valley.mutton_sandwich": "Mutton Sandwich",
   "item.valley.tenderloin_sandwich": "Tenderloin Sandwich",
   "item.valley.grilled_cheese": "Grilled Cheese",
   "item.valley.blt": "BLT",
   "item.valley.steak_sandwich": "Steak Sandwich",
-
   "item.valley.fur_clump": "Fur Clumps",
   "item.valley.netherite_nugget": "Netherite Nugget",
   "item.valley.mulch": "Mulch",
@@ -388,22 +349,17 @@
   "item.valley.growth_effigy": "Growth Effigy",
   "item.valley.druid_rune.tooltip": "It hums with a strange energy and",
   "item.valley.druid_rune.tooltip_2": "its branches move on their own.",
-
   "item.valley.sickle.tooltip": "Use this on Grass, Wild Herbs or Taproots",
   "item.valley.sickle.tooltip_2": "to forage for fiber, seeds or vegetables.",
-
   "item.valley.knife.tooltip": "Faster and more precise than a sword.",
-
   "item.valley.bait": "Bait",
   "item.valley.bait.tooltip": "Used to catch sea creatures in",
   "item.valley.bait.tooltip_2": "Crab Traps. It smells terrible.",
   "item.valley.bait.tooltip_3": "Crab Traps with minor improvement.",
-
   "item.valley.lingering_powder": "Lingering Powder",
   "item.valley.lingering_powder.tooltip_1": "It sparkles before slowly dissipating when",
   "item.valley.lingering_powder.tooltip_2": "poured out. Combining this with something",
   "item.valley.lingering_powder.tooltip_3": "spicy might produce a more useful item...",
-
   "block.valley.wild_herbs": "Wild Herbs",
   "block.valley.wild_taproots": "Wild Taproots",
   "block.valley.crocus": "Crocus",
@@ -413,12 +369,10 @@
   "block.valley.cave_spider_egg": "Cave Spider Egg",
   "block.valley.fruit_bearing_apple_leaves": "Apple Leaves",
   "block.valley.boxwood_bush": "Boxwood Bush",
-
   "item.valley.green_beans": "Green Beans",
   "item.valley.green_bean_seeds": "Green Bean Seeds",
   "block.valley.green_bean_trellis": "Green Bean Crop Block",
   "item.valley.golden_green_bean": "Golden Green Bean",
-
   "item.valley.onion_seeds": "Onion Seeds",
   "item.valley.lavender_tea": "Lavender Tea",
   "item.valley.green_bean_juice": "Green Bean Juice",
@@ -460,11 +414,9 @@
   "item.valley.snow_yam": "Snow Yam",
   "item.valley.bone_knife": "Bone Knife",
   "item.valley.druid_staff": "Druid's Staff",
-
   "item.valley.bitter_berry_pie_dough": "Bitter Berry Pie Dough",
   "item.valley.glow_berry_pie_dough": "Glow Berry Pie Dough",
   "item.valley.sweet_berry_pie_dough": "Sweet Berry Pie Dough",
-
   "item.valley.living_mandrake": "Living Mandrake",
   "item.valley.cooked_mandrake": "Cooked Mandrake",
   "item.valley.living_mandrake_seed_bulbs": "Living Mandrake Seed Bulbs",
@@ -476,62 +428,49 @@
   "item.valley.mixed_fruit_bowl": "Mixed Fruit Bowl",
   "item.valley.mixed_vegetable_bowl": "Mixed Vegetable Bowl",
   "item.valley.eggplant_juic": "Eggplant Juice",
-
   "block.valley.stone_tiles": "Stone Tiles",
   "block.valley.stone_tile_stairs": "Stone Tile Stairs",
   "block.valley.stone_tile_slab": "Stone Tile Slab",
-
   "block.valley.panflowers": "Panflowers",
   "block.valley.honey_cluster": "Honeycluster",
-
   "block.valley.cobblestone_bricks": "Cobblestone Bricks",
   "block.valley.mossy_cobblestone_bricks": "Mossy Cobblestone Bricks",
   "block.valley.chiseled_cobblestone_bricks": "Chiseled Cobblestone Bricks",
   "block.valley.cobblestone_brick_slab": "Cobblestone Brick Slab",
   "block.valley.cobblestone_brick_stairs": "Cobblestone Brick Stairs",
-  
   "block.valley.copper_chain": "Copper Chain",
   "block.valley.exposed_copper_chain": "Exposed Copper Chain",
   "block.valley.weathered_copper_chain": "Weathered Copper Chain",
   "block.valley.oxidized_copper_chain": "Oxidized Copper Chain",
-  
   "block.valley.waxed_copper_chain": "Waxed Copper Chain",
   "block.valley.waxed_exposed_copper_chain": "Waxed Exposed Copper Chain",
   "block.valley.waxed_weathered_copper_chain": "Waxed Weathered Copper Chain",
   "block.valley.waxed_oxidized_copper_chain": "Waxed Oxidized Copper Chain",
-  
   "block.valley.golden_chain": "Golden Chain",
   "block.valley.netherite_chain": "Netherite Chain",
   "block.valley.ladder_dark_oak": "Dark Oak Ladder",
-
   "block.valley.table_with_plaid_tablecloth": "Table with Plaid Tablecloth",
   "block.valley.stool_with_plaid_blanket": "Stool with Plaid Blanket",
   "block.valley.snowman": "Snowman",
   "block.valley.seaweed_block": "Dried Seaweed Block",
   "block.valley.glow_kelp_block": "Glow Kelp Block",
   "block.valley.plant_fiber_bale": "Plant Fiber Bale",
-
   "block.valley.crab_trap": "Crab Trap",
-
   "block.valley.moss_vines_plant": "Moss Vines",
   "block.valley.dry_vines_plant": "Dry Vines",
-
   "item.valley.witch_wand": "Witch Wand",
   "item.valley.witch_staff": "Witch Staff",
   "item.valley.witch_dagger": "Witch Dagger",
   "item.valley.tongs": "Tongs",
-
   "item.valley.sunshine_effigy": "Sunshine Effigy",
   "item.valley.rain_and_snow_effigy": "Rain & Snow Effigy",
   "item.valley.storm_effigy": "Storm Effigy",
-
   "item.valley.wood_spear": "Wooden Spear",
   "item.valley.stone_spear": "Stone Spear",
   "item.valley.golden_spear": "Golden Spear",
   "item.valley.iron_spear": "Iron Spear",
   "item.valley.diamond_spear": "Diamond Spear",
   "item.valley.netherite_spear": "Netherite Spear",
-
   "item.valley.wood_sickle": "Wooden Sickle",
   "item.valley.stone_sickle": "Stone Sickle",
   "item.valley.golden_sickle": "Golden Sickle",
@@ -539,7 +478,6 @@
   "item.valley.rose_gold_sickle": "Rose Gold Sickle",
   "item.valley.diamond_sickle": "Diamond Sickle",
   "item.valley.netherite_sickle": "Netherite Sickle",
-
   "item.valley.wood_hatchet": "Wooden Hatchet",
   "item.valley.stone_hatchet": "Stone Hatchet",
   "item.valley.golden_hatchet": "Golden Hatchet",
@@ -547,7 +485,6 @@
   "item.valley.rose_gold_hatchet": "Rose Gold Hatchet",
   "item.valley.diamond_hatchet": "Diamond Hatchet",
   "item.valley.netherite_hatchet": "Netherite Hatchet",
-
   "item.valley.wood_knife": "Wooden Dagger",
   "item.valley.stone_knife": "Stone Dagger",
   "item.valley.golden_knife": "Golden Dagger",
@@ -555,18 +492,15 @@
   "item.valley.rose_gold_knife": "Rose Gold Dagger",
   "item.valley.diamond_knife": "Diamond Dagger",
   "item.valley.netherite_knife": "Netherite Dagger",
-
   "item.valley.rose_gold_hoe": "Rose Gold Hoe",
   "item.valley.rose_gold_shovel": "Rose Gold Shovel",
   "item.valley.rose_gold_sword": "Rose Gold Sword",
   "item.valley.rose_gold_axe": "Rose Gold Axe",
   "item.valley.rose_gold_pickaxe": "Rose Gold Pickaxe",
-  
   "item.valley.rose_gold_helmet": "Rose Gold Helmet",
   "item.valley.rose_gold_chestplate": "Rose Gold Chestplate",
   "item.valley.rose_gold_leggings": "Rose Gold Leggings",
   "item.valley.rose_gold_boots": "Rose Gold Boots",
-
   "item.valley.travelers_sword": "Traveler's Sword",
   "item.valley.sharpened_flint": "Sharpened Flint",
   "item.valley.tree_branch": "Tree Branch",
@@ -577,7 +511,6 @@
   "block.valley.rope_bridge_anchor": "Rope Bridge Anchor",
   "block.valley.rope": "Rope",
   "block.valley.net": "Net",
-
   "block.valley.spike_trap": "Spike Trap",
   "block.valley.brazier": "Brazier",
   "block.valley.soul_brazier": "Soul Brazier",
@@ -588,10 +521,8 @@
   "block.valley.power_crystal": "Hyalite Crystal",
   "item.valley.power_crystal_shards": "Hyalite Crystal Shards",
   "block.valley.glow_kelp": "Glow Kelp",
-
   "block.valley.saltpeter_block": "Block of Saltpeter",
   "block.valley.rotten_flesh_block": "Block of Rotten Flesh",
-
   "block.valley.charcoal_block": "Charcoal Block",
   "block.valley.mixed_bricks": "Mixed Bricks",
   "block.valley.cracked_mixed_bricks": "Cracked Mixed Bricks",
@@ -611,7 +542,6 @@
   "block.valley.copper_beveled_amethyst_glass": "Copper Beveled Amethyst Glass",
   "block.valley.golden_beveled_amethyst_glass": "Golden Beveled Amethyst Glass",
   "block.valley.netherite_beveled_amethyst_glass": "Netherite Beveled Amethyst Glass",
-
   "block.valley.volc_smooth_stone": "Polished Volcanic Stone",
   "block.valley.salt_block": "Block of Salt",
   "block.valley.hanging_lantern": "Hanging Lantern",
@@ -628,7 +558,6 @@
   "block.valley.dark_oak_stool": "Dark Oak Stool",
   "block.valley.warped_stool": "Warped Stool",
   "block.valley.crimson_stool": "Crimson Stool",
-
   "block.valley.quartz_tiles": "Quartz Tiles",
   "block.valley.quartz_tile_slab": "Quartz Tile Slab",
   "block.valley.quartz_tile_stairs": "Quartz Tile Stairs",
@@ -644,19 +573,16 @@
   "block.valley.volcanic_bricks": "Volcanic Bricks",
   "block.valley.volcanic_brick_slab": "Volcanic Brick Slab",
   "block.valley.volcanic_brick_stairs": "Volcanic Brick Stairs",
-
   "block.valley.ladder_oak": "Oak Ladder",
   "block.valley.ladder_spruce": "Spruce Ladder",
   "block.valley.ladder_stone": "Stone Ladder",
   "block.valley.ladder_birch": "Birch Ladder",
   "block.valley.ladder_jungle": "Jungle Ladder",
   "block.valley.ladder_acacia": "Acacia Ladder",
-  "block.valley.ladder_dark_oak": "Dark Oak Ladder",
   "block.valley.ladder_warped": "Warped Ladder",
   "block.valley.ladder_crimson": "Crimson Ladder",
   "block.valley.iron_ladder": "Iron Ladder",
   "block.valley.bamboo_ladder": "Bamboo Ladder",
-
   "block.valley.oak_table": "Oak Table",
   "block.valley.spruce_table": "Spruce Table",
   "block.valley.stone_table": "Stone Table",
@@ -666,21 +592,16 @@
   "block.valley.dark_oak_table": "Dark Oak Table",
   "block.valley.warped_table": "Warped Table",
   "block.valley.crimson_table": "Crimson Table",
-
   "block.valley.scarecrow": "Scarecrow",
   "block.valley.hatted_scarecrow": "Hatted Scarecrow",
-
   "block.valley.scarecr_o_lantern": "Scarecr' o'Lantern",
   "block.valley.hatted_scarecr_o_lantern": "Hatted Scarecr' o'Lantern",
-
   "block.valley.hatted_copperflame_scarecrow": "Copperflame Scarecrow",
   "block.valley.copperflame_scarecrow": "Hatted Copperflame Scarecrow",
-
   "block.valley.melonhead_rarecrow": "Melonhead Rarecrow",
   "block.valley.target_rarecrow": "Target Rarecrow",
   "block.valley.skeleton_rarecrow": "Skeleton Rarecrow",
   "block.valley.zombie_rarecrow": "Zombie Rarecrow",
-
   "block.valley.glacial_stone": "Glacial Stone",
   "block.valley.fossil_ore": "Fossil",
   "block.valley.blossoming_carmine": "Blossoming Carmine",
@@ -693,7 +614,6 @@
   "block.valley.pond_ribbons": "Pond Ribbons",
   "block.valley.orange_fern": "Orange Fern",
   "block.valley.ameranth_crop": "Amaranth Seedlings",
-
   "block.valley.cobwebbed_bookshelf": "Cobwebbed Bookshelf",
   "block.valley.empty_bookshelf": "Empty Bookshelf",
   "block.valley.cobwebbed_empty_bookshelf": "Cobwebbed Empty Bookshelf",
@@ -705,7 +625,6 @@
   "block.valley.cobwebbed_anthropologists_shelf": "Cobwebbed Anthropologist's Shelf",
   "block.valley.dish_shelf": "Dish Shelf",
   "block.valley.cobwebbed_dish_shelf": "Cobwebbed Dish Shelf",
-
   "item.valley.golden_beet": "Golden Beetroot",
   "item.valley.golden_potato": "Golden Potato",
   "item.valley.golden_onion": "Golden Onion",
@@ -716,15 +635,13 @@
   "item.valley.golden_bitter_berries": "Golden Bitter Berries",
   "item.valley.golden_honeycomb": "Golden Honeycomb",
   "item.valley.golden_eggplant": "Golden Eggplant",
-  "item.valley.golden_pepper": "Golden Pepper", 
+  "item.valley.golden_pepper": "Golden Pepper",
   "item.valley.golden_bait": "Golden Bait",
-
   "item.valley.bear_spawn_egg": "Bear Spawn Egg",
   "item.valley.duck_spawn_egg": "Duck Spawn Egg",
   "entity.valley.bear": "Bear",
   "entity.valley.duck": "Duck",
   "item.valley.duck_egg": "Duck Egg",
-  
   "item.valley.trader_helmet": "Trader Head Wrap",
   "item.valley.trader_chestplate": "Trader Coat",
   "item.valley.trader_boots": "Sandals",
@@ -739,7 +656,6 @@
   "item.valley.chef_helmet": "Chef Headband",
   "item.valley.chef_chestplate": "Chef Apron",
   "item.valley.alt_trader_chestplate": "Sleeveless Trader Coat",
-
   "block.valley.morel_logs": "Morel Mushroom Logs",
   "block.valley.red_mushroom_logs": "Brown Mushroom Logs",
   "block.valley.brown_mushroom_logs": "Red Mushroom Logs",
@@ -748,7 +664,6 @@
   "block.valley.miners_crest": "Miner's Crest",
   "block.valley.brown_bear_stuffy": "Brown Bear Stuffy",
   "block.valley.polar_bear_stuffy": "Polar Bear Stuffy",
-
   "block.valley.brick_stove": "Brick Stove",
   "block.valley.cobblestone_stove": "Cobblestone Stove",
   "block.valley.carmine_brick_stove": "Carmine Brick Stove",
@@ -758,20 +673,15 @@
   "block.valley.brick_chimney": "Mixed Brick Chimney",
   "block.valley.carmine_brick_chimney": "Carmine Brick Chimney",
   "block.valley.volcanic_brick_chimney": "Volcanic Brick Chimney",
-
   "block.valley.chiseled_brown_bricks": "Chiseled Mixed Bricks",
   "block.valley.chiseled_volcanic_bricks": "Chiseled Volcanic Bricks",
-
   "block.valley.log_pile": "Log Pile",
   "block.valley.campfire_ring": "Campfire Ring",
-  
   "block.valley.dry_moss": "Dry Moss Block",
   "block.valley.dry_moss_carpet": "Dry Moss Carpet",
-  
   "block.valley.red_seagrass": "Red Seagrass",
   "item.valley.fire_pepper": "Prairie Fire Pepper",
   "item.valley.eggplant": "Eggplant",
-
   "block.valley.diabase": "Diabase",
   "block.valley.green_granite": "Green Granite",
   "block.valley.polished_diabase": "Polished Diabase",
@@ -782,21 +692,17 @@
   "block.valley.polished_pumice": "Polished Pumice",
   "block.valley.polished_jasper": "Polished Jasper",
   "block.valley.polished_limestone": "Polished Limestone",
-  
   "block.valley.bone_torch": "Bone Torch",
   "block.valley.soul_bone_torch": "Soul Bone Torch",
   "block.valley.redstone_bone_torch": "Redstone Bone Torch",
-
   "block.valley.tainted_nether_wart": "Tainted Nether Wart",
   "block.valley.soul_sporecap": "Soul Sporecap",
   "block.valley.rooted_watcher": "Rooted Watcher",
-  
   "entity.valley.fire_eel": "Fire Eel",
   "entity.valley.perch": "Perch",
   "entity.valley.sardine": "Sandine",
   "entity.valley.minnow": "Saltwater Stoneroller Minnow",
   "entity.valley.red_porgy": "Red Porgy",
-
   "text.autoconfig.valley.title": "ValleyCraft Config",
   "text.autoconfig.valley.option.fishing": "Fishing",
   "text.autoconfig.valley.option.fishing.fishingLootEnabled": "Fishing Loot Enabled",
@@ -919,7 +825,6 @@
   "text.autoconfig.valley.option.FishEntry": "Entry",
   "text.autoconfig.valley.option.FishEntry.item": "Item",
   "text.autoconfig.valley.option.FishEntry.weight": "Weight",
-  
   "valleycraft.message.configlangen": "This text block at below has been generated. Check ConfigLangGen class to know more",
   "text.autoconfig.valley.option.fishing.enabled": "Enable Fishing Loot",
   "text.autoconfig.valley.option.fishing.fish": "Fish Loot List",
@@ -1176,7 +1081,6 @@
   "text.autoconfig.valley.option.blobsGenerations.taigaStone.maxOffset": "Y Max Offset",
   "text.autoconfig.valley.option.blobsGenerations.taigaStone.minBelowTop": "Y Min Use Below Top Offset",
   "text.autoconfig.valley.option.blobsGenerations.taigaStone.maxAboveBottom": "Y Max Use Above Bottom Offset",
-
   "text.autoconfig.valley.option.featureGenerations.caveFeatures.glowKelpPatch.enable": "Enable",
   "text.autoconfig.valley.option.featureGenerations.caveFeatures.glowKelpPatch.tries": "Tries",
   "text.autoconfig.valley.option.featureGenerations.caveFeatures.glowKelpPatch.repeat": "Repeat",
@@ -1379,7 +1283,6 @@
   "text.autoconfig.valley.option.mobs.redPorgySpawn.weight": "Weight",
   "text.autoconfig.valley.option.mobs.redPorgySpawn.minGroupSize": "Min Group Size",
   "text.autoconfig.valley.option.mobs.redPorgySpawn.maxGroupSize": "Max Group Size",
-  
   "text.valley.crab_trap.not_waterlogged": "Not Waterlogged",
   "text.valley.crab_trap.invaild_biome": "Invaild Biome"
 }

@@ -137,7 +137,6 @@
   "text.autoconfig.yigd.option.graveSettings.graveRenderSettings.glowMaxDistance.@Tooltip": "Graves will not be able to appear glowing if further than this many blocks away. Defaulted to 10, and WILL NOT go beyond chunk render distance",
   "text.autoconfig.yigd.option.graveSettings.maxGraveBackups": "Max Grave Backups",
   "text.autoconfig.yigd.option.graveSettings.maxGraveBackups.@Tooltip": "Highest amount of deaths backed up for each player. Only connected to grave items, and not the graves themselves",
-
   "text.autoconfig.yigd.option.utilitySettings": "Utility Settings",
   "text.autoconfig.yigd.option.utilitySettings.soulboundEnchant": "Soulbound Enchant",
   "text.autoconfig.yigd.option.utilitySettings.soulboundEnchant.@Tooltip": "Configs to the soulbound enchantment [Require restart]",
@@ -178,7 +177,6 @@
   "text.autoconfig.yigd.option.utilitySettings.graveKeySettings.rebindable.@Tooltip": "Rebindable means you can shift + right click to bind the key to your latest grave",
   "text.autoconfig.yigd.option.utilitySettings.graveKeySettings.graveKeySpecification": "Target Scope",
   "text.autoconfig.yigd.option.utilitySettings.graveKeySettings.graveKeySpecification.@Tooltip": "Which scope the keys will target\nGRAVE: Different keys for all graves\nPLAYER: Different keys for all players\nALL: All keys can unlock all graves (preferably used as an admin only item)",
-
   "text.autoconfig.yigd.option.commandToggles": "Toggle Commands",
   "text.autoconfig.yigd.option.commandToggles.coreCommandName": "Command base name",
   "text.autoconfig.yigd.option.commandToggles.retrieveGrave": "/yigd restore",
@@ -196,7 +194,6 @@
   "text.autoconfig.yigd.option.commandToggles.whitelistRemove": "/yigd whitelist remove [user]",
   "text.autoconfig.yigd.option.commandToggles.whitelistToggle": "/yigd whitelist toggle",
   "text.autoconfig.yigd.option.commandToggles.whitelistToggle.@Tooltip": "Toggles whitelist between whitelist and blacklist mode",
-
   "block.yigd.grave": "Grave",
   "item.yigd.tp_scroll": "Scroll of Return",
   "item.yigd.death_scroll": "Death Scroll",
@@ -205,7 +202,6 @@
   "enchantment.yigd.soulbound.desc": "Keep your items beyond the grave",
   "enchantment.yigd.death_sight": "Death Sight",
   "enchantment.yigd.death_sight.desc": "Activates grave xRay",
-
   "text.yigd.message.too_fast": "You can not retrieve your items in less than a second",
   "text.yigd.message.timeout": "Your grave has been deleted due to you not retrieving it in time",
   "text.yigd.message.timeout.dropped": "Your grave has been deleted and dropped your items due to you not retrieving it in time",
@@ -215,7 +211,6 @@
   "text.yigd.message.retrieve.missing_permission": "You are not allowed to retrieve these items",
   "text.yigd.message.retrieve.missing_key": "You need a key to retrieve your items",
   "text.yigd.message.retrieve.rob_cooldown": "You can retrieve the items from this grave in: %d:%d:%d",
-
   "text.yigd.message.grave_not_found": "No graves found",
   "text.yigd.message.unclaimed_grave_missing": "%s does not have any unclaimed graves",
   "text.yigd.message.rob_command.fail": "Could not find grave to fetch",
@@ -224,51 +219,40 @@
   "text.yigd.message.restore_command.fail": "Could not find grave to fetch",
   "text.yigd.message.restore_command.success": "Restored grave remotely successfully",
   "text.yigd.message.view_command.fail": "%s does not have any registered graves",
-
   "text.yigd.message.scroll_error": "Something went wrong.. The game believes you are holding a %s",
   "text.yigd.message.grave_now_gone": "The grave you're trying to find does no longer exist",
   "text.yigd.message.you_have_no_graves": "You do not have any graves",
   "text.yigd.message.missing_grave_location": "Your grave does not have a registered location",
   "text.yigd.message.cross_dim_error": "You can't travel to your grave from another dimension",
-
   "text.yigd.message.grave_location_info": "Your grave has been generated at\nX: %d / Y: %d / Z: %d / %s",
-
   "text.yigd.message.missing_permission": "You're not allowed to execute the function linked to this command",
   "text.yigd.message.backup.restore.fail": "This player can't restore their items right now",
   "text.yigd.message.backup.delete_one": "Successfully deleted a grave backup",
   "text.yigd.message.backup.delete_player": "Cleared backups for %d players",
-
   "text.yigd.message.whitelist.to_whitelist": "Whitelist will now act as a whitelist",
   "text.yigd.message.whitelist.to_blacklist": "Whitelist will now act as a blacklist",
   "text.yigd.message.whitelist.added_player": "Added %s to whitelist",
   "text.yigd.message.whitelist.removed_player": "Removed %s from whitelist",
-
   "text.yigd.gui.grave_select.title": "Grave Select",
   "text.yigd.gui.grave_view.title": "Grave contents of %s",
   "text.yigd.gui.grave_view.title.missing": "How tf did you find this grave. It has no owner",
   "text.yigd.gui.player_select.title": "Player Select",
-
   "text.yigd.gui.grave_select.show_available": "Show available",
   "text.yigd.gui.grave_select.show_claimed": "Show claimed",
   "text.yigd.gui.grave_select.show_destroyed": "Show destroyed",
   "text.yigd.gui.grave_select.show_status": "Show status",
-
   "text.yigd.gui.player_select.grave_count": "%d graves",
   "text.yigd.gui.player_select.players_with_graves": "Players with graves",
-
   "text.yigd.gui.grave_select.x_items": "%d items",
   "text.yigd.gui.grave_select.x_levels": "%d levels",
   "text.yigd.gui.grave_select.graves_of_user": "Graves of %s",
-
   "text.yigd.gui.grave_view.dim_name": "Dim: %s",
   "text.yigd.gui.grave_view.mod_inv_items": "%d items in mod inventories",
   "text.yigd.gui.grave_view.level_count": "Levels: %d",
-
   "text.yigd.gui.player_select.include_available": "Show available",
   "text.yigd.gui.player_select.include_claimed": "Show claimed",
   "text.yigd.gui.player_select.include_destroyed": "Show destroyed",
   "text.yigd.gui.player_select.show_zero": "Show with 0",
-
   "text.yigd.word.restore": "Restore",
   "text.yigd.word.rob": "Rob",
   "text.yigd.word.delete": "Delete",

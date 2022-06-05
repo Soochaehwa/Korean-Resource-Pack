@@ -5,7 +5,6 @@
   "block.extended_drawers.shadow_drawer": "Shadow Drawer",
   "block.extended_drawers.controller": "Drawer Access Point",
   "block.extended_drawers.connector": "Drawer Connector",
-
   "item.extended_drawers.t1_upgrade": "Drawer Upgrade I",
   "item.extended_drawers.t2_upgrade": "Drawer Upgrade II",
   "item.extended_drawers.t3_upgrade": "Drawer Upgrade III",
@@ -14,6 +13,5 @@
   "item.extended_drawers.creative_upgrade": "Creative Drawer Upgrade",
   "item.extended_drawers.upgrade_frame": "Upgrade Frame",
   "item.extended_drawers.lock": "Drawer Lock",
-
   "itemGroup.extended_drawers.main": "Extended Drawers"
 }

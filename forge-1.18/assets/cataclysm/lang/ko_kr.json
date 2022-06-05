@@ -13,7 +13,6 @@
   "item.cataclysm.void_core.desc": "사용시 공허의 룬을 사용 할 수 있다.",
   "item.cataclysm.wip.desc": "개발자 아이템 추가될 수 도 있고 변경될 수 도 있고 없어질 수 도 있음",
   "you_cant_escape": "넌 벗어날 수 없다.",
-
   "item.cataclysm.enderite_ingot": "엔더라이트 주괴",
   "item.cataclysm.ignitium_ingot": "이그니티움 주괴",
   "item.cataclysm.chain_of_soul_binding": "영혼결속의 사슬",
@@ -33,14 +32,11 @@
   "item.cataclysm.music_disc_ender_guardian": "음반",
   "item.cataclysm.music_disc_netherite_monstrosity.desc": "Cinematic Danger Background Music | No Copyright",
   "item.cataclysm.music_disc_ender_guardian.desc": "Ean Grimm - Eternal",
-
-
   "item.cataclysm.endermaptera_spawn_egg": "엔더마프테라 생성 알",
   "item.cataclysm.ender_golem_spawn_egg": "엔더 골렘 생성 알",
   "item.cataclysm.ender_guardian_spawn_egg": "엔더 수호자 생성 알",
   "item.cataclysm.netherite_monstrosity_spawn_egg": "네더라이트 괴물 생성 알",
   "item.cataclysm.nameless_sorcerer_spawn_egg": "이름없는 마법사 생성 알",
-
   "itemGroup.cataclysm": "대격변",
   "block.cataclysm.witherite_block": "위더라이트 블록",
   "block.cataclysm.enderite_block": "엔더라이트 블록",
@@ -63,12 +59,11 @@
   "block.cataclysm.chorus_stairs": "후렴 계단",
   "block.cataclysm.chorus_fence": "후렴 울타리",
   "block.cataclysm.purpur_wall": "퍼퍼 담장",
-  "block.cataclysm.purpur_void_rune_trap_block":"퍼퍼 함정 블록",
-  "block.cataclysm.end_stone_teleport_trap_bricks":"엔드 함정 석재 벽돌",
-  "block.cataclysm.obsidian_explosion_trap_bricks":"흑요석 함정 벽돌",
-  "block.cataclysm.void_lantern_block":"공허 랜턴 블록",
-  "block.cataclysm.ender_guardian_spawner":"엔더 수호자 스포너",
-
+  "block.cataclysm.purpur_void_rune_trap_block": "퍼퍼 함정 블록",
+  "block.cataclysm.end_stone_teleport_trap_bricks": "엔드 함정 석재 벽돌",
+  "block.cataclysm.obsidian_explosion_trap_bricks": "흑요석 함정 벽돌",
+  "block.cataclysm.void_lantern_block": "공허 랜턴 블록",
+  "block.cataclysm.ender_guardian_spawner": "엔더 수호자 스포너",
   "entity.cataclysm.ender_golem": "엔더 골렘",
   "entity.cataclysm.ender_guardian": "엔더 수호자",
   "entity.cataclysm.ender_guardian_bullet": "엔더 수호자 탄환",
@@ -81,11 +76,9 @@
   "entity.cataclysm.void_shard": "공허의 파편",
   "entity.cataclysm.ignis": "이그니스",
   "entity.cataclysm.cm_falling_block": "대격변 떨어지는 블록",
-
   "effect.cataclysm.monstrous": "괴력",
   "effect.cataclysm.blazing_brand": "불타는 낙인",
   "effect.cataclysm.stun": "기절",
-
   "golemhurt.sub": "엔더 골렘이 상처를 입음",
   "golemdeath.sub": "엔더 골렘이 죽음",
   "golemattack.sub": "엔더 골렘이 공격함",
@@ -107,7 +100,6 @@
   "endermaptera_step.sub": "엔더마프테라가 기어다님",
   "endermaptera_death.sub": "엔더마프테라가 죽음",
   "voidrunerising.sub": "공허의 룬이 솟아남",
-
   "advancements.cataclysm.root.title": "대격변",
   "advancements.cataclysm.root.description": "대격변!",
   "advancements.cataclysm.find_ruined_citadel.title": "폐허가 된 성채",

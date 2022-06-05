@@ -1,6 +1,5 @@
 {
   "itemGroup.hoverpets.hoverpets": "Hover Pets",
-
   "entity.hoverpets.blaze_pet": "Blaze Pet",
   "item.hoverpets.blaze_pet": "Blaze Pet",
   "entity.hoverpets.ocelot_pet": "Ocelot Pet",
@@ -27,11 +26,9 @@
   "item.hoverpets.enderman_pet": "Enderman Pet",
   "entity.hoverpets.slime_pet": "Slime Pet",
   "item.hoverpets.slime_pet": "Slime Pet",
-
   "tooltip.hoverpets.shift": "Hold Shift for More Info",
   "tooltip.hoverpets.one_pet": "You may only have one pet at a time!",
   "tooltip.hoverpets.no_permission": "You don't have permission to use this pet!",
-
   "tooltip.hoverpets.blaze_pet": "Instantly extinguishes the player when on fire",
   "tooltip.hoverpets.ocelot_pet": "Grants permanent Speed III",
   "tooltip.hoverpets.chicken_pet": "Chance to pluck a random seed from the ground",
@@ -44,10 +41,8 @@
   "tooltip.hoverpets.panda_pet": "Randomly replenishes a portion of your hunger",
   "tooltip.hoverpets.witch_pet": "Splashes Villagers, Iron Golems, and Players with healing potions",
   "tooltip.hoverpets.enderman_pet": "Teleports you 10 blocks forward when pressing the Pet Key. Cooldown: 5s",
-
   "command.hoverpets.removepet": "Removed pet for %s",
   "command.hoverpets.removepets": "Removed pets for %s Players",
-
   "key.hoverpets.pet_ability": "Use Pet Ability",
   "category.hoverpets.hoverpets": "Hover Pets"
 }

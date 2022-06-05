@@ -22,7 +22,6 @@
   "item.blast.frost_trigger_bomb": "Frost Trigger Bomb",
   "item.blast.slime_bomb": "Slime Bomb",
   "item.blast.slime_trigger_bomb": "Slime Trigger Bomb",
-
   "entity.blast.bombard": "Bombard",
   "entity.blast.slime_bombard": "Slime Bombard",
   "entity.blast.amethyst_bombard": "Amethyst Bombard",
@@ -51,12 +50,10 @@
   "entity.blast.cold_digger": "Cold Digger",
   "entity.blast.amethyst_shard": "Amethyst Shard",
   "entity.blast.icicle": "Icicle",
-
   "block.blast.gunpowder_block": "Gunpowder Block",
   "block.blast.stripminer": "Stripminer",
   "block.blast.cold_digger": "Cold Digger",
   "block.blast.dry_ice": "Dry Ice",
-
   "death.attack.amethyst_shard": "%1$s was shanked by an amethyst shard from %2$s's amethyst bomb",
   "death.attack.icicle": "%1$s was iced by %2$s"
 }

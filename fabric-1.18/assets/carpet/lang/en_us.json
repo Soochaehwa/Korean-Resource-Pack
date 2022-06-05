@@ -1,24 +1,11 @@
-// This file isn't necessary at all, because the language module would use the strings coded in the source if language "none" is selected.
-// So en_us is the default language and probably no change will be made after loading this file.
-// But it could be a good example for writing the language file for other languages.
-
 {
   "// Rules:": "",
   "rule.portalSuffocationFix.name": "",
-  "// the key is genetated as:" : "String.format('rule.%s.name', rule.name)",
-
-
+  "// the key is genetated as:": "String.format('rule.%s.extra.%i', rule.name, index)",
   "rule.portalSuffocationFix.desc": "",
-  "// the key is genetated as:" : "String.format('rule.%s.desc', rule.name)",
-
-
   "rule.portalSuffocationFix.extra.0": "",
   "rule.portalSuffocationFix.extra.1": "",
-  "// the key is genetated as:" : "String.format('rule.%s.extra.%i', rule.name, index)",
-
-
   "// Categories:": "",
-
   "category.bugfix": "bugfix",
   "category.survival": "survival",
   "category.creative": "creative",
@@ -30,9 +17,7 @@
   "category.dispenser": "dispenser",
   "category.scarpet": "scarpet",
   "category.client": "client",
-
   "// Settings command UI elements": "",
-
   "ui.browse_categories": "Browse categories",
   "ui.list_all_%(cat)s_settings": "list all %s settings",
   "ui.version": "Version",
@@ -50,5 +35,4 @@
   "ui.rule_%(rule)s_will_now_default_to_%(value)s": "Rule %s will now default to %s",
   "ui.rule_%(rule)s_not_set_restart": "Rule %s will now not be set on restart",
   "ui.current_value": "current value"
-
 }

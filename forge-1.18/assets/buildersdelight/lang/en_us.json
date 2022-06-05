@@ -2,20 +2,16 @@
   "itemGroup.tab_blocks": "Builder's Delight | Blocks",
   "itemGroup.tab_decoration": "Builder's Delight | Decoration",
   "itemGroup.tab_materials": "Builder's Delight | Materials",
-
   "container.iron_chisel": "Iron Chisel",
   "container.iron_hammer": "Iron Hammer",
-
   "item.buildersdelight.iron_chisel": "Iron Chisel",
   "iron_chisel.tooltip": "§6Right-click §7while in hand - used for blocks!",
   "item.buildersdelight.iron_saw": "Iron Saw",
   "iron_saw.tooltip": "§7Combine With Any Planks To Make A Single Plank",
   "item.buildersdelight.iron_hammer": "Iron Hammer",
   "iron_hammer.tooltip": "§6Right-click §7while in hand - used for decoration!",
-
   "advancements.crafted_iron_chisel.title": "Endless Possibilities?",
   "advancements.crafted_iron_chisel.descr": "Congrats! You now have access to everything Builders Delight has to offer, or do you?",
-
   "item.buildersdelight.acacia_plank": "Acacia Plank",
   "acacia_plank.tooltip": "§7Combine With Strings",
   "item.buildersdelight.acacia_furniture_kit": "Acacia Furniture Kit",
@@ -48,7 +44,6 @@
   "warped_plank.tooltip": "§7Combine With Strings",
   "item.buildersdelight.warped_furniture_kit": "Warped Furniture Kit",
   "warped_furniture_kit.tooltip": "§7Use The Hammer To Craft Into Furniture",
-
   "block.buildersdelight.chain_1": "Chain",
   "chain_1.tooltip": "§7Golden",
   "block.buildersdelight.chain_2": "Chain",
@@ -59,7 +54,6 @@
   "chain_4.tooltip": "§7Large",
   "block.buildersdelight.chain_5": "Chain",
   "chain_5.tooltip": "§7Actually Modeled",
-
   "block.buildersdelight.lantern_1": "Lantern",
   "lantern_1.tooltip": "§7Red Paper Lamp",
   "block.buildersdelight.lantern_2": "Lantern",
@@ -72,7 +66,6 @@
   "lantern_5.tooltip": "§7Brazier",
   "block.buildersdelight.lantern_6": "Lantern",
   "lantern_6.tooltip": "§7Candle Holder",
-
   "block.buildersdelight.soul_lantern_1": "Soul Lantern",
   "soul_lantern_1.tooltip": "§7Red Paper Lamp",
   "block.buildersdelight.soul_lantern_2": "Soul Lantern",
@@ -83,7 +76,6 @@
   "soul_lantern_4.tooltip": "§7Wooden",
   "block.buildersdelight.soul_lantern_5": "Soul Lantern",
   "soul_lantern_5.tooltip": "§7Brazier",
-
   "block.buildersdelight.acacia_chair_1": "Acacia Seating",
   "acacia_chair_1.tooltip": "§7Chair",
   "block.buildersdelight.birch_chair_1": "Birch Seating",
@@ -116,7 +108,6 @@
   "spruce_chair_2.tooltip": "§7Stool",
   "block.buildersdelight.warped_chair_2": "Warped Seating",
   "warped_chair_2.tooltip": "§7Stool",
-
   "block.buildersdelight.acacia_table_1": "Acacia Table",
   "acacia_table_1.tooltip": "§7Small Table",
   "block.buildersdelight.birch_table_1": "Birch Table",
@@ -149,7 +140,6 @@
   "spruce_table_2.tooltip": "§7Glass Inlay",
   "block.buildersdelight.warped_table_2": "Warped Table",
   "warped_table_2.tooltip": "§7Glass Inlay",
-
   "block.buildersdelight.acacia_planks_1": "Acacia Planks",
   "acacia_planks_1.tooltip": "§7Vertical",
   "block.buildersdelight.acacia_planks_2": "Acacia Planks",
@@ -240,7 +230,6 @@
   "acacia_glass_pane_7.tooltip": "§7Diamond",
   "block.buildersdelight.acacia_glass_pane_8": "Acacia Glass Pane",
   "acacia_glass_pane_8.tooltip": "§7Window",
-
   "block.buildersdelight.birch_planks_1": "Birch Planks",
   "birch_planks_1.tooltip": "§7Vertical",
   "block.buildersdelight.birch_planks_2": "Birch Planks",
@@ -331,7 +320,6 @@
   "birch_glass_pane_7.tooltip": "§7Diamond",
   "block.buildersdelight.birch_glass_pane_8": "Birch Glass Pane",
   "birch_glass_pane_8.tooltip": "§7Window",
-
   "block.buildersdelight.crimson_planks_1": "Crimson Planks",
   "crimson_planks_1.tooltip": "§7Vertical",
   "block.buildersdelight.crimson_planks_2": "Crimson Planks",
@@ -422,7 +410,6 @@
   "crimson_glass_pane_7.tooltip": "§7Diamond",
   "block.buildersdelight.crimson_glass_pane_8": "Crimson Glass Pane",
   "crimson_glass_pane_8.tooltip": "§7Window",
-
   "block.buildersdelight.dark_oak_planks_1": "Dark Oak Planks",
   "dark_oak_planks_1.tooltip": "§7Vertical",
   "block.buildersdelight.dark_oak_planks_2": "Dark Oak Planks",
@@ -513,7 +500,6 @@
   "dark_oak_glass_pane_7.tooltip": "§7Diamond",
   "block.buildersdelight.dark_oak_glass_pane_8": "Dark Oak Glass Pane",
   "dark_oak_glass_pane_8.tooltip": "§7Window",
-
   "block.buildersdelight.jungle_planks_1": "Jungle Planks",
   "jungle_planks_1.tooltip": "§7Vertical",
   "block.buildersdelight.jungle_planks_2": "Jungle Planks",
@@ -604,7 +590,6 @@
   "jungle_glass_pane_7.tooltip": "§7Diamond",
   "block.buildersdelight.jungle_glass_pane_8": "Jungle Glass Pane",
   "jungle_glass_pane_8.tooltip": "§7Window",
-
   "block.buildersdelight.oak_planks_1": "Oak Planks",
   "oak_planks_1.tooltip": "§7Vertical",
   "block.buildersdelight.oak_planks_2": "Oak Planks",
@@ -695,7 +680,6 @@
   "oak_glass_pane_7.tooltip": "§7Diamond",
   "block.buildersdelight.oak_glass_pane_8": "Oak Glass Pane",
   "oak_glass_pane_8.tooltip": "§7Window",
-
   "block.buildersdelight.spruce_planks_1": "Spruce Planks",
   "spruce_planks_1.tooltip": "§7Vertical",
   "block.buildersdelight.spruce_planks_2": "Spruce Planks",
@@ -786,7 +770,6 @@
   "spruce_glass_pane_7.tooltip": "§7Diamond",
   "block.buildersdelight.spruce_glass_pane_8": "Spruce Glass Pane",
   "spruce_glass_pane_8.tooltip": "§7Window",
-
   "block.buildersdelight.warped_planks_1": "Warped Planks",
   "warped_planks_1.tooltip": "§7Vertical",
   "block.buildersdelight.warped_planks_2": "Warped Planks",
@@ -877,7 +860,6 @@
   "warped_glass_pane_7.tooltip": "§7Diamond",
   "block.buildersdelight.warped_glass_pane_8": "Warped Glass Pane",
   "warped_glass_pane_8.tooltip": "§7Window",
-
   "block.buildersdelight.candyland_1": "Candy Block",
   "candyland_1.tooltip": "§7Chocolate Block",
   "block.buildersdelight.candyland_2": "Candy Block",
@@ -886,7 +868,6 @@
   "candyland_3.tooltip": "§7Candy Cane",
   "block.buildersdelight.candyland_4": "Candy Block",
   "candyland_4.tooltip": "§7Cookie Block",
-
   "block.buildersdelight.stone_bricks_1": "Stone Bricks",
   "stone_bricks_1.tooltip": "§7Chiseled",
   "block.buildersdelight.stone_bricks_2": "Stone Bricks",
@@ -929,7 +910,6 @@
   "stone_brick_slab_6.tooltip": "§7Small",
   "block.buildersdelight.stone_brick_slab_7": "Stone Brick Slab",
   "stone_brick_slab_7.tooltip": "§7Knoted",
-
   "block.buildersdelight.bricks_1": "Bricks",
   "bricks_1.tooltip": "§7Large",
   "block.buildersdelight.bricks_2": "Bricks",
@@ -972,7 +952,6 @@
   "brick_slab_6.tooltip": "§7Tiles",
   "block.buildersdelight.brick_slab_7": "Brick Slab",
   "brick_slab_7.tooltip": "§7Knoted",
-
   "block.buildersdelight.deepslate_1": "Deepslate",
   "deepslate_1.tooltip": "§7Tiles",
   "block.buildersdelight.deepslate_2": "Deepslate",
@@ -1003,7 +982,6 @@
   "deepslate_slab_4.tooltip": "§7Knoted",
   "block.buildersdelight.deepslate_slab_5": "Deepslate Slab",
   "deepslate_slab_5.tooltip": "§7Parquet",
-
   "block.buildersdelight.sandstone_1": "Sandstone",
   "sandstone_1.tooltip": "§7Parquet",
   "block.buildersdelight.sandstone_2": "Sandstone",
@@ -1036,7 +1014,6 @@
   "sandstone_slab_4.tooltip": "§7Chiseled",
   "block.buildersdelight.sandstone_slab_5": "Sandstone Slab Cut",
   "sandstone_slab_5.tooltip": "§7Cut",
-
   "block.buildersdelight.prismarine_1": "Prismarine",
   "prismarine_1.tooltip": "§7Chiseled",
   "block.buildersdelight.prismarine_2": "Prismarine",
@@ -1073,7 +1050,6 @@
   "prismarine_slab_5.tooltip": "§7Knoted",
   "block.buildersdelight.prismarine_slab_6": "Prismarine Slab",
   "prismarine_slab_6.tooltip": "§7Pillar",
-
   "block.buildersdelight.amethyst_block_1": "Amethyst Block",
   "amethyst_block_1.tooltip": "§7Cut",
   "block.buildersdelight.amethyst_block_2": "Amethyst Block",
@@ -1120,14 +1096,12 @@
   "amethyst_slab_7.tooltip": "§7Diamond",
   "block.buildersdelight.amethyst_slab_8": "Amethyst Slab",
   "amethyst_slab_8.tooltip": "§7Raw",
-
   "block.buildersdelight.laboratory_1": "Laboratory Block",
   "laboratory_1.tooltip": "§7Tiles",
   "block.buildersdelight.laboratory_2": "Laboratory Block",
   "laboratory_2.tooltip": "§7Diamond",
   "block.buildersdelight.laboratory_3": "Laboratory Block",
   "laboratory_3.tooltip": "§7Pulsing",
-
   "block.buildersdelight.blackstone_1": "Blackstone",
   "blackstone_1.tooltip": "§7Cut",
   "block.buildersdelight.blackstone_2": "Blackstone",
@@ -1140,7 +1114,6 @@
   "blackstone_5.tooltip": "§7Bricks",
   "block.buildersdelight.blackstone_6": "Blackstone",
   "blackstone_6.tooltip": "§7Pillar",
-
   "block.buildersdelight.gilded_blackstone_1": "Gilded Blackstone",
   "gilded_blackstone_1.tooltip": "§7Cut",
   "block.buildersdelight.gilded_blackstone_2": "Gilded Blackstone",
@@ -1149,7 +1122,6 @@
   "gilded_blackstone_3.tooltip": "§7Tiles",
   "block.buildersdelight.gilded_blackstone_4": "Gilded Blackstone",
   "gilded_blackstone_4.tooltip": "§7Pillar",
-
   "block.buildersdelight.nether_bricks_1": "Nether Bricks",
   "nether_bricks_1.tooltip": "§7Cut",
   "block.buildersdelight.nether_bricks_2": "Nether Bricks",
@@ -1162,7 +1134,6 @@
   "nether_bricks_5.tooltip": "§7Bricks",
   "block.buildersdelight.nether_bricks_6": "Nether Bricks",
   "nether_bricks_6.tooltip": "§7Pillar",
-
   "block.buildersdelight.gilded_nether_bricks_1": "Gilded Nether Bricks",
   "gilded_nether_bricks_1.tooltip": "§7Cut",
   "block.buildersdelight.gilded_nether_bricks_2": "Gilded Nether Bricks",
@@ -1171,7 +1142,6 @@
   "gilded_nether_bricks_3.tooltip": "§7Tiles",
   "block.buildersdelight.gilded_nether_bricks_4": "Gilded Nether Bricks",
   "gilded_nether_bricks_4.tooltip": "§7Pillar",
-
   "block.buildersdelight.warning_stripes_1": "Warning Stripes",
   "warning_stripes_1.tooltip": "§7Orange - White",
   "block.buildersdelight.warning_stripes_2": "Warning Stripes",
@@ -1188,7 +1158,6 @@
   "warning_stripes_7.tooltip": "§7Red - Black",
   "block.buildersdelight.warning_stripes_8": "Warning Stripes",
   "warning_stripes_8.tooltip": "§7Candy Cane",
-
   "block.buildersdelight.industrial_1": "Industrial Block",
   "industrial_1.tooltip": "§7Warning Stripes",
   "block.buildersdelight.industrial_2": "Industrial Block",
@@ -1205,7 +1174,6 @@
   "industrial_7.tooltip": "§7Modern Light",
   "block.buildersdelight.industrial_8": "Industrial Block",
   "industrial_8.tooltip": "§7Concrete Block",
-
   "block.buildersdelight.industrial_flat_1": "Industrial Block Flat",
   "industrial_flat_1.tooltip": "§7Warning Stripes",
   "block.buildersdelight.industrial_flat_2": "Industrial Block Flat",
@@ -1222,7 +1190,6 @@
   "industrial_flat_7.tooltip": "§7Modern Light",
   "block.buildersdelight.industrial_flat_8": "Industrial Block Flat",
   "industrial_flat_8.tooltip": "§7Concrete Block",
-
   "block.buildersdelight.glass_1": "Glass Block",
   "glass_1.tooltip": "§7Black Curls",
   "block.buildersdelight.glass_2": "Glass Block",
@@ -1237,7 +1204,6 @@
   "glass_6.tooltip": "§7Iron Diamond",
   "block.buildersdelight.glass_7": "Glass Block",
   "glass_7.tooltip": "§7Iron Cubic",
-
   "block.buildersdelight.glass_pane_1": "Glass Pane",
   "glass_pane_1.tooltip": "§7Black Curls",
   "block.buildersdelight.glass_pane_2": "Glass Pane",
@@ -1252,7 +1218,6 @@
   "glass_pane_6.tooltip": "§7Iron Diamond",
   "block.buildersdelight.glass_pane_7": "Glass Pane",
   "glass_pane_7.tooltip": "§7Iron Cubic",
-
   "block.buildersdelight.calcite_2": "Calcite Block",
   "calcite_2.tooltip": "§7Large Tiles",
   "block.buildersdelight.calcite_3": "Calcite Block",
@@ -1299,7 +1264,6 @@
   "calcite_slab_7.tooltip": "§7Tiles",
   "block.buildersdelight.calcite_slab_8": "Calcite Slab",
   "calcite_slab_8.tooltip": "§7Knoted",
-
   "block.buildersdelight.dripstone_1": "Dripstone Block",
   "dripstone_1.tooltip": "§7Pillar",
   "block.buildersdelight.dripstone_2": "Dripstone Block",
@@ -1346,7 +1310,6 @@
   "dripstone_slab_7.tooltip": "§7Cut",
   "block.buildersdelight.dripstone_slab_8": "Dripstone Slab",
   "dripstone_slab_8.tooltip": "§7Raw",
-
   "block.buildersdelight.tuff_1": "Tuff Block",
   "tuff_1.tooltip": "§7Pillar",
   "block.buildersdelight.tuff_2": "Tuff Block",
@@ -1393,7 +1356,6 @@
   "tuff_slab_7.tooltip": "§7Small Bricks",
   "block.buildersdelight.tuff_slab_8": "Tuff Slab",
   "tuff_slab_8.tooltip": "§7Raw",
-
   "block.buildersdelight.andesite_1": "Andesite",
   "andesite_1.tooltip": "§7Pillar",
   "block.buildersdelight.andesite_2": "Andesite",
@@ -1436,7 +1398,6 @@
   "andesite_slab_6.tooltip": "§7Small Bricks",
   "block.buildersdelight.andesite_slab_7": "Andesite Slab",
   "andesite_slab_7.tooltip": "§7Bricks",
-
   "block.buildersdelight.cobblestone_1": "Cobblestone",
   "cobblestone_1.tooltip": "§7Pillar",
   "block.buildersdelight.cobblestone_2": "Cobblestone",
@@ -1479,7 +1440,6 @@
   "cobblestone_slab_6.tooltip": "§7Small Bricks",
   "block.buildersdelight.cobblestone_slab_7": "Cobblestone Slab",
   "cobblestone_slab_7.tooltip": "§7Bricks",
-
   "block.buildersdelight.diorite_1": "Diorite",
   "diorite_1.tooltip": "§7Pillar",
   "block.buildersdelight.diorite_2": "Diorite",
@@ -1522,7 +1482,6 @@
   "diorite_slab_6.tooltip": "§7Small Bricks",
   "block.buildersdelight.diorite_slab_7": "Diorite Slab",
   "diorite_slab_7.tooltip": "§7Bricks",
-
   "block.buildersdelight.granite_1": "Granite",
   "granite_1.tooltip": "§7Pillar",
   "block.buildersdelight.granite_2": "Granite",

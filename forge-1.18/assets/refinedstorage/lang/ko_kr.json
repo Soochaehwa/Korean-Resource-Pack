@@ -1,14 +1,12 @@
 {
   "itemGroup.refinedstorage": "리파인드 스토리지",
   "itemGroup.refinedstorage.covers": "리파인드 스토리지 커버즈",
-
   "key.refinedstorage.focusSearchBar": "그리드 검색",
   "key.refinedstorage.clearGridCraftingMatrix": "그리드 제작 매트릭스 지우기",
   "key.refinedstorage.openWirelessGrid": "무선 그리드 열기",
   "key.refinedstorage.openWirelessFluidGrid": "무선 액체 그리드 열기",
   "key.refinedstorage.openPortableGrid": "휴대용 그리드 열기",
   "key.refinedstorage.openWirelessCraftingMonitor": "무선 제작 모니터 열기",
-
   "gui.refinedstorage.controller": "콘트롤러",
   "gui.refinedstorage.creative_controller": "크리에이티브 콘트롤러",
   "gui.refinedstorage.grid": "그리드",
@@ -104,16 +102,13 @@
   "misc.refinedstorage.network_item.shortcut_not_found": "인벤토리에 %s이(가) 없습니다.",
   "misc.refinedstorage.network_item.shortcut_duplicate": "인벤토리에 두 개 이상의 %s이(가) 있습니다.",
   "misc.refinedstorage.network_item.out_of_energy": "%s의 에너지가 부족합니다.",
-
   "misc.refinedstorage.network_card.tooltip": "%d, %d, %d로 연결됨",
-
   "misc.refinedstorage.pattern.inputs": "입력",
   "misc.refinedstorage.pattern.outputs": "출력",
   "misc.refinedstorage.pattern.invalid": "잘못된 패턴",
   "misc.refinedstorage.pattern.exact": "정확한 모드 사용",
   "misc.refinedstorage.pattern.allowed_item_tag": "%s에 대해 %s의 아이템을 사용합니다.",
   "misc.refinedstorage.pattern.allowed_fluid_tag": "%s에 대해 %s의 액체를 사용합니다.",
-
   "misc.refinedstorage.pattern.error.processing_no_outputs": "처리 패턴에 출력이 없습니다.",
   "misc.refinedstorage.pattern.error.no_output": "제작법에 출력이 없습니다.",
   "misc.refinedstorage.pattern.error.recipe_does_not_exist": "제작법이 존재하지 않습니다.",
@@ -141,22 +136,18 @@
   "misc.refinedstorage.last_modified.weeks": "%s에 의해 %d주 전에 마지막으로 수정됨",
   "misc.refinedstorage.last_modified.year": "%s에 의해 %d년 전에 마지막으로 수정됨",
   "misc.refinedstorage.last_modified.years": "%s에 의해 %d년 전에 마지막으로 수정됨",
-
   "sidebutton.refinedstorage.exact_mode": "정확한 모드",
   "sidebutton.refinedstorage.exact_mode.on": "켜짐",
   "sidebutton.refinedstorage.exact_mode.off": "꺼짐",
-
   "sidebutton.refinedstorage.redstone_mode": "레드스톤 모드",
   "sidebutton.refinedstorage.redstone_mode.0": "신호와 상관 없이 작동",
   "sidebutton.refinedstorage.redstone_mode.1": "신호를 받을 때 작동",
   "sidebutton.refinedstorage.redstone_mode.2": "신호를 받지 않을 때 작동",
-  
   "sidebutton.refinedstorage.crafter_mode": "제작기 모드",
   "sidebutton.refinedstorage.crafter_mode.0": "레드스톤 신호 무시",
   "sidebutton.refinedstorage.crafter_mode.1": "레드스톤 신호가 자동 제작의 잠금을 해제합니다.",
   "sidebutton.refinedstorage.crafter_mode.2": "레드스톤 신호가 자동 제작을 잠급니다.",
   "sidebutton.refinedstorage.crafter_mode.3": "레드스톤 펄스가 다음 세트를 삽입합니다.",
-
   "sidebutton.refinedstorage.grid.view_type": "표시",
   "sidebutton.refinedstorage.grid.view_type.0": "일반",
   "sidebutton.refinedstorage.grid.view_type.1": "제작 가능 아이템 숨김",
@@ -182,19 +173,15 @@
   "sidebutton.refinedstorage.grid.size.1": "작음",
   "sidebutton.refinedstorage.grid.size.2": "중간",
   "sidebutton.refinedstorage.grid.size.3": "큼",
-
   "sidebutton.refinedstorage.mode": "모드",
   "sidebutton.refinedstorage.mode.whitelist": "화이트리스트",
   "sidebutton.refinedstorage.mode.blacklist": "블랙리스트",
-
   "sidebutton.refinedstorage.iomode": "입출력 모드",
   "sidebutton.refinedstorage.iomode.insert": "네트워크로 입력",
   "sidebutton.refinedstorage.iomode.extract": "네트워크에서 출력",
-
   "sidebutton.refinedstorage.type": "종류",
   "sidebutton.refinedstorage.type.0": "아이템",
   "sidebutton.refinedstorage.type.1": "액체",
-
   "sidebutton.refinedstorage.detector.mode": "모드",
   "sidebutton.refinedstorage.detector.mode.0": "수량 이하일 때 신호 출력",
   "sidebutton.refinedstorage.detector.mode.1": "수량과 일치할 때 신호 출력",

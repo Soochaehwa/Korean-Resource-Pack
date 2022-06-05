@@ -1,50 +1,40 @@
 {
   "itemGroup.travelersbackpack.group": "여행자의 배낭",
-
   "key.travelersbackpack.category": "여행자의 배낭",
   "key.travelersbackpack.inventory": "배낭 인벤토리",
   "key.travelersbackpack.toggle_tank": "호스가 연결된 탱크 변경",
   "key.travelersbackpack.cycle_tool": "도구/호스 모드 변경",
-
   "action.travelersbackpack.unequip_nobackpack": "내려놓을 배낭이 없습니다.",
   "action.travelersbackpack.unequip_nospace": "빈 공간이 없어 배낭을 인벤토리에 넣을 수 없습니다.",
   "action.travelersbackpack.equip_otherbackpack": "이미 다른 배낭을 매고 있습니다.",
   "action.travelersbackpack.equip_fail": "배낭을 맬 수 없습니다.",
   "action.travelersbackpack.deploy_sleeping_bag": "침낭을 펼칠 수 없습니다! 주변 공간을 확인하세요.",
-
   "information.travelersbackpack.backpack_coords": "배낭이 다음 위치에 설치되었습니다:",
   "information.travelersbackpack.backpack_drop": "배낭을 놓을 자리가 없습니다! 다음 위치에 배낭 아이템을 드롭합니다:",
-
   "screen.travelersbackpack.none": "없음",
   "screen.travelersbackpack.empty": "비어 있음",
   "screen.travelersbackpack.empty_tank": "비우기",
   "screen.travelersbackpack.disabled_crafting": "조합이 비활성화되었습니다",
-
   "obtain.travelersbackpack.bat": "폐광과 던전 상자에서 획득 가능",
   "obtain.travelersbackpack.iron_golem": "마을 대장간 상자에서 획득 가능",
   "obtain.travelersbackpack.electric": "다이아몬드 배낭을 매고 번개를 맞아 획득 가능",
   "obtain.travelersbackpack.pigman": "돼지 배낭을 매고 번개를 맞아 획득 가능",
   "obtain.travelersbackpack.deluxe": "지하 요새에서 획득 가능",
   "obtain.travelersbackpack.villager": "성직자나 사서 주민에게서 구매하여 획득 가능",
-
   "block.travelersbackpack.travelers_backpack": "여행자의 배낭",
   "block.travelersbackpack.sleeping_bag": "침낭",
-
   "item.travelersbackpack.backpack_tank": "배낭 탱크",
   "item.travelersbackpack.hose_nozzle": "호스 분사구",
   "item.travelersbackpack.hose": "호스",
-
   "item.travelersbackpack.hose.suck": "흡입 모드",
   "item.travelersbackpack.hose.spill": "방출 모드",
   "item.travelersbackpack.hose.drink": "음용 모드",
-
   "hose.travelersbackpack.not_assigned": "할당된 호스 없음",
   "hose.travelersbackpack.current_mode_suck": "현재 모드: 흡입",
   "hose.travelersbackpack.current_mode_spill": "현재 모드: 방출",
   "hose.travelersbackpack.current_mode_drink": "현재 모드: 음용",
   "hose.travelersbackpack.current_tank_left": "현재 탱크: 좌측",
   "hose.travelersbackpack.current_tank_right": "현재 탱크: 우측",
-
   "block.travelersbackpack.standard": "일반",
   "block.travelersbackpack.netherite": "네더라이트",
   "block.travelersbackpack.diamond": "다이아몬드",
@@ -54,16 +44,12 @@
   "block.travelersbackpack.lapis": "청금석",
   "block.travelersbackpack.redstone": "레드스톤",
   "block.travelersbackpack.coal": "석탄",
-
   "block.travelersbackpack.quartz": "석영",
   "block.travelersbackpack.bookshelf": "책장",
-
   "block.travelersbackpack.hay": "건초 더미",
   "block.travelersbackpack.melon": "수박",
   "block.travelersbackpack.pumpkin": "호박",
-
   "block.travelersbackpack.blaze": "블레이즈",
-
   "block.travelersbackpack.bat": "박쥐",
   "block.travelersbackpack.wolf": "늑대",
   "block.travelersbackpack.fox": "여우",
@@ -72,7 +58,6 @@
   "block.travelersbackpack.pig": "돼지",
   "block.travelersbackpack.chicken": "닭",
   "block.travelersbackpack.villager": "주민",
-
   "block.travelersbackpack.brown_mushroom": "갈색 버섯",
   "block.travelersbackpack.cactus": "선인장",
   "block.travelersbackpack.cake": "케이크",

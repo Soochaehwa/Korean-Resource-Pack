@@ -1,7 +1,7 @@
 {
-    "block.ironchests.copper_chest": "구리 상자",
-    "block.ironchests.iron_chest": "철 상자",
-    "block.ironchests.gold_chest": "금 상자",
-    "block.ironchests.diamond_chest": "다이아몬드 상자",
-    "block.ironchests.obsidian_chest": "흑요석 상자"
+  "block.ironchests.copper_chest": "구리 상자",
+  "block.ironchests.iron_chest": "철 상자",
+  "block.ironchests.gold_chest": "금 상자",
+  "block.ironchests.diamond_chest": "다이아몬드 상자",
+  "block.ironchests.obsidian_chest": "흑요석 상자"
 }
