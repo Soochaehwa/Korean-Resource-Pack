@@ -243,7 +243,7 @@
     "block.architects_palette.abyssaline_tile_vertical_slab": "아비살린 타일 수직 반블록",
     "block.architects_palette.myonite_vertical_slab": "묘나이트 세로 반블록",
     "itemGroup.architects_palette.everything": "건축가의 팔레트",
-    "architects_palette.misc.no_quark": "Quark Mode를 설치해야 합니다",
+    "architects_palette.misc.no_quark": "Quark Mod를 설치해야 합니다",
     "architects_palette.info.chiseled_chargeable": "이 블록에 바다의 심장을 배치하여 연결된 모든 블록을 충전할 수 있습니다.",
     "architects_palette.info.chargeable": "이 블록은 꿀로만든 벽돌로부터 전력을 공급받을 수 있습니다. 자세한 내용은 해당 블록을 확인하십시오.",
     "architects_palette.info.cage_lanterns": "레드스톤을 통해 활성화할 수 있습니다. 레드스톤 감도가 반전될 수도 있습니다!(오른쪽 클릭)",
