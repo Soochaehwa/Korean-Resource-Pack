@@ -1,1 +1,5 @@
-{}
+{
+    "tooltip.name": "§7- %s",
+    "tooltip.bees": "§6%d 벌",
+    "tooltip.honey": "§6%s 꿀"
+}
