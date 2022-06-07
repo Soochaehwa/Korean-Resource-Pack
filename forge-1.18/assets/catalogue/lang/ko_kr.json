@@ -1,1 +1,5 @@
-{}
+{
+    "fml.menu.mods.filter_updates": "업데이트가 있는 모드만 표시됩니다",
+    "catalogue.gui.no_selection": "선택된 모드가 없습니다...",
+    "catalogue.gui.info": "이 메뉴는 Catalogue 모드에 의하여 재 디자인 되었습니다. 이곳을 클릭하여 이 모드의 페이지로 이동하세요!"
+}
