@@ -1,1 +1,20 @@
-{}
+{
+    "container.backpack": "배낭",
+    "block.backpacked.birch_backpack_shelf": "자작나무 배낭 선반",
+    "block.backpacked.jungle_backpack_shelf": "정글 나무 배낭 선반",
+    "block.backpacked.dark_oak_backpack_shelf": "짙은 참나무 배낭 선반",
+    "block.backpacked.acacia_backpack_shelf": "아카시아 나무 배낭 선반",
+    "block.backpacked.crimson_backpack_shelf": "진홍빛 자루 배낭 선반",
+    "block.backpacked.warped_backpack_shelf": "뒤틀린 자루 배낭 선반",
+    "key.backpack": "배낭 열기",
+    "backpacked.configgui.keepBackpackOnDeath": "죽은 후에도 배낭은 사라지지 않습니다",
+    "backpacked.gui.locked": "잠김",
+    "backpacked.toast.unlocked_backpack": "배낭 잠금 해제",
+    "backpacked.button.open_backpack": "배낭 열기",
+    "backpacked.button.reset": "초기화",
+    "backpacked.button.save": "저장",
+    "item.backpacked.backpack": "배낭",
+    "block.backpacked.oak_backpack_shelf": "참나무 배낭 선반",
+    "block.backpacked.spruce_backpack_shelf": "가문비나무 배낭 선반",
+    "backpacked.button.customise.tooltip": "사용자 지정"
+}
