@@ -1,1 +1,13 @@
-{}
+{
+    "itemGroup.chancecubes": "찬스 큐브",
+    "block.chancecubes.chance_cube": "찬스 큐브",
+    "block.chancecubes.chance_icosahedron": "이십면체 찬스 큐브",
+    "block.chancecubes.giant_chance_cube": "거대한 찬스 큐브",
+    "block.chancecubes.compact_giant_chance_cube": "휴대용 거대한 찬스 큐브",
+    "block.chancecubes.cube_dispenser": "찬스 큐브 발사기",
+    "item.chancecubes.chance_pendant_tier1": "티어 1 찬스 큐브 펜던트",
+    "item.chancecubes.chance_pendant_tier2": "티어 2 찬스 큐브 펜던트",
+    "item.chancecubes.chance_pendant_tier3": "티어 3 찬스 큐브 펜던트",
+    "item.chancecubes.creative_pendant": "크리에이티브 찬스 큐브 펜던트",
+    "item.chancecubes.reward_selector_pendant": "보상 선택 펜던트"
+}
