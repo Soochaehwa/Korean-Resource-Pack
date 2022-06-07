@@ -1,1 +1,24 @@
-{}
+{
+    "item.aiotbotania.livingwood_shears": "생명의 나무 가위",
+    "item.aiotbotania.livingwood_sword": "생명의 나무 검",
+    "item.aiotbotania.livingwood_axe": "생명의 나무 도끼",
+    "itemGroup.aiotbotania": "AIOT 보타니아",
+    "aiotbotania.mythicbotany.disabled": "MythicBotany를 설치해 주세요!",
+    "aiotbotania.toggleMode": "§6모드:",
+    "aiotbotania.hoeMode": "§3경작",
+    "item.aiotbotania.livingwood_hoe": "생명의 나무 괭이",
+    "item.aiotbotania.livingwood_aiot": "생명의 나무 AIOT",
+    "item.aiotbotania.livingrock_sword": "생명의 돌 검",
+    "item.aiotbotania.livingrock_axe": "생명의 돌 도끼",
+    "item.aiotbotania.livingrock_pickaxe": "생명의 돌 곡괭이",
+    "item.aiotbotania.livingrock_shovel": "생명의 돌 삽",
+    "item.aiotbotania.livingrock_hoe": "생명의 돌 괭이",
+    "item.aiotbotania.livingrock_aiot": "생명의 돌 AIOT",
+    "item.aiotbotania.manasteel_aiot": "마나합금 AIOT",
+    "aiotbotania.hoeModePath": "§3흙을 경작하고 흙 길을 만듬",
+    "aiotbotania.utilityMode": "§e횃불과 묘목을 내려두세요",
+    "item.aiotbotania.livingwood_pickaxe": "생명의 나무 곡괭이",
+    "item.aiotbotania.livingwood_shovel": "생명의 나무 삽",
+    "item.aiotbotania.livingrock_shears": "생명의 돌 가위",
+    "item.aiotbotania.elementium_aiot": "엘레멘티움 AIOT"
+}
