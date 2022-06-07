@@ -1,1 +1,10 @@
-{}
+{
+    "subtitles.aqcaracal.caracal.scream": "카라칼이 비명지름",
+    "subtitles.aqcaracal.caracal.purr": "카라칼이 으르렁거림",
+    "subtitles.aqcaracal.caracal.death": "카라칼이 죽음",
+    "subtitles.aqcaracal.caracal.eat": "카라칼이 음식을 먹는 중",
+    "subtitles.aqcaracal.caracal.beg_for_food": "카라칼이 애원함",
+    "entity.aqcaracal.caracal": "카라칼",
+    "subtitles.aqcaracal.caracal.hiss": "카라칼이 쉬익거림",
+    "item.aqcaracal.caracal_spawn_egg": "카라칼 스폰 알"
+}
