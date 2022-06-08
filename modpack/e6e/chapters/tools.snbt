@@ -1,0 +1,3262 @@
+{
+	id: "0000000000000093"
+	group: "74B3CF67FCEAB20F"
+	order_index: 0
+	filename: "tools"
+	title: "{e6e.tools.title0}"
+	icon: {
+		id: "minecraft:netherite_pickaxe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.5d
+			y: -8.5d
+			subtitle: "{e6e.tools.subtitle0}"
+			description: [
+				"{e6e.tools.description0}"
+				""
+				"{e6e.tools.description1}"
+			]
+			dependencies: ["0000000000000145"]
+			id: "00000000000001C6"
+			tasks: [{
+				id: "00000000000001C7"
+				type: "item"
+				item: "pneumaticcraft:jackhammer"
+			}]
+			rewards: [
+				{
+					id: "00000000000001C8"
+					type: "item"
+					title: "{e6e.tools.title1}"
+					item: "pneumaticcraft:drill_bit_compressed_iron"
+				}
+				{
+					id: "0000000000000A58"
+					type: "command"
+					title: "{e6e.tools.title2}"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -7.5d
+			subtitle: "{e6e.tools.subtitle1}"
+			description: ["{e6e.tools.description2}"]
+			dependencies: ["00000000000001C6"]
+			id: "00000000000001C9"
+			tasks: [{
+				id: "00000000000001CA"
+				type: "item"
+				item: "pneumaticcraft:drill_bit_diamond"
+			}]
+			rewards: [
+				{
+					id: "00000000000001CB"
+					type: "item"
+					title: "{e6e.tools.title3}"
+					item: "pneumaticcraft:volume_upgrade"
+					count: 5
+				}
+				{
+					id: "00000000000006F8"
+					type: "command"
+					title: "{e6e.tools.title4}"
+					icon: "kubejs:miners_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -6.5d
+			subtitle: "{e6e.tools.subtitle2}"
+			description: ["{e6e.tools.description3}"]
+			dependencies: ["00000000000001C9"]
+			id: "00000000000001CC"
+			tasks: [{
+				id: "00000000000001CD"
+				type: "item"
+				item: "pneumaticcraft:drill_bit_netherite"
+			}]
+			rewards: [
+				{
+					id: "00000000000001CE"
+					type: "item"
+					title: "{e6e.tools.title5}"
+					item: "pneumaticcraft:speed_upgrade"
+					count: 2
+				}
+				{
+					id: "00000000000006F7"
+					type: "command"
+					title: "{e6e.tools.title6}"
+					icon: "kubejs:miners_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -9.5d
+			subtitle: "{e6e.tools.subtitle3}"
+			description: [
+				"{e6e.tools.description4}"
+				""
+				"{e6e.tools.description5}"
+				"{e6e.tools.description6}"
+				"{e6e.tools.description7}"
+				"{e6e.tools.description8}"
+			]
+			dependencies: ["0000000000000165"]
+			id: "00000000000001CF"
+			tasks: [{
+				id: "00000000000001D0"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000650"
+				type: "command"
+				title: "{e6e.tools.title7}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -10.0d
+			y: -10.5d
+			subtitle: "{e6e.tools.subtitle4}"
+			description: [
+				"{e6e.tools.description9}"
+				""
+				"{e6e.tools.description10}"
+				"{e6e.tools.description11}"
+				"{e6e.tools.description12}"
+				"{e6e.tools.description13}"
+				"{e6e.tools.description14}"
+				"{e6e.tools.description15}"
+			]
+			dependencies: ["0000000000000165"]
+			id: "00000000000001D1"
+			tasks: [{
+				id: "00000000000001D2"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "000000000000064F"
+				type: "command"
+				title: "{e6e.tools.title8}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -10.0d
+			y: -7.5d
+			subtitle: "{e6e.tools.subtitle5}"
+			description: [
+				"{e6e.tools.description16}"
+				""
+				"{e6e.tools.description17}"
+				"{e6e.tools.description18}"
+				"{e6e.tools.description19}"
+			]
+			dependencies: ["0000000000000165"]
+			id: "00000000000001D3"
+			tasks: [{
+				id: "00000000000001D4"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000651"
+				type: "command"
+				title: "{e6e.tools.title9}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -10.0d
+			y: -6.5d
+			subtitle: "{e6e.tools.subtitle6}"
+			description: [
+				"{e6e.tools.description20}"
+				""
+				"{e6e.tools.description21}"
+				"{e6e.tools.description22}"
+				"{e6e.tools.description23}"
+				"{e6e.tools.description24}"
+				"{e6e.tools.description25}"
+				"{e6e.tools.description26}"
+			]
+			dependencies: ["0000000000000165"]
+			id: "00000000000001D5"
+			tasks: [{
+				id: "00000000000001D6"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000652"
+				type: "command"
+				title: "{e6e.tools.title10}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title11}"
+			x: -10.0d
+			y: -8.5d
+			subtitle: "{e6e.tools.subtitle7}"
+			description: ["{e6e.tools.description27}"]
+			dependencies: [
+				"00000000000001D1"
+				"00000000000001D5"
+				"00000000000001D3"
+				"00000000000001CF"
+			]
+			dependency_requirement: "one_completed"
+			id: "00000000000001D7"
+			tasks: [{
+				id: "00000000000001D8"
+				type: "item"
+				item: "pneumaticcraft:armor_upgrade"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000654"
+				type: "item"
+				title: "{e6e.tools.title12}"
+				item: "pneumaticcraft:armor_upgrade"
+				count: 4
+			}]
+		}
+		{
+			x: -9.0d
+			y: -10.0d
+			dependencies: ["00000000000001D1"]
+			id: "00000000000001D9"
+			tasks: [{
+				id: "00000000000001DA"
+				type: "item"
+				item: "pneumaticcraft:night_vision_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000645"
+				type: "command"
+				title: "{e6e.tools.title13}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -11.0d
+			y: -10.0d
+			dependencies: ["00000000000001D1"]
+			id: "00000000000001DB"
+			tasks: [{
+				id: "00000000000001DC"
+				type: "item"
+				item: "pneumaticcraft:scuba_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000644"
+				type: "command"
+				title: "{e6e.tools.title14}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -9.0d
+			y: -9.0d
+			dependencies: ["00000000000001CF"]
+			id: "00000000000001DD"
+			tasks: [{
+				id: "00000000000001DE"
+				type: "item"
+				item: "pneumaticcraft:magnet_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000642"
+				type: "command"
+				title: "{e6e.tools.title15}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -11.0d
+			y: -9.0d
+			dependencies: ["00000000000001CF"]
+			id: "00000000000001DF"
+			tasks: [{
+				id: "00000000000001E0"
+				type: "item"
+				item: "pneumaticcraft:charging_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000643"
+				type: "command"
+				title: "{e6e.tools.title16}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -11.0d
+			y: -7.0d
+			dependencies: ["00000000000001D5"]
+			id: "00000000000001E3"
+			tasks: [{
+				id: "00000000000001E4"
+				type: "item"
+				item: "pneumaticcraft:flippers_upgrade"
+			}]
+			rewards: [{
+				id: "000000000000063F"
+				type: "command"
+				title: "{e6e.tools.title17}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -9.0d
+			y: -8.0d
+			subtitle: "{e6e.tools.subtitle8}"
+			description: ["{e6e.tools.description28}"]
+			dependencies: ["0000000000000145"]
+			id: "00000000000001E7"
+			tasks: [{
+				id: "00000000000001E8"
+				type: "item"
+				item: "pneumaticcraft:memory_stick"
+			}]
+			rewards: [{
+				id: "0000000000000653"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+		}
+		{
+			title: "{e6e.tools.title18}"
+			x: -11.0d
+			y: -8.0d
+			description: [""]
+			dependencies: ["00000000000001D3"]
+			id: "00000000000001ED"
+			tasks: [{
+				id: "00000000000001EE"
+				type: "item"
+				item: "pneumaticcraft:jumping_upgrade_4"
+			}]
+			rewards: [{
+				id: "0000000000000641"
+				type: "command"
+				title: "{e6e.tools.title19}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title20}"
+			x: -9.0d
+			y: -7.0d
+			description: [""]
+			dependencies: ["00000000000001D5"]
+			id: "00000000000001F5"
+			tasks: [{
+				id: "00000000000001F6"
+				type: "item"
+				item: "pneumaticcraft:jet_boots_upgrade_5"
+			}]
+			rewards: [{
+				id: "0000000000000640"
+				type: "command"
+				title: "{e6e.tools.title21}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -6.0d
+			y: -7.5d
+			subtitle: "{e6e.tools.subtitle9}"
+			description: [
+				"{e6e.tools.description29}"
+				""
+				"{e6e.tools.description30}"
+			]
+			dependencies: ["0000000000000165"]
+			id: "00000000000001F7"
+			tasks: [{
+				id: "00000000000001F8"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:micromissiles"
+					Count: 1b
+					tag: {
+						damage: 0.0f
+						topSpeed: 0.0f
+						Damage: 0
+						turnSpeed: 0.0f
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000A56"
+				type: "command"
+				title: "{e6e.tools.title22}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.0d
+			y: -9.5d
+			subtitle: "{e6e.tools.subtitle10}"
+			description: ["{e6e.tools.description31}"]
+			dependencies: ["00000000000001FB"]
+			id: "00000000000001F9"
+			tasks: [{
+				id: "00000000000001FA"
+				type: "item"
+				item: "pneumaticcraft:sentry_turret"
+			}]
+			rewards: [{
+				id: "0000000000000868"
+				type: "item"
+				title: "{e6e.tools.title23}"
+				item: {
+					id: "pneumaticcraft:gun_ammo_ap"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 5s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -9.5d
+			subtitle: "{e6e.tools.subtitle11}"
+			description: ["{e6e.tools.description32}"]
+			dependencies: ["00000000000000B3"]
+			id: "00000000000001FB"
+			tasks: [{
+				id: "00000000000001FC"
+				type: "item"
+				item: "pneumaticcraft:minigun"
+			}]
+			rewards: [{
+				id: "0000000000000867"
+				type: "item"
+				title: "{e6e.tools.title24}"
+				item: {
+					id: "pneumaticcraft:gun_ammo"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 5s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.tools.title25}"
+			x: -6.0d
+			y: -8.5d
+			subtitle: "{e6e.tools.subtitle12}"
+			description: ["{e6e.tools.description33}"]
+			dependencies: ["00000000000001FB"]
+			id: "0000000000000202"
+			tasks: [
+				{
+					id: "0000000000000203"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:gun_ammo_freezing"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000020B"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:gun_ammo_explosive"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000869"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:gun_ammo_incendiary"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0000000000000A55"
+				type: "command"
+				title: "{e6e.tools.title26}"
+				icon: "kubejs:alchemists_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.0d
+			y: -8.5d
+			subtitle: "{e6e.tools.subtitle13}"
+			description: [
+				"{e6e.tools.description34}"
+				""
+				"{e6e.tools.description35}"
+			]
+			dependencies: ["00000000000001FB"]
+			id: "000000000000020E"
+			tasks: [{
+				id: "000000000000020F"
+				type: "item"
+				item: "pneumaticcraft:guard_drone"
+			}]
+			rewards: [{
+				id: "0000000000000655"
+				type: "command"
+				title: "{e6e.tools.title27}"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.0d
+			y: -7.5d
+			subtitle: "{e6e.tools.subtitle14}"
+			description: [
+				"{e6e.tools.description36}"
+				""
+				"{e6e.tools.description37}"
+			]
+			dependencies: ["000000000000020E"]
+			id: "0000000000000210"
+			tasks: [{
+				id: "0000000000000211"
+				type: "item"
+				item: "pneumaticcraft:minigun_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000A57"
+				type: "command"
+				title: "{e6e.tools.title28}"
+				icon: "kubejs:alchemists_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -7.5d
+			y: -9.5d
+			subtitle: "{e6e.tools.subtitle15}"
+			description: ["{e6e.tools.description38}"]
+			dependencies: ["0000000000000168"]
+			id: "0000000000000212"
+			tasks: [{
+				id: "0000000000000213"
+				type: "item"
+				item: "pneumaticcraft:aerial_interface"
+			}]
+			rewards: [{
+				id: "0000000000000894"
+				type: "command"
+				title: "{e6e.tools.title29}"
+				icon: "kubejs:sorcerers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: -10.5d
+			subtitle: "{e6e.tools.subtitle16}"
+			description: [
+				"{e6e.tools.description39}"
+				""
+				"{e6e.tools.description40}"
+				"{e6e.tools.description41}"
+				"{e6e.tools.description42}"
+				"{e6e.tools.description43}"
+				"{e6e.tools.description44}"
+				"{e6e.tools.description45}"
+				"{e6e.tools.description46}"
+				"{e6e.tools.description47}"
+			]
+			dependencies: ["00000000000007A9"]
+			id: "0000000000000435"
+			tasks: [{
+				id: "0000000000000436"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_helmet"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000836"
+				type: "command"
+				title: "{e6e.tools.title30}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: -9.5d
+			subtitle: "{e6e.tools.subtitle17}"
+			description: [
+				"{e6e.tools.description48}"
+				""
+				"{e6e.tools.description49}"
+				"{e6e.tools.description50}"
+				"{e6e.tools.description51}"
+				"{e6e.tools.description52}"
+				"{e6e.tools.description53}"
+			]
+			dependencies: ["00000000000007A9"]
+			id: "0000000000000437"
+			tasks: [{
+				id: "0000000000000438"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_bodyarmor"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000835"
+				type: "command"
+				title: "{e6e.tools.title31}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.5d
+			subtitle: "{e6e.tools.subtitle18}"
+			description: [
+				"{e6e.tools.description54}"
+				""
+				"{e6e.tools.description55}"
+				"{e6e.tools.description56}"
+				"{e6e.tools.description57}"
+			]
+			dependencies: ["00000000000007A9"]
+			id: "0000000000000439"
+			tasks: [{
+				id: "000000000000043A"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_pants"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000834"
+				type: "command"
+				title: "{e6e.tools.title32}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			subtitle: "{e6e.tools.subtitle19}"
+			description: [
+				"{e6e.tools.description58}"
+				""
+				"{e6e.tools.description59}"
+				"{e6e.tools.description60}"
+				"{e6e.tools.description61}"
+				"{e6e.tools.description62}"
+			]
+			dependencies: ["00000000000007A9"]
+			id: "000000000000043B"
+			tasks: [{
+				id: "000000000000043C"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_boots"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000833"
+				type: "command"
+				title: "{e6e.tools.title33}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			icon: "mekanism:canteen"
+			x: 0.0d
+			y: -8.0d
+			subtitle: "{e6e.tools.subtitle20}"
+			description: ["{e6e.tools.description63}"]
+			dependencies: ["00000000000006A5"]
+			id: "000000000000043D"
+			tasks: [
+				{
+					id: "000000000000043E"
+					type: "item"
+					item: "mekanism:canteen"
+				}
+				{
+					id: "00000000000004B5"
+					type: "item"
+					item: "mekanism:nutritional_liquifier"
+				}
+			]
+			rewards: [{
+				id: "000000000000083D"
+				type: "command"
+				title: "{e6e.tools.title34}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.0d
+			dependencies: ["0000000000000435"]
+			id: "000000000000043F"
+			tasks: [{
+				id: "0000000000000440"
+				type: "item"
+				item: "mekanism:module_vision_enhancement_unit"
+			}]
+			rewards: [{
+				id: "000000000000083B"
+				type: "command"
+				title: "{e6e.tools.title35}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -10.0d
+			dependencies: ["0000000000000435"]
+			id: "0000000000000441"
+			tasks: [{
+				id: "0000000000000442"
+				type: "item"
+				item: "mekanism:module_electrolytic_breathing_unit"
+			}]
+			rewards: [{
+				id: "000000000000083A"
+				type: "command"
+				title: "{e6e.tools.title36}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			dependencies: ["000000000000043B"]
+			id: "0000000000000443"
+			tasks: [{
+				id: "0000000000000444"
+				type: "item"
+				item: "mekanism:module_hydraulic_propulsion_unit"
+			}]
+			rewards: [{
+				id: "0000000000000839"
+				type: "command"
+				title: "{e6e.tools.title37}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			dependencies: ["000000000000043B"]
+			id: "0000000000000445"
+			tasks: [{
+				id: "0000000000000446"
+				type: "item"
+				item: "mekanism:module_magnetic_attraction_unit"
+			}]
+			rewards: [{
+				id: "000000000000083E"
+				type: "command"
+				title: "{e6e.tools.title38}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -9.0d
+			dependencies: ["0000000000000437"]
+			id: "0000000000000447"
+			tasks: [{
+				id: "0000000000000448"
+				type: "item"
+				item: "mekanism:module_charge_distribution_unit"
+			}]
+			rewards: [{
+				id: "0000000000000837"
+				type: "command"
+				title: "{e6e.tools.title39}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.5d
+			subtitle: "{e6e.tools.subtitle21}"
+			description: [""]
+			dependencies: [
+				"0000000000000437"
+				"000000000000043B"
+				"0000000000000435"
+				"0000000000000439"
+			]
+			id: "0000000000000449"
+			tasks: [{
+				id: "000000000000044A"
+				type: "item"
+				item: "mekanism:module_energy_unit"
+			}]
+			rewards: [{
+				id: "000000000000083F"
+				type: "command"
+				title: "{e6e.tools.title40}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			dependencies: ["0000000000000437"]
+			id: "000000000000044B"
+			tasks: [{
+				id: "000000000000044C"
+				type: "item"
+				item: "mekanism:module_jetpack_unit"
+			}]
+			rewards: [{
+				id: "000000000000083C"
+				type: "command"
+				title: "{e6e.tools.title41}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.0d
+			dependencies: ["0000000000000439"]
+			id: "000000000000044D"
+			tasks: [{
+				id: "000000000000044E"
+				type: "item"
+				item: "mekanism:module_locomotive_boosting_unit"
+			}]
+			rewards: [{
+				id: "0000000000000838"
+				type: "command"
+				title: "{e6e.tools.title42}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.5d
+			y: -8.5d
+			subtitle: "{e6e.tools.subtitle22}"
+			description: ["{e6e.tools.description64}"]
+			dependencies: ["00000000000006C5"]
+			id: "000000000000044F"
+			tasks: [{
+				id: "0000000000000450"
+				type: "item"
+				item: {
+					id: "mekanism:atomic_disassembler"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000831"
+				type: "command"
+				title: "{e6e.tools.title43}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			subtitle: "{e6e.tools.subtitle23}"
+			description: [
+				"{e6e.tools.description65}"
+				""
+				"{e6e.tools.description66}"
+				""
+				"{e6e.tools.description67}"
+				"{e6e.tools.description68}"
+				"{e6e.tools.description69}"
+				"{e6e.tools.description70}"
+				"{e6e.tools.description71}"
+				"{e6e.tools.description72}"
+			]
+			dependencies: ["00000000000007A9"]
+			id: "0000000000000451"
+			tasks: [{
+				id: "0000000000000452"
+				type: "item"
+				item: {
+					id: "mekanism:meka_tool"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000832"
+				type: "command"
+				title: "{e6e.tools.title44}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.5d
+			subtitle: "{e6e.tools.subtitle24}"
+			description: ["{e6e.tools.description73}"]
+			dependencies: ["00000000000007A9"]
+			id: "0000000000000453"
+			tasks: [{
+				id: "0000000000000454"
+				type: "item"
+				item: "mekanism:modification_station"
+			}]
+			rewards: [{
+				id: "0000000000000830"
+				type: "command"
+				title: "{e6e.tools.title45}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title46}"
+			x: -4.5d
+			y: -11.5d
+			shape: "gear"
+			description: [
+				"{e6e.tools.description74}"
+				""
+				"{e6e.tools.description75}"
+				""
+				"{e6e.tools.description76}"
+				"{e6e.tools.description77}"
+				"{e6e.tools.description78}"
+				"{e6e.tools.description79}"
+				"{e6e.tools.description80}"
+				""
+				"{e6e.tools.description81}"
+				"{e6e.tools.description82}"
+				"{e6e.tools.description83}"
+				"{e6e.tools.description84}"
+				"{e6e.tools.description85}"
+				"{e6e.tools.description86}"
+			]
+			id: "000000000000045C"
+			tasks: [{
+				id: "000000000000045D"
+				type: "checkmark"
+				icon: {
+					id: "minecraft:netherite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000CA4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "mininggadgets:mininggadget"
+				Count: 1b
+				tag: { }
+			}
+			x: -10.0d
+			y: -16.0d
+			subtitle: "{e6e.tools.subtitle25}"
+			description: [
+				"{e6e.tools.description87}"
+				""
+				"{e6e.tools.description88}"
+				""
+				"{e6e.tools.description89}"
+				""
+				"{e6e.tools.description90}"
+				"{e6e.tools.description91}"
+				"{e6e.tools.description92}"
+				"{e6e.tools.description93}"
+				"{e6e.tools.description94}"
+				"{e6e.tools.description95}"
+			]
+			dependencies: ["000000000000046C"]
+			id: "000000000000045F"
+			tasks: [
+				{
+					id: "0000000000000460"
+					type: "item"
+					title: "{e6e.tools.title47}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mininggadgets:mininggadget_simple"
+									Count: 1b
+									tag: {
+										energy: 1000000
+									}
+								}
+								{
+									id: "mininggadgets:mininggadget_fancy"
+									Count: 1b
+									tag: {
+										energy: 1000000
+									}
+								}
+								{
+									id: "mininggadgets:mininggadget"
+									Count: 1b
+									tag: {
+										energy: 1000000
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "00000000000006F2"
+					type: "item"
+					item: "mininggadgets:modificationtable"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000067D"
+					type: "item"
+					title: "{e6e.tools.title48}"
+					item: "mininggadgets:upgrade_light_placer"
+				}
+				{
+					id: "0000000000000A52"
+					type: "command"
+					title: "{e6e.tools.title49}"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.tools.title50}"
+			x: -10.5d
+			y: -15.0d
+			dependencies: ["000000000000045F"]
+			id: "0000000000000464"
+			tasks: [{
+				id: "0000000000000465"
+				type: "item"
+				item: "mininggadgets:upgrade_fortune_3"
+			}]
+			rewards: [{
+				id: "00000000000006EF"
+				type: "command"
+				title: "{e6e.tools.title51}"
+				icon: "kubejs:miners_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title52}"
+			x: -11.0d
+			y: -14.0d
+			dependencies: ["000000000000045F"]
+			id: "0000000000000466"
+			tasks: [{
+				id: "000000000000067C"
+				type: "item"
+				item: "mininggadgets:upgrade_silk"
+			}]
+			rewards: [
+				{
+					id: "000000000000067B"
+					type: "item"
+					title: "{e6e.tools.title53}"
+					item: "mininggadgets:upgrade_magnet"
+				}
+				{
+					id: "0000000000000A53"
+					type: "command"
+					title: "{e6e.tools.title54}"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.tools.title55}"
+			x: -9.5d
+			y: -15.0d
+			dependencies: ["000000000000045F"]
+			id: "0000000000000468"
+			tasks: [{
+				id: "0000000000000469"
+				type: "item"
+				item: "mininggadgets:upgrade_efficiency_5"
+			}]
+			rewards: [{
+				id: "00000000000006EE"
+				type: "command"
+				title: "{e6e.tools.title56}"
+				icon: "kubejs:miners_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title57}"
+			x: -9.0d
+			y: -14.0d
+			dependencies: ["000000000000045F"]
+			id: "000000000000046A"
+			tasks: [{
+				id: "000000000000046B"
+				type: "item"
+				item: "mininggadgets:upgrade_battery_3"
+			}]
+			rewards: [{
+				id: "0000000000000A54"
+				type: "command"
+				title: "{e6e.tools.title58}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title59}"
+			icon: {
+				id: "mythicbotany:alfsteel_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -12.0d
+			subtitle: "{e6e.tools.subtitle26}"
+			description: ["{e6e.tools.description96}"]
+			dependencies: [
+				"0000000000000475"
+				"0000000000000595"
+			]
+			id: "0000000000000470"
+			tasks: [
+				{
+					id: "0000000000000471"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000472"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000473"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000474"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "000000000000065C"
+				type: "command"
+				title: "{e6e.tools.title60}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title61}"
+			icon: {
+				id: "botania:terrasteel_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: -13.0d
+			subtitle: "{e6e.tools.subtitle27}"
+			description: ["{e6e.tools.description97}"]
+			dependencies: ["0000000000000517"]
+			id: "0000000000000475"
+			tasks: [
+				{
+					id: "0000000000000476"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000477"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000478"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000479"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "000000000000065D"
+				type: "command"
+				title: "{e6e.tools.title62}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: -13.0d
+			subtitle: "{e6e.tools.subtitle28}"
+			description: ["{e6e.tools.description98}"]
+			dependencies: ["0000000000000517"]
+			id: "000000000000047A"
+			tasks: [{
+				id: "000000000000047B"
+				type: "item"
+				item: {
+					id: "aiotbotania:terra_aiot"
+					Count: 1b
+					tag: {
+						mana: 9999
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "000000000000065E"
+				type: "command"
+				title: "{e6e.tools.title63}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -12.0d
+			subtitle: "{e6e.tools.subtitle29}"
+			description: ["{e6e.tools.description99}"]
+			dependencies: ["0000000000000595"]
+			id: "000000000000047C"
+			tasks: [{
+				id: "000000000000047D"
+				type: "item"
+				item: {
+					id: "aiotbotania:alfsteel_aiot"
+					Count: 1b
+					tag: {
+						mana: 9999
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "000000000000065B"
+				type: "command"
+				title: "{e6e.tools.title64}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title65}"
+			icon: {
+				id: "aquaculture:neptunium_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -14.0d
+			subtitle: "{e6e.tools.subtitle30}"
+			description: ["{e6e.tools.description100}"]
+			dependencies: ["00000000000004B3"]
+			id: "000000000000047E"
+			tasks: [
+				{
+					id: "000000000000047F"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000660"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000661"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000662"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000065F"
+					type: "item"
+					title: "{e6e.tools.title66}"
+					item: "aquaculture:nether_star_hook"
+				}
+				{
+					id: "00000000000006F4"
+					type: "command"
+					title: "{e6e.tools.title67}"
+					icon: "kubejs:sorcerers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -14.0d
+			subtitle: "{e6e.tools.subtitle31}"
+			description: ["{e6e.tools.description101}"]
+			dependencies: ["00000000000004B3"]
+			id: "0000000000000480"
+			tasks: [{
+				id: "0000000000000481"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000006F5"
+				type: "command"
+				title: "{e6e.tools.title68}"
+				icon: "kubejs:sorcerers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title69}"
+			icon: {
+				id: "ars_nouveau:archmage_hood"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: -16.0d
+			description: ["{e6e.tools.description102}"]
+			dependencies: ["00000000000003D5"]
+			id: "0000000000000486"
+			tasks: [
+				{
+					id: "0000000000000487"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000048A"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000048B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000048C"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000666"
+					type: "command"
+					title: "{e6e.tools.title70}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_ars_nouveau_loot_rare"
+					player_command: false
+				}
+				{
+					id: "000000000000066E"
+					type: "item"
+					title: "{e6e.tools.title71}"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 5s
+									id: "ars_nouveau:mana_regen"
+								}
+								{
+									lvl: 5s
+									id: "ars_nouveau:mana_boost"
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{e6e.tools.title72}"
+			icon: {
+				id: "naturesaura:sky_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: -15.0d
+			description: ["{e6e.tools.description103}"]
+			dependencies: ["00000000000002E9"]
+			id: "0000000000000488"
+			tasks: [
+				{
+					id: "0000000000000489"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000048D"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000048E"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000048F"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_shoes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0000000000000665"
+				type: "command"
+				title: "{e6e.tools.title73}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.5d
+			subtitle: "{e6e.tools.subtitle32}"
+			description: [
+				"{e6e.tools.description104}"
+				""
+				"{e6e.tools.description105}"
+				"{e6e.tools.description106}"
+				"{e6e.tools.description107}"
+			]
+			dependencies: ["00000000000004A3"]
+			id: "0000000000000490"
+			tasks: [{
+				id: "0000000000000491"
+				type: "item"
+				item: "thermal:flux_drill"
+			}]
+			rewards: [
+				{
+					id: "0000000000000657"
+					type: "command"
+					title: "{e6e.tools.title74}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+					player_command: false
+				}
+				{
+					id: "0000000000000865"
+					type: "command"
+					title: "{e6e.tools.title75}"
+					icon: "kubejs:miners_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -5.5d
+			subtitle: "{e6e.tools.subtitle33}"
+			description: [
+				"{e6e.tools.description108}"
+				""
+				"{e6e.tools.description109}"
+				"{e6e.tools.description110}"
+				"{e6e.tools.description111}"
+			]
+			dependencies: ["00000000000004A3"]
+			id: "0000000000000492"
+			tasks: [{
+				id: "0000000000000493"
+				type: "item"
+				item: "thermal:flux_saw"
+			}]
+			rewards: [
+				{
+					id: "0000000000000656"
+					type: "command"
+					title: "{e6e.tools.title76}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+					player_command: false
+				}
+				{
+					id: "0000000000000866"
+					type: "command"
+					title: "{e6e.tools.title77}"
+					icon: "kubejs:miners_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.tools.title78}"
+			icon: {
+				id: "thermal:hazmat_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.5d
+			y: -4.5d
+			subtitle: "{e6e.tools.subtitle34}"
+			description: ["{e6e.tools.description112}"]
+			dependencies: ["00000000000004A6"]
+			id: "0000000000000494"
+			tasks: [
+				{
+					id: "0000000000000495"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000049A"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000049B"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000049C"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0000000000000659"
+				type: "command"
+				title: "{e6e.tools.title79}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title80}"
+			icon: {
+				id: "thermal:diving_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.5d
+			y: -4.5d
+			subtitle: "{e6e.tools.subtitle35}"
+			description: ["{e6e.tools.description113}"]
+			dependencies: ["00000000000003A2"]
+			id: "0000000000000496"
+			tasks: [
+				{
+					id: "0000000000000497"
+					type: "item"
+					item: {
+						id: "thermal:diving_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000049D"
+					type: "item"
+					item: {
+						id: "thermal:diving_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000049E"
+					type: "item"
+					item: {
+						id: "thermal:diving_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000049F"
+					type: "item"
+					item: {
+						id: "thermal:diving_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0000000000000658"
+				type: "command"
+				title: "{e6e.tools.title81}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.5d
+			description: [
+				"{e6e.tools.description114}"
+				""
+				"{e6e.tools.description115}"
+				"{e6e.tools.description116}"
+				"{e6e.tools.description117}"
+			]
+			dependencies: ["00000000000004A3"]
+			id: "0000000000000498"
+			tasks: [{
+				id: "0000000000000499"
+				type: "item"
+				item: "thermal:flux_magnet"
+			}]
+			rewards: [{
+				id: "000000000000065A"
+				type: "command"
+				title: "{e6e.tools.title82}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: -15.0d
+			subtitle: "{e6e.tools.subtitle36}"
+			description: [
+				"{e6e.tools.description118}"
+				""
+				"{e6e.tools.description119}"
+			]
+			dependencies: ["00000000000002E9"]
+			id: "00000000000004B6"
+			tasks: [{
+				id: "00000000000004B7"
+				type: "item"
+				item: {
+					id: "naturesaura:sky_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000664"
+				type: "command"
+				title: "{e6e.tools.title83}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -9.5d
+			y: -13.0d
+			subtitle: "{e6e.tools.subtitle37}"
+			description: [
+				"{e6e.tools.description120}"
+				""
+				"{e6e.tools.description121}"
+				""
+				"{e6e.tools.description122}"
+				""
+				"{e6e.tools.description123}"
+			]
+			dependencies: ["000000000000046E"]
+			id: "0000000000000AF7"
+			tasks: [{
+				id: "0000000000000AF8"
+				type: "item"
+				item: "portable_stonecutter:portable_stonecutter"
+			}]
+			rewards: [{
+				id: "0000000000000B0B"
+				type: "command"
+				title: "{e6e.tools.title84}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -7.5d
+			y: -13.5d
+			subtitle: "{e6e.tools.subtitle38}"
+			description: ["{e6e.tools.description124}"]
+			dependencies: ["0000000000000082"]
+			id: "0000000000000F5F"
+			tasks: [{
+				id: "0000000000000F60"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -13.0d
+			subtitle: "{e6e.tools.subtitle39}"
+			description: ["{e6e.tools.description125}"]
+			dependencies: ["0000000000000F09"]
+			id: "0000000000000F61"
+			tasks: [{
+				id: "0000000000000F62"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_saw"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -13.0d
+			subtitle: "{e6e.tools.subtitle40}"
+			description: ["{e6e.tools.description126}"]
+			dependencies: ["0000000000000F07"]
+			id: "0000000000000F63"
+			tasks: [{
+				id: "0000000000000F64"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_trident"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Riptide: 0
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Loyalty: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -13.5d
+			subtitle: "{e6e.tools.subtitle41}"
+			description: ["{e6e.tools.description127}"]
+			dependencies: ["0000000000000F0B"]
+			id: "0000000000000F65"
+			tasks: [{
+				id: "0000000000000F66"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_hammer"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Beheading: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.5d
+			description: [
+				"{e6e.tools.description128}"
+				""
+				"{e6e.tools.description129}"
+			]
+			dependencies: [
+				"00000000000004A4"
+				"0000000000000490"
+				"0000000000000492"
+				"0000000000000498"
+			]
+			dependency_requirement: "one_completed"
+			id: "0000000000000F98"
+			tasks: [{
+				id: "0000000000000F99"
+				type: "item"
+				item: "thermal:area_radius_augment"
+			}]
+			rewards: [
+				{
+					id: "0000000000000F9A"
+					type: "command"
+					title: "{e6e.tools.title85}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+					player_command: false
+				}
+				{
+					id: "0000000000000F9B"
+					type: "command"
+					title: "{e6e.tools.title86}"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			subtitle: "{e6e.tools.subtitle42}"
+			description: [
+				"{e6e.tools.description130}"
+				""
+				"{e6e.tools.description131}"
+				""
+				"{e6e.tools.description132}"
+			]
+			dependencies: ["0000000000000012"]
+			id: "1487479CFA348530"
+			tasks: [{
+				id: "716019716B2915F9"
+				type: "item"
+				item: {
+					id: "immersiveengineering:buzzsaw"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4AA86E1E20DADE27"
+					type: "item"
+					title: "{e6e.tools.title87}"
+					item: {
+						id: "mekanism:advanced_fluid_tank"
+						Count: 1b
+						tag: {
+							mekData: {
+								FluidTanks: [{
+									Tank: 0b
+									stored: {
+										FluidName: "immersiveengineering:biodiesel"
+										Amount: 16000
+									}
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "17E85BEC398930AD"
+					type: "item"
+					title: "{e6e.tools.title88}"
+					item: {
+						id: "immersiveengineering:sawblade"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			subtitle: "{e6e.tools.subtitle43}"
+			description: [
+				"{e6e.tools.description133}"
+				""
+				"{e6e.tools.description134}"
+			]
+			dependencies: ["0000000000000012"]
+			id: "52DFEA36FFFBCDD5"
+			tasks: [{
+				id: "54E76BD7C4FB9D97"
+				type: "item"
+				item: {
+					id: "immersiveengineering:revolver"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 21
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "098BE70A0BFCDBDC"
+					type: "command"
+					title: "{e6e.tools.title89}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+					player_command: false
+				}
+				{
+					id: "02E988D98405DAFB"
+					type: "item"
+					title: "{e6e.tools.title90}"
+					item: "immersiveengineering:casull"
+					count: 64
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			subtitle: "{e6e.tools.subtitle44}"
+			description: [
+				"{e6e.tools.description135}"
+				""
+				"{e6e.tools.description136}"
+				""
+				"{e6e.tools.description137}"
+			]
+			dependencies: ["0000000000000012"]
+			id: "0A476C6332EB6477"
+			tasks: [{
+				id: "5B3CC19ED97DFA26"
+				type: "item"
+				item: {
+					id: "immersiveengineering:drill"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5D7232BCA248639D"
+					type: "item"
+					title: "{e6e.tools.title91}"
+					item: {
+						id: "mekanism:advanced_fluid_tank"
+						Count: 1b
+						tag: {
+							mekData: {
+								FluidTanks: [{
+									Tank: 0b
+									stored: {
+										FluidName: "immersiveengineering:biodiesel"
+										Amount: 16000
+									}
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "7683853C5B00EE25"
+					type: "item"
+					title: "{e6e.tools.title92}"
+					item: "immersiveengineering:drillhead_iron"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -5.0d
+			subtitle: "{e6e.tools.subtitle45}"
+			description: [
+				"{e6e.tools.description138}"
+				""
+				"{e6e.tools.description139}"
+				""
+				"{e6e.tools.description140}"
+			]
+			dependencies: ["0000000000000012"]
+			id: "69C4E9422B0C695A"
+			tasks: [{
+				id: "404F5C421F8FFFD5"
+				type: "item"
+				item: {
+					id: "immersiveengineering:railgun"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 3
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "57BCCB513CA91D6B"
+					type: "command"
+					title: "{e6e.tools.title93}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+					player_command: false
+				}
+				{
+					id: "6BCA8B2194807B4D"
+					type: "item"
+					title: "{e6e.tools.title94}"
+					item: "emendatusenigmatica:iron_rod"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			subtitle: "{e6e.tools.subtitle46}"
+			description: [
+				"{e6e.tools.description141}"
+				""
+				"{e6e.tools.description142}"
+			]
+			dependencies: ["52DFEA36FFFBCDD5"]
+			id: "3FC9C9BA6C4B9597"
+			tasks: [{
+				id: "46FB2138D39F9238"
+				type: "item"
+				item: {
+					id: "immersiveengineering:speedloader"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 8
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "24A27D154F9FB236"
+				type: "command"
+				title: "{e6e.tools.title95}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			subtitle: "{e6e.tools.subtitle47}"
+			description: ["{e6e.tools.description143}"]
+			dependencies: ["52DFEA36FFFBCDD5"]
+			id: "3C6A4FF4F12DCAB2"
+			tasks: [{
+				id: "4E1995B3908BE0A1"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_revolver_bayonet"
+			}]
+			rewards: [{
+				id: "1EE1E0D6A82D9B90"
+				type: "command"
+				title: "{e6e.tools.title96}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -9.0d
+			y: -4.0d
+			subtitle: "{e6e.tools.subtitle48}"
+			description: ["{e6e.tools.description144}"]
+			dependencies: ["69C4E9422B0C695A"]
+			id: "4AEF4EECF33AAD14"
+			tasks: [{
+				id: "1722BA00297D1CD5"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_railgun_capacitors"
+			}]
+			rewards: [{
+				id: "388801C14A6A9916"
+				type: "command"
+				title: "{e6e.tools.title97}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.0d
+			subtitle: "{e6e.tools.subtitle49}"
+			description: ["{e6e.tools.description145}"]
+			dependencies: ["69C4E9422B0C695A"]
+			id: "375C292687CF5637"
+			tasks: [{
+				id: "258019F9C44FA366"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_railgun_scope"
+			}]
+			rewards: [{
+				id: "231932437B4E9839"
+				type: "command"
+				title: "{e6e.tools.title98}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -10.0d
+			y: -3.5d
+			subtitle: "{e6e.tools.subtitle50}"
+			description: [
+				"{e6e.tools.description146}"
+				""
+				"{e6e.tools.description147}"
+			]
+			dependencies: ["69C4E9422B0C695A"]
+			id: "149EC37E85BC39BB"
+			tasks: [{
+				id: "0946F869835964E3"
+				type: "item"
+				item: {
+					id: "immersiveengineering:powerpack"
+					Count: 1b
+					tag: {
+						energy: 100000
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.tools.title99}"
+			x: -1.0d
+			y: -3.5d
+			subtitle: "{e6e.tools.subtitle51}"
+			description: [
+				"{e6e.tools.description148}"
+				""
+				"{e6e.tools.description149}"
+				""
+				"{e6e.tools.description150}"
+				""
+				"{e6e.tools.description151}"
+			]
+			dependencies: ["52DFEA36FFFBCDD5"]
+			id: "7EA4E88D7230D94D"
+			tasks: [{
+				id: "3E8BA9F57E3C4452"
+				type: "item"
+				title: "{e6e.tools.title100}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "immersiveengineering:casull"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:armor_piercing"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:buckshot"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:he"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:silver"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:dragons_breath"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:potion"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:flare"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:firework"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:homing"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:wolfpack"
+								Count: 1b
+							}
+						]
+					}
+				}
+				count: 24L
+			}]
+			rewards: [{
+				id: "673B7ECE0BDE897E"
+				type: "command"
+				title: "{e6e.tools.title101}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			subtitle: "{e6e.tools.subtitle52}"
+			description: ["{e6e.tools.description152}"]
+			dependencies: ["1487479CFA348530"]
+			id: "650F8ED52289B8AC"
+			tasks: [{
+				id: "07CF70C497212059"
+				type: "item"
+				item: {
+					id: "immersiveengineering:rockcutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "541EA45AC0E8D7CF"
+				type: "command"
+				title: "{e6e.tools.title102}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			subtitle: "{e6e.tools.subtitle53}"
+			description: ["{e6e.tools.description153}"]
+			dependencies: ["0A476C6332EB6477"]
+			id: "322F7E60078AC6F6"
+			tasks: [{
+				id: "4D1F4C0716B593B9"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_drill_waterproof"
+			}]
+			rewards: [{
+				id: "5691DD3285ADB605"
+				type: "command"
+				title: "{e6e.tools.title103}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			subtitle: "{e6e.tools.subtitle54}"
+			description: [
+				"{e6e.tools.description154}"
+				""
+				"{e6e.tools.description155}"
+			]
+			dependencies: ["0A476C6332EB6477"]
+			id: "13AA0065B8167EF4"
+			tasks: [{
+				id: "6A6D387D221FEC38"
+				type: "item"
+				item: "immersiveengineering:drillhead_steel"
+			}]
+			rewards: [{
+				id: "39097B6C7B38506A"
+				type: "command"
+				title: "{e6e.tools.title104}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			description: ["{e6e.tools.description156}"]
+			dependencies: [
+				"5B3CC19ED97DFA26"
+				"716019716B2915F9"
+			]
+			dependency_requirement: "one_completed"
+			id: "546222019B6470BA"
+			tasks: [{
+				id: "4A295A3D115FE1F2"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_drill_lube"
+			}]
+			rewards: [{
+				id: "713B059CB5DBEBCA"
+				type: "command"
+				title: "{e6e.tools.title105}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			description: ["{e6e.tools.description157}"]
+			dependencies: [
+				"716019716B2915F9"
+				"672C630D81BD8E94"
+				"5B3CC19ED97DFA26"
+			]
+			dependency_requirement: "one_completed"
+			id: "7B384B41FCA9F17A"
+			tasks: [{
+				id: "5761B4339C81361F"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_drill_capacity"
+			}]
+			rewards: [{
+				id: "60482427F2F16E9B"
+				type: "command"
+				title: "{e6e.tools.title106}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			description: ["{e6e.tools.description158}"]
+			dependencies: ["0A476C6332EB6477"]
+			id: "1A0053922B30B033"
+			tasks: [{
+				id: "762650E500C59FAF"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_drill_damage"
+			}]
+			rewards: [{
+				id: "1D732032B9C86AB5"
+				type: "command"
+				title: "{e6e.tools.title107}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			subtitle: "{e6e.tools.subtitle55}"
+			description: ["{e6e.tools.description159}"]
+			dependencies: ["1487479CFA348530"]
+			id: "283516E560D1D20E"
+			tasks: [{
+				id: "59195DC2ADAA355B"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_buzzsaw_spareblades"
+			}]
+			rewards: [{
+				id: "36142E0E21AC2474"
+				type: "command"
+				title: "{e6e.tools.title108}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			subtitle: "{e6e.tools.subtitle56}"
+			description: [
+				"{e6e.tools.description160}"
+				""
+				"{e6e.tools.description161}"
+			]
+			dependencies: ["0000000000000012"]
+			id: "4498690DCA41A562"
+			tasks: [{
+				id: "672C630D81BD8E94"
+				type: "item"
+				item: {
+					id: "immersiveengineering:chemthrower"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 4
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2DBC321E9D2AE461"
+				type: "item"
+				title: "{e6e.tools.title109}"
+				item: "immersiveengineering:toolupgrade_chemthrower_focus"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -12.0d
+			subtitle: "{e6e.tools.subtitle57}"
+			description: [
+				"{e6e.tools.description162}"
+				""
+				"{e6e.tools.description163}"
+				""
+				"{e6e.tools.description164}"
+			]
+			id: "322E9DDDEE1623E3"
+			tasks: [{
+				id: "2AF9B5D1BACA4A59"
+				type: "item"
+				item: "quark:bottled_cloud"
+			}]
+			rewards: [{
+				id: "43188DFF0C8F9DDC"
+				type: "command"
+				title: "{e6e.tools.title110}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -10.5d
+			y: -13.0d
+			subtitle: "{e6e.tools.subtitle58}"
+			description: [
+				"{e6e.tools.description165}"
+				""
+				"{e6e.tools.description166}"
+			]
+			dependencies: ["000000000000046D"]
+			id: "7AE1180EFAF22376"
+			tasks: [{
+				id: "4D29649F3F51D7D3"
+				type: "item"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "4FDD99B9F9F65B1D"
+				type: "command"
+				title: "{e6e.tools.title111}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: -11.5d
+			description: [
+				"{e6e.tools.description167}"
+				""
+				"{e6e.tools.description168}"
+			]
+			dependencies: ["3EA3751B482189B7"]
+			id: "1C861BDF9266B721"
+			tasks: [{
+				id: "14ED2E5760DB70B5"
+				type: "item"
+				item: "mythicbotany:mjoellnir"
+			}]
+			rewards: [{
+				id: "196A0F3B1A3EB04F"
+				type: "command"
+				title: "{e6e.tools.title112}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title113}"
+			x: -1.0d
+			y: -14.0d
+			description: ["{e6e.tools.description169}"]
+			dependencies: ["00000000000003D7"]
+			id: "4A1C227E044B02D6"
+			tasks: [
+				{
+					id: "0733FFA5BAB24544"
+					type: "item"
+					item: "ars_nouveau:spell_bow"
+				}
+				{
+					id: "25A8965A5E3C4458"
+					type: "item"
+					item: {
+						id: "ars_nouveau:enchanters_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4CDEBD46316A28AF"
+					type: "item"
+					item: "ars_nouveau:wand"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -14.0d
+			subtitle: "{e6e.tools.subtitle59}"
+			description: [
+				"{e6e.tools.description170}"
+				""
+				"{e6e.tools.description171}"
+			]
+			dependencies: ["000000000000046F"]
+			id: "03CE9A1AE5E2538D"
+			tasks: [{
+				id: "21050326FB2FBF70"
+				type: "item"
+				item: "clockout:clockout_block"
+			}]
+			rewards: [{
+				id: "1A05BF41EEF353BA"
+				type: "command"
+				title: "{e6e.tools.title114}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -10.5d
+			y: -12.0d
+			subtitle: "{e6e.tools.subtitle60}"
+			description: [
+				"{e6e.tools.description172}"
+				""
+				"{e6e.tools.description173}"
+				""
+				"{e6e.tools.description174}"
+				""
+				"{e6e.tools.description175}"
+				"{e6e.tools.description176}"
+				"{e6e.tools.description177}"
+				"{e6e.tools.description178}"
+				""
+				"{e6e.tools.description179}"
+			]
+			dependencies: ["00000000000003FF"]
+			min_width: 300
+			id: "2A74822BE970E9D4"
+			tasks: [{
+				id: "417D1AA02B005770"
+				type: "item"
+				item: {
+					id: "shrink:shrinking_device"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "39498CF292AB8B53"
+					type: "item"
+					title: "{e6e.tools.title115}"
+					item: "minecraft:glass_bottle"
+					count: 8
+				}
+				{
+					id: "00012916E3BF0CC7"
+					type: "command"
+					title: "{e6e.tools.title116}"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -11.5d
+			shape: "gear"
+			description: [
+				"{e6e.tools.description180}"
+				""
+				"{e6e.tools.description181}"
+				""
+				"{e6e.tools.description182}"
+				""
+				"{e6e.tools.description183}"
+			]
+			id: "7EDFBD3AEAC8B587"
+			tasks: [{
+				id: "0D382E19423F7F14"
+				type: "item"
+				item: "morphtool:tool"
+			}]
+			rewards: [{
+				id: "2826CA3ECD3974D4"
+				type: "command"
+				title: "{e6e.tools.title117}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title118}"
+			x: -5.5d
+			y: -14.5d
+			subtitle: "{e6e.tools.subtitle61}"
+			description: [
+				"{e6e.tools.description184}"
+				""
+				"{e6e.tools.description185}"
+			]
+			dependencies: ["000000000000019B"]
+			id: "32543CB763F99E26"
+			tasks: [{
+				id: "5E0566EA6AC167A7"
+				type: "item"
+				item: {
+					id: "ironjetpacks:hardened_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "1CB81CA01A66EFF3"
+				type: "command"
+				title: "{e6e.tools.title119}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title120}"
+			x: -4.5d
+			y: -15.5d
+			subtitle: "{e6e.tools.subtitle62}"
+			description: ["{e6e.tools.description186}"]
+			dependencies: ["32543CB763F99E26"]
+			id: "517AFDCCF9B4F556"
+			tasks: [{
+				id: "6CC77BA53377140C"
+				type: "item"
+				item: {
+					id: "ironjetpacks:invar_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A08858F195AB557"
+				type: "command"
+				title: "{e6e.tools.title121}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title122}"
+			x: -6.5d
+			y: -15.5d
+			subtitle: "{e6e.tools.subtitle63}"
+			description: ["{e6e.tools.description187}"]
+			dependencies: ["517AFDCCF9B4F556"]
+			id: "3DE9AC6CE13B591B"
+			tasks: [{
+				id: "55F87954F5A7F169"
+				type: "item"
+				item: {
+					id: "ironjetpacks:blazing_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CF8EC622824974F"
+				type: "command"
+				title: "{e6e.tools.title123}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title124}"
+			x: -4.5d
+			y: -16.5d
+			subtitle: "{e6e.tools.subtitle64}"
+			description: ["{e6e.tools.description188}"]
+			dependencies: ["3DE9AC6CE13B591B"]
+			id: "7A685C5CF8B6792E"
+			tasks: [{
+				id: "3AC7C02A3C65D157"
+				type: "item"
+				item: {
+					id: "ironjetpacks:signalum_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2F7341AFE1379D57"
+				type: "command"
+				title: "{e6e.tools.title125}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title126}"
+			x: -6.5d
+			y: -16.5d
+			subtitle: "{e6e.tools.subtitle65}"
+			description: ["{e6e.tools.description189}"]
+			dependencies: ["7A685C5CF8B6792E"]
+			id: "53232F72A2133D14"
+			tasks: [{
+				id: "377EE5AC5053521D"
+				type: "item"
+				item: {
+					id: "ironjetpacks:niotic_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C0DB38F8304E24B"
+				type: "command"
+				title: "{e6e.tools.title127}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title128}"
+			x: -4.5d
+			y: -17.5d
+			subtitle: "{e6e.tools.subtitle66}"
+			description: ["{e6e.tools.description190}"]
+			dependencies: ["53232F72A2133D14"]
+			id: "64D05D57CD3BD048"
+			tasks: [{
+				id: "7632CE1603104C5B"
+				type: "item"
+				item: {
+					id: "ironjetpacks:lumium_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "1A8129ADCF741705"
+				type: "command"
+				title: "{e6e.tools.title129}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title130}"
+			x: -6.5d
+			y: -17.5d
+			subtitle: "{e6e.tools.subtitle67}"
+			description: ["{e6e.tools.description191}"]
+			dependencies: ["64D05D57CD3BD048"]
+			id: "78FB2B0A5D565203"
+			tasks: [{
+				id: "76E9010CA6A45910"
+				type: "item"
+				item: {
+					id: "ironjetpacks:spirited_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "44AEA9FA58AF9913"
+				type: "command"
+				title: "{e6e.tools.title131}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title132}"
+			x: -5.5d
+			y: -20.5d
+			shape: "gear"
+			subtitle: "{e6e.tools.subtitle68}"
+			description: ["{e6e.tools.description192}"]
+			dependencies: ["0430DED82424A380"]
+			size: 2.0d
+			id: "4A1D635E224616E5"
+			tasks: [{
+				id: "1E21A04D7897170A"
+				type: "item"
+				item: {
+					id: "ironjetpacks:nitro_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C390C7FDB3F39FD"
+				type: "command"
+				title: "{e6e.tools.title133}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.tools.title134}"
+			x: -5.5d
+			y: -18.5d
+			subtitle: "{e6e.tools.subtitle69}"
+			description: ["{e6e.tools.description193}"]
+			dependencies: ["78FB2B0A5D565203"]
+			id: "0430DED82424A380"
+			tasks: [{
+				id: "3AD4174B377A96BE"
+				type: "item"
+				item: {
+					id: "ironjetpacks:enderium_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "33DDF92F40291EBA"
+				type: "command"
+				title: "{e6e.tools.title135}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_thermal_series_loot_epic"
+				player_command: false
+			}]
+		}
+	]
+}

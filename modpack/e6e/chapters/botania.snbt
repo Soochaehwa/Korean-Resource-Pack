@@ -1,0 +1,1547 @@
+{
+	id: "0000000000000500"
+	group: "5A8B89F87F77CF4C"
+	order_index: 4
+	filename: "botania"
+	title: "{e6e.botania.title0}"
+	icon: "botania:mana_pylon"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{e6e.botania.title1}"
+			icon: {
+				id: "botania:lexicon"
+				Count: 1b
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
+			x: 4.5d
+			y: -0.5d
+			shape: "gear"
+			description: [
+				"{e6e.botania.description0}"
+				""
+				"{e6e.botania.description1}"
+				""
+				"{e6e.botania.description2}"
+			]
+			optional: true
+			id: "0000000000000501"
+			tasks: [{
+				id: "26553788817F4728"
+				type: "item"
+				title: "{e6e.botania.title2}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000504"
+				type: "item"
+				title: "{e6e.botania.title3}"
+				item: "botania:pestle_and_mortar"
+			}]
+		}
+		{
+			title: "{e6e.botania.title4}"
+			icon: "botania:magenta_mystical_flower"
+			x: -3.0d
+			y: 1.5d
+			subtitle: "{e6e.botania.subtitle0}"
+			description: [
+				"{e6e.botania.description3}"
+				""
+				"{e6e.botania.description4}"
+			]
+			dependencies: ["0000000000000501"]
+			id: "0000000000000505"
+			tasks: [{
+				id: "0000000000000507"
+				type: "item"
+				title: "{e6e.botania.title5}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "0000000000000508"
+					type: "item"
+					title: "{e6e.botania.title6}"
+					item: "botania:flower_bag"
+				}
+				{
+					id: "000000000000050D"
+					type: "item"
+					title: "{e6e.botania.title7}"
+					item: {
+						id: "minecraft:shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000A70"
+					type: "command"
+					title: "{e6e.botania.title8}"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			subtitle: "{e6e.botania.subtitle1}"
+			description: ["{e6e.botania.description5}"]
+			dependencies: ["0000000000000505"]
+			id: "0000000000000509"
+			tasks: [{
+				id: "000000000000050A"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+			rewards: [{
+				id: "00000000000005E6"
+				type: "item"
+				title: "{e6e.botania.title9}"
+				item: "botania:fertilizer"
+				count: 16
+			}]
+		}
+		{
+			title: "{e6e.botania.title10}"
+			icon: "botania:apothecary_default"
+			x: -3.0d
+			y: 2.5d
+			subtitle: "{e6e.botania.subtitle2}"
+			description: ["{e6e.botania.description6}"]
+			dependencies: ["0000000000000505"]
+			id: "000000000000050B"
+			tasks: [
+				{
+					id: "000000000000050C"
+					type: "item"
+					item: "botania:apothecary_default"
+				}
+				{
+					id: "000000000000050E"
+					type: "item"
+					item: "botania:pure_daisy"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000064A"
+					type: "command"
+					title: "{e6e.botania.title11}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000A71"
+					type: "command"
+					title: "{e6e.botania.title12}"
+					icon: "kubejs:farmers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.botania.title13}"
+			x: -3.0d
+			y: 3.5d
+			subtitle: "{e6e.botania.subtitle3}"
+			description: ["{e6e.botania.description7}"]
+			dependencies: ["000000000000050B"]
+			id: "000000000000050F"
+			tasks: [
+				{
+					id: "000000000000051D"
+					type: "item"
+					item: "botania:livingwood"
+					count: 16L
+				}
+				{
+					id: "000000000000051E"
+					type: "item"
+					item: "botania:livingrock"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "00000000000005E7"
+				type: "command"
+				title: "{e6e.botania.title14}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			subtitle: "{e6e.botania.subtitle4}"
+			description: [
+				"{e6e.botania.description8}"
+				""
+				"{e6e.botania.description9}"
+				""
+				"{e6e.botania.description10}"
+				""
+				"{e6e.botania.description11}"
+			]
+			dependencies: ["0000000000000501"]
+			id: "0000000000000513"
+			tasks: [{
+				id: "0000000000000514"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "00000000000005E5"
+				type: "command"
+				title: "{e6e.botania.title15}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.botania.title16}"
+			icon: "botania:natura_pylon"
+			x: 7.0d
+			y: 4.5d
+			subtitle: "{e6e.botania.subtitle5}"
+			description: [
+				"{e6e.botania.description12}"
+				""
+				"{e6e.botania.description13}"
+				""
+				"{e6e.botania.description14}"
+			]
+			dependencies: ["0000000000000517"]
+			id: "0000000000000515"
+			tasks: [
+				{
+					id: "0000000000000516"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "000000000000057A"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+				{
+					id: "000000000000057B"
+					type: "item"
+					item: "botania:mana_pool"
+					count: 2L
+				}
+				{
+					id: "000000000000057C"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "000000000000057D"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "00000000000005D8"
+				type: "command"
+				title: "{e6e.botania.title17}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			icon: "botania:terra_plate"
+			x: 7.0d
+			y: 3.0d
+			description: [
+				"{e6e.botania.description15}"
+				""
+				"{e6e.botania.description16}"
+			]
+			dependencies: ["0000000000000559"]
+			id: "0000000000000517"
+			tasks: [
+				{
+					id: "0000000000000518"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "000000000000056F"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5L
+				}
+				{
+					id: "0000000000000570"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 4L
+				}
+				{
+					id: "0000000000000599"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+			rewards: [{
+				id: "00000000000005D9"
+				type: "command"
+				title: "{e6e.botania.title18}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.0d
+			subtitle: "{e6e.botania.subtitle6}"
+			description: [
+				"{e6e.botania.description17}"
+				""
+				"{e6e.botania.description18}"
+			]
+			dependencies: ["000000000000050F"]
+			id: "0000000000000519"
+			tasks: [{
+				id: "000000000000051A"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "00000000000005EA"
+				type: "command"
+				title: "{e6e.botania.title19}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			subtitle: "{e6e.botania.subtitle7}"
+			description: [
+				"{e6e.botania.description19}"
+				""
+				"{e6e.botania.description20}"
+				""
+				"{e6e.botania.description21}"
+			]
+			dependencies: ["000000000000050F"]
+			id: "000000000000051B"
+			tasks: [{
+				id: "000000000000051C"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "00000000000005E9"
+				type: "command"
+				title: "{e6e.botania.title20}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			description: [
+				"{e6e.botania.description22}"
+				""
+				"{e6e.botania.description23}"
+			]
+			dependencies: ["000000000000050F"]
+			id: "000000000000051F"
+			tasks: [{
+				id: "0000000000000520"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "00000000000005EB"
+				type: "command"
+				title: "{e6e.botania.title21}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			subtitle: "{e6e.botania.subtitle8}"
+			description: [
+				"{e6e.botania.description24}"
+				""
+				"{e6e.botania.description25}"
+				""
+				"{e6e.botania.description26}"
+				""
+				"{e6e.botania.description27}"
+			]
+			dependencies: [
+				"0000000000000519"
+				"000000000000051B"
+				"000000000000051F"
+			]
+			id: "0000000000000521"
+			tasks: [{
+				id: "0000000000000522"
+				type: "item"
+				title: "{e6e.botania.title22}"
+				icon: "botania:endoflame"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "botania:endoflame"
+								Count: 1b
+							}
+							{
+								id: "botania:gourmaryllis"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000523"
+					type: "item"
+					title: "{e6e.botania.title23}"
+					item: "botania:open_crate"
+				}
+				{
+					id: "00000000000005E8"
+					type: "item"
+					title: "{e6e.botania.title24}"
+					item: {
+						id: "botania:monocle"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "{e6e.botania.title25}"
+			icon: "botania:life_essence"
+			x: 12.0d
+			y: 3.0d
+			subtitle: "{e6e.botania.subtitle9}"
+			description: [
+				"{e6e.botania.description28}"
+				""
+				"{e6e.botania.description29}"
+			]
+			dependencies: ["0000000000000528"]
+			id: "0000000000000524"
+			tasks: [{
+				id: "0000000000000527"
+				type: "item"
+				item: "botania:life_essence"
+			}]
+			rewards: [{
+				id: "00000000000005D2"
+				type: "command"
+				title: "{e6e.botania.title26}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.botania.title27}"
+			icon: "botania:gaia_pylon"
+			x: 12.0d
+			y: 1.5d
+			subtitle: "{e6e.botania.subtitle10}"
+			description: [
+				"{e6e.botania.description30}"
+				""
+				"{e6e.botania.description31}"
+				""
+				"{e6e.botania.description32}"
+			]
+			dependencies: ["0000000000000501"]
+			id: "0000000000000528"
+			tasks: [
+				{
+					id: "0000000000000529"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 4L
+				}
+				{
+					id: "000000000000052C"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+			]
+			rewards: [{
+				id: "00000000000005D3"
+				type: "command"
+				title: "{e6e.botania.title28}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.botania.title29}"
+			icon: "botania:dice"
+			x: 12.0d
+			y: 4.5d
+			subtitle: "{e6e.botania.subtitle11}"
+			description: [
+				"{e6e.botania.description33}"
+				""
+				"{e6e.botania.description34}"
+			]
+			dependencies: ["0000000000000524"]
+			id: "000000000000052A"
+			tasks: [{
+				id: "000000000000052B"
+				type: "item"
+				item: "botania:dice"
+			}]
+			rewards: [{
+				id: "00000000000005CC"
+				type: "command"
+				title: "{e6e.botania.title30}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.botania.title31}"
+			x: 2.0d
+			y: 3.0d
+			subtitle: "{e6e.botania.subtitle12}"
+			description: [
+				"{e6e.botania.description35}"
+				""
+				"{e6e.botania.description36}"
+			]
+			dependencies: ["0000000000000513"]
+			id: "000000000000052D"
+			tasks: [
+				{
+					id: "000000000000052E"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "000000000000052F"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "0000000000000530"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+				{
+					id: "0000000000000531"
+					type: "item"
+					item: "botania:rune_air"
+				}
+				{
+					id: "0000000000000532"
+					type: "item"
+					item: "botania:rune_mana"
+				}
+			]
+			rewards: [{
+				id: "00000000000005E4"
+				type: "command"
+				title: "{e6e.botania.title32}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.5d
+			y: 7.0d
+			subtitle: "{e6e.botania.subtitle13}"
+			description: ["{e6e.botania.description37}"]
+			dependencies: ["0000000000000521"]
+			id: "0000000000000533"
+			tasks: [{
+				id: "0000000000000534"
+				type: "item"
+				item: "botania:mana_pearl"
+			}]
+			rewards: [{
+				id: "00000000000005EC"
+				type: "command"
+				title: "{e6e.botania.title33}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			subtitle: "{e6e.botania.subtitle14}"
+			description: ["{e6e.botania.description38}"]
+			dependencies: ["0000000000000521"]
+			id: "0000000000000535"
+			tasks: [{
+				id: "0000000000000536"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+			rewards: [{
+				id: "00000000000005F0"
+				type: "command"
+				title: "{e6e.botania.title34}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.5d
+			y: 9.0d
+			subtitle: "{e6e.botania.subtitle15}"
+			description: ["{e6e.botania.description39}"]
+			dependencies: ["0000000000000521"]
+			id: "0000000000000537"
+			tasks: [{
+				id: "0000000000000538"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+			rewards: [{
+				id: "00000000000005F1"
+				type: "command"
+				title: "{e6e.botania.title35}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.0d
+			subtitle: "{e6e.botania.subtitle16}"
+			description: ["{e6e.botania.description40}"]
+			dependencies: ["0000000000000521"]
+			id: "0000000000000539"
+			tasks: [{
+				id: "000000000000053A"
+				type: "item"
+				item: "botania:mana_string"
+			}]
+			rewards: [{
+				id: "00000000000005EF"
+				type: "command"
+				title: "{e6e.botania.title36}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.0d
+			y: 8.0d
+			subtitle: "{e6e.botania.subtitle17}"
+			description: ["{e6e.botania.description41}"]
+			dependencies: ["0000000000000521"]
+			id: "000000000000053B"
+			tasks: [{
+				id: "000000000000053C"
+				type: "item"
+				item: "botania:mana_powder"
+			}]
+			rewards: [{
+				id: "00000000000005ED"
+				type: "command"
+				title: "{e6e.botania.title37}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			subtitle: "{e6e.botania.subtitle18}"
+			description: [
+				"{e6e.botania.description42}"
+				""
+				"{e6e.botania.description43}"
+			]
+			dependencies: ["0000000000000538"]
+			id: "000000000000053D"
+			tasks: [{
+				id: "000000000000053F"
+				type: "item"
+				item: {
+					id: "botania:mana_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "00000000000005EE"
+				type: "command"
+				title: "{e6e.botania.title38}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.5d
+			subtitle: "{e6e.botania.subtitle19}"
+			description: [
+				"{e6e.botania.description44}"
+				""
+				"{e6e.botania.description45}"
+				""
+				"{e6e.botania.description46}"
+			]
+			dependencies: ["000000000000052D"]
+			id: "0000000000000540"
+			tasks: [{
+				id: "0000000000000541"
+				type: "item"
+				item: "botania:brewery"
+			}]
+			rewards: [
+				{
+					id: "00000000000005DB"
+					type: "item"
+					title: "{e6e.botania.title39}"
+					item: "botania:vial"
+					count: 8
+				}
+				{
+					id: "0000000000000A74"
+					type: "command"
+					title: "{e6e.botania.title40}"
+					icon: "kubejs:alchemists_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			description: ["{e6e.botania.description47}"]
+			dependencies: ["000000000000052D"]
+			id: "0000000000000542"
+			tasks: [{
+				id: "0000000000000543"
+				type: "item"
+				item: "botania:rosa_arcana"
+			}]
+			rewards: [{
+				id: "00000000000005DC"
+				type: "command"
+				title: "{e6e.botania.title41}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			subtitle: "{e6e.botania.subtitle20}"
+			description: ["{e6e.botania.description48}"]
+			dependencies: ["000000000000052D"]
+			id: "0000000000000544"
+			tasks: [{
+				id: "0000000000000545"
+				type: "item"
+				item: {
+					id: "botania:tornado_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000556"
+					type: "item"
+					title: "{e6e.botania.title42}"
+					item: "botania:avatar"
+				}
+				{
+					id: "0000000000000A76"
+					type: "command"
+					title: "{e6e.botania.title43}"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			subtitle: "{e6e.botania.subtitle21}"
+			description: [
+				"{e6e.botania.description49}"
+				""
+				"{e6e.botania.description50}"
+			]
+			dependencies: ["000000000000052D"]
+			id: "0000000000000546"
+			tasks: [{
+				id: "0000000000000547"
+				type: "item"
+				item: "botania:hopperhock"
+			}]
+			rewards: [{
+				id: "00000000000005E0"
+				type: "command"
+				title: "{e6e.botania.title44}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			subtitle: "{e6e.botania.subtitle22}"
+			description: ["{e6e.botania.description51}"]
+			dependencies: ["000000000000052D"]
+			id: "0000000000000548"
+			tasks: [{
+				id: "0000000000000549"
+				type: "item"
+				item: "botania:dirt_rod"
+			}]
+			rewards: [{
+				id: "00000000000005DD"
+				type: "command"
+				title: "{e6e.botania.title45}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			subtitle: "{e6e.botania.subtitle23}"
+			description: ["{e6e.botania.description52}"]
+			dependencies: ["000000000000052D"]
+			id: "000000000000054A"
+			tasks: [{
+				id: "000000000000054B"
+				type: "item"
+				item: "botania:clayconia"
+			}]
+			rewards: [{
+				id: "00000000000005DE"
+				type: "command"
+				title: "{e6e.botania.title46}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			subtitle: "{e6e.botania.subtitle24}"
+			description: ["{e6e.botania.description53}"]
+			dependencies: ["000000000000052D"]
+			id: "000000000000054C"
+			tasks: [{
+				id: "000000000000054D"
+				type: "item"
+				item: "botania:water_rod"
+			}]
+			rewards: [{
+				id: "00000000000005DF"
+				type: "command"
+				title: "{e6e.botania.title47}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			subtitle: "{e6e.botania.subtitle25}"
+			description: ["{e6e.botania.description54}"]
+			dependencies: ["000000000000052D"]
+			id: "000000000000054E"
+			tasks: [{
+				id: "000000000000054F"
+				type: "item"
+				item: "botania:cobble_rod"
+			}]
+			rewards: [{
+				id: "00000000000005E1"
+				type: "command"
+				title: "{e6e.botania.title48}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			subtitle: "{e6e.botania.subtitle26}"
+			description: [
+				"{e6e.botania.description55}"
+				""
+				"{e6e.botania.description56}"
+			]
+			dependencies: ["000000000000052D"]
+			id: "0000000000000550"
+			tasks: [{
+				id: "0000000000000558"
+				type: "item"
+				item: "botania:pollidisiac"
+			}]
+			rewards: [{
+				id: "00000000000005E2"
+				type: "command"
+				title: "{e6e.botania.title49}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			subtitle: "{e6e.botania.subtitle27}"
+			description: [
+				"{e6e.botania.description57}"
+				""
+				"{e6e.botania.description58}"
+			]
+			dependencies: ["000000000000052D"]
+			id: "0000000000000552"
+			tasks: [{
+				id: "0000000000000553"
+				type: "item"
+				item: "botania:narslimmus"
+			}]
+			rewards: [{
+				id: "00000000000005E3"
+				type: "command"
+				title: "{e6e.botania.title50}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.5d
+			y: 9.0d
+			subtitle: "{e6e.botania.subtitle28}"
+			description: ["{e6e.botania.description59}"]
+			dependencies: ["0000000000000521"]
+			id: "0000000000000554"
+			tasks: [{
+				id: "0000000000000555"
+				type: "item"
+				item: "botania:mana_glass"
+			}]
+			rewards: [{
+				id: "00000000000005F2"
+				type: "command"
+				title: "{e6e.botania.title51}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.botania.title52}"
+			x: 7.0d
+			y: 1.5d
+			subtitle: "{e6e.botania.subtitle29}"
+			description: [
+				"{e6e.botania.description60}"
+				""
+				"{e6e.botania.description61}"
+			]
+			dependencies: ["0000000000000501"]
+			id: "0000000000000559"
+			tasks: [{
+				id: "000000000000055A"
+				type: "item"
+				item: "botania:spark"
+				count: 2L
+			}]
+			rewards: [{
+				id: "00000000000005DA"
+				type: "command"
+				title: "{e6e.botania.title53}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			subtitle: "{e6e.botania.subtitle30}"
+			description: [
+				"{e6e.botania.description62}"
+				""
+				"{e6e.botania.description63}"
+			]
+			dependencies: ["0000000000000515"]
+			id: "000000000000057F"
+			tasks: [{
+				id: "0000000000000580"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+			rewards: [{
+				id: "00000000000005D7"
+				type: "command"
+				title: "{e6e.botania.title54}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			subtitle: "{e6e.botania.subtitle31}"
+			description: [
+				"{e6e.botania.description64}"
+				""
+				"{e6e.botania.description65}"
+			]
+			dependencies: ["0000000000000515"]
+			id: "0000000000000581"
+			tasks: [{
+				id: "0000000000000582"
+				type: "item"
+				item: "botania:dragonstone"
+			}]
+			rewards: [{
+				id: "00000000000005D5"
+				type: "command"
+				title: "{e6e.botania.title55}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.0d
+			subtitle: "{e6e.botania.subtitle32}"
+			description: [
+				"{e6e.botania.description66}"
+				""
+				"{e6e.botania.description67}"
+			]
+			dependencies: ["0000000000000515"]
+			id: "0000000000000583"
+			tasks: [{
+				id: "0000000000000584"
+				type: "item"
+				item: "botania:pixie_dust"
+			}]
+			rewards: [{
+				id: "00000000000005D6"
+				type: "command"
+				title: "{e6e.botania.title56}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.botania.title57}"
+			x: 7.0d
+			y: 7.0d
+			subtitle: "{e6e.botania.subtitle33}"
+			description: ["{e6e.botania.description68}"]
+			dependencies: ["0000000000000583"]
+			id: "0000000000000585"
+			tasks: [
+				{
+					id: "0000000000000586"
+					type: "item"
+					item: "botania:spark_upgrade_recessive"
+				}
+				{
+					id: "000000000000058B"
+					type: "item"
+					item: "botania:spark_upgrade_dominant"
+				}
+			]
+			rewards: [{
+				id: "000000000000058F"
+				type: "item"
+				title: "{e6e.botania.title58}"
+				item: "botania:spark_changer"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			description: [
+				"{e6e.botania.description69}"
+				""
+				"{e6e.botania.description70}"
+			]
+			dependencies: ["000000000000057F"]
+			id: "0000000000000589"
+			tasks: [{
+				id: "000000000000058A"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [{
+				id: "00000000000005D4"
+				type: "command"
+				title: "{e6e.botania.title59}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.botania.title60}"
+			icon: "botania:corporea_spark_master"
+			x: 8.0d
+			y: 6.5d
+			description: [
+				"{e6e.botania.description71}"
+				""
+				"{e6e.botania.description72}"
+			]
+			dependencies: ["0000000000000581"]
+			id: "000000000000058C"
+			tasks: [
+				{
+					id: "000000000000058D"
+					type: "item"
+					item: "botania:corporea_index"
+				}
+				{
+					id: "000000000000058E"
+					type: "item"
+					item: "botania:corporea_spark_master"
+				}
+			]
+			rewards: [{
+				id: "0000000000000590"
+				type: "item"
+				title: "{e6e.botania.title61}"
+				item: "botania:corporea_spark"
+				count: 8
+			}]
+		}
+		{
+			title: "{e6e.botania.title62}"
+			x: 2.0d
+			y: 9.0d
+			subtitle: "{e6e.botania.subtitle34}"
+			description: [
+				"{e6e.botania.description73}"
+				""
+				"{e6e.botania.description74}"
+				""
+				"{e6e.botania.description75}"
+			]
+			dependencies: [
+				"0000000000000531"
+				"000000000000052F"
+			]
+			id: "0000000000000591"
+			tasks: [
+				{
+					id: "0000000000000592"
+					type: "item"
+					item: {
+						id: "botania:lens_speed"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0000000000000593"
+					type: "item"
+					item: {
+						id: "botania:lens_power"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000594"
+					type: "item"
+					title: "{e6e.botania.title63}"
+					item: "minecraft:slime_block"
+				}
+				{
+					id: "0000000000000A75"
+					type: "command"
+					title: "{e6e.botania.title64}"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "mythicbotany:mana_infuser"
+			x: 7.0d
+			y: 8.0d
+			subtitle: "{e6e.botania.subtitle35}"
+			description: [
+				"{e6e.botania.description76}"
+				""
+				"{e6e.botania.description77}"
+			]
+			dependencies: [
+				"0000000000000582"
+				"0000000000000584"
+				"0000000000000580"
+			]
+			id: "0000000000000595"
+			tasks: [
+				{
+					id: "0000000000000596"
+					type: "item"
+					item: "mythicbotany:mana_infuser"
+				}
+				{
+					id: "000000000000059A"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 4L
+				}
+				{
+					id: "000000000000059B"
+					type: "item"
+					item: "botania:shimmerrock"
+					count: 5L
+				}
+				{
+					id: "000000000000059C"
+					type: "item"
+					item: "mythicbotany:alfsteel_ingot"
+				}
+			]
+			rewards: [{
+				id: "00000000000005CB"
+				type: "command"
+				title: "{e6e.botania.title65}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 7.0d
+			y: 9.0d
+			subtitle: "{e6e.botania.subtitle36}"
+			description: [
+				"{e6e.botania.description78}"
+				""
+				"{e6e.botania.description79}"
+			]
+			dependencies: ["0000000000000595"]
+			id: "0000000000000597"
+			tasks: [{
+				id: "0000000000000598"
+				type: "item"
+				item: "mythicbotany:alfsteel_pylon"
+			}]
+			rewards: [{
+				id: "00000000000005CA"
+				type: "command"
+				title: "{e6e.botania.title66}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.0d
+			subtitle: "{e6e.botania.subtitle37}"
+			description: [
+				"{e6e.botania.description80}"
+				""
+				"{e6e.botania.description81}"
+			]
+			dependencies: ["0000000000000524"]
+			id: "00000000000005A0"
+			tasks: [{
+				id: "00000000000005A1"
+				type: "item"
+				item: "botania:dandelifeon"
+			}]
+			rewards: [
+				{
+					id: "00000000000005CF"
+					type: "item"
+					title: "{e6e.botania.title67}"
+					item: "botania:cell_block"
+					count: 8
+				}
+				{
+					id: "00000000000005D0"
+					type: "command"
+					title: "{e6e.botania.title68}"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 4.0d
+			subtitle: "{e6e.botania.subtitle38}"
+			description: [
+				"{e6e.botania.description82}"
+				""
+				"{e6e.botania.description83}"
+			]
+			dependencies: ["0000000000000524"]
+			id: "00000000000005A2"
+			tasks: [{
+				id: "00000000000005A3"
+				type: "item"
+				item: "botaniaadditions:regen_ivy"
+			}]
+			rewards: [{
+				id: "00000000000005CD"
+				type: "command"
+				title: "{e6e.botania.title69}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 14.0d
+			y: 3.5d
+			subtitle: "{e6e.botania.subtitle39}"
+			description: ["{e6e.botania.description84}"]
+			dependencies: ["0000000000000524"]
+			id: "00000000000005A4"
+			tasks: [{
+				id: "00000000000005A5"
+				type: "item"
+				item: "botania:gaia_spreader"
+			}]
+			rewards: [{
+				id: "00000000000005CE"
+				type: "command"
+				title: "{e6e.botania.title70}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.5d
+			subtitle: "{e6e.botania.subtitle40}"
+			description: ["{e6e.botania.description85}"]
+			dependencies: ["0000000000000524"]
+			id: "00000000000005A6"
+			tasks: [{
+				id: "00000000000005A7"
+				type: "item"
+				item: {
+					id: "botania:black_hole_talisman"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "00000000000005D1"
+				type: "command"
+				title: "{e6e.botania.title71}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.botania.title72}"
+			icon: "mythicbotany:gjallar_horn_full"
+			x: 12.0d
+			y: 5.5d
+			subtitle: "{e6e.botania.subtitle41}"
+			description: [
+				"{e6e.botania.description86}"
+				""
+				"{e6e.botania.description87}"
+				""
+				"{e6e.botania.description88}"
+			]
+			dependencies: ["0000000000000524"]
+			id: "5584BFC2DE3C29D7"
+			tasks: [
+				{
+					id: "16324032C65F1E46"
+					type: "item"
+					item: "mythicbotany:yggdrasil_branch"
+				}
+				{
+					id: "7F1EEC9AD6E865F7"
+					type: "item"
+					item: "mythicbotany:gjallar_horn_empty"
+				}
+				{
+					id: "2971617F05C67734"
+					type: "item"
+					item: "mythicbotany:gjallar_horn_full"
+				}
+			]
+			rewards: [{
+				id: "620D77CA6FA8C011"
+				type: "command"
+				title: "{e6e.botania.title73}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 11.0d
+			y: 8.0d
+			subtitle: "{e6e.botania.subtitle42}"
+			description: [
+				"{e6e.botania.description89}"
+				""
+				"{e6e.botania.description90}"
+				""
+				"{e6e.botania.description91}"
+				""
+				"{e6e.botania.description92}"
+			]
+			dependencies: ["3EA3751B482189B7"]
+			id: "1C1D719B824FB0AB"
+			tasks: [{
+				id: "0BFCAE28C250A671"
+				type: "item"
+				item: "mythicbotany:kvasir_blood"
+			}]
+			rewards: [{
+				id: "195C2F28DEEC1AE6"
+				type: "command"
+				title: "{e6e.botania.title74}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.botania.title75}"
+			x: 12.0d
+			y: 9.0d
+			subtitle: "{e6e.botania.subtitle43}"
+			description: [
+				"{e6e.botania.description93}"
+				""
+				"{e6e.botania.description94}"
+			]
+			dependencies: ["1C1D719B824FB0AB"]
+			id: "47CDA7739244CE6F"
+			tasks: [{
+				id: "6D37E48268B35E38"
+				type: "item"
+				item: "mythicbotany:kvasir_mead"
+			}]
+			rewards: [{
+				id: "3542522DA81D210F"
+				type: "command"
+				title: "{e6e.botania.title76}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 12.0d
+			y: 7.0d
+			subtitle: "{e6e.botania.subtitle44}"
+			description: [
+				"{e6e.botania.description95}"
+				""
+				"{e6e.botania.description96}"
+			]
+			dependencies: ["0000000000000524"]
+			id: "3EA3751B482189B7"
+			tasks: [{
+				id: "1F77ECAE16AF537E"
+				type: "item"
+				item: "mythicbotany:fimbultyr_tablet"
+			}]
+			rewards: [{
+				id: "44A3C1F87AB6977B"
+				type: "command"
+				title: "{e6e.botania.title77}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary"
+				player_command: false
+			}]
+		}
+	]
+}

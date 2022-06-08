@@ -1,0 +1,1470 @@
+{
+	id: "583482A1C530FE26"
+	group: "0856CF7F5CBEB20A"
+	order_index: 0
+	filename: "storage"
+	title: "{e6e.storage.title0}"
+	icon: "minecraft:chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{e6e.storage.title1}"
+			icon: "minecraft:chest"
+			x: -0.5d
+			y: -7.5d
+			shape: "gear"
+			description: [
+				"{e6e.storage.description0}"
+				""
+				"{e6e.storage.description1}"
+				""
+				"{e6e.storage.description2}"
+				"{e6e.storage.description3}"
+				"{e6e.storage.description4}"
+				"{e6e.storage.description5}"
+				"{e6e.storage.description6}"
+				"{e6e.storage.description7}"
+				"{e6e.storage.description8}"
+			]
+			optional: true
+			id: "00000000000003FF"
+			tasks: [{
+				id: "0000000000000400"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0000000000000CA3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{e6e.storage.title2}"
+			x: 1.0d
+			y: -5.0d
+			subtitle: "{e6e.storage.subtitle0}"
+			description: [
+				"{e6e.storage.description9}"
+				""
+				"{e6e.storage.description10}"
+			]
+			dependencies: ["00000000000003FF"]
+			dependency_requirement: "one_completed"
+			id: "0000000000000403"
+			tasks: [{
+				id: "0000000000000699"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+			rewards: [{
+				id: "00000000000006FB"
+				type: "command"
+				title: "{e6e.storage.title3}"
+				icon: "kubejs:miners_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.storage.title4}"
+			icon: "ironchest:iron_chest"
+			x: -0.5d
+			y: -10.0d
+			description: [
+				"{e6e.storage.description11}"
+				""
+				"{e6e.storage.description12}"
+			]
+			dependencies: ["00000000000003FF"]
+			id: "0000000000000405"
+			tasks: [{
+				id: "0000000000000EA5"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "enigmatica:quests/storage/wood_to_iron"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000A6B"
+				type: "command"
+				title: "{e6e.storage.title5}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			icon: "mekanism:basic_bin"
+			x: 1.0d
+			y: -10.0d
+			subtitle: "{e6e.storage.subtitle1}"
+			description: ["{e6e.storage.description13}"]
+			dependencies: ["00000000000003FF"]
+			id: "0000000000000407"
+			tasks: [{
+				id: "3635395991201030"
+				type: "item"
+				title: "{e6e.storage.title6}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:basic_bin"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_bin"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_bin"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_bin"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000A5C"
+					type: "command"
+					title: "{e6e.storage.title7}"
+					icon: "kubejs:farmers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					player_command: false
+				}
+				{
+					id: "0000000000000A6C"
+					type: "command"
+					title: "{e6e.storage.title8}"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.storage.title9}"
+			x: -0.5d
+			y: -5.0d
+			subtitle: "{e6e.storage.subtitle2}"
+			description: [
+				"{e6e.storage.description14}"
+				""
+				"{e6e.storage.description15}"
+			]
+			dependencies: ["00000000000003FF"]
+			id: "0000000000000409"
+			tasks: [
+				{
+					id: "0000000000000F5B"
+					type: "item"
+					item: "industrialforegoing:common_black_hole_unit"
+				}
+				{
+					id: "57D959FDEF6D9777"
+					type: "item"
+					item: "industrialforegoing:common_black_hole_tank"
+				}
+			]
+			rewards: [{
+				id: "000000000000069C"
+				type: "command"
+				title: "{e6e.storage.title10}"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.storage.title11}"
+			icon: "naturesaura:range_visualizer"
+			x: -2.0d
+			y: -10.0d
+			description: ["{e6e.storage.description16}"]
+			dependencies: ["00000000000003FF"]
+			id: "000000000000040B"
+			tasks: [{
+				id: "000000000000040C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0000000000000A5E"
+				type: "command"
+				title: "{e6e.storage.title12}"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.storage.title13}"
+			icon: "botania:cosmetic_thinking_hand"
+			x: -2.0d
+			y: -8.5d
+			description: [
+				"{e6e.storage.description17}"
+				""
+				"{e6e.storage.description18}"
+			]
+			dependencies: ["00000000000003FF"]
+			id: "000000000000040D"
+			tasks: [{
+				id: "000000000000040E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2D1E55B5A92B9F94"
+				type: "command"
+				title: "{e6e.storage.title14}"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.storage.title15}"
+			icon: "storagedrawers:controller"
+			x: -4.5d
+			y: -7.0d
+			description: [
+				"{e6e.storage.description19}"
+				""
+				"{e6e.storage.description20}"
+			]
+			dependencies: ["0000000000000966"]
+			id: "000000000000040F"
+			tasks: [{
+				id: "000000000000068C"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [{
+				id: "00000000000009AB"
+				type: "command"
+				title: "{e6e.storage.title16}"
+				icon: "kubejs:sorcerers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.storage.title17}"
+			icon: "ironchest:gold_chest"
+			x: -0.5d
+			y: -11.0d
+			description: ["{e6e.storage.description21}"]
+			dependencies: ["0000000000000405"]
+			id: "000000000000094F"
+			tasks: [{
+				id: "0000000000000EA6"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "enigmatica:quests/storage/iron_to_gold"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000A5B"
+				type: "command"
+				title: "{e6e.storage.title18}"
+				icon: "kubejs:alchemists_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.storage.title19}"
+			icon: "ironchest:diamond_chest"
+			x: -0.5d
+			y: -12.0d
+			description: ["{e6e.storage.description22}"]
+			dependencies: ["000000000000094F"]
+			id: "0000000000000951"
+			tasks: [{
+				id: "0000000000000EA7"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "enigmatica:quests/storage/gold_to_diamond"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000009A3"
+				type: "command"
+				title: "{e6e.storage.title20}"
+				icon: "kubejs:sorcerers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.storage.title21}"
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: -3.0d
+			y: -7.5d
+			description: [
+				"{e6e.storage.description23}"
+				""
+				"{e6e.storage.description24}"
+			]
+			dependencies: ["00000000000003FF"]
+			id: "0000000000000966"
+			tasks: [{
+				id: "0000000000000967"
+				type: "item"
+				title: "{e6e.storage.title22}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000A59"
+				type: "command"
+				title: "{e6e.storage.title23}"
+				icon: "kubejs:alchemists_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.5d
+			y: -8.0d
+			dependencies: ["0000000000000966"]
+			id: "0000000000000980"
+			tasks: [{
+				id: "00000000000009A0"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [{
+				id: "00000000000009A1"
+				type: "command"
+				title: "{e6e.storage.title24}"
+				icon: "kubejs:miners_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.5d
+			y: -8.5d
+			description: ["{e6e.storage.description25}"]
+			dependencies: ["0000000000000966"]
+			id: "0000000000000982"
+			tasks: [{
+				id: "0000000000000983"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+			rewards: [{
+				id: "00000000000009AA"
+				type: "command"
+				title: "{e6e.storage.title25}"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			description: ["{e6e.storage.description26}"]
+			dependencies: ["0000000000000966"]
+			id: "0000000000000984"
+			tasks: [{
+				id: "0000000000000985"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+			rewards: [{
+				id: "695D02E01FA0C0BD"
+				type: "command"
+				title: "{e6e.storage.title26}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+				Count: 1b
+				tag: {
+					inventorySlots: 27
+					upgradeSlots: 1
+				}
+			}
+			x: 2.0d
+			y: -7.5d
+			description: [
+				"{e6e.storage.description27}"
+				""
+				"{e6e.storage.description28}"
+				""
+				"{e6e.storage.description29}"
+			]
+			dependencies: ["00000000000003FF"]
+			id: "0000000000000986"
+			tasks: [{
+				id: "0000000000000998"
+				type: "checkmark"
+				title: "{e6e.storage.title27}"
+			}]
+			rewards: [{
+				id: "0000000000000997"
+				type: "item"
+				title: "{e6e.storage.title28}"
+				icon: "minecraft:leather"
+				item: "minecraft:leather"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 2.5d
+			y: -9.0d
+			description: ["{e6e.storage.description30}"]
+			dependencies: ["0000000000000986"]
+			id: "0000000000000988"
+			tasks: [{
+				id: "0000000000000989"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "0000000000000999"
+				type: "command"
+				title: "{e6e.storage.title29}"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: -9.0d
+			description: ["{e6e.storage.description31}"]
+			dependencies: ["0000000000000988"]
+			id: "000000000000098A"
+			tasks: [{
+				id: "000000000000098B"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "0000000000000A66"
+				type: "command"
+				title: "{e6e.storage.title30}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.5d
+			y: -9.0d
+			description: ["{e6e.storage.description32}"]
+			dependencies: ["000000000000098A"]
+			id: "000000000000098C"
+			tasks: [{
+				id: "000000000000098D"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "0000000000000A67"
+				type: "command"
+				title: "{e6e.storage.title31}"
+				icon: "kubejs:alchemists_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.5d
+			description: ["{e6e.storage.description33}"]
+			dependencies: ["0000000000000986"]
+			id: "000000000000098E"
+			tasks: [{
+				id: "000000000000098F"
+				type: "item"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000A50"
+				type: "command"
+				title: "{e6e.storage.title32}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: -7.5d
+			description: ["{e6e.storage.description34}"]
+			dependencies: ["0000000000000986"]
+			id: "0000000000000990"
+			tasks: [{
+				id: "0000000000000991"
+				type: "item"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+			}]
+			rewards: [
+				{
+					id: "000000000000099C"
+					type: "command"
+					title: "{e6e.storage.title33}"
+					icon: "kubejs:sorcerers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+					player_command: false
+				}
+				{
+					id: "0000000000000A6A"
+					type: "command"
+					title: "{e6e.storage.title34}"
+					icon: "kubejs:alchemists_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			description: ["{e6e.storage.description35}"]
+			dependencies: ["0000000000000986"]
+			id: "0000000000000992"
+			tasks: [{
+				id: "0000000000000993"
+				type: "item"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+			}]
+			rewards: [{
+				id: "000000000000099D"
+				type: "command"
+				title: "{e6e.storage.title35}"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.storage.title36}"
+			x: 5.0d
+			y: -7.5d
+			subtitle: "{e6e.storage.subtitle3}"
+			description: ["{e6e.storage.description36}"]
+			dependencies: ["0000000000000986"]
+			id: "0000000000000994"
+			tasks: [{
+				id: "0000000000000995"
+				type: "item"
+				title: "{e6e.storage.title37}"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000A51"
+				type: "command"
+				title: "{e6e.storage.title38}"
+				icon: "kubejs:alchemists_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.5d
+			y: -11.0d
+			subtitle: "{e6e.storage.subtitle4}"
+			description: [
+				"{e6e.storage.description37}"
+				""
+				"{e6e.storage.description38}"
+				""
+				"{e6e.storage.description39}"
+			]
+			dependencies: ["2A74822BE970E9D4"]
+			id: "0AD2769DC173D26D"
+			tasks: [{
+				id: "6B198B6A029D9333"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+			rewards: [{
+				id: "07BAD39E967F6B85"
+				type: "item"
+				item: "enderstorage:ender_pouch"
+			}]
+		}
+		{
+			title: "{e6e.storage.title39}"
+			x: -5.5d
+			y: -11.0d
+			subtitle: "{e6e.storage.subtitle5}"
+			description: [
+				"{e6e.storage.description40}"
+				""
+				"{e6e.storage.description41}"
+				""
+				"{e6e.storage.description42}"
+				""
+				"{e6e.storage.description43}"
+			]
+			dependencies: [
+				"0AD2769DC173D26D"
+				"0000000000000FEB"
+			]
+			hide: true
+			optional: true
+			min_width: 250
+			id: "5A1F6BA9BE06D643"
+			tasks: [{
+				id: "5D5A7187E1979D0D"
+				type: "item"
+				item: "compactcrafting:field_projector"
+				count: 4L
+			}]
+			rewards: [{
+				id: "36C4E2AF07DE5E40"
+				type: "item"
+				title: "{e6e.storage.title40}"
+				item: "enderstorage:ender_chest"
+			}]
+		}
+		{
+			icon: "compactmachines:machine_tiny"
+			x: -4.5d
+			y: -10.0d
+			subtitle: "{e6e.storage.subtitle6}"
+			description: [
+				"{e6e.storage.description44}"
+				""
+				"{e6e.storage.description45}"
+				""
+				"{e6e.storage.description46}"
+			]
+			dependencies: ["0AD2769DC173D26D"]
+			min_width: 250
+			id: "3787A109AABC8921"
+			tasks: [{
+				id: "16A0C1D718EA19AF"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+			rewards: [{
+				id: "3E2CA8D755178794"
+				type: "command"
+				title: "{e6e.storage.title41}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.5d
+			y: -10.0d
+			description: ["{e6e.storage.description47}"]
+			dependencies: ["3787A109AABC8921"]
+			id: "0DAA452348B02827"
+			tasks: [{
+				id: "21ED2337B44743E5"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+			rewards: [{
+				id: "299A8E596E259DC4"
+				type: "command"
+				title: "{e6e.storage.title42}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.5d
+			y: -10.0d
+			subtitle: "{e6e.storage.subtitle7}"
+			description: [
+				"{e6e.storage.description48}"
+				""
+				"{e6e.storage.description49}"
+				""
+				"{e6e.storage.description50}"
+			]
+			dependencies: ["3787A109AABC8921"]
+			id: "5511E0236BA3BDCA"
+			tasks: [{
+				id: "2D8BF6B60DE16FC8"
+				type: "item"
+				item: {
+					id: "compactmachines:tunnel"
+					Count: 1b
+					tag: {
+						definition: {
+							id: "compactmachines:item"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "526E10A2F22FF97C"
+				type: "command"
+				title: "{e6e.storage.title43}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: 5.5d
+			y: -9.0d
+			description: ["{e6e.storage.description51}"]
+			dependencies: ["000000000000098C"]
+			id: "585A22AF9FB84AFD"
+			tasks: [{
+				id: "4F51BBE2671F8947"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [{
+				id: "2102EE1604B1EE96"
+				type: "command"
+				title: "{e6e.storage.title44}"
+				icon: "kubejs:sorcerers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.storage.title45}"
+			x: -2.0d
+			y: -5.0d
+			subtitle: "{e6e.storage.subtitle8}"
+			description: [
+				"{e6e.storage.description52}"
+				""
+				"{e6e.storage.description53}"
+			]
+			dependencies: ["00000000000003FF"]
+			id: "662DA1135F00D6B6"
+			tasks: [{
+				id: "0B58FB5EED4BBC33"
+				type: "item"
+				item: "occultism:storage_controller"
+			}]
+			rewards: [{
+				id: "44BA68CC5061BD0A"
+				type: "command"
+				title: "{e6e.storage.title46}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.storage.title47}"
+			icon: "minecraft:bucket"
+			x: -0.5d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "{e6e.storage.subtitle9}"
+			description: [
+				"{e6e.storage.description54}"
+				""
+				"{e6e.storage.description55}"
+			]
+			dependency_requirement: "one_started"
+			id: "568DC3ECDB943C47"
+			tasks: [{
+				id: "3C4FF0EC769D419E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "34549CDC2415DAD6"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+		}
+		{
+			title: "{e6e.storage.title48}"
+			icon: "mekanism:basic_fluid_tank"
+			x: 2.5d
+			y: -1.5d
+			description: [
+				"{e6e.storage.description56}"
+				""
+				"{e6e.storage.description57}"
+				""
+				"{e6e.storage.description58}"
+			]
+			dependencies: ["568DC3ECDB943C47"]
+			id: "120DA7809C60693C"
+			tasks: [{
+				id: "682D32339BA2A263"
+				type: "item"
+				title: "{e6e.storage.title49}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:basic_fluid_tank"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_fluid_tank"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_fluid_tank"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_fluid_tank"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "77079E43823E3AE6"
+					type: "item"
+					item: "prettypipes:pipe"
+					count: 4
+				}
+				{
+					id: "6C334DFD063E8B65"
+					type: "item"
+					item: "prettypipes:low_retrieval_module"
+				}
+				{
+					id: "3C327392E358E068"
+					type: "item"
+					item: "prettypipes:low_extraction_module"
+				}
+			]
+		}
+		{
+			title: "{e6e.storage.title50}"
+			x: -0.5d
+			y: 1.5d
+			description: [
+				"{e6e.storage.description59}"
+				""
+				"{e6e.storage.description60}"
+			]
+			dependencies: ["568DC3ECDB943C47"]
+			id: "42FE114176EAE0DD"
+			tasks: [{
+				id: "61F77FEB2B9801A7"
+				type: "item"
+				item: "pneumaticcraft:small_tank"
+			}]
+			rewards: [
+				{
+					id: "279817005D062A56"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:small_tank"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								SavedTanks: {
+									Tank: {
+										FluidName: "minecraft:water"
+										Amount: 32000
+									}
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "1629A9186DB5B764"
+					type: "item"
+					item: "create:wheat_flour"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "{e6e.storage.title51}"
+			x: -3.0d
+			y: 0.0d
+			description: [
+				"{e6e.storage.description61}"
+				""
+				"{e6e.storage.description62}"
+			]
+			dependencies: ["568DC3ECDB943C47"]
+			id: "5BEB6955518864A8"
+			tasks: [{
+				id: "49D84038D947694F"
+				type: "item"
+				item: {
+					id: "thermal:fluid_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								FluidName: "minecraft:empty"
+								Capacity: 32000
+								Tank: 0b
+								Amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2EE50650168F11A5"
+				type: "item"
+				item: "thermal:fluid_tank_augment"
+			}]
+		}
+		{
+			title: "{e6e.storage.title52}"
+			x: 1.0d
+			y: 1.0d
+			description: ["{e6e.storage.description63}"]
+			dependencies: ["568DC3ECDB943C47"]
+			id: "516772B582C9114A"
+			tasks: [{
+				id: "755A21A9FE7980B4"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+			rewards: [{
+				id: "72197B3870AE32F2"
+				type: "command"
+				title: "{e6e.storage.title53}"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.storage.title54}"
+			x: -2.0d
+			y: -3.5d
+			description: [
+				"{e6e.storage.description64}"
+				""
+				"{e6e.storage.description65}"
+			]
+			dependencies: ["568DC3ECDB943C47"]
+			id: "1E357DE462DBB1C8"
+			tasks: [{
+				id: "3CD94E8A1FADA69C"
+				type: "item"
+				item: "enderstorage:ender_tank"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "18AC74F0A635EC32"
+					type: "item"
+					item: "resourcefulbees:rgbee_honeycomb"
+					count: 4
+				}
+				{
+					id: "4ED4A6EAF019E0C4"
+					type: "item"
+					item: "resourcefulbees:wax"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{e6e.storage.title55}"
+			x: 2.0d
+			y: 0.0d
+			description: ["{e6e.storage.description66}"]
+			dependencies: ["568DC3ECDB943C47"]
+			id: "484A9BB4A5423AF8"
+			tasks: [{
+				id: "3BF2366BB0C0E896"
+				type: "item"
+				item: "rftoolsutility:tank"
+			}]
+			rewards: [{
+				id: "798CE4333D002DC4"
+				type: "command"
+				title: "{e6e.storage.title56}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.storage.title57}"
+			icon: {
+				id: "tanknull:tank_1"
+				Count: 1b
+				tag: {
+					fluidinv: { }
+				}
+			}
+			x: -0.5d
+			y: -3.5d
+			description: [
+				"{e6e.storage.description67}"
+				""
+				"{e6e.storage.description68}"
+				""
+				"{e6e.storage.description69}"
+			]
+			dependencies: ["568DC3ECDB943C47"]
+			id: "5D02087F29AA5454"
+			tasks: [{
+				id: "09AE24315524F720"
+				type: "item"
+				title: "{e6e.storage.title58}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tanknull:tank_1"
+								Count: 1b
+								tag: {
+									fluidinv: { }
+								}
+							}
+							{
+								id: "tanknull:tank_2"
+								Count: 1b
+								tag: {
+									fluidinv: { }
+								}
+							}
+							{
+								id: "tanknull:tank_3"
+								Count: 1b
+								tag: {
+									fluidinv: { }
+								}
+							}
+							{
+								id: "tanknull:tank_4"
+								Count: 1b
+								tag: {
+									fluidinv: { }
+								}
+							}
+							{
+								id: "tanknull:tank_5"
+								Count: 1b
+								tag: {
+									fluidinv: { }
+								}
+							}
+							{
+								id: "tanknull:tank_6"
+								Count: 1b
+								tag: {
+									fluidinv: { }
+								}
+							}
+							{
+								id: "tanknull:tank_7"
+								Count: 1b
+								tag: {
+									fluidinv: { }
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B430A2095F38839"
+				type: "command"
+				title: "{e6e.storage.title59}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.storage.title60}"
+			icon: "refinedstorage:64k_fluid_storage_disk"
+			x: 2.5d
+			y: -3.5d
+			description: [
+				"{e6e.storage.description70}"
+				""
+				"{e6e.storage.description71}"
+				"{e6e.storage.description72}"
+			]
+			dependencies: [
+				"568DC3ECDB943C47"
+				"0000000000000403"
+			]
+			id: "475E9EE7D90F0BB8"
+			tasks: [{
+				id: "716230750AA92EC9"
+				type: "item"
+				title: "{e6e.storage.title61}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "refinedstorage:64k_fluid_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										-1031856902
+										-899464268
+										-1112014982
+										515911903
+									]
+								}
+							}
+							{
+								id: "refinedstorage:256k_fluid_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										-356968885
+										-503821794
+										-1682123444
+										1712090278
+									]
+								}
+							}
+							{
+								id: "refinedstorage:1024k_fluid_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										-1183223022
+										358039592
+										-1084084011
+										-1294625985
+									]
+								}
+							}
+							{
+								id: "refinedstorage:4096k_fluid_storage_disk"
+								Count: 1b
+								tag: {
+									Id: [I;
+										907752426
+										-272873231
+										-1246367336
+										-1496277162
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_16384k_fluid"
+								Count: 1b
+								tag: {
+									ID: [I;
+										51139427
+										-1958262542
+										-1340406862
+										909704624
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_65536k_fluid"
+								Count: 1b
+								tag: {
+									ID: [I;
+										1950220109
+										1070221666
+										-1228984801
+										1801515425
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_262144k_fluid"
+								Count: 1b
+								tag: {
+									ID: [I;
+										1723919845
+										-1513143925
+										-1779991496
+										1774992712
+									]
+								}
+							}
+							{
+								id: "extrastorage:disk_1048576k_fluid"
+								Count: 1b
+								tag: {
+									ID: [I;
+										-1030006703
+										-1075493156
+										-1368676727
+										-274718083
+									]
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "604ED1BE1F115A88"
+				type: "command"
+				title: "{e6e.storage.title62}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.storage.title63}"
+			x: 4.0d
+			y: -1.5d
+			subtitle: "{e6e.storage.subtitle10}"
+			description: [
+				"{e6e.storage.description73}"
+				""
+				"{e6e.storage.description74}"
+			]
+			dependencies: ["120DA7809C60693C"]
+			id: "7EB1E018DE90ADCA"
+			tasks: [
+				{
+					id: "6F108555E4895D92"
+					type: "item"
+					item: "mekanism:dynamic_valve"
+					count: 2L
+				}
+				{
+					id: "40EBC06D819585A2"
+					type: "item"
+					item: "mekanism:dynamic_tank"
+					count: 24L
+				}
+			]
+			rewards: [{
+				id: "24BBD9AE9A183012"
+				type: "item"
+				item: "mekanism:structural_glass"
+				count: 8
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			description: [
+				"{e6e.storage.description75}"
+				""
+				"{e6e.storage.description76}"
+			]
+			dependencies: ["568DC3ECDB943C47"]
+			id: "1963E75A50255E85"
+			tasks: [{
+				id: "1BD90F15A5929378"
+				type: "item"
+				item: {
+					id: "thermal:fluid_reservoir"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2D1CA89CAC683ADD"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "cofh_core:holding"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.storage.title64}"
+			icon: "tconstruct:seared_ingot_tank"
+			x: -3.5d
+			y: -1.5d
+			description: ["{e6e.storage.description77}"]
+			dependencies: ["568DC3ECDB943C47"]
+			id: "1EFC81649E4D4C50"
+			tasks: [{
+				id: "376F9D335DB66E98"
+				type: "item"
+				title: "{e6e.storage.title65}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:tanks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F2C198D293D7995"
+				type: "item"
+				item: {
+					id: "tconstruct:copper_can"
+					Count: 1b
+					tag: {
+						fluid: "tconstruct:molten_copper"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			description: ["{e6e.storage.description78}"]
+			dependencies: [
+				"1EFC81649E4D4C50"
+				"76BAE86D90953DD4"
+			]
+			id: "090B9336E75C759A"
+			tasks: [{
+				id: "6C548EA30E5F258C"
+				type: "item"
+				item: "tconstruct:foundry_controller"
+			}]
+			rewards: [{
+				id: "0CF79BF4A3ACFB40"
+				type: "item"
+				item: "tconstruct:nether_grout"
+				count: 8
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			description: [
+				"{e6e.storage.description79}"
+				""
+				"{e6e.storage.description80}"
+			]
+			dependencies: [
+				"568DC3ECDB943C47"
+				"0000000000000403"
+			]
+			id: "1E8D2377DCF03984"
+			tasks: [{
+				id: "734CC72EF1E4ACE4"
+				type: "item"
+				item: "refinedstorage:external_storage"
+			}]
+			rewards: [{
+				id: "6D9A4CEFB43C39C7"
+				type: "command"
+				title: "{e6e.storage.title66}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.0d
+			description: ["{e6e.storage.description81}"]
+			dependencies: ["00000000000003FF"]
+			id: "6E3133DD54A6C7E7"
+			tasks: [{
+				id: "43B9523816655544"
+				type: "item"
+				item: "prettypipes:item_terminal"
+			}]
+			rewards: [{
+				id: "68188157B1667326"
+				type: "item"
+				item: "prettypipes:pipe"
+				count: 8
+			}]
+		}
+		{
+			title: "{e6e.storage.title67}"
+			icon: "integratedterminals:part_terminal_storage"
+			x: 2.5d
+			y: -5.0d
+			subtitle: "{e6e.storage.subtitle11}"
+			description: [
+				"{e6e.storage.description82}"
+				""
+				"{e6e.storage.description83}"
+				""
+				"{e6e.storage.description84}"
+			]
+			dependencies: ["00000000000003FF"]
+			id: "69982730005EDD7D"
+			tasks: [
+				{
+					id: "305FEF030727F2B7"
+					type: "item"
+					item: "integratedterminals:part_terminal_storage"
+				}
+				{
+					id: "5EE786F87A40ABE3"
+					type: "item"
+					item: "integrateddynamics:cable"
+					count: 8L
+				}
+				{
+					id: "56CE84BAC42C77C2"
+					type: "item"
+					item: "integratedtunnels:part_interface_item"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "2DCCF7F86474DF47"
+					type: "item"
+					item: "integratedtunnels:part_interface_item"
+					count: 2
+				}
+				{
+					id: "000CFB69B8DEE81F"
+					type: "item"
+					item: "integrateddynamics:cable"
+					count: 8
+				}
+				{
+					id: "26F8EDF02B0D31AA"
+					type: "item"
+					item: "integrateddynamics:facade"
+					count: 16
+				}
+			]
+		}
+	]
+}

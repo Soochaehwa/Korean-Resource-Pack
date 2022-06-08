@@ -1,0 +1,815 @@
+{
+	id: "0000000000000240"
+	group: "0856CF7F5CBEB20A"
+	order_index: 2
+	filename: "refined_storage"
+	title: "{e6e.refined_storage.title0}"
+	icon: "refinedstorage:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{e6e.refined_storage.title1}"
+			icon: "refinedstorage:wrench"
+			x: 0.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{e6e.refined_storage.subtitle0}"
+			description: ["{e6e.refined_storage.description0}"]
+			size: 1.5d
+			optional: true
+			id: "000000000000024F"
+			tasks: [{
+				id: "42C8AA65635D8B7B"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "000000000000027A"
+					type: "item"
+					title: "{e6e.refined_storage.title2}"
+					item: "minecraft:slime_ball"
+					count: 4
+				}
+				{
+					id: "000000000000027B"
+					type: "item"
+					title: "{e6e.refined_storage.title3}"
+					item: "minecraft:string"
+					count: 4
+				}
+				{
+					id: "0000000000000F4D"
+					type: "item"
+					title: "{e6e.refined_storage.title4}"
+					item: "refinedstorage:wrench"
+				}
+			]
+		}
+		{
+			title: "{e6e.refined_storage.title5}"
+			icon: "refinedstorage:advanced_processor"
+			x: 0.5d
+			y: 2.0d
+			subtitle: "{e6e.refined_storage.subtitle1}"
+			description: ["{e6e.refined_storage.description1}"]
+			dependencies: ["000000000000024F"]
+			id: "0000000000000252"
+			tasks: [
+				{
+					id: "0000000000000253"
+					type: "item"
+					item: "refinedstorage:basic_processor"
+				}
+				{
+					id: "0000000000000254"
+					type: "item"
+					item: "refinedstorage:improved_processor"
+				}
+				{
+					id: "0000000000000255"
+					type: "item"
+					item: "refinedstorage:advanced_processor"
+				}
+			]
+			rewards: [{
+				id: "00000000000005AF"
+				type: "item"
+				title: "{e6e.refined_storage.title6}"
+				item: "refinedstorage:quartz_enriched_iron"
+				count: 16
+			}]
+		}
+		{
+			icon: "refinedstorage:controller"
+			x: 0.5d
+			y: 3.5d
+			shape: "rsquare"
+			subtitle: "{e6e.refined_storage.subtitle2}"
+			description: [
+				"{e6e.refined_storage.description2}"
+				""
+				"{e6e.refined_storage.description3}"
+			]
+			dependencies: ["0000000000000252"]
+			id: "0000000000000256"
+			tasks: [
+				{
+					id: "0000000000000257"
+					type: "item"
+					item: "refinedstorage:controller"
+				}
+				{
+					id: "0000000000000287"
+					type: "item"
+					item: "refinedstorage:cable"
+				}
+			]
+			rewards: [{
+				id: "00000000000005B0"
+				type: "item"
+				title: "{e6e.refined_storage.title7}"
+				item: "refinedstorage:cable"
+				count: 16
+			}]
+		}
+		{
+			title: "{e6e.refined_storage.title8}"
+			icon: "refinedstorage:64k_storage_disk"
+			x: 2.0d
+			y: 6.5d
+			subtitle: "{e6e.refined_storage.subtitle3}"
+			description: [
+				"{e6e.refined_storage.description4}"
+				""
+				"{e6e.refined_storage.description5}"
+			]
+			dependencies: ["0000000000000264"]
+			id: "0000000000000258"
+			tasks: [
+				{
+					id: "0000000000000259"
+					type: "item"
+					item: "refinedstorage:disk_drive"
+				}
+				{
+					id: "0000000000000286"
+					type: "item"
+					title: "{e6e.refined_storage.title9}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "refinedstorage:1k_storage_disk"
+									Count: 1b
+								}
+								{
+									id: "refinedstorage:4k_storage_disk"
+									Count: 1b
+								}
+								{
+									id: "refinedstorage:16k_storage_disk"
+									Count: 1b
+								}
+								{
+									id: "refinedstorage:64k_storage_disk"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000005B1"
+					type: "command"
+					title: "{e6e.refined_storage.title10}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+					player_command: false
+				}
+				{
+					id: "00000000000005BD"
+					type: "item"
+					title: "{e6e.refined_storage.title11}"
+					item: "refinedstorage:storage_housing"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "{e6e.refined_storage.title12}"
+			x: 3.5d
+			y: 6.5d
+			subtitle: "{e6e.refined_storage.subtitle4}"
+			description: ["{e6e.refined_storage.description6}"]
+			dependencies: ["0000000000000268"]
+			id: "000000000000025D"
+			tasks: [{
+				id: "000000000000025E"
+				type: "item"
+				title: "{e6e.refined_storage.title13}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "refinedstorage:64k_fluid_storage_disk"
+								Count: 1b
+							}
+							{
+								id: "refinedstorage:256k_fluid_storage_disk"
+								Count: 1b
+							}
+							{
+								id: "refinedstorage:1024k_fluid_storage_disk"
+								Count: 1b
+							}
+							{
+								id: "refinedstorage:4096k_fluid_storage_disk"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000005BB"
+				type: "item"
+				title: "{e6e.refined_storage.title14}"
+				item: "refinedstorage:256k_fluid_storage_part"
+			}]
+		}
+		{
+			title: "{e6e.refined_storage.title15}"
+			icon: "refinedstorage:exporter"
+			x: -1.0d
+			y: 6.5d
+			subtitle: "{e6e.refined_storage.subtitle5}"
+			description: ["{e6e.refined_storage.description7}"]
+			dependencies: ["0000000000000256"]
+			id: "000000000000025F"
+			tasks: [
+				{
+					id: "0000000000000260"
+					type: "item"
+					item: "refinedstorage:importer"
+				}
+				{
+					id: "0000000000000261"
+					type: "item"
+					item: "refinedstorage:exporter"
+				}
+			]
+			rewards: [{
+				id: "00000000000005BA"
+				type: "command"
+				title: "{e6e.refined_storage.title16}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			subtitle: "{e6e.refined_storage.subtitle6}"
+			description: ["{e6e.refined_storage.description8}"]
+			dependencies: ["0000000000000256"]
+			id: "0000000000000262"
+			tasks: [{
+				id: "0000000000000263"
+				type: "item"
+				item: "refinedstorage:external_storage"
+			}]
+			rewards: [{
+				id: "00000000000005BF"
+				type: "item"
+				title: "{e6e.refined_storage.title17}"
+				item: "mekanism:advanced_bin"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			shape: "hexagon"
+			subtitle: "{e6e.refined_storage.subtitle7}"
+			description: ["{e6e.refined_storage.description9}"]
+			dependencies: ["0000000000000256"]
+			id: "0000000000000264"
+			tasks: [{
+				id: "0000000000000265"
+				type: "item"
+				item: "refinedstorage:grid"
+			}]
+			rewards: [{
+				id: "00000000000005BE"
+				type: "item"
+				title: "{e6e.refined_storage.title18}"
+				item: "refinedstorage:cable"
+				count: 8
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			subtitle: "{e6e.refined_storage.subtitle8}"
+			description: [
+				"{e6e.refined_storage.description10}"
+				""
+				"{e6e.refined_storage.description11}"
+			]
+			dependencies: ["0000000000000264"]
+			id: "0000000000000266"
+			tasks: [{
+				id: "0000000000000267"
+				type: "item"
+				item: "refinedstorage:storage_monitor"
+			}]
+			rewards: [{
+				id: "00000000000005C0"
+				type: "item"
+				title: "{e6e.refined_storage.title19}"
+				item: "refinedstorage:storage_housing"
+				count: 4
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.0d
+			subtitle: "{e6e.refined_storage.subtitle9}"
+			description: ["{e6e.refined_storage.description12}"]
+			dependencies: ["0000000000000264"]
+			id: "0000000000000268"
+			tasks: [{
+				id: "0000000000000269"
+				type: "item"
+				item: "refinedstorage:fluid_grid"
+			}]
+			rewards: [{
+				id: "00000000000005C2"
+				type: "item"
+				title: "{e6e.refined_storage.title20}"
+				item: "refinedstorage:256k_fluid_storage_part"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			subtitle: "{e6e.refined_storage.subtitle10}"
+			description: [
+				"{e6e.refined_storage.description13}"
+				""
+				"{e6e.refined_storage.description14}"
+			]
+			dependencies: ["0000000000000264"]
+			id: "000000000000026A"
+			tasks: [{
+				id: "000000000000026B"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+			rewards: [{
+				id: "00000000000005C5"
+				type: "command"
+				title: "{e6e.refined_storage.title21}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.refined_storage.title22}"
+			icon: "refinedstorage:wireless_grid"
+			x: 5.0d
+			y: 6.5d
+			subtitle: "{e6e.refined_storage.subtitle11}"
+			description: [
+				"{e6e.refined_storage.description15}"
+				""
+				"{e6e.refined_storage.description16}"
+			]
+			dependencies: ["000000000000026A"]
+			id: "000000000000026C"
+			tasks: [
+				{
+					id: "000000000000026D"
+					type: "item"
+					item: "refinedstorageaddons:wireless_crafting_grid"
+				}
+				{
+					id: "000000000000029A"
+					type: "item"
+					item: "refinedstorage:wireless_transmitter"
+				}
+			]
+			rewards: [{
+				id: "00000000000005C3"
+				type: "command"
+				title: "{e6e.refined_storage.title23}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			subtitle: "{e6e.refined_storage.subtitle12}"
+			description: ["{e6e.refined_storage.description17}"]
+			dependencies: ["000000000000026C"]
+			id: "000000000000026E"
+			tasks: [{
+				id: "000000000000026F"
+				type: "item"
+				item: "refinedstorage:range_upgrade"
+			}]
+			rewards: [{
+				id: "00000000000005C4"
+				type: "item"
+				title: "{e6e.refined_storage.title24}"
+				item: "minecraft:ender_pearl"
+				count: 4
+			}]
+		}
+		{
+			title: "{e6e.refined_storage.title25}"
+			icon: "refinedstorage:pattern"
+			x: 0.5d
+			y: 6.5d
+			subtitle: "{e6e.refined_storage.subtitle13}"
+			description: [
+				"{e6e.refined_storage.description18}"
+				""
+				"{e6e.refined_storage.description19}"
+				""
+				"{e6e.refined_storage.description20}"
+			]
+			dependencies: ["0000000000000264"]
+			id: "0000000000000270"
+			tasks: [
+				{
+					id: "0000000000000271"
+					type: "item"
+					item: "refinedstorage:pattern_grid"
+				}
+				{
+					id: "0000000000000297"
+					type: "item"
+					item: "refinedstorage:pattern"
+				}
+			]
+			rewards: [{
+				id: "00000000000005C1"
+				type: "command"
+				title: "{e6e.refined_storage.title26}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.0d
+			shape: "rsquare"
+			subtitle: "{e6e.refined_storage.subtitle14}"
+			description: [
+				"{e6e.refined_storage.description21}"
+				""
+				"{e6e.refined_storage.description22}"
+				""
+				"{e6e.refined_storage.description23}"
+				""
+				"{e6e.refined_storage.description24}"
+			]
+			dependencies: ["0000000000000270"]
+			size: 1.25d
+			min_width: 300
+			id: "0000000000000272"
+			tasks: [{
+				id: "0000000000000273"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+			rewards: [
+				{
+					id: "00000000000005B2"
+					type: "command"
+					title: "{e6e.refined_storage.title27}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+					player_command: false
+				}
+				{
+					id: "00000000000005B3"
+					type: "command"
+					title: "{e6e.refined_storage.title28}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			subtitle: "{e6e.refined_storage.subtitle15}"
+			description: ["{e6e.refined_storage.description25}"]
+			dependencies: ["0000000000000256"]
+			id: "0000000000000274"
+			tasks: [{
+				id: "0000000000000275"
+				type: "item"
+				item: "refinedstorage:speed_upgrade"
+			}]
+			rewards: [{
+				id: "00000000000005B5"
+				type: "item"
+				title: "{e6e.refined_storage.title29}"
+				item: "refinedstorage:speed_upgrade"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			subtitle: "{e6e.refined_storage.subtitle16}"
+			description: ["{e6e.refined_storage.description26}"]
+			dependencies: ["0000000000000274"]
+			id: "0000000000000276"
+			tasks: [{
+				id: "0000000000000277"
+				type: "item"
+				item: "refinedstorage:stack_upgrade"
+			}]
+			rewards: [{
+				id: "00000000000005B4"
+				type: "command"
+				title: "{e6e.refined_storage.title30}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.5d
+			y: 9.5d
+			subtitle: "{e6e.refined_storage.subtitle17}"
+			description: [
+				"{e6e.refined_storage.description27}"
+				""
+				"{e6e.refined_storage.description28}"
+			]
+			dependencies: ["0000000000000272"]
+			id: "0000000000000278"
+			tasks: [{
+				id: "0000000000000279"
+				type: "item"
+				item: "refinedstorage:crafting_monitor"
+			}]
+			rewards: [{
+				id: "00000000000005BC"
+				type: "command"
+				title: "{e6e.refined_storage.title31}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			subtitle: "{e6e.refined_storage.subtitle18}"
+			description: [
+				"{e6e.refined_storage.description29}"
+				""
+				"{e6e.refined_storage.description30}"
+			]
+			dependencies: ["000000000000025F"]
+			id: "0000000000000298"
+			tasks: [{
+				id: "0000000000000299"
+				type: "item"
+				item: "refinedstorage:interface"
+			}]
+			rewards: [{
+				id: "00000000000005B9"
+				type: "item"
+				title: "{e6e.refined_storage.title32}"
+				item: "refinedstorage:interface"
+			}]
+		}
+		{
+			title: "{e6e.refined_storage.title33}"
+			icon: "refinedstorage:network_transmitter"
+			x: 0.5d
+			y: 5.0d
+			subtitle: "{e6e.refined_storage.subtitle19}"
+			description: [
+				"{e6e.refined_storage.description31}"
+				""
+				"{e6e.refined_storage.description32}"
+				""
+				"{e6e.refined_storage.description33}"
+			]
+			dependencies: ["0000000000000256"]
+			id: "000000000000029B"
+			tasks: [
+				{
+					id: "000000000000029C"
+					type: "item"
+					item: "refinedstorage:network_transmitter"
+				}
+				{
+					id: "000000000000029D"
+					type: "item"
+					item: "refinedstorage:network_receiver"
+				}
+				{
+					id: "000000000000029E"
+					type: "item"
+					item: "refinedstorage:network_card"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000005B6"
+					type: "command"
+					title: "{e6e.refined_storage.title34}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+					player_command: false
+				}
+				{
+					id: "00000000000005B7"
+					type: "command"
+					title: "{e6e.refined_storage.title35}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.refined_storage.title36}"
+			x: -1.0d
+			y: 5.0d
+			subtitle: "{e6e.refined_storage.subtitle20}"
+			description: [
+				"{e6e.refined_storage.description34}"
+				""
+				"{e6e.refined_storage.description35}"
+			]
+			dependencies: ["0000000000000256"]
+			id: "0000000000000F3F"
+			tasks: [
+				{
+					id: "0000000000000F40"
+					type: "item"
+					item: "refinedstorage:constructor"
+				}
+				{
+					id: "0000000000000F41"
+					type: "item"
+					item: "refinedstorage:destructor"
+				}
+			]
+			rewards: [{
+				id: "0000000000000F4C"
+				type: "command"
+				title: "{e6e.refined_storage.title37}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 9.5d
+			subtitle: "{e6e.refined_storage.subtitle21}"
+			description: [
+				"{e6e.refined_storage.description36}"
+				""
+				"{e6e.refined_storage.description37}"
+			]
+			dependencies: ["0000000000000272"]
+			id: "0000000000000F42"
+			tasks: [{
+				id: "0000000000000F43"
+				type: "item"
+				item: "extrastorage:iron_crafter"
+			}]
+			rewards: [{
+				id: "0000000000000F4F"
+				type: "command"
+				title: "{e6e.refined_storage.title38}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.0d
+			shape: "hexagon"
+			subtitle: "{e6e.refined_storage.subtitle22}"
+			description: ["{e6e.refined_storage.description38}"]
+			dependencies: ["0000000000000F42"]
+			id: "0000000000000F44"
+			tasks: [{
+				id: "0000000000000F45"
+				type: "item"
+				item: "extrastorage:netherite_crafter"
+			}]
+			rewards: [{
+				id: "0000000000000F50"
+				type: "command"
+				title: "{e6e.refined_storage.title39}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: 9.5d
+			subtitle: "{e6e.refined_storage.subtitle23}"
+			description: [
+				"{e6e.refined_storage.description39}"
+				""
+				"{e6e.refined_storage.description40}"
+			]
+			dependencies: ["0000000000000272"]
+			id: "0000000000000F46"
+			tasks: [{
+				id: "0000000000000F47"
+				type: "item"
+				item: "refinedstorage:crafter_manager"
+			}]
+			rewards: [{
+				id: "0000000000000F4E"
+				type: "item"
+				title: "{e6e.refined_storage.title40}"
+				item: "refinedstorage:crafter"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.0d
+			subtitle: "{e6e.refined_storage.subtitle24}"
+			description: [
+				"{e6e.refined_storage.description41}"
+				""
+				"{e6e.refined_storage.description42}"
+			]
+			dependencies: ["000000000000026E"]
+			id: "2306493F2E5034A9"
+			tasks: [{
+				id: "6F47C4273FB03E51"
+				type: "item"
+				item: "rsinfinitybooster:infinity_card"
+			}]
+			rewards: [{
+				id: "20EF5FBDB4D844CB"
+				type: "command"
+				title: "{e6e.refined_storage.title41}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			subtitle: "{e6e.refined_storage.subtitle25}"
+			description: [
+				"{e6e.refined_storage.description43}"
+				""
+				"{e6e.refined_storage.description44}"
+			]
+			dependencies: ["2306493F2E5034A9"]
+			id: "005B9AE555D13DE7"
+			tasks: [{
+				id: "7AFFE72DF5E94D4F"
+				type: "item"
+				item: "rsinfinitybooster:dimension_card"
+			}]
+			rewards: [{
+				id: "3E28C6692FC99AEB"
+				type: "command"
+				title: "{e6e.refined_storage.title42}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.5d
+			y: 9.5d
+			subtitle: "{e6e.refined_storage.subtitle26}"
+			description: ["{e6e.refined_storage.description45}"]
+			dependencies: ["0000000000000298"]
+			id: "5DA4C492523C7D72"
+			tasks: [{
+				id: "34568F90E5706133"
+				type: "item"
+				item: "rsrequestify:requester"
+			}]
+			rewards: [{
+				id: "504B58199A20F9B0"
+				type: "command"
+				title: "{e6e.refined_storage.title43}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_refined_storage_loot"
+				player_command: false
+			}]
+		}
+	]
+}

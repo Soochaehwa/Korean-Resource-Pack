@@ -1,0 +1,1596 @@
+{
+	id: "0000000000000AF3"
+	group: "5A8B89F87F77CF4C"
+	order_index: 2
+	filename: "astral_sorcery_wip"
+	title: "{e6e.astral_sorcery_wip.title0}"
+	icon: "astralsorcery:hand_telescope"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{e6e.astral_sorcery_wip.title1}"
+			icon: "astralsorcery:tome"
+			x: 7.0d
+			y: -10.5d
+			shape: "gear"
+			description: [
+				"{e6e.astral_sorcery_wip.description0}"
+				""
+				"{e6e.astral_sorcery_wip.description1}"
+				""
+				"{e6e.astral_sorcery_wip.description2}"
+			]
+			optional: true
+			id: "0000000000000AF4"
+			tasks: [{
+				id: "68C3AD7DEDCF8C8B"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 4L
+			}]
+			rewards: [{
+				id: "00B5497F8AA28D93"
+				type: "item"
+				title: "{e6e.astral_sorcery_wip.title2}"
+				item: "astralsorcery:marble_raw"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			x: 7.0d
+			y: -9.0d
+			subtitle: "{e6e.astral_sorcery_wip.subtitle0}"
+			description: [
+				"{e6e.astral_sorcery_wip.description3}"
+				""
+				"{e6e.astral_sorcery_wip.description4}"
+				""
+				"{e6e.astral_sorcery_wip.description5}"
+				"{e6e.astral_sorcery_wip.description6}"
+				""
+				"{e6e.astral_sorcery_wip.description7}"
+				""
+				"{e6e.astral_sorcery_wip.description8}"
+				""
+				"{e6e.astral_sorcery_wip.description9}"
+			]
+			dependencies: ["0000000000000AF4"]
+			min_width: 300
+			id: "0000000000000B6E"
+			tasks: [{
+				id: "0000000000000B77"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [
+				{
+					id: "0000000000000BDB"
+					type: "item"
+					title: "{e6e.astral_sorcery_wip.title3}"
+					item: "ars_nouveau:warp_scroll"
+					count: 16
+				}
+				{
+					id: "0000000000000C5E"
+					type: "command"
+					title: "{e6e.astral_sorcery_wip.title4}"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "astralsorcery:ritual_pedestal"
+			x: 2.5d
+			y: -4.0d
+			subtitle: "{e6e.astral_sorcery_wip.subtitle1}"
+			description: [
+				"{e6e.astral_sorcery_wip.description10}"
+				""
+				"{e6e.astral_sorcery_wip.description11}"
+				"{e6e.astral_sorcery_wip.description12}"
+				""
+				"{e6e.astral_sorcery_wip.description13}"
+				""
+				"{e6e.astral_sorcery_wip.description14}"
+				""
+				"{e6e.astral_sorcery_wip.description15}"
+			]
+			dependencies: ["0000000000000B8E"]
+			id: "0000000000000B70"
+			tasks: [
+				{
+					id: "0000000000000B90"
+					type: "item"
+					item: "astralsorcery:ritual_pedestal"
+				}
+				{
+					id: "0000000000000B91"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 12L
+				}
+				{
+					id: "0000000000000B92"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+				}
+				{
+					id: "0000000000000B93"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 24L
+				}
+				{
+					id: "0000000000000B94"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "0000000000000C4D"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title5}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			icon: "astralsorcery:well"
+			x: 4.0d
+			y: -9.5d
+			subtitle: "{e6e.astral_sorcery_wip.subtitle2}"
+			description: [
+				"{e6e.astral_sorcery_wip.description16}"
+				""
+				"{e6e.astral_sorcery_wip.description17}"
+				""
+				"{e6e.astral_sorcery_wip.description18}"
+				"{e6e.astral_sorcery_wip.description19}"
+				""
+				"{e6e.astral_sorcery_wip.description20}"
+				"{e6e.astral_sorcery_wip.description21}"
+				""
+				"{e6e.astral_sorcery_wip.description22}"
+				""
+				"{e6e.astral_sorcery_wip.description23}"
+			]
+			dependencies: ["0000000000000BA3"]
+			id: "0000000000000B72"
+			tasks: [
+				{
+					id: "0000000000000B86"
+					type: "item"
+					item: "astralsorcery:well"
+				}
+				{
+					id: "0000000000000BDF"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000BE0"
+					type: "item"
+					title: "{e6e.astral_sorcery_wip.title6}"
+					item: "astralsorcery:aquamarine_sand_ore"
+					count: 8
+				}
+				{
+					id: "0000000000000C60"
+					type: "command"
+					title: "{e6e.astral_sorcery_wip.title7}"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -7.5d
+			subtitle: "{e6e.astral_sorcery_wip.subtitle3}"
+			description: [
+				"{e6e.astral_sorcery_wip.description24}"
+				""
+				"{e6e.astral_sorcery_wip.description25}"
+				"{e6e.astral_sorcery_wip.description26}"
+				""
+				"{e6e.astral_sorcery_wip.description27}"
+			]
+			dependencies: ["0000000000000B6E"]
+			id: "0000000000000B74"
+			tasks: [{
+				id: "0000000000000B87"
+				type: "item"
+				item: {
+					id: "astralsorcery:constellation_paper"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000C51"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title8}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			icon: "astralsorcery:altar_attunement"
+			x: 7.0d
+			y: -6.0d
+			description: [
+				"{e6e.astral_sorcery_wip.description28}"
+				""
+				"{e6e.astral_sorcery_wip.description29}"
+				""
+				"{e6e.astral_sorcery_wip.description30}"
+			]
+			dependencies: ["0000000000000B6E"]
+			id: "0000000000000B79"
+			tasks: [
+				{
+					id: "0000000000000B7A"
+					type: "item"
+					item: "astralsorcery:altar_attunement"
+				}
+				{
+					id: "0000000000000C2F"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 8L
+				}
+				{
+					id: "0000000000000C30"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 8L
+				}
+				{
+					id: "0000000000000C31"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 24L
+				}
+				{
+					id: "0000000000000C32"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 28L
+				}
+				{
+					id: "0000000000000C33"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 21L
+				}
+			]
+			rewards: [{
+				id: "0000000000000C42"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title9}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			icon: "astralsorcery:altar_constellation"
+			x: 7.0d
+			y: -4.5d
+			description: [
+				"{e6e.astral_sorcery_wip.description31}"
+				""
+				"{e6e.astral_sorcery_wip.description32}"
+			]
+			dependencies: ["0000000000000B79"]
+			id: "0000000000000B7B"
+			tasks: [
+				{
+					id: "0000000000000B7C"
+					type: "item"
+					item: "astralsorcery:altar_constellation"
+				}
+				{
+					id: "0000000000000C34"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 4L
+				}
+				{
+					id: "0000000000000C35"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 4L
+				}
+				{
+					id: "0000000000000C36"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 49L
+				}
+				{
+					id: "0000000000000C37"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 12L
+				}
+				{
+					id: "0000000000000C38"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 8L
+				}
+				{
+					id: "0000000000000C39"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 40L
+				}
+			]
+			rewards: [{
+				id: "0000000000000C43"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title10}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			icon: "astralsorcery:altar_radiance"
+			x: 7.0d
+			y: -3.0d
+			description: [
+				"{e6e.astral_sorcery_wip.description33}"
+				""
+				"{e6e.astral_sorcery_wip.description34}"
+				""
+				"{e6e.astral_sorcery_wip.description35}"
+			]
+			dependencies: ["0000000000000B7B"]
+			id: "0000000000000B7D"
+			tasks: [
+				{
+					id: "0000000000000B7E"
+					type: "item"
+					item: "astralsorcery:altar_radiance"
+				}
+				{
+					id: "0000000000000C3A"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 8L
+				}
+				{
+					id: "0000000000000C3B"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 4L
+				}
+				{
+					id: "0000000000000C3C"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 68L
+				}
+				{
+					id: "0000000000000C3D"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 12L
+				}
+				{
+					id: "0000000000000C3E"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 49L
+				}
+			]
+			rewards: [{
+				id: "0000000000000C44"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title11}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			icon: "astralsorcery:spectral_relay"
+			x: 9.0d
+			y: -7.5d
+			description: [
+				"{e6e.astral_sorcery_wip.description36}"
+				""
+				"{e6e.astral_sorcery_wip.description37}"
+				"{e6e.astral_sorcery_wip.description38}"
+				""
+				"{e6e.astral_sorcery_wip.description39}"
+				""
+				"{e6e.astral_sorcery_wip.description40}"
+			]
+			dependencies: ["0000000000000B9F"]
+			id: "0000000000000B7F"
+			tasks: [
+				{
+					id: "0000000000000B80"
+					type: "item"
+					item: "astralsorcery:spectral_relay"
+				}
+				{
+					id: "0000000000000B81"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+				}
+				{
+					id: "0000000000000B82"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 4L
+				}
+				{
+					id: "0000000000000B83"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "0000000000000C46"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title12}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.astral_sorcery_wip.title13}"
+			x: 5.5d
+			y: -6.0d
+			subtitle: "{e6e.astral_sorcery_wip.subtitle4}"
+			description: [
+				"{e6e.astral_sorcery_wip.description41}"
+				""
+				"{e6e.astral_sorcery_wip.description42}"
+				"{e6e.astral_sorcery_wip.description43}"
+				""
+				"{e6e.astral_sorcery_wip.description44}"
+				""
+				"{e6e.astral_sorcery_wip.description45}"
+				""
+				"{e6e.astral_sorcery_wip.description46}"
+				""
+				"{e6e.astral_sorcery_wip.description47}"
+			]
+			dependencies: ["0000000000000B74"]
+			id: "0000000000000B88"
+			tasks: [{
+				id: "0000000000000B89"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+			rewards: [
+				{
+					id: "0000000000000C22"
+					type: "command"
+					title: "{e6e.astral_sorcery_wip.title14}"
+					icon: "aquaculture:fish_bones"
+					command: "/tamedsummon minecraft:cat @p ~ ~ ~"
+					player_command: false
+				}
+				{
+					id: "0000000000000C23"
+					type: "item"
+					title: "{e6e.astral_sorcery_wip.title15}"
+					item: "minecraft:cod"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			subtitle: "{e6e.astral_sorcery_wip.subtitle5}"
+			description: [
+				"{e6e.astral_sorcery_wip.description48}"
+				"{e6e.astral_sorcery_wip.description49}"
+				""
+				"{e6e.astral_sorcery_wip.description50}"
+			]
+			dependencies: ["0000000000000B79"]
+			id: "0000000000000B8A"
+			tasks: [{
+				id: "0000000000000B8B"
+				type: "item"
+				item: "astralsorcery:telescope"
+			}]
+			rewards: [{
+				id: "0000000000000C4B"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title16}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			subtitle: "{e6e.astral_sorcery_wip.subtitle6}"
+			description: [
+				"{e6e.astral_sorcery_wip.description51}"
+				""
+				"{e6e.astral_sorcery_wip.description52}"
+				"{e6e.astral_sorcery_wip.description53}"
+				""
+				"{e6e.astral_sorcery_wip.description54}"
+			]
+			dependencies: ["0000000000000B7D"]
+			id: "0000000000000B8C"
+			tasks: [{
+				id: "0000000000000B8D"
+				type: "item"
+				item: "astralsorcery:observatory"
+			}]
+			rewards: [{
+				id: "0000000000000C4A"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title17}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			description: [
+				"{e6e.astral_sorcery_wip.description55}"
+				""
+				"{e6e.astral_sorcery_wip.description56}"
+				""
+				"{e6e.astral_sorcery_wip.description57}"
+				"{e6e.astral_sorcery_wip.description58}"
+				""
+				"{e6e.astral_sorcery_wip.description59}"
+				""
+				"{e6e.astral_sorcery_wip.description60}"
+				""
+				"{e6e.astral_sorcery_wip.description61}"
+				""
+				"{e6e.astral_sorcery_wip.description62}"
+			]
+			dependencies: ["0000000000000B8A"]
+			min_width: 300
+			id: "0000000000000B8E"
+			tasks: [{
+				id: "0000000000000B8F"
+				type: "item"
+				item: "astralsorcery:attunement_altar"
+			}]
+			rewards: [{
+				id: "0000000000000C4C"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title18}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.astral_sorcery_wip.title19}"
+			x: 8.5d
+			y: -9.5d
+			subtitle: "{e6e.astral_sorcery_wip.subtitle7}"
+			description: [
+				"{e6e.astral_sorcery_wip.description63}"
+				"{e6e.astral_sorcery_wip.description64}"
+				""
+				"{e6e.astral_sorcery_wip.description65}"
+				""
+				"{e6e.astral_sorcery_wip.description66}"
+			]
+			dependencies: ["0000000000000B6E"]
+			id: "0000000000000B95"
+			tasks: [
+				{
+					id: "0000000000000B96"
+					type: "item"
+					item: "astralsorcery:nocturnal_powder"
+				}
+				{
+					id: "0000000000000B97"
+					type: "item"
+					item: "astralsorcery:illumination_powder"
+				}
+			]
+			rewards: [{
+				id: "0000000000000C2E"
+				type: "item"
+				title: "{e6e.astral_sorcery_wip.title20}"
+				item: "astralsorcery:illuminator"
+			}]
+		}
+		{
+			title: "{e6e.astral_sorcery_wip.title21}"
+			icon: {
+				id: "astralsorcery:celestial_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:bootes"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.bootes"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+			}
+			x: 1.0d
+			y: -4.5d
+			description: [
+				"{e6e.astral_sorcery_wip.description67}"
+				""
+				"{e6e.astral_sorcery_wip.description68}"
+				"{e6e.astral_sorcery_wip.description69}"
+				""
+				"{e6e.astral_sorcery_wip.description70}"
+				""
+				"{e6e.astral_sorcery_wip.description71}"
+				""
+				"{e6e.astral_sorcery_wip.description72}"
+			]
+			dependencies: [
+				"0000000000000B70"
+				"0000000000000BCD"
+			]
+			id: "0000000000000B98"
+			tasks: [
+				{
+					id: "0000000000000B99"
+					type: "item"
+					title: "{e6e.astral_sorcery_wip.title22}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "astralsorcery:crystals/collector"
+						}
+					}
+				}
+				{
+					id: "0000000000000B9A"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+				}
+				{
+					id: "0000000000000B9B"
+					type: "item"
+					item: "astralsorcery:marble_engraved"
+					count: 5L
+				}
+				{
+					id: "0000000000000B9C"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 9L
+				}
+				{
+					id: "0000000000000B9D"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 5L
+				}
+				{
+					id: "0000000000000B9E"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 12L
+				}
+			]
+			rewards: [{
+				id: "0000000000000C52"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title23}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.5d
+			y: -8.5d
+			description: [
+				"{e6e.astral_sorcery_wip.description73}"
+				""
+				"{e6e.astral_sorcery_wip.description74}"
+				""
+				"{e6e.astral_sorcery_wip.description75}"
+				"{e6e.astral_sorcery_wip.description76}"
+				""
+				"{e6e.astral_sorcery_wip.description77}"
+				""
+				"{e6e.astral_sorcery_wip.description78}"
+				""
+				"{e6e.astral_sorcery_wip.description79}"
+			]
+			dependencies: ["0000000000000B6E"]
+			min_width: 300
+			id: "0000000000000B9F"
+			tasks: [{
+				id: "0000000000000BA0"
+				type: "item"
+				item: {
+					id: "astralsorcery:resonator"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							upgrades: [0]
+							selected_upgrade: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000C45"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title24}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 5.5d
+			y: -9.0d
+			subtitle: "{e6e.astral_sorcery_wip.subtitle8}"
+			description: [
+				"{e6e.astral_sorcery_wip.description80}"
+				""
+				"{e6e.astral_sorcery_wip.description81}"
+				"{e6e.astral_sorcery_wip.description82}"
+				""
+				"{e6e.astral_sorcery_wip.description83}"
+				""
+				"{e6e.astral_sorcery_wip.description84}"
+			]
+			dependencies: ["0000000000000B6E"]
+			id: "0000000000000BA3"
+			tasks: [
+				{
+					id: "0000000000000BA4"
+					type: "item"
+					item: {
+						id: "astralsorcery:rock_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "543F8C616957EB53"
+					type: "item"
+					item: "astralsorcery:wand"
+				}
+			]
+			rewards: [{
+				id: "0000000000000C5F"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title25}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: 5.0d
+			y: -10.5d
+			description: [
+				"{e6e.astral_sorcery_wip.description85}"
+				""
+				"{e6e.astral_sorcery_wip.description86}"
+				"{e6e.astral_sorcery_wip.description87}"
+				""
+				"{e6e.astral_sorcery_wip.description88}"
+			]
+			dependencies: ["0000000000000BA3"]
+			id: "0000000000000BA5"
+			tasks: [{
+				id: "0000000000000BA6"
+				type: "item"
+				item: {
+					id: "astralsorcery:crystal_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000C54"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title26}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			icon: "astralsorcery:infuser"
+			x: 8.5d
+			y: -3.5d
+			description: [
+				"{e6e.astral_sorcery_wip.description89}"
+				""
+				"{e6e.astral_sorcery_wip.description90}"
+				"{e6e.astral_sorcery_wip.description91}"
+				""
+				"{e6e.astral_sorcery_wip.description92}"
+				""
+				"{e6e.astral_sorcery_wip.description93}"
+			]
+			dependencies: ["0000000000000B7B"]
+			id: "0000000000000BA7"
+			tasks: [
+				{
+					id: "0000000000000BA8"
+					type: "item"
+					item: "astralsorcery:infuser"
+				}
+				{
+					id: "0000000000000BA9"
+					type: "item"
+					item: "minecraft:lapis_block"
+				}
+				{
+					id: "0000000000000BAA"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 8L
+				}
+				{
+					id: "0000000000000BAB"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 4L
+				}
+				{
+					id: "0000000000000BAC"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 20L
+				}
+				{
+					id: "0000000000000BAD"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "0000000000000C48"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title27}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.5d
+			y: -8.5d
+			subtitle: "{e6e.astral_sorcery_wip.subtitle9}"
+			description: [
+				"{e6e.astral_sorcery_wip.description94}"
+				"{e6e.astral_sorcery_wip.description95}"
+				""
+				"{e6e.astral_sorcery_wip.description96}"
+				"{e6e.astral_sorcery_wip.description97}"
+				""
+				"{e6e.astral_sorcery_wip.description98}"
+				""
+				"{e6e.astral_sorcery_wip.description99}"
+			]
+			dependencies: ["0000000000000BB3"]
+			id: "0000000000000BAE"
+			tasks: [{
+				id: "0000000000000BAF"
+				type: "item"
+				item: {
+					id: "astralsorcery:chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000BB0"
+				type: "item"
+				title: "{e6e.astral_sorcery_wip.title28}"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -9.5d
+			description: [
+				"{e6e.astral_sorcery_wip.description100}"
+				""
+				"{e6e.astral_sorcery_wip.description101}"
+				"{e6e.astral_sorcery_wip.description102}"
+				""
+				"{e6e.astral_sorcery_wip.description103}"
+				""
+				"{e6e.astral_sorcery_wip.description104}"
+			]
+			dependencies: ["0000000000000B72"]
+			id: "0000000000000BB1"
+			tasks: [{
+				id: "0000000000000BB2"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+			rewards: [{
+				id: "0000000000000C56"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title29}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: -8.5d
+			description: [
+				"{e6e.astral_sorcery_wip.description105}"
+				""
+				"{e6e.astral_sorcery_wip.description106}"
+				""
+				"{e6e.astral_sorcery_wip.description107}"
+				"{e6e.astral_sorcery_wip.description108}"
+				""
+				"{e6e.astral_sorcery_wip.description109}"
+				""
+				"{e6e.astral_sorcery_wip.description110}"
+			]
+			dependencies: ["0000000000000BA3"]
+			id: "0000000000000BB3"
+			tasks: [{
+				id: "0000000000000BB4"
+				type: "item"
+				item: "astralsorcery:starmetal_ore"
+			}]
+			rewards: [{
+				id: "0000000000000C55"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title30}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			description: [
+				"{e6e.astral_sorcery_wip.description111}"
+				""
+				"{e6e.astral_sorcery_wip.description112}"
+			]
+			dependencies: ["0000000000000B7D"]
+			id: "0000000000000BB5"
+			tasks: [{
+				id: "0000000000000BB6"
+				type: "item"
+				item: "astralsorcery:chalice"
+			}]
+			rewards: [{
+				id: "0000000000000C49"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title31}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.astral_sorcery_wip.title32}"
+			x: 1.5d
+			y: -3.0d
+			description: [
+				"{e6e.astral_sorcery_wip.description113}"
+				""
+				"{e6e.astral_sorcery_wip.description114}"
+				"{e6e.astral_sorcery_wip.description115}"
+				""
+				"{e6e.astral_sorcery_wip.description116}"
+				""
+				"{e6e.astral_sorcery_wip.description117}"
+			]
+			dependencies: ["0000000000000B70"]
+			id: "0000000000000BB7"
+			tasks: [{
+				id: "0000000000000BB8"
+				type: "item"
+				item: "astralsorcery:ritual_link"
+				count: 2L
+			}]
+			rewards: [{
+				id: "0000000000000C53"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title33}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			subtitle: "{e6e.astral_sorcery_wip.subtitle10}"
+			description: [
+				"{e6e.astral_sorcery_wip.description118}"
+				""
+				"{e6e.astral_sorcery_wip.description119}"
+				""
+				"{e6e.astral_sorcery_wip.description120}"
+				"{e6e.astral_sorcery_wip.description121}"
+				""
+				"{e6e.astral_sorcery_wip.description122}"
+			]
+			dependencies: ["0000000000000BD1"]
+			id: "0000000000000BBD"
+			tasks: [{
+				id: "0000000000000BBE"
+				type: "item"
+				item: {
+					id: "astralsorcery:lens"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0000000000000C59"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title34}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.astral_sorcery_wip.title35}"
+			x: -0.5d
+			y: -5.5d
+			description: [
+				"{e6e.astral_sorcery_wip.description123}"
+				""
+				"{e6e.astral_sorcery_wip.description124}"
+				""
+				"{e6e.astral_sorcery_wip.description125}"
+				""
+				"{e6e.astral_sorcery_wip.description126}"
+				""
+				"{e6e.astral_sorcery_wip.description127}"
+				""
+				"{e6e.astral_sorcery_wip.description128}"
+				""
+				"{e6e.astral_sorcery_wip.description129}"
+			]
+			dependencies: ["0000000000000BBD"]
+			min_width: 250
+			id: "0000000000000BC7"
+			tasks: [{
+				id: "0000000000000BC8"
+				type: "item"
+				title: "{e6e.astral_sorcery_wip.title36}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "astralsorcery:colored_lens"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000C5B"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title37}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.astral_sorcery_wip.title38}"
+			x: 1.5d
+			y: -5.5d
+			description: [
+				"{e6e.astral_sorcery_wip.description130}"
+				"{e6e.astral_sorcery_wip.description131}"
+				""
+				"{e6e.astral_sorcery_wip.description132}"
+				""
+				"{e6e.astral_sorcery_wip.description133}"
+			]
+			dependencies: ["0000000000000BBD"]
+			id: "0000000000000BCD"
+			tasks: [{
+				id: "0000000000000BCE"
+				type: "item"
+				title: "{e6e.astral_sorcery_wip.title39}"
+				item: {
+					id: "astralsorcery:celestial_collector_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							constellation: "astralsorcery:pelotrio"
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:collector.rate"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:constellation.pelotrio"
+										pLevel: 2
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000C5A"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title40}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.astral_sorcery_wip.title41}"
+			x: 0.0d
+			y: -8.0d
+			subtitle: "{e6e.astral_sorcery_wip.subtitle11}"
+			description: [
+				"{e6e.astral_sorcery_wip.description134}"
+				""
+				"{e6e.astral_sorcery_wip.description135}"
+				"{e6e.astral_sorcery_wip.description136}"
+				"{e6e.astral_sorcery_wip.description137}"
+				""
+				"{e6e.astral_sorcery_wip.description138}"
+				""
+				"{e6e.astral_sorcery_wip.description139}"
+			]
+			dependencies: ["0000000000000BD1"]
+			id: "0000000000000BCF"
+			tasks: [{
+				id: "0000000000000BE1"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000C58"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title42}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.astral_sorcery_wip.title43}"
+			icon: {
+				id: "astralsorcery:celestial_crystal_cluster"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+					Damage: 4
+				}
+			}
+			x: 1.0d
+			y: -9.0d
+			description: [
+				"{e6e.astral_sorcery_wip.description140}"
+				""
+				"{e6e.astral_sorcery_wip.description141}"
+				""
+				"{e6e.astral_sorcery_wip.description142}"
+				""
+				"{e6e.astral_sorcery_wip.description143}"
+				""
+				"{e6e.astral_sorcery_wip.description144}"
+				""
+				"{e6e.astral_sorcery_wip.description145}"
+				""
+				"{e6e.astral_sorcery_wip.description146}"
+			]
+			dependencies: [
+				"0000000000000BB1"
+				"0000000000000BAE"
+			]
+			min_width: 300
+			id: "0000000000000BD1"
+			tasks: [{
+				id: "0000000000000BD2"
+				type: "checkmark"
+				title: "{e6e.astral_sorcery_wip.title44}"
+			}]
+			rewards: [{
+				id: "0000000000000C57"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title45}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.astral_sorcery_wip.title46}"
+			icon: {
+				id: "astralsorcery:celestial_gateway"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+			x: 4.0d
+			y: -6.0d
+			subtitle: "{e6e.astral_sorcery_wip.subtitle12}"
+			description: [
+				"{e6e.astral_sorcery_wip.description147}"
+				""
+				"{e6e.astral_sorcery_wip.description148}"
+				""
+				"{e6e.astral_sorcery_wip.description149}"
+				""
+				"{e6e.astral_sorcery_wip.description150}"
+				"{e6e.astral_sorcery_wip.description151}"
+				""
+				"{e6e.astral_sorcery_wip.description152}"
+				""
+				"{e6e.astral_sorcery_wip.description153}"
+			]
+			dependencies: ["0000000000000B8A"]
+			id: "0000000000000BD3"
+			tasks: [
+				{
+					id: "0000000000000BD4"
+					type: "item"
+					item: {
+						id: "astralsorcery:celestial_gateway"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "0000000000000C1D"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 20L
+				}
+				{
+					id: "0000000000000C1E"
+					type: "item"
+					item: "astralsorcery:marble_engraved"
+					count: 4L
+				}
+				{
+					id: "0000000000000C1F"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 4L
+				}
+				{
+					id: "0000000000000C20"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 25L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000C21"
+					type: "item"
+					title: "{e6e.astral_sorcery_wip.title47}"
+					item: {
+						id: "astralsorcery:celestial_gateway"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "0000000000000C5D"
+					type: "command"
+					title: "{e6e.astral_sorcery_wip.title48}"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -5.5d
+			description: [
+				"{e6e.astral_sorcery_wip.description154}"
+				""
+				"{e6e.astral_sorcery_wip.description155}"
+				"{e6e.astral_sorcery_wip.description156}"
+				""
+				"{e6e.astral_sorcery_wip.description157}"
+				""
+				"{e6e.astral_sorcery_wip.description158}"
+			]
+			dependencies: ["0000000000000B7B"]
+			id: "0000000000000BD5"
+			tasks: [{
+				id: "0000000000000BD6"
+				type: "item"
+				item: "astralsorcery:refraction_table"
+			}]
+			rewards: [
+				{
+					id: "0000000000000C2D"
+					type: "item"
+					title: "{e6e.astral_sorcery_wip.title49}"
+					item: {
+						id: "astralsorcery:infused_glass"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000C47"
+					type: "command"
+					title: "{e6e.astral_sorcery_wip.title50}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			description: [
+				"{e6e.astral_sorcery_wip.description159}"
+				""
+				"{e6e.astral_sorcery_wip.description160}"
+			]
+			dependencies: ["0000000000000BBD"]
+			id: "0000000000000BD9"
+			tasks: [{
+				id: "0000000000000BDA"
+				type: "item"
+				item: {
+					id: "astralsorcery:prism"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000C5C"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title51}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			description: [
+				"{e6e.astral_sorcery_wip.description161}"
+				""
+				"{e6e.astral_sorcery_wip.description162}"
+				"{e6e.astral_sorcery_wip.description163}"
+				""
+				"{e6e.astral_sorcery_wip.description164}"
+				""
+				"{e6e.astral_sorcery_wip.description165}"
+				""
+				"{e6e.astral_sorcery_wip.description166}"
+			]
+			dependencies: ["0000000000000B8E"]
+			id: "0000000000000C24"
+			tasks: [{
+				id: "0000000000000C25"
+				type: "item"
+				item: "astralsorcery:shifting_star"
+			}]
+			rewards: [{
+				id: "0000000000000C4F"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title52}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			description: [
+				"{e6e.astral_sorcery_wip.description167}"
+				""
+				"{e6e.astral_sorcery_wip.description168}"
+				"{e6e.astral_sorcery_wip.description169}"
+				""
+				"{e6e.astral_sorcery_wip.description170}"
+				""
+				"{e6e.astral_sorcery_wip.description171}"
+			]
+			dependencies: ["0000000000000C24"]
+			id: "0000000000000C26"
+			tasks: [{
+				id: "0000000000000C27"
+				type: "item"
+				item: {
+					id: "astralsorcery:enchantment_amulet"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000C2B"
+					type: "item"
+					title: "{e6e.astral_sorcery_wip.title53}"
+					item: "minecraft:jukebox"
+				}
+				{
+					id: "0000000000000C2C"
+					type: "item"
+					title: "{e6e.astral_sorcery_wip.title54}"
+					item: "minecraft:music_disc_pigstep"
+				}
+				{
+					id: "0000000000000C50"
+					type: "command"
+					title: "{e6e.astral_sorcery_wip.title55}"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_legendary"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.astral_sorcery_wip.title56}"
+			x: 5.0d
+			y: -2.0d
+			description: [
+				"{e6e.astral_sorcery_wip.description172}"
+				""
+				"{e6e.astral_sorcery_wip.description173}"
+			]
+			dependencies: ["0000000000000C24"]
+			id: "0000000000000C28"
+			tasks: [{
+				id: "0000000000000C2A"
+				type: "item"
+				title: "{e6e.astral_sorcery_wip.title57}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "astralsorcery:stars/irradiant"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000C4E"
+				type: "command"
+				title: "{e6e.astral_sorcery_wip.title58}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_astral_sorcery_loot_legendary"
+				player_command: false
+			}]
+		}
+	]
+}

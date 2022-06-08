@@ -1,0 +1,858 @@
+{
+	id: "0000000000000E7F"
+	group: "5A8B89F87F77CF4C"
+	order_index: 5
+	filename: "eidolon_wip"
+	title: "{e6e.eidolon_wip.title0}"
+	icon: "eidolon:unholy_symbol"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{e6e.eidolon_wip.title1}"
+			icon: "eidolon:codex"
+			x: 1.5d
+			y: 0.5d
+			shape: "hexagon"
+			subtitle: "{e6e.eidolon_wip.subtitle0}"
+			description: [
+				"{e6e.eidolon_wip.description0}"
+				""
+				"{e6e.eidolon_wip.description1}"
+				""
+				"{e6e.eidolon_wip.description2}"
+				""
+				"{e6e.eidolon_wip.description3}"
+			]
+			size: 1.5d
+			optional: true
+			id: "0000000000000E80"
+			tasks: [{
+				id: "5BB374740D4295E0"
+				type: "item"
+				item: "eidolon:tattered_cloth"
+			}]
+			rewards: [{
+				id: "5855578CE2117C3E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{e6e.eidolon_wip.title2}"
+			icon: "eidolon:wooden_altar"
+			x: 1.5d
+			y: 3.5d
+			subtitle: "{e6e.eidolon_wip.subtitle1}"
+			description: [
+				"{e6e.eidolon_wip.description4}"
+				""
+				"{e6e.eidolon_wip.description5}"
+				""
+				"{e6e.eidolon_wip.description6}"
+				""
+				"{e6e.eidolon_wip.description7}"
+				""
+				"{e6e.eidolon_wip.description8}"
+			]
+			dependencies: ["0000000000000E85"]
+			min_width: 300
+			id: "0000000000000E83"
+			tasks: [
+				{
+					id: "0000000000000E84"
+					type: "item"
+					item: "eidolon:wooden_altar"
+				}
+				{
+					id: "0000000000000E96"
+					type: "item"
+					item: "eidolon:straw_effigy"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000ECE"
+					type: "item"
+					title: "{e6e.eidolon_wip.title3}"
+					item: "eidolon:candle"
+					count: 2
+				}
+				{
+					id: "0000000000000ECF"
+					type: "item"
+					title: "{e6e.eidolon_wip.title4}"
+					item: "minecraft:zombie_head"
+				}
+			]
+		}
+		{
+			title: "{e6e.eidolon_wip.title5}"
+			x: 1.5d
+			y: 2.0d
+			subtitle: "{e6e.eidolon_wip.subtitle2}"
+			description: [
+				"{e6e.eidolon_wip.description9}"
+				""
+				"{e6e.eidolon_wip.description10}"
+				""
+				"{e6e.eidolon_wip.description11}"
+				""
+				"{e6e.eidolon_wip.description12}"
+			]
+			dependencies: ["0000000000000E80"]
+			id: "0000000000000E85"
+			tasks: [{
+				id: "0000000000000E86"
+				type: "checkmark"
+				title: "{e6e.eidolon_wip.title6}"
+				icon: {
+					id: "eidolon:warlock_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000ECD"
+				type: "command"
+				title: "{e6e.eidolon_wip.title7}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.eidolon_wip.title8}"
+			icon: "eidolon:brazier"
+			x: 4.5d
+			y: 2.0d
+			subtitle: "{e6e.eidolon_wip.subtitle3}"
+			description: [
+				"{e6e.eidolon_wip.description13}"
+				""
+				"{e6e.eidolon_wip.description14}"
+				""
+				"{e6e.eidolon_wip.description15}"
+			]
+			dependencies: ["0000000000000E80"]
+			id: "0000000000000E87"
+			tasks: [
+				{
+					id: "0000000000000E88"
+					type: "item"
+					item: "eidolon:brazier"
+				}
+				{
+					id: "0000000000000E89"
+					type: "item"
+					item: "eidolon:stone_hand"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000EC6"
+					type: "item"
+					title: "{e6e.eidolon_wip.title9}"
+					item: "eidolon:stone_hand"
+					count: 2
+				}
+				{
+					id: "0000000000000EC7"
+					type: "item"
+					title: "{e6e.eidolon_wip.title10}"
+					item: "eidolon:enchanted_ash"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			subtitle: "{e6e.eidolon_wip.subtitle4}"
+			description: [
+				"{e6e.eidolon_wip.description16}"
+				""
+				"{e6e.eidolon_wip.description17}"
+				""
+				"{e6e.eidolon_wip.description18}"
+			]
+			dependencies: ["0000000000000E87"]
+			id: "0000000000000E8A"
+			tasks: [{
+				id: "0000000000000E8B"
+				type: "item"
+				item: "eidolon:necrotic_focus"
+			}]
+			rewards: [{
+				id: "0000000000000EC9"
+				type: "item"
+				title: "{e6e.eidolon_wip.title11}"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:harming"
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.eidolon_wip.title12}"
+			icon: "eidolon:pewter_ingot"
+			x: -1.5d
+			y: 2.0d
+			subtitle: "{e6e.eidolon_wip.subtitle5}"
+			description: [
+				"{e6e.eidolon_wip.description19}"
+				""
+				"{e6e.eidolon_wip.description20}"
+			]
+			dependencies: ["0000000000000E80"]
+			id: "0000000000000E8E"
+			tasks: [
+				{
+					id: "0000000000000E8F"
+					type: "item"
+					item: "eidolon:pewter_ingot"
+					count: 16L
+				}
+				{
+					id: "0000000000000EBB"
+					type: "item"
+					item: "eidolon:pewter_inlay"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000EBC"
+					type: "item"
+					title: "{e6e.eidolon_wip.title13}"
+					item: "eidolon:pewter_blend"
+					count: 8
+				}
+				{
+					id: "0000000000000EBD"
+					type: "command"
+					title: "{e6e.eidolon_wip.title14}"
+					icon: "kubejs:farmers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			subtitle: "{e6e.eidolon_wip.subtitle6}"
+			description: [
+				"{e6e.eidolon_wip.description21}"
+				""
+				"{e6e.eidolon_wip.description22}"
+				""
+				"{e6e.eidolon_wip.description23}"
+				""
+				"{e6e.eidolon_wip.description24}"
+			]
+			dependencies: ["0000000000000E8E"]
+			min_width: 300
+			id: "0000000000000E90"
+			tasks: [{
+				id: "0000000000000E91"
+				type: "item"
+				title: "{e6e.eidolon_wip.title15}"
+				icon: "eidolon:crucible"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "eidolon:crucible"
+								Count: 1b
+							}
+							{
+								id: "farmersdelight:cooking_pot"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000EBE"
+					type: "item"
+					title: "{e6e.eidolon_wip.title16}"
+					item: "minecraft:redstone"
+					count: 2
+				}
+				{
+					id: "0000000000000EBF"
+					type: "item"
+					title: "{e6e.eidolon_wip.title17}"
+					item: "eidolon:soul_shard"
+				}
+				{
+					id: "0000000000000EC0"
+					type: "item"
+					title: "{e6e.eidolon_wip.title18}"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+				{
+					id: "0000000000000EC1"
+					type: "item"
+					title: "{e6e.eidolon_wip.title19}"
+					item: "minecraft:magma_block"
+				}
+			]
+		}
+		{
+			title: "{e6e.eidolon_wip.title20}"
+			x: 4.0d
+			y: 3.0d
+			subtitle: "{e6e.eidolon_wip.subtitle7}"
+			description: [
+				"{e6e.eidolon_wip.description25}"
+				""
+				"{e6e.eidolon_wip.description26}"
+				"{e6e.eidolon_wip.description27}"
+				""
+				"{e6e.eidolon_wip.description28}"
+			]
+			dependencies: ["0000000000000E87"]
+			id: "0000000000000E92"
+			tasks: [{
+				id: "0000000000000E93"
+				type: "item"
+				item: "eidolon:soul_shard"
+				count: 16L
+			}]
+			rewards: [{
+				id: "0000000000000EC8"
+				type: "command"
+				title: "{e6e.eidolon_wip.title21}"
+				icon: "kubejs:sorcerers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			subtitle: "{e6e.eidolon_wip.subtitle8}"
+			description: [
+				"{e6e.eidolon_wip.description29}"
+				""
+				"{e6e.eidolon_wip.description30}"
+			]
+			dependencies: ["0000000000000E8E"]
+			id: "0000000000000E94"
+			tasks: [{
+				id: "0000000000000E95"
+				type: "item"
+				title: "{e6e.eidolon_wip.title22}"
+				icon: "eidolon:worktable"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "masterfulmachinery:wicked_altar_controller"
+								Count: 1b
+							}
+							{
+								id: "eidolon:worktable"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000EC2"
+				type: "command"
+				title: "{e6e.eidolon_wip.title23}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.eidolon_wip.title24}"
+			x: 2.5d
+			y: 4.0d
+			shape: "diamond"
+			subtitle: "{e6e.eidolon_wip.subtitle9}"
+			description: [
+				"{e6e.eidolon_wip.description31}"
+				""
+				"{e6e.eidolon_wip.description32}"
+				""
+				"{e6e.eidolon_wip.description33}"
+				""
+				"{e6e.eidolon_wip.description34}"
+				""
+				"{e6e.eidolon_wip.description35}"
+				""
+				"{e6e.eidolon_wip.description36}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000E83"]
+			optional: true
+			min_width: 300
+			id: "0000000000000E97"
+			tasks: [{
+				id: "0000000000000E98"
+				type: "item"
+				item: "eidolon:candlestick"
+			}]
+			rewards: [{
+				id: "0000000000000ED0"
+				type: "item"
+				title: "{e6e.eidolon_wip.title25}"
+				item: "eidolon:basic_amulet"
+			}]
+		}
+		{
+			title: "{e6e.eidolon_wip.title26}"
+			x: 3.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "{e6e.eidolon_wip.subtitle10}"
+			description: [
+				"{e6e.eidolon_wip.description37}"
+				""
+				"{e6e.eidolon_wip.description38}"
+				""
+				"{e6e.eidolon_wip.description39}"
+				""
+				"{e6e.eidolon_wip.description40}"
+				""
+				"{e6e.eidolon_wip.description41}"
+				""
+				"{e6e.eidolon_wip.description42}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000E83"]
+			optional: true
+			min_width: 300
+			id: "0000000000000E99"
+			tasks: [{
+				id: "0000000000000E9A"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+			rewards: [
+				{
+					id: "0000000000000ED1"
+					type: "item"
+					title: "{e6e.eidolon_wip.title27}"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:wither"
+						}
+					}
+				}
+				{
+					id: "0000000000000ED2"
+					type: "item"
+					title: "{e6e.eidolon_wip.title28}"
+					item: "wstweaks:fragment"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "{e6e.eidolon_wip.title29}"
+			x: 3.0d
+			y: 4.5d
+			shape: "diamond"
+			subtitle: "{e6e.eidolon_wip.subtitle11}"
+			description: [
+				"{e6e.eidolon_wip.description43}"
+				""
+				"{e6e.eidolon_wip.description44}"
+				""
+				"{e6e.eidolon_wip.description45}"
+				""
+				"{e6e.eidolon_wip.description46}"
+				""
+				"{e6e.eidolon_wip.description47}"
+				""
+				"{e6e.eidolon_wip.description48}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000E83"]
+			optional: true
+			min_width: 300
+			id: "0000000000000E9B"
+			tasks: [{
+				id: "0000000000000E9C"
+				type: "item"
+				item: "minecraft:wither_rose"
+			}]
+			rewards: [{
+				id: "0000000000000ED3"
+				type: "item"
+				title: "{e6e.eidolon_wip.title30}"
+				item: "wstweaks:fragment"
+				count: 3
+			}]
+		}
+		{
+			title: "{e6e.eidolon_wip.title31}"
+			x: 1.5d
+			y: 4.5d
+			subtitle: "{e6e.eidolon_wip.subtitle12}"
+			description: [
+				"{e6e.eidolon_wip.description49}"
+				""
+				"{e6e.eidolon_wip.description50}"
+				""
+				"{e6e.eidolon_wip.description51}"
+				""
+				"{e6e.eidolon_wip.description52}"
+			]
+			dependencies: ["0000000000000E83"]
+			id: "0000000000000E9D"
+			tasks: [{
+				id: "0000000000000E9E"
+				type: "item"
+				item: "eidolon:goblet"
+			}]
+			rewards: [{
+				id: "0000000000000ED4"
+				type: "item"
+				title: "{e6e.eidolon_wip.title32}"
+				item: "minecraft:pig_spawn_egg"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			shape: "hexagon"
+			subtitle: "{e6e.eidolon_wip.subtitle13}"
+			description: [
+				"{e6e.eidolon_wip.description53}"
+				""
+				"{e6e.eidolon_wip.description54}"
+				""
+				"{e6e.eidolon_wip.description55}"
+			]
+			dependencies: ["0000000000000E9D"]
+			id: "0000000000000E9F"
+			tasks: [{
+				id: "0000000000000EA0"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+			rewards: [{
+				id: "0000000000000ED5"
+				type: "item"
+				title: "{e6e.eidolon_wip.title33}"
+				item: "eidolon:warped_sprouts"
+				count: 8
+			}]
+		}
+		{
+			icon: "eidolon:stone_altar"
+			x: 1.5d
+			y: 6.5d
+			subtitle: "{e6e.eidolon_wip.subtitle14}"
+			description: [
+				"{e6e.eidolon_wip.description56}"
+				""
+				"{e6e.eidolon_wip.description57}"
+			]
+			dependencies: ["0000000000000E9F"]
+			id: "0000000000000EA1"
+			tasks: [
+				{
+					id: "0000000000000EA2"
+					type: "item"
+					item: "eidolon:stone_altar"
+				}
+				{
+					id: "0000000000000EA3"
+					type: "item"
+					item: "eidolon:unholy_effigy"
+				}
+			]
+		}
+		{
+			title: "{e6e.eidolon_wip.title34}"
+			icon: "eidolon:arcane_gold_ingot"
+			x: -1.5d
+			y: 4.0d
+			subtitle: "{e6e.eidolon_wip.subtitle15}"
+			description: [
+				"{e6e.eidolon_wip.description58}"
+				""
+				"{e6e.eidolon_wip.description59}"
+				""
+				"{e6e.eidolon_wip.description60}"
+				""
+				"{e6e.eidolon_wip.description61}"
+			]
+			dependencies: ["0000000000000E90"]
+			id: "0000000000000EAA"
+			tasks: [
+				{
+					id: "0000000000000EAB"
+					type: "item"
+					item: "eidolon:arcane_gold_ingot"
+					count: 4L
+				}
+				{
+					id: "0000000000000EAC"
+					type: "item"
+					item: "eidolon:lesser_soul_gem"
+				}
+				{
+					id: "0000000000000EC3"
+					type: "item"
+					item: "eidolon:shadow_gem"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000EC4"
+					type: "item"
+					title: "{e6e.eidolon_wip.title35}"
+					item: "eidolon:soul_shard"
+					count: 16
+				}
+				{
+					id: "0000000000000EC5"
+					type: "command"
+					title: "{e6e.eidolon_wip.title36}"
+					icon: "kubejs:alchemists_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.eidolon_wip.title37}"
+			icon: "eidolon:sanguine_amulet"
+			x: 5.0d
+			y: 4.5d
+			subtitle: "{e6e.eidolon_wip.subtitle16}"
+			description: [
+				"{e6e.eidolon_wip.description62}"
+				""
+				"{e6e.eidolon_wip.description63}"
+				""
+				"{e6e.eidolon_wip.description64}"
+				""
+				"{e6e.eidolon_wip.description65}"
+				""
+				"{e6e.eidolon_wip.description66}"
+			]
+			dependencies: ["0000000000000E8A"]
+			id: "0000000000000EAD"
+			tasks: [
+				{
+					id: "0000000000000EAE"
+					type: "item"
+					item: "eidolon:sanguine_amulet"
+				}
+				{
+					id: "0000000000000EBA"
+					type: "item"
+					item: {
+						id: "eidolon:sapping_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000ECA"
+					type: "item"
+					title: "{e6e.eidolon_wip.title38}"
+					item: "eidolon:zombie_heart"
+					count: 8
+				}
+				{
+					id: "0000000000000ECB"
+					type: "item"
+					title: "{e6e.eidolon_wip.title39}"
+					item: "eidolon:tattered_cloth"
+					count: 8
+				}
+				{
+					id: "0000000000000ECC"
+					type: "item"
+					title: "{e6e.eidolon_wip.title40}"
+					item: "eidolon:wraith_heart"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "{e6e.eidolon_wip.title41}"
+			x: -2.5d
+			y: 5.5d
+			subtitle: "{e6e.eidolon_wip.subtitle17}"
+			description: [
+				"{e6e.eidolon_wip.description67}"
+				""
+				"{e6e.eidolon_wip.description68}"
+				""
+				"{e6e.eidolon_wip.description69}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EAA"]
+			id: "0000000000000EAF"
+			tasks: [
+				{
+					id: "0000000000000EB0"
+					type: "item"
+					item: {
+						id: "eidolon:soulfire_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000EB1"
+					type: "item"
+					item: {
+						id: "eidolon:bonechill_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0000000000000ED8"
+				type: "item"
+				title: "{e6e.eidolon_wip.title42}"
+				item: "eidolon:wicked_weave"
+				count: 3
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			subtitle: "{e6e.eidolon_wip.subtitle18}"
+			description: [
+				"{e6e.eidolon_wip.description70}"
+				""
+				"{e6e.eidolon_wip.description71}"
+				""
+				"{e6e.eidolon_wip.description72}"
+			]
+			dependencies: ["0000000000000EAA"]
+			id: "0000000000000EB2"
+			tasks: [{
+				id: "0000000000000EB3"
+				type: "item"
+				item: {
+					id: "eidolon:reversal_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000ED6"
+				type: "item"
+				title: "{e6e.eidolon_wip.title43}"
+				item: "minecraft:obsidian"
+				count: 16
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			subtitle: "{e6e.eidolon_wip.subtitle19}"
+			description: [
+				"{e6e.eidolon_wip.description73}"
+				""
+				"{e6e.eidolon_wip.description74}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EAA"]
+			id: "0000000000000EB4"
+			tasks: [{
+				id: "0000000000000EB5"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+			rewards: [{
+				id: "0000000000000EDA"
+				type: "xp"
+				xp: 400
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			subtitle: "{e6e.eidolon_wip.subtitle20}"
+			description: ["{e6e.eidolon_wip.description75}"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000EAA"]
+			id: "0000000000000EB6"
+			tasks: [{
+				id: "0000000000000EB7"
+				type: "item"
+				item: "eidolon:glass_hand"
+			}]
+			rewards: [{
+				id: "0000000000000EDB"
+				type: "item"
+				title: "{e6e.eidolon_wip.title44}"
+				item: "eidolon:music_disc_parousia"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			subtitle: "{e6e.eidolon_wip.subtitle21}"
+			description: [
+				"{e6e.eidolon_wip.description76}"
+				""
+				"{e6e.eidolon_wip.description77}"
+			]
+			dependencies: [
+				"0000000000000E9F"
+				"0000000000000EAC"
+			]
+			id: "0000000000000EB8"
+			tasks: [{
+				id: "0000000000000EB9"
+				type: "item"
+				item: {
+					id: "eidolon:reaper_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000ED9"
+				type: "xp"
+				xp: 500
+			}]
+		}
+	]
+}

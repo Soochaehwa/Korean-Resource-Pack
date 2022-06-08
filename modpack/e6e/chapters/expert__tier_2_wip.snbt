@@ -1,0 +1,529 @@
+{
+	id: "0000000000000B67"
+	group: "34B7FB260B6AEB81"
+	order_index: 4
+	filename: "expert__tier_2_wip"
+	title: "{e6e.expert__tier_2_wip.title0}"
+	icon: {
+		id: "eidolon:soulfire_wand"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{e6e.expert__tier_2_wip.title1}"
+			x: -2.5d
+			y: -12.0d
+			description: [
+				"{e6e.expert__tier_2_wip.description0}"
+				""
+				"{e6e.expert__tier_2_wip.description1}"
+			]
+			dependencies: ["48BA066E1B977D32"]
+			min_width: 300
+			id: "72D589CE18202510"
+			tasks: [{
+				id: "61813D97AAD3C2B9"
+				type: "item"
+				title: "{e6e.expert__tier_2_wip.title2}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "thermal:lightning_charge"
+								Count: 1b
+							}
+							{
+								id: "archers_paradox:lightning_arrow"
+								Count: 1b
+							}
+							{
+								id: "powah:charged_snowball"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -11.0d
+			description: [
+				"{e6e.expert__tier_2_wip.description2}"
+				""
+				"{e6e.expert__tier_2_wip.description3}"
+			]
+			dependencies: ["72D589CE18202510"]
+			min_width: 300
+			id: "55B791C2720332C5"
+			tasks: [{
+				id: "606F700B17783FF9"
+				type: "item"
+				item: "minecraft:heart_of_the_sea"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -10.0d
+			description: [
+				"{e6e.expert__tier_2_wip.description4}"
+				""
+				"{e6e.expert__tier_2_wip.description5}"
+				""
+				"{e6e.expert__tier_2_wip.description6}"
+				"{e6e.expert__tier_2_wip.description7}"
+				""
+				"{e6e.expert__tier_2_wip.description8}"
+			]
+			dependencies: [
+				"55B791C2720332C5"
+				"26800BC5BDEC484A"
+			]
+			min_width: 300
+			id: "2A5E2A21BFECF76C"
+			tasks: [{
+				id: "0887A21EA010D9D6"
+				type: "item"
+				item: "minecraft:conduit"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.0d
+			description: [
+				"{e6e.expert__tier_2_wip.description9}"
+				""
+				"{e6e.expert__tier_2_wip.description10}"
+			]
+			dependencies: ["2A5E2A21BFECF76C"]
+			id: "1C17C09DD9AB58BD"
+			tasks: [
+				{
+					id: "00A73F4961BFEB07"
+					type: "item"
+					item: "eidolon:brazier"
+				}
+				{
+					id: "3AB5F233F75DD849"
+					type: "item"
+					item: "farmersdelight:cooking_pot"
+				}
+				{
+					id: "5A65288C9B50231B"
+					type: "item"
+					item: "farmersdelight:stove"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			description: [
+				"{e6e.expert__tier_2_wip.description11}"
+				""
+				"{e6e.expert__tier_2_wip.description12}"
+				""
+				"{e6e.expert__tier_2_wip.description13}"
+			]
+			dependencies: ["719AFD0C38BE19A2"]
+			id: "5AA38E6753FF4210"
+			tasks: [{
+				id: "638694418DEBB47D"
+				type: "item"
+				item: "betterendforge:silk_moth_nest"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -9.0d
+			description: ["{e6e.expert__tier_2_wip.description14}"]
+			dependencies: ["2A5E2A21BFECF76C"]
+			id: "4642C99F4B51005B"
+			tasks: [
+				{
+					id: "6D272FF41C244D34"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "67FDDC3CABAFF8F2"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			description: [
+				"{e6e.expert__tier_2_wip.description15}"
+				""
+				"{e6e.expert__tier_2_wip.description16}"
+				""
+				"{e6e.expert__tier_2_wip.description17}"
+			]
+			dependencies: [
+				"598A3BD34A7DD40B"
+				"269CB5E2F7130224"
+			]
+			id: "102775CD7F9CD338"
+			tasks: [
+				{
+					id: "0F780C3F50CF951D"
+					type: "item"
+					item: "astralsorcery:altar_discovery"
+				}
+				{
+					id: "0EA40EE2C1484EEE"
+					type: "item"
+					item: "astralsorcery:linking_tool"
+				}
+			]
+		}
+		{
+			title: "{e6e.expert__tier_2_wip.title3}"
+			x: -0.5d
+			y: -6.0d
+			description: [
+				"{e6e.expert__tier_2_wip.description18}"
+				""
+				"{e6e.expert__tier_2_wip.description19}"
+			]
+			dependencies: ["719AFD0C38BE19A2"]
+			id: "06A20E7EA36392CB"
+			tasks: [
+				{
+					id: "6DBA42D76D507F3F"
+					type: "item"
+					item: "bloodmagic:altar"
+				}
+				{
+					id: "00FAE80C413DF107"
+					type: "item"
+					item: "bloodmagic:daggerofsacrifice"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: [
+				"{e6e.expert__tier_2_wip.description20}"
+				""
+				"{e6e.expert__tier_2_wip.description21}"
+			]
+			dependencies: ["5A53DAE0FAC0A38F"]
+			id: "4280183EE48A8F1E"
+			tasks: [{
+				id: "50CA5DE83B5986DC"
+				type: "item"
+				item: {
+					id: "occultism:chalk_white"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			description: [
+				"{e6e.expert__tier_2_wip.description22}"
+				""
+				"{e6e.expert__tier_2_wip.description23}"
+			]
+			dependencies: ["598A3BD34A7DD40B"]
+			id: "2422557696EB83F3"
+			tasks: [
+				{
+					id: "21F3F09A493EE8D1"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "4A0060B60B3FDF95"
+					type: "item"
+					item: "naturesaura:infused_iron"
+				}
+			]
+		}
+		{
+			title: "{e6e.expert__tier_2_wip.title4}"
+			x: -3.5d
+			y: -2.5d
+			description: [
+				"{e6e.expert__tier_2_wip.description24}"
+				""
+				"{e6e.expert__tier_2_wip.description25}"
+			]
+			dependencies: [
+				"566824DF05761A43"
+				"62F3B5013BAB47AB"
+			]
+			id: "598A3BD34A7DD40B"
+			tasks: [{
+				id: "64DA833E05EAACEC"
+				type: "item"
+				item: "naturesaura:wood_stand"
+				count: 8L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -6.0d
+			description: ["{e6e.expert__tier_2_wip.description26}"]
+			dependencies: ["719AFD0C38BE19A2"]
+			id: "295B7A0FB81D44DB"
+			tasks: [{
+				id: "3281C71438B7C50A"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			description: ["{e6e.expert__tier_2_wip.description27}"]
+			dependencies: ["295B7A0FB81D44DB"]
+			id: "566824DF05761A43"
+			tasks: [{
+				id: "7F1D294618FECED9"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			description: [
+				"{e6e.expert__tier_2_wip.description28}"
+				""
+				"{e6e.expert__tier_2_wip.description29}"
+				""
+				"{e6e.expert__tier_2_wip.description30}"
+				""
+				"{e6e.expert__tier_2_wip.description31}"
+			]
+			dependencies: [
+				"06A20E7EA36392CB"
+				"4C5CCC780A4B07A7"
+			]
+			id: "7E371FBDE82532D9"
+			tasks: [
+				{
+					id: "093DCD4B762371E2"
+					type: "item"
+					item: "bloodmagic:weakbloodorb"
+				}
+				{
+					id: "6DB611075387D462"
+					type: "item"
+					item: "eidolon:unholy_symbol"
+				}
+			]
+		}
+		{
+			title: "{e6e.expert__tier_2_wip.title5}"
+			x: -2.5d
+			y: -6.5d
+			description: [
+				"{e6e.expert__tier_2_wip.description32}"
+				""
+				"{e6e.expert__tier_2_wip.description33}"
+			]
+			dependencies: [
+				"7A61BA54CFCA2973"
+				"1FB260E6CB51800E"
+			]
+			id: "719AFD0C38BE19A2"
+			tasks: [
+				{
+					id: "691A203B9168177A"
+					type: "item"
+					item: "atum:scarab"
+				}
+				{
+					id: "4370B0FB1FFF0BBF"
+					type: "item"
+					item: "undergarden:catalyst"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			description: [
+				"{e6e.expert__tier_2_wip.description34}"
+				""
+				"{e6e.expert__tier_2_wip.description35}"
+			]
+			dependencies: ["5AA38E6753FF4210"]
+			id: "62F3B5013BAB47AB"
+			tasks: [
+				{
+					id: "7FA190A131C27BC6"
+					type: "item"
+					item: "naturesaura:gold_fiber"
+				}
+				{
+					id: "5AA8561505815247"
+					type: "item"
+					item: "naturesaura:gold_leaf"
+				}
+			]
+		}
+		{
+			title: "{e6e.expert__tier_2_wip.title6}"
+			icon: "ars_nouveau:spell_parchment"
+			x: -2.5d
+			y: -13.0d
+			description: [
+				"{e6e.expert__tier_2_wip.description36}"
+				""
+				"{e6e.expert__tier_2_wip.description37}"
+			]
+			dependencies: ["0000000000000FEB"]
+			hide: true
+			id: "48BA066E1B977D32"
+			tasks: [{
+				id: "254F767D474E7B72"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			description: [
+				"{e6e.expert__tier_2_wip.description38}"
+				""
+				"{e6e.expert__tier_2_wip.description39}"
+			]
+			dependencies: ["719AFD0C38BE19A2"]
+			id: "4C5CCC780A4B07A7"
+			tasks: [{
+				id: "5B0160F4F724F8F8"
+				type: "item"
+				item: "atum:godforged_block"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.5d
+			description: [
+				"{e6e.expert__tier_2_wip.description40}"
+				""
+				"{e6e.expert__tier_2_wip.description41}"
+			]
+			dependencies: ["4642C99F4B51005B"]
+			id: "1FB260E6CB51800E"
+			tasks: [
+				{
+					id: "2B8585C3F93E9864"
+					type: "item"
+					item: "ars_nouveau:mana_condenser"
+				}
+				{
+					id: "652E7031800BC423"
+					type: "item"
+					item: "architects_palette:sunmetal_blend"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			description: [
+				"{e6e.expert__tier_2_wip.description42}"
+				""
+				"{e6e.expert__tier_2_wip.description43}"
+			]
+			dependencies: ["1C17C09DD9AB58BD"]
+			id: "7A61BA54CFCA2973"
+			tasks: [{
+				id: "2B5C17D526E0CEBA"
+				type: "item"
+				item: "eidolon:gold_inlay"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -11.0d
+			description: [
+				"{e6e.expert__tier_2_wip.description44}"
+				""
+				"{e6e.expert__tier_2_wip.description45}"
+				""
+				"{e6e.expert__tier_2_wip.description46}"
+			]
+			dependencies: ["72D589CE18202510"]
+			min_width: 300
+			id: "26800BC5BDEC484A"
+			tasks: [{
+				id: "35E1F20C18B5A6B7"
+				type: "item"
+				item: "minecraft:nautilus_shell"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			description: ["{e6e.expert__tier_2_wip.description47}"]
+			dependencies: ["7E371FBDE82532D9"]
+			id: "5A53DAE0FAC0A38F"
+			tasks: [{
+				id: "370511870EE62EBD"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			description: ["{e6e.expert__tier_2_wip.description48}"]
+			dependencies: ["719AFD0C38BE19A2"]
+			id: "63835E28AFE16A89"
+			tasks: [
+				{
+					id: "260844590347A921"
+					type: "item"
+					item: "botania:corporea_spark_master"
+				}
+				{
+					id: "58727FA94D304EAC"
+					type: "item"
+					item: "botania:corporea_index"
+				}
+				{
+					id: "5F1BA591103283DA"
+					type: "item"
+					item: "botania:corporea_spark"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			description: [
+				"{e6e.expert__tier_2_wip.description49}"
+				""
+				"{e6e.expert__tier_2_wip.description50}"
+			]
+			dependencies: ["4C5CCC780A4B07A7"]
+			id: "269CB5E2F7130224"
+			tasks: [{
+				id: "43C84D76D2C9FB48"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+		}
+	]
+}

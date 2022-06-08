@@ -1,0 +1,694 @@
+{
+	id: "529A046A403F6A21"
+	group: "0856CF7F5CBEB20A"
+	order_index: 3
+	filename: "integrated_dynamics"
+	title: "{e6e.integrated_dynamics.title0}"
+	icon: "integrateddynamics:crystalized_menril_chunk"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{e6e.integrated_dynamics.subtitle0}"
+			description: [
+				"{e6e.integrated_dynamics.description0}"
+				""
+				"{e6e.integrated_dynamics.description1}"
+				""
+				"{e6e.integrated_dynamics.description2}"
+				""
+				"{e6e.integrated_dynamics.description3}"
+				""
+				"{e6e.integrated_dynamics.description4}"
+			]
+			optional: true
+			id: "7E516ACCF6DA5588"
+			tasks: [{
+				id: "581379EDC8E0E1B8"
+				type: "checkmark"
+				title: "{e6e.integrated_dynamics.title1}"
+				icon: "integrateddynamics:on_the_dynamics_of_integration"
+			}]
+			rewards: [{
+				id: "58CE7881F576F9A5"
+				type: "item"
+				item: "integrateddynamics:wrench"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "{e6e.integrated_dynamics.subtitle1}"
+			description: ["{e6e.integrated_dynamics.description5}"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "42D9F6E36CF8F06E"
+			tasks: [
+				{
+					id: "721B495113A784A4"
+					type: "item"
+					item: "integrateddynamics:menril_log"
+				}
+				{
+					id: "3DA829AF71F9CEE9"
+					type: "item"
+					item: "integrateddynamics:crystalized_menril_chunk"
+				}
+			]
+			rewards: [{
+				id: "27A45121C7D34FAD"
+				type: "command"
+				title: "{e6e.integrated_dynamics.title2}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			subtitle: "{e6e.integrated_dynamics.subtitle2}"
+			description: [
+				"{e6e.integrated_dynamics.description6}"
+				""
+				"{e6e.integrated_dynamics.description7}"
+			]
+			dependencies: ["42D9F6E36CF8F06E"]
+			optional: true
+			id: "4666E2A199FC676E"
+			tasks: [{
+				id: "53097394003302F7"
+				type: "item"
+				title: "{e6e.integrated_dynamics.title3}"
+				icon: "integrateddynamics:squeezer"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integrateddynamics:squeezer"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:bucket_menril_resin"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5476A59853122500"
+					type: "item"
+					title: "{e6e.integrated_dynamics.title4}"
+					item: "minecraft:armor_stand"
+				}
+				{
+					id: "1822E8DD1641B839"
+					type: "item"
+					title: "{e6e.integrated_dynamics.title5}"
+					item: "minecraft:slime_block"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			subtitle: "{e6e.integrated_dynamics.subtitle3}"
+			description: ["{e6e.integrated_dynamics.description8}"]
+			dependencies: ["42D9F6E36CF8F06E"]
+			optional: true
+			id: "510121D501040EA5"
+			tasks: [{
+				id: "6DFFC1D94075DA22"
+				type: "item"
+				title: "{e6e.integrated_dynamics.title6}"
+				icon: "integrateddynamics:drying_basin"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integrateddynamics:drying_basin"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:crystalized_menril_block"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "6FCCEF89844BC6E9"
+				type: "command"
+				title: "{e6e.integrated_dynamics.title7}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			subtitle: "{e6e.integrated_dynamics.subtitle4}"
+			description: ["{e6e.integrated_dynamics.description9}"]
+			dependencies: ["510121D501040EA5"]
+			optional: true
+			id: "05C24B4CAB4AC124"
+			tasks: [{
+				id: "4884D5DED8B35CFD"
+				type: "item"
+				title: "{e6e.integrated_dynamics.title8}"
+				icon: "integrateddynamics:mechanical_drying_basin"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integrateddynamics:mechanical_drying_basin"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:crystalized_chorus_block"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "2490003809DE5195"
+				type: "command"
+				title: "{e6e.integrated_dynamics.title9}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			subtitle: "{e6e.integrated_dynamics.subtitle5}"
+			description: ["{e6e.integrated_dynamics.description10}"]
+			dependencies: ["4666E2A199FC676E"]
+			optional: true
+			id: "5183909586CBC38F"
+			tasks: [{
+				id: "256E9E07904E5A4A"
+				type: "item"
+				title: "{e6e.integrated_dynamics.title10}"
+				icon: "integrateddynamics:mechanical_squeezer"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integrateddynamics:mechanical_squeezer"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:bucket_liquid_chorus"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C49676D6152BAE1"
+				type: "command"
+				title: "{e6e.integrated_dynamics.title11}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.integrated_dynamics.title12}"
+			icon: "minecraft:water_bucket"
+			x: -3.0d
+			y: 0.0d
+			subtitle: "{e6e.integrated_dynamics.subtitle6}"
+			description: ["{e6e.integrated_dynamics.description11}"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "0EC4E05346C842DC"
+			tasks: [{
+				id: "50DF9F183B30FD05"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0BACBA6E6F6282A6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{e6e.integrated_dynamics.title13}"
+			icon: {
+				id: "integrateddynamics:energy_battery"
+				Count: 1b
+				tag: {
+					energy: 1000000
+				}
+			}
+			x: 3.0d
+			y: 0.0d
+			subtitle: "{e6e.integrated_dynamics.subtitle7}"
+			description: ["{e6e.integrated_dynamics.description12}"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "69C09D451357D847"
+			tasks: [{
+				id: "67D84A2961098D39"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "35DB2C6D79D15457"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{e6e.integrated_dynamics.title14}"
+			icon: "minecraft:item_frame"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "{e6e.integrated_dynamics.subtitle8}"
+			description: ["{e6e.integrated_dynamics.description13}"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "47BF421FFE9A02B6"
+			tasks: [{
+				id: "19A2827522FB5641"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "62AA590D2815B802"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: ["{e6e.integrated_dynamics.description14}"]
+			dependencies: ["47BF421FFE9A02B6"]
+			id: "0A50B0D7088492C5"
+			tasks: [{
+				id: "7BF8D228C32BFAA3"
+				type: "item"
+				item: "integratedtunnels:part_interface_item"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			description: ["{e6e.integrated_dynamics.description15}"]
+			dependencies: ["47BF421FFE9A02B6"]
+			id: "056D516E5F520ECD"
+			tasks: [{
+				id: "0B8682EB51258EAF"
+				type: "item"
+				item: "integratedtunnels:part_importer_item"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			dependencies: ["47BF421FFE9A02B6"]
+			id: "6B0199533EB50413"
+			tasks: [{
+				id: "51EFE65BD012FE42"
+				type: "item"
+				item: "integratedtunnels:part_exporter_item"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			description: ["{e6e.integrated_dynamics.description16}"]
+			dependencies: ["0EC4E05346C842DC"]
+			id: "4F5F78B1254B6370"
+			tasks: [{
+				id: "4FE15E8CEABF6765"
+				type: "item"
+				item: "integratedtunnels:part_importer_fluid"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			description: ["{e6e.integrated_dynamics.description17}"]
+			dependencies: ["0EC4E05346C842DC"]
+			id: "2F25517C899BC435"
+			tasks: [{
+				id: "0A14E33816A8971F"
+				type: "item"
+				item: "integratedtunnels:part_interface_fluid"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			description: ["{e6e.integrated_dynamics.description18}"]
+			dependencies: ["0EC4E05346C842DC"]
+			id: "1EE4A5F1220A6405"
+			tasks: [{
+				id: "71B88A271A60F408"
+				type: "item"
+				item: "integratedtunnels:part_exporter_fluid"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["{e6e.integrated_dynamics.description19}"]
+			dependencies: ["69C09D451357D847"]
+			id: "3813AC7EDF335C11"
+			tasks: [{
+				id: "32F54E29927301E5"
+				type: "item"
+				item: "integratedtunnels:part_interface_energy"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			description: ["{e6e.integrated_dynamics.description20}"]
+			dependencies: ["69C09D451357D847"]
+			id: "395AD749713702EB"
+			tasks: [{
+				id: "2DBBB2572F9877D0"
+				type: "item"
+				item: "integratedtunnels:part_importer_energy"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			description: ["{e6e.integrated_dynamics.description21}"]
+			dependencies: ["69C09D451357D847"]
+			id: "62847890633837C8"
+			tasks: [{
+				id: "0EC0C78AE0937396"
+				type: "item"
+				item: "integratedtunnels:part_exporter_energy"
+			}]
+		}
+		{
+			title: "{e6e.integrated_dynamics.title15}"
+			x: 1.0d
+			y: 2.0d
+			subtitle: "{e6e.integrated_dynamics.subtitle9}"
+			description: ["{e6e.integrated_dynamics.description22}"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "629FE9742ED9DA8E"
+			tasks: [{
+				id: "22CA50E3B6CE7873"
+				type: "item"
+				title: "{e6e.integrated_dynamics.title16}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integratedtunnels:part_exporter_world_item"
+								Count: 1b
+							}
+							{
+								id: "integratedtunnels:part_exporter_world_fluid"
+								Count: 1b
+							}
+							{
+								id: "integratedtunnels:part_exporter_world_energy"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.integrated_dynamics.title17}"
+			x: -1.0d
+			y: 2.0d
+			subtitle: "{e6e.integrated_dynamics.subtitle10}"
+			description: ["{e6e.integrated_dynamics.description23}"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "0D2453FD06A1207B"
+			tasks: [{
+				id: "4647A50833440DED"
+				type: "item"
+				title: "{e6e.integrated_dynamics.title18}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integratedtunnels:part_importer_world_item"
+								Count: 1b
+							}
+							{
+								id: "integratedtunnels:part_importer_world_fluid"
+								Count: 1b
+							}
+							{
+								id: "integratedtunnels:part_importer_world_energy"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F96D4CC5E668E12"
+				type: "command"
+				title: "{e6e.integrated_dynamics.title19}"
+				icon: "kubejs:miners_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			subtitle: "{e6e.integrated_dynamics.subtitle11}"
+			description: ["{e6e.integrated_dynamics.description24}"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "39AED68EE6F495B1"
+			tasks: [{
+				id: "3526F3A4F711D7E1"
+				type: "item"
+				title: "{e6e.integrated_dynamics.title20}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integrateddynamics:part_audio_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_block_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_entity_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_extradimensional_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_fluid_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_inventory_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_machine_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_network_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_redstone_reader"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_world_reader"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			subtitle: "{e6e.integrated_dynamics.subtitle12}"
+			description: ["{e6e.integrated_dynamics.description25}"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "61D790A907882415"
+			tasks: [{
+				id: "2BAF749D34AB438F"
+				type: "item"
+				title: "{e6e.integrated_dynamics.title21}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integrateddynamics:part_audio_writer"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_effect_writer"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_inventory_writer"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_redstone_writer"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.integrated_dynamics.title22}"
+			x: -2.0d
+			y: -1.0d
+			subtitle: "{e6e.integrated_dynamics.subtitle13}"
+			description: [
+				"{e6e.integrated_dynamics.description26}"
+				"{e6e.integrated_dynamics.description27}"
+			]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "4C47990454684103"
+			tasks: [{
+				id: "6465225AA0D53CFB"
+				type: "item"
+				title: "{e6e.integrated_dynamics.title23}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integrateddynamics:part_connector_mono_directional"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:part_connector_omni_directional"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.integrated_dynamics.title24}"
+			x: -1.0d
+			y: -2.0d
+			subtitle: "{e6e.integrated_dynamics.subtitle14}"
+			description: [
+				"{e6e.integrated_dynamics.description28}"
+				""
+				"{e6e.integrated_dynamics.description29}"
+				""
+				"{e6e.integrated_dynamics.description30}"
+				""
+				"{e6e.integrated_dynamics.description31}"
+			]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "020DD2A8A7FA170B"
+			tasks: [
+				{
+					id: "51EBE9CB057981DB"
+					type: "item"
+					item: "integratedterminals:part_terminal_storage"
+				}
+				{
+					id: "24FC2D0BFBF84232"
+					type: "item"
+					item: "integratedterminals:part_terminal_crafting_job"
+				}
+				{
+					id: "4FF70CD62E232768"
+					type: "item"
+					item: "integratedcrafting:part_interface_crafting"
+				}
+				{
+					id: "5479E812F182F318"
+					type: "item"
+					item: "integratedcrafting:part_crafting_writer"
+				}
+			]
+			rewards: [{
+				id: "182ED3A3806D1D78"
+				type: "command"
+				title: "{e6e.integrated_dynamics.title25}"
+				icon: "kubejs:miners_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			subtitle: "{e6e.integrated_dynamics.subtitle15}"
+			description: ["{e6e.integrated_dynamics.description32}"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "11A8433289EFF772"
+			tasks: [{
+				id: "35A5BE48B97046AD"
+				type: "item"
+				item: "integratednbt:nbt_extractor"
+			}]
+			rewards: [{
+				id: "03B350B9FF56379D"
+				type: "command"
+				title: "{e6e.integrated_dynamics.title26}"
+				icon: "kubejs:scavengers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			subtitle: "{e6e.integrated_dynamics.subtitle16}"
+			description: ["{e6e.integrated_dynamics.description33}"]
+			dependencies: ["7E516ACCF6DA5588"]
+			id: "0AD26267625F46D8"
+			tasks: [{
+				id: "2C36F7C1789E5E61"
+				type: "item"
+				item: "integratedtunnels:part_player_simulator"
+			}]
+		}
+	]
+}

@@ -1,0 +1,545 @@
+{
+	id: "0000000000000044"
+	group: ""
+	order_index: 1
+	filename: "getting_started"
+	title: "{e6e.getting_started.title0}"
+	icon: "minecraft:nether_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{e6e.getting_started.title1}"
+			icon: "minecraft:oak_sapling"
+			x: 0.0d
+			y: -6.0d
+			description: [
+				"{e6e.getting_started.description0}"
+				"{e6e.getting_started.description1}"
+				"{e6e.getting_started.description2}"
+				""
+				"{e6e.getting_started.description3}"
+				"{e6e.getting_started.description4}"
+				"{e6e.getting_started.description5}"
+				""
+				"{e6e.getting_started.description6}"
+				""
+				"{e6e.getting_started.description7}"
+			]
+			size: 1.5d
+			id: "0000000000000045"
+			tasks: [{
+				id: "0000000000000046"
+				type: "checkmark"
+				icon: "minecraft:oak_sapling"
+			}]
+			rewards: [{
+				id: "0000000000000A93"
+				type: "command"
+				title: "{e6e.getting_started.title2}"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			description: [
+				"{e6e.getting_started.description8}"
+				""
+				"{e6e.getting_started.description9}"
+				""
+				"{e6e.getting_started.description10}"
+				"{e6e.getting_started.description11}"
+				"{e6e.getting_started.description12}"
+				"{e6e.getting_started.description13}"
+			]
+			dependencies: ["0000000000000045"]
+			id: "00000000000002AC"
+			tasks: [{
+				id: "00000000000002AD"
+				type: "checkmark"
+				title: "{e6e.getting_started.title3}"
+				icon: "minecraft:compass"
+			}]
+			rewards: [{
+				id: "00000000000002B4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "minecraft:writable_book"
+			x: 0.0d
+			y: -3.5d
+			description: [
+				"{e6e.getting_started.description14}"
+				""
+				"{e6e.getting_started.description15}"
+			]
+			dependencies: ["0000000000000045"]
+			id: "00000000000002AE"
+			tasks: [{
+				id: "00000000000002AF"
+				type: "checkmark"
+				title: "{e6e.getting_started.title4}"
+			}]
+			rewards: [{
+				id: "00000000000002B2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{e6e.getting_started.title5}"
+			icon: "minecraft:wither_skeleton_skull"
+			x: 1.5d
+			y: -4.0d
+			description: [
+				"{e6e.getting_started.description16}"
+				""
+				"{e6e.getting_started.description17}"
+			]
+			dependencies: ["0000000000000045"]
+			id: "00000000000002B0"
+			tasks: [{
+				id: "00000000000002B1"
+				type: "checkmark"
+				title: "{e6e.getting_started.title6}"
+				icon: "minecraft:wither_skeleton_skull"
+			}]
+			rewards: [{
+				id: "00000000000002B3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{e6e.getting_started.title7}"
+			x: 1.5d
+			y: -7.5d
+			subtitle: "{e6e.getting_started.title8}"
+			description: [
+				"{e6e.getting_started.description18}"
+				""
+				"{e6e.getting_started.description19}"
+			]
+			dependencies: ["0000000000000045"]
+			id: "00000000000006E9"
+			tasks: [{
+				id: "00000000000006EA"
+				type: "checkmark"
+				title: "{e6e.getting_started.subtitle0}"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "patchouli:modded_for_dummies"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000006EB"
+				type: "item"
+				title: "{e6e.getting_started.title9}"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "patchouli:modded_for_dummies"
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.getting_started.title10}"
+			x: 0.0d
+			y: -8.0d
+			description: [
+				"{e6e.getting_started.description20}"
+				""
+				"{e6e.getting_started.description21}"
+				""
+				"{e6e.getting_started.description22}"
+				""
+				"{e6e.getting_started.description23}"
+			]
+			dependencies: [
+				"0000000000000FEB"
+				"0000000000000045"
+			]
+			hide: true
+			optional: true
+			id: "0000000000000FE9"
+			tasks: [{
+				id: "0000000000000FEA"
+				type: "item"
+				item: "mekanism:robit"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			subtitle: "{e6e.getting_started.subtitle1}"
+			description: [
+				"{e6e.getting_started.description24}"
+				""
+				"{e6e.getting_started.description25}"
+				""
+				"{e6e.getting_started.description26}"
+				""
+				"{e6e.getting_started.description27}"
+				""
+				"{e6e.getting_started.description28}"
+				""
+			]
+			dependencies: ["0000000000000045"]
+			id: "1F5D6018C2E35C3D"
+			tasks: [{
+				id: "7781E2B735D79B56"
+				type: "item"
+				item: "minecraft:book"
+			}]
+			rewards: [{
+				id: "6E4E5D6908D19095"
+				type: "item"
+				title: "{e6e.getting_started.title11}"
+				icon: {
+					id: "akashictome:tome"
+					Count: 1b
+					tag: {
+						"akashictome:data": {
+							industrialforegoing: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
+								}
+							}
+							tetra: {
+								id: "tetra:holo"
+								Count: 1.0d
+								tag: {
+									"holo/core_material": "frame/dim"
+									"holo/frame": "holo/frame"
+									"holo/core": "holo/core"
+									"holo/frame_material": "core/ancient"
+								}
+							}
+							resourcefulbees: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+								}
+							}
+							theoneprobe: {
+								id: "theoneprobe:probenote"
+								Count: 1.0d
+							}
+							astralsorcery: {
+								id: "astralsorcery:tome"
+								Count: 1.0d
+							}
+							ftbquests: {
+								id: "ftbquests:book"
+								Count: 1.0d
+							}
+							alexsmobs: {
+								id: "alexsmobs:animal_dictionary"
+								Count: 1.0d
+							}
+							immersiveengineering: {
+								id: "immersiveengineering:manual"
+								Count: 1.0d
+							}
+							eidolon: {
+								id: "eidolon:codex"
+								Count: 1.0d
+							}
+							botania: {
+								id: "botania:lexicon"
+								Count: 1.0d
+								tag: { }
+							}
+							thermal: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "thermal:guidebook"
+								}
+							}
+							patchouli: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "patchouli:modded_for_dummies"
+								}
+							}
+							rftoolsbase: {
+								id: "rftoolsbase:manual"
+								Count: 1.0d
+							}
+							integrateddynamics: {
+								id: "integrateddynamics:on_the_dynamics_of_integration"
+								Count: 1.0d
+							}
+							cookingforblockheads: {
+								id: "cookingforblockheads:crafting_book"
+								Count: 1.0d
+							}
+							powah: {
+								id: "powah:book"
+								Count: 1.0d
+							}
+							pneumaticcraft: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "pneumaticcraft:book"
+								}
+							}
+							naturesaura: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "naturesaura:book"
+								}
+							}
+							pedestals: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "pedestals:manual"
+								}
+							}
+							transport: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "transport:guide"
+								}
+							}
+							engineersdecor: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "engineersdecor:engineersdecor_manual"
+								}
+							}
+							occultism: {
+								id: "occultism:dictionary_of_spirits"
+								Count: 1.0d
+							}
+							solcarrot: {
+								id: "solcarrot:food_book"
+								Count: 1.0d
+							}
+							modularrouters: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "modularrouters:book"
+								}
+							}
+							ars_nouveau: {
+								id: "ars_nouveau:worn_notebook"
+								Count: 1.0d
+							}
+							bloodmagic: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "bloodmagic:guide"
+								}
+							}
+							betterendforge: {
+								id: "betterendforge:guidebook"
+								Count: 1.0d
+							}
+							apotheosis: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "apotheosis:apoth_chronicle"
+								}
+							}
+						}
+					}
+				}
+				item: {
+					id: "akashictome:tome"
+					Count: 1b
+					tag: {
+						"akashictome:data": {
+							industrialforegoing: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
+								}
+							}
+							tetra: {
+								id: "tetra:holo"
+								Count: 1.0d
+								tag: {
+									"holo/core_material": "frame/dim"
+									"holo/frame": "holo/frame"
+									"holo/core": "holo/core"
+									"holo/frame_material": "core/ancient"
+								}
+							}
+							resourcefulbees: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+								}
+							}
+							theoneprobe: {
+								id: "theoneprobe:probenote"
+								Count: 1.0d
+							}
+							astralsorcery: {
+								id: "astralsorcery:tome"
+								Count: 1.0d
+							}
+							ftbquests: {
+								id: "ftbquests:book"
+								Count: 1.0d
+							}
+							alexsmobs: {
+								id: "alexsmobs:animal_dictionary"
+								Count: 1.0d
+							}
+							immersiveengineering: {
+								id: "immersiveengineering:manual"
+								Count: 1.0d
+							}
+							eidolon: {
+								id: "eidolon:codex"
+								Count: 1.0d
+							}
+							botania: {
+								id: "botania:lexicon"
+								Count: 1.0d
+								tag: { }
+							}
+							sushigocrafting: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "sushigocrafting:sushigocrafting"
+								}
+							}
+							thermal: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "thermal:guidebook"
+								}
+							}
+							patchouli: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "patchouli:modded_for_dummies"
+								}
+							}
+							rftoolsbase: {
+								id: "rftoolsbase:manual"
+								Count: 1.0d
+							}
+							integrateddynamics: {
+								id: "integrateddynamics:on_the_dynamics_of_integration"
+								Count: 1.0d
+							}
+							cookingforblockheads: {
+								id: "cookingforblockheads:crafting_book"
+								Count: 1.0d
+							}
+							powah: {
+								id: "powah:book"
+								Count: 1.0d
+							}
+							pneumaticcraft: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "pneumaticcraft:book"
+								}
+							}
+							naturesaura: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "naturesaura:book"
+								}
+							}
+							pedestals: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "pedestals:manual"
+								}
+							}
+							transport: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "transport:guide"
+								}
+							}
+							engineersdecor: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "engineersdecor:engineersdecor_manual"
+								}
+							}
+							occultism: {
+								id: "occultism:dictionary_of_spirits"
+								Count: 1.0d
+							}
+							solcarrot: {
+								id: "solcarrot:food_book"
+								Count: 1.0d
+							}
+							modularrouters: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "modularrouters:book"
+								}
+							}
+							ars_nouveau: {
+								id: "ars_nouveau:worn_notebook"
+								Count: 1.0d
+							}
+							bloodmagic: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "bloodmagic:guide"
+								}
+							}
+							betterendforge: {
+								id: "betterendforge:guidebook"
+								Count: 1.0d
+							}
+							apotheosis: {
+								id: "patchouli:guide_book"
+								Count: 1.0d
+								tag: {
+									"patchouli:book": "apotheosis:apoth_chronicle"
+								}
+							}
+						}
+					}
+				}
+				only_one: true
+			}]
+		}
+	]
+}

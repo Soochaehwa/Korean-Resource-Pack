@@ -1,0 +1,434 @@
+{
+	id: "0000000000000B65"
+	group: "34B7FB260B6AEB81"
+	order_index: 0
+	filename: "gates_wip"
+	title: "{e6e.gates_wip.title0}"
+	icon: "minecraft:oak_fence_gate"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{e6e.gates_wip.title1}"
+			icon: "mekanism:robit"
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			description: [
+				"{e6e.gates_wip.description0}"
+				""
+				"{e6e.gates_wip.description1}"
+				"{e6e.gates_wip.description2}"
+				""
+				"{e6e.gates_wip.description3}"
+				""
+				"{e6e.gates_wip.description4}"
+				"{e6e.gates_wip.description5}"
+				""
+				"{e6e.gates_wip.description6}"
+				""
+				"{e6e.gates_wip.description7}"
+				"{e6e.gates_wip.description8}"
+			]
+			dependencies: ["0000000000000FEB"]
+			hide: true
+			min_width: 300
+			id: "0000000000000B6C"
+			tasks: [{
+				id: "7DE46EF832E29D7C"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title2}"
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["0000000000000B6C"]
+			id: "0000000000000FBD"
+			tasks: [{
+				id: "0000000000000FBE"
+				type: "item"
+				item: "create:gearbox"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title3}"
+			icon: "thermal:machine_furnace"
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["0000000000000B6C"]
+			id: "0000000000000FBF"
+			tasks: [{
+				id: "0000000000000FC0"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title4}"
+			x: 0.0d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["0000000000000FBF"]
+			size: 1.25d
+			id: "0000000000000FC1"
+			tasks: [{
+				id: "0000000000000FC2"
+				type: "item"
+				item: "xnet:controller"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title5}"
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["0000000000000B6C"]
+			id: "0000000000000FC3"
+			tasks: [{
+				id: "0000000000000FC4"
+				type: "item"
+				icon: "eidolon:pewter_inlay"
+				item: "eidolon:pewter_inlay"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title6}"
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["0000000000000B6C"]
+			id: "0000000000000FC5"
+			tasks: [{
+				id: "0000000000000FC6"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title7}"
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["0000000000000FC5"]
+			id: "0000000000000FC7"
+			tasks: [{
+				id: "0000000000000FC8"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title8}"
+			x: 3.0d
+			y: 6.0d
+			dependencies: ["0000000000000FC7"]
+			id: "0000000000000FC9"
+			tasks: [{
+				id: "0000000000000FCA"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title9}"
+			x: 1.5d
+			y: 6.5d
+			dependencies: [
+				"0000000000000FCF"
+				"0000000000000FC9"
+			]
+			id: "0000000000000FCB"
+			tasks: [{
+				id: "0000000000000FCC"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title10}"
+			icon: "kubejs:craft_miner_marid_irradiated"
+			x: 1.5d
+			y: 3.75d
+			dependencies: ["573D1ADF4FBE3044"]
+			id: "0000000000000FCD"
+			tasks: [{
+				id: "0000000000000FCE"
+				type: "item"
+				item: {
+					id: "occultism:chalk_white"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title11}"
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["0000000000000FCD"]
+			id: "0000000000000FCF"
+			tasks: [{
+				id: "0000000000000FD0"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title12}"
+			x: -4.375d
+			y: 1.25d
+			shape: "diamond"
+			dependencies: ["0000000000000FBD"]
+			size: 1.25d
+			id: "0000000000000FD1"
+			tasks: [{
+				id: "0000000000000FD2"
+				type: "item"
+				item: "prettypipes:crafting_terminal"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title13}"
+			x: -4.5d
+			y: 2.5d
+			dependencies: ["0000000000000FD5"]
+			id: "0000000000000FD3"
+			tasks: [{
+				id: "0000000000000FD4"
+				type: "item"
+				item: "powah:dielectric_casing"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title14}"
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["0000000000000FBD"]
+			id: "0000000000000FD5"
+			tasks: [{
+				id: "0000000000000FD6"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title15}"
+			x: -2.0d
+			y: 5.0d
+			dependencies: ["0000000000000FDB"]
+			id: "0000000000000FD7"
+			tasks: [{
+				id: "0000000000000FD8"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title16}"
+			x: -4.5d
+			y: 4.5d
+			shape: "diamond"
+			dependencies: ["0000000000000FD3"]
+			size: 1.25d
+			id: "0000000000000FD9"
+			tasks: [{
+				id: "0000000000000FDA"
+				type: "item"
+				item: "modularrouters:item_router"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title17}"
+			icon: "pneumaticcraft:pressure_gauge"
+			x: -1.5d
+			y: 3.75d
+			dependencies: ["0000000000000FBF"]
+			id: "0000000000000FDB"
+			tasks: [{
+				id: "0000000000000FDC"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 16L
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title18}"
+			x: -0.625d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["0000000000000FDB"]
+			size: 1.25d
+			id: "0000000000000FDD"
+			tasks: [{
+				id: "0000000000000FDE"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title19}"
+			icon: "industrialforegoing:pink_slime"
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["0000000000000FD5"]
+			id: "0000000000000FDF"
+			tasks: [{
+				id: "0000000000000FE0"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title20}"
+			icon: "minecraft:honeycomb"
+			x: 4.375d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["0000000000000FC7"]
+			size: 1.25d
+			id: "0000000000000FE1"
+			tasks: [{
+				id: "0000000000000FE2"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title21}"
+			x: -3.0d
+			y: 6.0d
+			dependencies: ["0000000000000FDF"]
+			id: "0000000000000FE3"
+			tasks: [{
+				id: "0000000000000FE4"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title22}"
+			icon: "mekanism:alloy_atomic"
+			x: -1.5d
+			y: 6.5d
+			dependencies: [
+				"0000000000000FD7"
+				"0000000000000FE3"
+			]
+			id: "0000000000000FE5"
+			tasks: [{
+				id: "0EBD46ADF246F17F"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title23}"
+			icon: "create:handheld_worldshaper"
+			x: 0.0d
+			y: 8.0d
+			shape: "octagon"
+			dependencies: [
+				"0000000000000FE5"
+				"0000000000000FCB"
+			]
+			size: 2.0d
+			id: "0000000000000FE7"
+			tasks: [{
+				id: "281E59C3023B532F"
+				type: "item"
+				item: "create:handheld_worldshaper"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title24}"
+			icon: "integrateddynamics:variable_transformer_input"
+			x: 0.0d
+			y: 5.625d
+			shape: "diamond"
+			dependencies: ["0000000000000FDD"]
+			size: 1.25d
+			id: "218FBDC6B17EDF33"
+			tasks: [{
+				id: "2A11C229CEEEBE6F"
+				type: "item"
+				item: "integrateddynamics:variablestore"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title25}"
+			x: -2.5d
+			y: 7.5d
+			shape: "diamond"
+			dependencies: ["0000000000000FE5"]
+			size: 1.25d
+			id: "11FC40A4B8CBA98A"
+			tasks: [{
+				id: "590186031154D036"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title26}"
+			icon: "pedestals:pedestal/stone333"
+			x: 4.375d
+			y: 6.875d
+			shape: "diamond"
+			dependencies: ["0000000000000FC9"]
+			size: 1.25d
+			id: "6CA3B688C7701907"
+			tasks: [{
+				id: "5727C862289731E8"
+				type: "item"
+				item: "pedestals:pedestal/stone333"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title27}"
+			x: 0.0d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["0000000000000FBF"]
+			size: 1.25d
+			id: "51E57880AFDE5595"
+			tasks: [{
+				id: "746F162F9FD6B5C6"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title28}"
+			x: 1.5d
+			y: 2.6d
+			dependencies: ["0000000000000FC3"]
+			id: "573D1ADF4FBE3044"
+			tasks: [{
+				id: "50E8AA4A66F47704"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+		}
+		{
+			title: "{e6e.gates_wip.title29}"
+			x: 0.625d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["0000000000000FCD"]
+			size: 1.25d
+			id: "2AFC23BBBA407467"
+			tasks: [{
+				id: "786CC87833A2294A"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+		}
+	]
+}

@@ -1,0 +1,967 @@
+{
+	id: "0000000000000895"
+	group: "5A8B89F87F77CF4C"
+	order_index: 3
+	filename: "blood_magic_wip"
+	title: "{e6e.blood_magic_wip.title0}"
+	icon: "bloodmagic:weakbloodshard"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{e6e.blood_magic_wip.title1}"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+			x: -3.0d
+			y: 1.5d
+			shape: "gear"
+			description: [
+				"{e6e.blood_magic_wip.description0}"
+				""
+				"{e6e.blood_magic_wip.description1}"
+				""
+				"{e6e.blood_magic_wip.description2}"
+				""
+				"{e6e.blood_magic_wip.description3}"
+			]
+			id: "0000000000000896"
+			tasks: [{
+				id: "7CC4F0A6E71C717F"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [{
+				id: "04592CAFF9CC5FCF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "bloodmagic:basemonstersoul"
+				Count: 1b
+				tag: {
+					souls: 5.0d
+				}
+			}
+			x: -3.5d
+			y: 3.0d
+			subtitle: "{e6e.blood_magic_wip.subtitle0}"
+			description: [
+				"{e6e.blood_magic_wip.description4}"
+				""
+				"{e6e.blood_magic_wip.description5}"
+				""
+				"{e6e.blood_magic_wip.description6}"
+			]
+			dependencies: ["000000000000089F"]
+			id: "000000000000089B"
+			tasks: [{
+				id: "00000000000008B3"
+				type: "item"
+				item: {
+					id: "bloodmagic:basemonstersoul"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000089D"
+					type: "item"
+					title: "{e6e.blood_magic_wip.title2}"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+				{
+					id: "0000000000000A7C"
+					type: "command"
+					title: "{e6e.blood_magic_wip.title3}"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle1}"
+			description: [
+				"{e6e.blood_magic_wip.description7}"
+				""
+				"{e6e.blood_magic_wip.description8}"
+				""
+				"{e6e.blood_magic_wip.description9}"
+				""
+				"{e6e.blood_magic_wip.description10}"
+				""
+				"{e6e.blood_magic_wip.description11}"
+			]
+			dependencies: ["0000000000000896"]
+			min_width: 300
+			id: "000000000000089F"
+			tasks: [{
+				id: "00000000000008A0"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [{
+				id: "00000000000008C2"
+				type: "command"
+				title: "{e6e.blood_magic_wip.title4}"
+				icon: "kubejs:farmers_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				player_command: false
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle2}"
+			description: [
+				"{e6e.blood_magic_wip.description12}"
+				""
+				"{e6e.blood_magic_wip.description13}"
+			]
+			dependencies: ["00000000000008B4"]
+			id: "00000000000008A1"
+			tasks: [{
+				id: "00000000000008A2"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "000000000000090B"
+				type: "item"
+				title: "{e6e.blood_magic_wip.title5}"
+				item: "bloodmagic:bloodlightsigil"
+			}]
+		}
+		{
+			title: "{e6e.blood_magic_wip.title6}"
+			x: -4.5d
+			y: 6.0d
+			subtitle: "{e6e.blood_magic_wip.subtitle3}"
+			description: [
+				"{e6e.blood_magic_wip.description14}"
+				""
+				"{e6e.blood_magic_wip.description15}"
+			]
+			dependencies: ["00000000000008A6"]
+			id: "00000000000008A3"
+			tasks: [{
+				id: "00000000000008A4"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000009AE"
+					type: "command"
+					title: "{e6e.blood_magic_wip.title7}"
+					icon: "kubejs:sorcerers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+					player_command: false
+				}
+				{
+					id: "6797B35CCCC56777"
+					type: "item"
+					item: "bloodmagic:melee_anointment_l"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle4}"
+			description: [
+				"{e6e.blood_magic_wip.description16}"
+				""
+				"{e6e.blood_magic_wip.description17}"
+				""
+				"{e6e.blood_magic_wip.description18}"
+				""
+				"{e6e.blood_magic_wip.description19}"
+			]
+			dependencies: ["00000000000008B4"]
+			id: "00000000000008A6"
+			tasks: [{
+				id: "00000000000008A7"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "00000000000009AF"
+				type: "command"
+				title: "{e6e.blood_magic_wip.title8}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle5}"
+			description: [
+				"{e6e.blood_magic_wip.description20}"
+				""
+				"{e6e.blood_magic_wip.description21}"
+				""
+				"{e6e.blood_magic_wip.description22}"
+			]
+			dependencies: ["000000000000089B"]
+			id: "00000000000008B4"
+			tasks: [{
+				id: "00000000000008B5"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [{
+				id: "00000000000009B0"
+				type: "command"
+				title: "{e6e.blood_magic_wip.title9}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle6}"
+			description: [
+				"{e6e.blood_magic_wip.description23}"
+				""
+				"{e6e.blood_magic_wip.description24}"
+				""
+				"{e6e.blood_magic_wip.description25}"
+				""
+				"{e6e.blood_magic_wip.description26}"
+				""
+				"{e6e.blood_magic_wip.description27}"
+				""
+				"{e6e.blood_magic_wip.description28}"
+				""
+				"{e6e.blood_magic_wip.description29}"
+			]
+			dependencies: ["000000000000089F"]
+			min_width: 300
+			id: "00000000000008B6"
+			tasks: [{
+				id: "00000000000008B7"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+			rewards: [
+				{
+					id: "00000000000008BB"
+					type: "item"
+					title: "{e6e.blood_magic_wip.title10}"
+					item: "prettypipes:low_filter_module"
+				}
+				{
+					id: "00000000000008BC"
+					type: "item"
+					title: "{e6e.blood_magic_wip.title11}"
+					item: "prettypipes:low_extraction_module"
+					count: 2
+				}
+				{
+					id: "00000000000008BD"
+					type: "item"
+					title: "{e6e.blood_magic_wip.title12}"
+					item: "prettypipes:stack_size_module"
+					count: 2
+				}
+				{
+					id: "00000000000008BE"
+					type: "item"
+					title: "{e6e.blood_magic_wip.title13}"
+					item: "prettypipes:pipe"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			subtitle: "{e6e.blood_magic_wip.subtitle7}"
+			description: [
+				"{e6e.blood_magic_wip.description30}"
+				""
+				"{e6e.blood_magic_wip.description31}"
+			]
+			dependencies: ["000000000000089F"]
+			id: "00000000000008BF"
+			tasks: [{
+				id: "00000000000008C0"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+			rewards: [{
+				id: "00000000000008C3"
+				type: "item"
+				title: "{e6e.blood_magic_wip.title14}"
+				item: {
+					id: "apotheosis:potion_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Potion: "minecraft:strong_regeneration"
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.blood_magic_wip.title15}"
+			icon: "bloodmagic:altar"
+			x: -0.5d
+			y: 4.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle8}"
+			description: [
+				"{e6e.blood_magic_wip.description32}"
+				""
+				"{e6e.blood_magic_wip.description33}"
+				""
+				"{e6e.blood_magic_wip.description34}"
+			]
+			dependencies: ["000000000000089F"]
+			id: "00000000000008C4"
+			tasks: [{
+				id: "00000000000008C5"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 6L
+			}]
+			rewards: [{
+				id: "00000000000008C6"
+				type: "item"
+				title: "{e6e.blood_magic_wip.title16}"
+				item: "bloodmagic:speedrune"
+				count: 2
+			}]
+		}
+		{
+			title: "{e6e.blood_magic_wip.title17}"
+			icon: "bloodmagic:altar"
+			x: 0.5d
+			y: 5.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle9}"
+			description: [
+				"{e6e.blood_magic_wip.description35}"
+				""
+				"{e6e.blood_magic_wip.description36}"
+				""
+				"{e6e.blood_magic_wip.description37}"
+			]
+			dependencies: ["00000000000008C4"]
+			id: "00000000000008C7"
+			tasks: [
+				{
+					id: "00000000000008C8"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 16L
+				}
+				{
+					id: "00000000000008C9"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000008CB"
+					type: "item"
+					title: "{e6e.blood_magic_wip.title18}"
+					item: "minecraft:sea_lantern"
+					count: 4
+				}
+				{
+					id: "00000000000008DA"
+					type: "item"
+					title: "{e6e.blood_magic_wip.title19}"
+					item: "bloodmagic:sacrificerune"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			subtitle: "{e6e.blood_magic_wip.subtitle10}"
+			description: ["{e6e.blood_magic_wip.description38}"]
+			dependencies: ["00000000000008C7"]
+			id: "00000000000008CC"
+			tasks: [{
+				id: "00000000000008CD"
+				type: "item"
+				item: "bloodmagic:ritualdiviner"
+			}]
+			rewards: [{
+				id: "00000000000009B7"
+				type: "command"
+				title: "{e6e.blood_magic_wip.title20}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle11}"
+			description: [
+				"{e6e.blood_magic_wip.description39}"
+				""
+				"{e6e.blood_magic_wip.description40}"
+				""
+				"{e6e.blood_magic_wip.description41}"
+			]
+			dependencies: ["00000000000008C4"]
+			id: "00000000000008DB"
+			tasks: [{
+				id: "00000000000008DC"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+			rewards: [{
+				id: "00000000000009B9"
+				type: "command"
+				title: "{e6e.blood_magic_wip.title21}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.blood_magic_wip.title22}"
+			icon: "minecraft:wheat"
+			x: 1.0d
+			y: 8.0d
+			subtitle: "{e6e.blood_magic_wip.subtitle12}"
+			description: [
+				"{e6e.blood_magic_wip.description42}"
+				""
+				"{e6e.blood_magic_wip.description43}"
+				""
+				"{e6e.blood_magic_wip.description44}"
+				""
+				"{e6e.blood_magic_wip.description45}"
+			]
+			dependencies: ["00000000000008CC"]
+			id: "00000000000008DF"
+			tasks: [
+				{
+					id: "00000000000008E3"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+				{
+					id: "00000000000008E4"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "00000000000009B6"
+				type: "command"
+				title: "{e6e.blood_magic_wip.title23}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.blood_magic_wip.title24}"
+			x: 2.0d
+			y: 8.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle13}"
+			description: [
+				"{e6e.blood_magic_wip.description46}"
+				""
+				"{e6e.blood_magic_wip.description47}"
+			]
+			dependencies: ["00000000000008DF"]
+			id: "00000000000008E5"
+			tasks: [{
+				id: "00000000000008E6"
+				type: "item"
+				item: "bloodmagic:activationcrystalweak"
+			}]
+			rewards: [{
+				id: "00000000000009B5"
+				type: "command"
+				title: "{e6e.blood_magic_wip.title25}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.blood_magic_wip.title26}"
+			icon: "bloodmagic:altar"
+			x: 1.5d
+			y: 6.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle14}"
+			description: [
+				"{e6e.blood_magic_wip.description48}"
+				""
+				"{e6e.blood_magic_wip.description49}"
+			]
+			dependencies: ["00000000000008C7"]
+			id: "00000000000008E7"
+			tasks: [
+				{
+					id: "00000000000008E8"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 28L
+				}
+				{
+					id: "000000000000090D"
+					type: "item"
+					item: "bloodmagic:bloodstonebrick"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "00000000000008EC"
+				type: "item"
+				title: "{e6e.blood_magic_wip.title27}"
+				item: "bloodmagic:altarcapacityrune"
+				count: 8
+			}]
+		}
+		{
+			icon: "bloodmagic:alchemicalreactionchamber"
+			x: 2.0d
+			y: 5.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle15}"
+			description: [
+				"{e6e.blood_magic_wip.description50}"
+				""
+				"{e6e.blood_magic_wip.description51}"
+			]
+			dependencies: ["00000000000008C7"]
+			id: "00000000000008E9"
+			tasks: [
+				{
+					id: "00000000000008EA"
+					type: "item"
+					item: "bloodmagic:alchemicalreactionchamber"
+				}
+				{
+					id: "00000000000008ED"
+					type: "item"
+					item: {
+						id: "bloodmagic:sanguinereverter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000008EE"
+					type: "item"
+					item: "bloodmagic:weakbloodshard"
+				}
+			]
+			rewards: [{
+				id: "00000000000009BA"
+				type: "command"
+				title: "{e6e.blood_magic_wip.title28}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.0d
+			y: 7.0d
+			subtitle: "{e6e.blood_magic_wip.subtitle16}"
+			description: [
+				"{e6e.blood_magic_wip.description52}"
+				""
+				"{e6e.blood_magic_wip.description53}"
+				""
+				"{e6e.blood_magic_wip.description54}"
+			]
+			dependencies: [
+				"00000000000008A6"
+				"00000000000008A3"
+			]
+			id: "00000000000008EF"
+			tasks: [{
+				id: "00000000000008F0"
+				type: "item"
+				item: "bloodmagic:demoncrucible"
+			}]
+			rewards: [{
+				id: "00000000000008F5"
+				type: "item"
+				title: "{e6e.blood_magic_wip.title29}"
+				item: "bloodmagic:demonwillgauge"
+			}]
+		}
+		{
+			title: "{e6e.blood_magic_wip.title30}"
+			x: -3.0d
+			y: 8.0d
+			subtitle: "{e6e.blood_magic_wip.subtitle17}"
+			description: [
+				"{e6e.blood_magic_wip.description55}"
+				""
+				"{e6e.blood_magic_wip.description56}"
+				""
+				"{e6e.blood_magic_wip.description57}"
+				""
+				"{e6e.blood_magic_wip.description58}"
+			]
+			dependencies: ["00000000000008EF"]
+			min_width: 300
+			id: "00000000000008F3"
+			tasks: [{
+				id: "00000000000008F4"
+				type: "item"
+				item: "bloodmagic:demoncrystallizer"
+			}]
+			rewards: [{
+				id: "00000000000009B2"
+				type: "command"
+				title: "{e6e.blood_magic_wip.title31}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle18}"
+			description: [
+				"{e6e.blood_magic_wip.description59}"
+				""
+				"{e6e.blood_magic_wip.description60}"
+				""
+				"{e6e.blood_magic_wip.description61}"
+				""
+				"{e6e.blood_magic_wip.description62}"
+				""
+				"{e6e.blood_magic_wip.description63}"
+			]
+			dependencies: ["00000000000008E7"]
+			id: "00000000000008F8"
+			tasks: [{
+				id: "00000000000008F9"
+				type: "item"
+				item: "bloodmagic:ritualdivinerdusk"
+			}]
+			rewards: [{
+				id: "00000000000009B8"
+				type: "command"
+				title: "{e6e.blood_magic_wip.title32}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.blood_magic_wip.title33}"
+			icon: "bloodmagic:rawdemoncrystal"
+			x: -2.0d
+			y: 9.0d
+			subtitle: "{e6e.blood_magic_wip.subtitle19}"
+			description: [
+				"{e6e.blood_magic_wip.description64}"
+				""
+				"{e6e.blood_magic_wip.description65}"
+				""
+				"{e6e.blood_magic_wip.description66}"
+			]
+			dependencies: ["00000000000008F3"]
+			id: "00000000000008FA"
+			tasks: [
+				{
+					id: "0000000000000904"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+				{
+					id: "0000000000000905"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 20L
+				}
+				{
+					id: "000000000000090C"
+					type: "item"
+					item: "bloodmagic:defaultcrystal"
+				}
+			]
+			rewards: [{
+				id: "00000000000009B1"
+				type: "item"
+				title: "{e6e.blood_magic_wip.title34}"
+				item: "bloodmagic:defaultcrystal"
+				count: 32
+			}]
+		}
+		{
+			title: "{e6e.blood_magic_wip.title35}"
+			x: -0.5d
+			y: 9.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle20}"
+			description: [
+				"{e6e.blood_magic_wip.description67}"
+				""
+				"{e6e.blood_magic_wip.description68}"
+				""
+				"{e6e.blood_magic_wip.description69}"
+				""
+				"{e6e.blood_magic_wip.description70}"
+				""
+				"{e6e.blood_magic_wip.description71}"
+				""
+				"{e6e.blood_magic_wip.description72}"
+			]
+			dependencies: ["00000000000008FA"]
+			min_width: 300
+			id: "00000000000008FD"
+			tasks: [
+				{
+					id: "00000000000008FE"
+					type: "item"
+					item: "bloodmagic:corrosivecrystal"
+				}
+				{
+					id: "00000000000008FF"
+					type: "item"
+					item: "bloodmagic:vengefulcrystal"
+				}
+				{
+					id: "0000000000000900"
+					type: "item"
+					item: "bloodmagic:destructivecrystal"
+				}
+				{
+					id: "0000000000000901"
+					type: "item"
+					item: "bloodmagic:steadfastcrystal"
+				}
+			]
+			rewards: [{
+				id: "00000000000009B3"
+				type: "command"
+				title: "{e6e.blood_magic_wip.title36}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: 9.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle21}"
+			description: [
+				"{e6e.blood_magic_wip.description73}"
+				""
+				"{e6e.blood_magic_wip.description74}"
+			]
+			dependencies: ["00000000000008FD"]
+			id: "0000000000000907"
+			tasks: [{
+				id: "0000000000000908"
+				type: "item"
+				item: "bloodmagic:ritualtinkerer"
+			}]
+			rewards: [{
+				id: "00000000000009B4"
+				type: "command"
+				title: "{e6e.blood_magic_wip.title37}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle22}"
+			description: [
+				"{e6e.blood_magic_wip.description75}"
+				""
+				"{e6e.blood_magic_wip.description76}"
+				""
+				"{e6e.blood_magic_wip.description77}"
+			]
+			dependencies: ["00000000000008BF"]
+			id: "0000000000000909"
+			tasks: [{
+				id: "000000000000090A"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+			rewards: [
+				{
+					id: "00000000000009BB"
+					type: "command"
+					title: "{e6e.blood_magic_wip.title38}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000A7D"
+					type: "command"
+					title: "{e6e.blood_magic_wip.title39}"
+					icon: "kubejs:alchemists_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "bloodmagic:incensealtar"
+			x: -0.5d
+			y: 2.0d
+			subtitle: "{e6e.blood_magic_wip.subtitle23}"
+			description: [
+				"{e6e.blood_magic_wip.description78}"
+				""
+				"{e6e.blood_magic_wip.description79}"
+			]
+			dependencies: ["000000000000089F"]
+			id: "000000000000090E"
+			tasks: [
+				{
+					id: "000000000000090F"
+					type: "item"
+					item: "bloodmagic:incensealtar"
+				}
+				{
+					id: "0000000000000918"
+					type: "item"
+					item: "bloodmagic:woodbrickpath"
+					count: 12L
+				}
+			]
+			rewards: [{
+				id: "0000000000000919"
+				type: "item"
+				title: "{e6e.blood_magic_wip.title40}"
+				item: "bloodmagic:divinationsigil"
+			}]
+		}
+		{
+			title: "{e6e.blood_magic_wip.title41}"
+			x: -0.5d
+			y: 6.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle24}"
+			description: [
+				""
+				"{e6e.blood_magic_wip.description80}"
+				""
+				"{e6e.blood_magic_wip.description81}"
+				""
+				"{e6e.blood_magic_wip.description82}"
+				""
+				"{e6e.blood_magic_wip.description83}"
+				""
+				"{e6e.blood_magic_wip.description84}"
+				""
+				"{e6e.blood_magic_wip.description85}"
+			]
+			dependencies: ["00000000000008C7"]
+			min_width: 300
+			id: "4357BD288BF6B33A"
+			tasks: [
+				{
+					id: "5184DF819EB97A15"
+					type: "item"
+					item: "bloodmagic:masterroutingnode"
+				}
+				{
+					id: "686A566B0A0B99B2"
+					type: "item"
+					item: "bloodmagic:outputroutingnode"
+				}
+				{
+					id: "5B061E4ABB7A29C0"
+					type: "item"
+					item: "bloodmagic:inputroutingnode"
+				}
+			]
+			rewards: [
+				{
+					id: "43C68608D20981A1"
+					type: "item"
+					item: "bloodmagic:itemroutingnode"
+					count: 4
+				}
+				{
+					id: "30A919F0210DE215"
+					type: "item"
+					item: "bloodmagic:itemrouterfilterexact"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			subtitle: "{e6e.blood_magic_wip.subtitle25}"
+			description: [
+				"{e6e.blood_magic_wip.description86}"
+				""
+				"{e6e.blood_magic_wip.description87}"
+			]
+			dependencies: ["00000000000008A6"]
+			id: "6257CACC1274C997"
+			tasks: [{
+				id: "043C1AA85668AD68"
+				type: "item"
+				item: "ars_nouveau:glyph_sentientharm"
+			}]
+			rewards: [{
+				id: "0006651ED51BA2A9"
+				type: "command"
+				title: "{e6e.blood_magic_wip.title42}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blood_magic_loot_rare"
+				player_command: false
+			}]
+		}
+	]
+}

@@ -1,0 +1,1723 @@
+{
+	id: "00000000000000AE"
+	group: "72A9465344128AF9"
+	order_index: 4
+	filename: "pneumaticcraft_repressurized"
+	title: "{e6e.pneumaticcraft_repressurized.title0}"
+	icon: "pneumaticcraft:pressure_gauge_module"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "pneumaticcraft:ingot_iron_compressed"
+			x: -8.5d
+			y: -16.0d
+			shape: "gear"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description0}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description1}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description2}"
+			]
+			optional: true
+			id: "00000000000000AF"
+			tasks: [{
+				id: "7B56DD5D9F4BBB68"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+			rewards: [{
+				id: "00000000000000B1"
+				type: "item"
+				title: "{e6e.pneumaticcraft_repressurized.title1}"
+				item: {
+					id: "pneumaticcraft:pneumatic_wrench"
+					Count: 1b
+					tag: {
+						"pneumaticcraft:air": 30000
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title2}"
+			icon: "pneumaticcraft:pressure_chamber_wall"
+			x: -16.5d
+			y: -14.5d
+			shape: "rsquare"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description3}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description4}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description5}"
+			]
+			dependencies: ["00000000000000AF"]
+			id: "00000000000000B3"
+			tasks: [
+				{
+					id: "00000000000000B4"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					count: 23L
+				}
+				{
+					id: "00000000000000BA"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					count: 2L
+				}
+				{
+					id: "00000000000000BB"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000000C6"
+					type: "command"
+					title: "{e6e.pneumaticcraft_repressurized.title3}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000A78"
+					type: "command"
+					title: "{e6e.pneumaticcraft_repressurized.title4}"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title5}"
+			icon: "pneumaticcraft:air_compressor"
+			x: -16.5d
+			y: -13.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle0}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description6}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description7}"
+			]
+			dependencies: ["00000000000000B3"]
+			id: "00000000000000BD"
+			tasks: [
+				{
+					id: "00000000000000BE"
+					type: "item"
+					item: "pneumaticcraft:pressure_gauge_module"
+				}
+				{
+					id: "00000000000000BF"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title6}"
+					icon: "pneumaticcraft:air_compressor"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pneumaticcraft:air_compressor"
+									Count: 1b
+								}
+								{
+									id: "pneumaticcraft:liquid_compressor"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "00000000000000C0"
+					type: "item"
+					item: "pneumaticcraft:pressure_tube"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000000C1"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title7}"
+					item: "minecraft:redstone"
+					count: 9
+				}
+				{
+					id: "00000000000000C2"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title8}"
+					item: "minecraft:repeater"
+				}
+			]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title9}"
+			x: -17.5d
+			y: -12.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle1}"
+			description: ["{e6e.pneumaticcraft_repressurized.description8}"]
+			dependencies: ["00000000000000B3"]
+			id: "00000000000000C3"
+			tasks: [{
+				id: "00000000000000C4"
+				type: "item"
+				item: "pneumaticcraft:security_upgrade"
+				count: 2L
+			}]
+			rewards: [{
+				id: "00000000000000C5"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title10}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -15.5d
+			y: -12.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle2}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description9}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description10}"
+			]
+			dependencies: ["00000000000000B3"]
+			id: "00000000000000C7"
+			tasks: [{
+				id: "00000000000000C8"
+				type: "item"
+				item: "pneumaticcraft:liquid_compressor"
+			}]
+			rewards: [{
+				id: "00000000000000C9"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title11}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.0d
+			y: -10.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle3}"
+			description: ["{e6e.pneumaticcraft_repressurized.description11}"]
+			dependencies: ["00000000000000EA"]
+			id: "00000000000000CA"
+			tasks: [{
+				id: "00000000000000CB"
+				type: "item"
+				item: "pneumaticcraft:kerosene_lamp"
+			}]
+			rewards: [{
+				id: "000000000000022D"
+				type: "item"
+				title: "{e6e.pneumaticcraft_repressurized.title12}"
+				item: {
+					id: "pneumaticcraft:medium_tank"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							SavedTanks: {
+								Tank: {
+									FluidName: "pneumaticcraft:kerosene"
+									Amount: 64000
+								}
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title13}"
+			icon: "minecraft:packed_ice"
+			x: -12.5d
+			y: -13.5d
+			shape: "rsquare"
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle4}"
+			description: ["{e6e.pneumaticcraft_repressurized.description12}"]
+			dependencies: ["00000000000000AF"]
+			id: "00000000000000CC"
+			tasks: [{
+				id: "00000000000000CD"
+				type: "checkmark"
+				title: "{e6e.pneumaticcraft_repressurized.title14}"
+			}]
+			rewards: [
+				{
+					id: "00000000000000CE"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title15}"
+					item: {
+						id: "pneumaticcraft:camo_applicator"
+						Count: 1b
+						tag: {
+							"pneumaticcraft:air": 30000
+						}
+					}
+				}
+				{
+					id: "0000000000000A79"
+					type: "command"
+					title: "{e6e.pneumaticcraft_repressurized.title16}"
+					icon: "kubejs:farmers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -12.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle5}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description13}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description14}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description15}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description16}"
+				"{e6e.pneumaticcraft_repressurized.description17}"
+				"{e6e.pneumaticcraft_repressurized.description18}"
+			]
+			dependencies: ["00000000000000CC"]
+			id: "00000000000000CF"
+			tasks: [{
+				id: "00000000000000D0"
+				type: "item"
+				item: "pneumaticcraft:vortex_tube"
+			}]
+			rewards: [{
+				id: "00000000000000D1"
+				type: "item"
+				title: "{e6e.pneumaticcraft_repressurized.title17}"
+				item: "pneumaticcraft:heat_sink"
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title18}"
+			x: -12.5d
+			y: -11.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle6}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description19}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description20}"
+			]
+			dependencies: ["00000000000000CF"]
+			id: "00000000000000D2"
+			tasks: [{
+				id: "00000000000000D3"
+				type: "item"
+				item: "pneumaticcraft:heat_pipe"
+				count: 6L
+			}]
+			rewards: [{
+				id: "00000000000000D4"
+				type: "item"
+				title: "{e6e.pneumaticcraft_repressurized.title19}"
+				item: "pneumaticcraft:thermal_lagging"
+				count: 12
+			}]
+		}
+		{
+			x: -13.5d
+			y: -12.5d
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description21}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description22}"
+			]
+			dependencies: ["00000000000000CF"]
+			id: "00000000000000D5"
+			tasks: [{
+				id: "00000000000000D6"
+				type: "item"
+				item: "pneumaticcraft:regulator_tube_module"
+			}]
+			rewards: [{
+				id: "00000000000000D8"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title20}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -13.5d
+			y: -10.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle7}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description23}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description24}"
+			]
+			dependencies: ["00000000000000D2"]
+			id: "00000000000000D9"
+			tasks: [{
+				id: "00000000000000DA"
+				type: "item"
+				item: "pneumaticcraft:heat_frame"
+			}]
+			rewards: [{
+				id: "00000000000000DB"
+				type: "item"
+				title: "{e6e.pneumaticcraft_repressurized.title21}"
+				item: "pneumaticcraft:reinforced_chest"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -10.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle8}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description25}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description26}"
+			]
+			dependencies: ["00000000000000D2"]
+			id: "00000000000000DC"
+			tasks: [{
+				id: "00000000000000DD"
+				type: "item"
+				item: "pneumaticcraft:universal_sensor"
+			}]
+			rewards: [
+				{
+					id: "00000000000000DE"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title22}"
+					item: "pneumaticcraft:block_tracker_upgrade"
+				}
+				{
+					id: "00000000000000DF"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title23}"
+					item: "pneumaticcraft:gps_tool"
+				}
+			]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title24}"
+			x: -4.0d
+			y: -13.5d
+			shape: "rsquare"
+			description: ["{e6e.pneumaticcraft_repressurized.description27}"]
+			dependencies: ["00000000000000AF"]
+			id: "00000000000000E0"
+			tasks: [{
+				id: "00000000000000E1"
+				type: "item"
+				item: "pneumaticcraft:oil_bucket"
+			}]
+			rewards: [
+				{
+					id: "00000000000000E6"
+					type: "command"
+					title: "{e6e.pneumaticcraft_repressurized.title25}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000A7B"
+					type: "command"
+					title: "{e6e.pneumaticcraft_repressurized.title26}"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "pneumaticcraft:gas_lift"
+			x: -5.5d
+			y: -12.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle9}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description28}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description29}"
+			]
+			dependencies: ["00000000000000E0"]
+			id: "00000000000000E2"
+			tasks: [
+				{
+					id: "00000000000000E3"
+					type: "item"
+					item: "pneumaticcraft:gas_lift"
+				}
+				{
+					id: "00000000000000E4"
+					type: "item"
+					item: "pneumaticcraft:drill_pipe"
+					count: 12L
+				}
+			]
+			rewards: [{
+				id: "00000000000000E5"
+				type: "item"
+				title: "{e6e.pneumaticcraft_repressurized.title27}"
+				item: "pneumaticcraft:seismic_sensor"
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title28}"
+			icon: "pneumaticcraft:refinery_output"
+			x: -4.0d
+			y: -12.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle10}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description30}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description31}"
+			]
+			dependencies: ["00000000000000E0"]
+			id: "00000000000000E7"
+			tasks: [
+				{
+					id: "00000000000000E8"
+					type: "item"
+					item: "pneumaticcraft:refinery"
+				}
+				{
+					id: "00000000000000E9"
+					type: "item"
+					item: "pneumaticcraft:refinery_output"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "000000000000022C"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title29}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title30}"
+			x: -4.0d
+			y: -11.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle11}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description32}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description33}"
+			]
+			dependencies: ["00000000000000E7"]
+			id: "00000000000000EA"
+			tasks: [{
+				id: "00000000000000EB"
+				type: "item"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "00000000000000EC"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title31}"
+					item: "pneumaticcraft:cod_n_chips"
+					count: 16
+				}
+				{
+					id: "00000000000000ED"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title32}"
+					item: "pneumaticcraft:dispenser_upgrade"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title33}"
+			x: -5.0d
+			y: -9.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle12}"
+			description: ["{e6e.pneumaticcraft_repressurized.description34}"]
+			dependencies: ["00000000000000F8"]
+			id: "00000000000000EE"
+			tasks: [{
+				id: "00000000000000EF"
+				type: "item"
+				item: "pneumaticcraft:lubricant_bucket"
+			}]
+			rewards: [{
+				id: "00000000000000F0"
+				type: "item"
+				title: "{e6e.pneumaticcraft_repressurized.title34}"
+				item: "pneumaticcraft:speed_upgrade"
+				count: 2
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title35}"
+			x: -3.0d
+			y: -10.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle13}"
+			description: ["{e6e.pneumaticcraft_repressurized.description35}"]
+			dependencies: ["00000000000000EA"]
+			id: "00000000000000F1"
+			tasks: [{
+				id: "00000000000000F2"
+				type: "item"
+				item: "pneumaticcraft:lpg_bucket"
+			}]
+			rewards: [{
+				id: "00000000000000F3"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title36}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title37}"
+			x: -3.0d
+			y: -9.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle14}"
+			description: ["{e6e.pneumaticcraft_repressurized.description36}"]
+			dependencies: ["00000000000000F1"]
+			id: "00000000000000F4"
+			tasks: [{
+				id: "00000000000000F5"
+				type: "item"
+				item: "pneumaticcraft:plastic_bucket"
+			}]
+			rewards: [{
+				id: "00000000000000F7"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title38}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title39}"
+			x: -5.0d
+			y: -10.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle15}"
+			description: ["{e6e.pneumaticcraft_repressurized.description37}"]
+			dependencies: ["00000000000000EA"]
+			id: "00000000000000F8"
+			tasks: [{
+				id: "00000000000000F9"
+				type: "item"
+				item: "pneumaticcraft:diesel_bucket"
+			}]
+			rewards: [{
+				id: "00000000000000FA"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title40}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.0d
+			y: -9.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle16}"
+			description: ["{e6e.pneumaticcraft_repressurized.description38}"]
+			dependencies: [
+				"00000000000000F4"
+				"00000000000000EE"
+			]
+			id: "00000000000000FB"
+			tasks: [{
+				id: "00000000000000FC"
+				type: "item"
+				item: "pneumaticcraft:fluid_mixer"
+			}]
+			rewards: [
+				{
+					id: "0000000000000105"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title41}"
+					item: "minecraft:red_mushroom"
+					count: 16
+				}
+				{
+					id: "0000000000000106"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title42}"
+					item: "minecraft:podzol"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title43}"
+			icon: "minecraft:red_mushroom_block"
+			x: -4.0d
+			y: -7.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle17}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description39}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description40}"
+			]
+			dependencies: ["00000000000000FB"]
+			id: "00000000000000FD"
+			tasks: [{
+				id: "00000000000000FE"
+				type: "item"
+				item: "pneumaticcraft:yeast_culture_bucket"
+			}]
+			rewards: [{
+				id: "00000000000000FF"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title44}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title45}"
+			x: -5.0d
+			y: -7.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle18}"
+			description: [""]
+			dependencies: ["00000000000000FD"]
+			id: "0000000000000100"
+			tasks: [{
+				id: "0000000000000101"
+				type: "item"
+				item: "pneumaticcraft:ethanol_bucket"
+			}]
+			rewards: [{
+				id: "0000000000000102"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title46}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title47}"
+			x: -3.0d
+			y: -7.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle19}"
+			description: ["{e6e.pneumaticcraft_repressurized.description41}"]
+			dependencies: ["00000000000000FD"]
+			id: "0000000000000103"
+			tasks: [{
+				id: "0000000000000104"
+				type: "item"
+				item: "pneumaticcraft:vegetable_oil_bucket"
+			}]
+			rewards: [{
+				id: "000000000000022A"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title48}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title49}"
+			x: -4.0d
+			y: -6.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle20}"
+			description: ["{e6e.pneumaticcraft_repressurized.description42}"]
+			dependencies: [
+				"0000000000000103"
+				"0000000000000100"
+			]
+			id: "0000000000000107"
+			tasks: [{
+				id: "0000000000000108"
+				type: "item"
+				item: "pneumaticcraft:biodiesel_bucket"
+			}]
+			rewards: [{
+				id: "0000000000000379"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title50}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.0d
+			shape: "octagon"
+			description: ["{e6e.pneumaticcraft_repressurized.description43}"]
+			dependencies: ["0000000000000107"]
+			id: "0000000000000109"
+			tasks: [{
+				id: "000000000000010A"
+				type: "checkmark"
+				title: "{e6e.pneumaticcraft_repressurized.title51}"
+				icon: {
+					id: "pneumaticcraft:logistics_drone"
+					Count: 1b
+					tag: {
+						"pneumaticcraft:air": 120000
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title52}"
+			x: -8.5d
+			y: -12.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle21}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description44}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description45}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description46}"
+			]
+			dependencies: ["000000000000011D"]
+			id: "000000000000010B"
+			tasks: [{
+				id: "000000000000010C"
+				type: "item"
+				item: "pneumaticcraft:logistics_module"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "000000000000010D"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title53}"
+					item: "pneumaticcraft:logistics_frame_requester"
+					count: 8
+				}
+				{
+					id: "000000000000010E"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title54}"
+					item: "pneumaticcraft:logistics_frame_passive_provider"
+					count: 8
+				}
+				{
+					id: "000000000000010F"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title55}"
+					item: "pneumaticcraft:logistics_frame_storage"
+					count: 8
+				}
+				{
+					id: "00000000000006FF"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title56}"
+					item: "pneumaticcraft:logistics_frame_active_provider"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -12.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle22}"
+			description: ["{e6e.pneumaticcraft_repressurized.description47}"]
+			dependencies: ["000000000000010B"]
+			id: "0000000000000110"
+			tasks: [{
+				id: "0000000000000111"
+				type: "item"
+				item: "pneumaticcraft:reinforced_chest"
+			}]
+			rewards: [{
+				id: "0000000000000113"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title57}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -10.0d
+			y: -11.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle23}"
+			description: ["{e6e.pneumaticcraft_repressurized.description48}"]
+			dependencies: ["0000000000000110"]
+			id: "0000000000000114"
+			tasks: [{
+				id: "0000000000000115"
+				type: "item"
+				item: "pneumaticcraft:smart_chest"
+			}]
+			rewards: [
+				{
+					id: "0000000000000117"
+					type: "command"
+					title: "{e6e.pneumaticcraft_repressurized.title58}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+					player_command: false
+				}
+				{
+					id: "0000000000000118"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title59}"
+					item: "pneumaticcraft:magnet_upgrade"
+				}
+			]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title60}"
+			icon: "pneumaticcraft:omnidirectional_hopper"
+			x: -11.0d
+			y: -11.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle24}"
+			description: ["{e6e.pneumaticcraft_repressurized.description49}"]
+			dependencies: ["0000000000000110"]
+			id: "0000000000000119"
+			tasks: [
+				{
+					id: "000000000000011A"
+					type: "item"
+					item: "pneumaticcraft:omnidirectional_hopper"
+				}
+				{
+					id: "000000000000011B"
+					type: "item"
+					item: "pneumaticcraft:liquid_hopper"
+				}
+			]
+			rewards: [{
+				id: "000000000000011C"
+				type: "item"
+				title: "{e6e.pneumaticcraft_repressurized.title61}"
+				item: "pneumaticcraft:speed_upgrade"
+				count: 2
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title62}"
+			x: -8.5d
+			y: -13.5d
+			shape: "rsquare"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description50}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description51}"
+			]
+			dependencies: ["00000000000000AF"]
+			id: "000000000000011D"
+			tasks: [{
+				id: "000000000000011E"
+				type: "checkmark"
+				title: "{e6e.pneumaticcraft_repressurized.title63}"
+				icon: "pneumaticcraft:logistics_core"
+			}]
+			rewards: [
+				{
+					id: "000000000000011F"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:logistics_configurator"
+						Count: 1b
+						tag: {
+							"pneumaticcraft:air": 30000
+						}
+					}
+				}
+				{
+					id: "0000000000000A7A"
+					type: "command"
+					title: "{e6e.pneumaticcraft_repressurized.title64}"
+					icon: "kubejs:farmers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title65}"
+			x: -10.0d
+			y: -10.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle25}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description52}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description53}"
+			]
+			dependencies: ["000000000000010B"]
+			id: "0000000000000120"
+			tasks: [{
+				id: "0000000000000121"
+				type: "item"
+				item: "pneumaticcraft:redstone_module"
+				count: 2L
+			}]
+			rewards: [{
+				id: "0000000000000122"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title66}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -11.0d
+			y: -10.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle26}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description54}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description55}"
+			]
+			dependencies: ["0000000000000120"]
+			id: "0000000000000123"
+			tasks: [{
+				id: "0000000000000124"
+				type: "item"
+				item: "pneumaticcraft:advanced_pcb"
+			}]
+			rewards: [{
+				id: "0000000000000125"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title67}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -8.5d
+			y: -10.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle27}"
+			description: ["{e6e.pneumaticcraft_repressurized.description56}"]
+			dependencies: ["000000000000010B"]
+			id: "0000000000000126"
+			tasks: [{
+				id: "0000000000000127"
+				type: "item"
+				item: "pneumaticcraft:logistics_drone"
+			}]
+			rewards: [{
+				id: "0000000000000128"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title68}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -8.5d
+			y: -9.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle28}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description57}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description58}"
+			]
+			dependencies: ["0000000000000126"]
+			id: "0000000000000129"
+			tasks: [{
+				id: "000000000000012A"
+				type: "item"
+				item: "pneumaticcraft:harvesting_drone"
+			}]
+			rewards: [
+				{
+					id: "000000000000012B"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title69}"
+					item: "pneumaticcraft:collector_drone"
+				}
+				{
+					id: "0000000000000701"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title70}"
+					item: {
+						id: "mekanismtools:refined_obsidian_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -7.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle29}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description59}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description60}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description61}"
+			]
+			dependencies: ["0000000000000129"]
+			id: "000000000000012C"
+			tasks: [{
+				id: "000000000000012D"
+				type: "item"
+				item: "pneumaticcraft:charging_station"
+			}]
+			rewards: [
+				{
+					id: "000000000000012E"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title71}"
+					item: "pneumaticcraft:dispenser_upgrade"
+				}
+				{
+					id: "0000000000000700"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title72}"
+					item: "pneumaticcraft:volume_upgrade"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -7.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle30}"
+			description: ["{e6e.pneumaticcraft_repressurized.description62}"]
+			dependencies: ["000000000000012C"]
+			id: "000000000000012F"
+			tasks: [{
+				id: "0000000000000130"
+				type: "item"
+				item: "pneumaticcraft:item_life_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000131"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title73}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -8.5d
+			y: -6.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle31}"
+			description: ["{e6e.pneumaticcraft_repressurized.description63}"]
+			dependencies: ["000000000000012C"]
+			id: "0000000000000132"
+			tasks: [{
+				id: "0000000000000133"
+				type: "item"
+				item: "pneumaticcraft:standby_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000134"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title74}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title75}"
+			x: -7.5d
+			y: -8.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle32}"
+			description: ["{e6e.pneumaticcraft_repressurized.description64}"]
+			dependencies: ["000000000000012C"]
+			id: "0000000000000135"
+			tasks: [{
+				id: "0000000000000136"
+				type: "item"
+				item: "pneumaticcraft:inventory_upgrade"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000137"
+				type: "item"
+				title: "{e6e.pneumaticcraft_repressurized.title76}"
+				item: "pneumaticcraft:inventory_upgrade"
+				count: 8
+			}]
+		}
+		{
+			x: -9.5d
+			y: -8.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle33}"
+			description: ["{e6e.pneumaticcraft_repressurized.description65}"]
+			dependencies: ["000000000000012C"]
+			id: "0000000000000138"
+			tasks: [{
+				id: "0000000000000139"
+				type: "item"
+				item: "pneumaticcraft:range_upgrade"
+			}]
+			rewards: [{
+				id: "000000000000013A"
+				type: "item"
+				title: "{e6e.pneumaticcraft_repressurized.title77}"
+				item: "pneumaticcraft:range_upgrade"
+				count: 2
+			}]
+		}
+		{
+			x: -9.5d
+			y: -7.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle34}"
+			description: ["{e6e.pneumaticcraft_repressurized.description66}"]
+			dependencies: ["000000000000012C"]
+			id: "000000000000013B"
+			tasks: [{
+				id: "000000000000013C"
+				type: "item"
+				item: "pneumaticcraft:speed_upgrade"
+			}]
+			rewards: [{
+				id: "000000000000013D"
+				type: "item"
+				title: "{e6e.pneumaticcraft_repressurized.title78}"
+				item: "pneumaticcraft:speed_upgrade"
+				count: 2
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title79}"
+			icon: "pneumaticcraft:programmer"
+			x: -10.0d
+			y: -9.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle35}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description67}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description68}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description69}"
+				"{e6e.pneumaticcraft_repressurized.description70}"
+				"{e6e.pneumaticcraft_repressurized.description71}"
+				"{e6e.pneumaticcraft_repressurized.description72}"
+				"{e6e.pneumaticcraft_repressurized.description73}"
+			]
+			dependencies: ["0000000000000129"]
+			id: "000000000000013E"
+			tasks: [
+				{
+					id: "000000000000013F"
+					type: "item"
+					item: "pneumaticcraft:drone"
+				}
+				{
+					id: "0000000000000141"
+					type: "item"
+					item: "pneumaticcraft:programmer"
+				}
+			]
+			rewards: [{
+				id: "0000000000000140"
+				type: "item"
+				title: "{e6e.pneumaticcraft_repressurized.title80}"
+				item: "pneumaticcraft:programming_puzzle"
+				count: 64
+			}]
+		}
+		{
+			x: -11.0d
+			y: -9.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle36}"
+			description: ["{e6e.pneumaticcraft_repressurized.description74}"]
+			dependencies: ["000000000000013E"]
+			id: "0000000000000142"
+			tasks: [{
+				id: "0000000000000143"
+				type: "item"
+				item: "pneumaticcraft:remote"
+			}]
+			rewards: [{
+				id: "0000000000000144"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title81}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title82}"
+			x: 0.0d
+			y: -14.5d
+			shape: "rsquare"
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle37}"
+			description: ["{e6e.pneumaticcraft_repressurized.description75}"]
+			dependencies: [
+				"00000000000000BF"
+				"00000000000000F5"
+				"00000000000000AF"
+			]
+			id: "0000000000000145"
+			tasks: [{
+				id: "0000000000000146"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0000000000000147"
+				type: "item"
+				title: "{e6e.pneumaticcraft_repressurized.title83}"
+				item: "pneumaticcraft:plastic"
+				count: 8
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title84}"
+			x: 0.0d
+			y: -13.0d
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description76}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description77}"
+			]
+			dependencies: ["0000000000000145"]
+			id: "0000000000000148"
+			tasks: [{
+				id: "0000000000000149"
+				type: "item"
+				item: "pneumaticcraft:amadron_tablet"
+			}]
+			rewards: [{
+				id: "705F9A21C798611B"
+				type: "item"
+				item: "kubejs:amadron_survey_tools"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -12.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle38}"
+			description: ["{e6e.pneumaticcraft_repressurized.description78}"]
+			dependencies: ["0000000000000148"]
+			id: "000000000000014B"
+			tasks: [{
+				id: "000000000000014C"
+				type: "item"
+				item: "pneumaticcraft:pcb_blueprint"
+			}]
+			rewards: [{
+				id: "000000000000014D"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title85}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -0.5d
+			y: -11.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle39}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description79}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description80}"
+			]
+			dependencies: ["000000000000014B"]
+			id: "000000000000014E"
+			tasks: [{
+				id: "000000000000014F"
+				type: "item"
+				item: "pneumaticcraft:uv_light_box"
+			}]
+			rewards: [{
+				id: "0000000000000150"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title86}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title87}"
+			icon: "pneumaticcraft:etching_tank"
+			x: -1.0d
+			y: -10.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle40}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description81}"
+				"{e6e.pneumaticcraft_repressurized.description82}"
+			]
+			dependencies: ["000000000000014E"]
+			id: "0000000000000151"
+			tasks: [
+				{
+					id: "0000000000000152"
+					type: "item"
+					item: "pneumaticcraft:etching_tank"
+				}
+				{
+					id: "0000000000000153"
+					type: "item"
+					item: "pneumaticcraft:etching_acid_bucket"
+				}
+			]
+			rewards: [{
+				id: "0000000000000154"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title88}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title89}"
+			icon: "pneumaticcraft:assembly_platform"
+			x: 0.5d
+			y: -7.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle41}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description83}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description84}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description85}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description86}"
+				"{e6e.pneumaticcraft_repressurized.description87}"
+			]
+			dependencies: ["0000000000000165"]
+			id: "0000000000000155"
+			tasks: [
+				{
+					id: "0000000000000157"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_import"
+				}
+				{
+					id: "0000000000000158"
+					type: "item"
+					item: "pneumaticcraft:assembly_controller"
+				}
+				{
+					id: "0000000000000159"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_export"
+				}
+				{
+					id: "000000000000015A"
+					type: "item"
+					item: "pneumaticcraft:assembly_drill"
+				}
+				{
+					id: "000000000000015B"
+					type: "item"
+					item: "pneumaticcraft:assembly_platform"
+				}
+				{
+					id: "000000000000015C"
+					type: "item"
+					item: "pneumaticcraft:assembly_laser"
+				}
+			]
+			rewards: [{
+				id: "000000000000015D"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title90}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle42}"
+			description: ["{e6e.pneumaticcraft_repressurized.description88}"]
+			dependencies: ["0000000000000151"]
+			id: "000000000000015E"
+			tasks: [{
+				id: "000000000000015F"
+				type: "item"
+				item: "pneumaticcraft:empty_pcb"
+			}]
+			rewards: [{
+				id: "0000000000000164"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title91}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: -8.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle43}"
+			description: ["{e6e.pneumaticcraft_repressurized.description89}"]
+			dependencies: ["000000000000015E"]
+			id: "0000000000000160"
+			tasks: [{
+				id: "0000000000000161"
+				type: "item"
+				item: "pneumaticcraft:unassembled_pcb"
+			}]
+			rewards: [
+				{
+					id: "0000000000000162"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title92}"
+					item: "pneumaticcraft:transistor"
+					count: 2
+				}
+				{
+					id: "0000000000000163"
+					type: "item"
+					title: "{e6e.pneumaticcraft_repressurized.title93}"
+					item: "pneumaticcraft:capacitor"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle44}"
+			description: ["{e6e.pneumaticcraft_repressurized.description90}"]
+			dependencies: ["0000000000000160"]
+			id: "0000000000000165"
+			tasks: [{
+				id: "0000000000000166"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+			rewards: [{
+				id: "0000000000000167"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title94}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title95}"
+			x: 1.0d
+			y: -8.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle45}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description91}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description92}"
+			]
+			dependencies: ["0000000000000155"]
+			id: "0000000000000168"
+			tasks: [{
+				id: "0000000000000169"
+				type: "item"
+				item: "pneumaticcraft:assembly_program_drill_laser"
+			}]
+			rewards: [{
+				id: "000000000000016A"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title96}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pneumaticcraft_repressurized.title97}"
+			x: -11.0d
+			y: -12.0d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle46}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description93}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description94}"
+			]
+			dependencies: ["0000000000000110"]
+			id: "000000000000016B"
+			tasks: [{
+				id: "000000000000016C"
+				type: "item"
+				item: "pneumaticcraft:small_tank"
+				count: 2L
+			}]
+			rewards: [{
+				id: "000000000000016D"
+				type: "item"
+				title: "{e6e.pneumaticcraft_repressurized.title98}"
+				item: "pneumaticcraft:medium_tank"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -9.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle47}"
+			description: ["{e6e.pneumaticcraft_repressurized.description95}"]
+			dependencies: ["0000000000000168"]
+			id: "0000000000000415"
+			tasks: [{
+				id: "0000000000000416"
+				type: "item"
+				item: "pneumaticcraft:advanced_liquid_compressor"
+			}]
+			rewards: [{
+				id: "000000000000063D"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title99}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -16.5d
+			y: -11.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle48}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description96}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description97}"
+			]
+			dependencies: [
+				"00000000000000BD"
+				"00000000000000C7"
+				"00000000000000C3"
+			]
+			dependency_requirement: "one_completed"
+			id: "0000000000000417"
+			tasks: [{
+				id: "0000000000000418"
+				type: "item"
+				item: "pneumaticcraft:vacuum_pump"
+			}]
+			rewards: [{
+				id: "0000000000000423"
+				type: "item"
+				title: "{e6e.pneumaticcraft_repressurized.title100}"
+				item: "pneumaticcraft:memory_stick"
+			}]
+		}
+		{
+			x: -17.5d
+			y: -10.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle49}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description98}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description99}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description100}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description101}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description102}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description103}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description104}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description105}"
+			]
+			dependencies: ["0000000000000417"]
+			min_width: 300
+			id: "0000000000000419"
+			tasks: [{
+				id: "000000000000041A"
+				type: "item"
+				item: "pneumaticcraft:spawner_extractor"
+			}]
+			rewards: [{
+				id: "0000000000000433"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title101}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			icon: "pneumaticcraft:vacuum_trap"
+			x: -15.5d
+			y: -10.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle50}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description106}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description107}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description108}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description109}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description110}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description111}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description112}"
+			]
+			dependencies: ["000000000000041F"]
+			id: "000000000000041B"
+			tasks: [
+				{
+					id: "000000000000041C"
+					type: "item"
+					item: "pneumaticcraft:vacuum_trap"
+				}
+				{
+					id: "0000000000000422"
+					type: "item"
+					item: "pneumaticcraft:spawner_core"
+				}
+			]
+			rewards: [{
+				id: "0000000000000434"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title102}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: -16.5d
+			y: -9.5d
+			subtitle: "{e6e.pneumaticcraft_repressurized.subtitle51}"
+			description: [
+				"{e6e.pneumaticcraft_repressurized.description113}"
+				""
+				"{e6e.pneumaticcraft_repressurized.description114}"
+			]
+			dependencies: ["0000000000000419"]
+			id: "000000000000041F"
+			tasks: [{
+				id: "0000000000000420"
+				type: "item"
+				item: "pneumaticcraft:pressurized_spawner"
+			}]
+			rewards: [{
+				id: "0000000000000432"
+				type: "command"
+				title: "{e6e.pneumaticcraft_repressurized.title103}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_epic"
+				player_command: false
+			}]
+		}
+	]
+}

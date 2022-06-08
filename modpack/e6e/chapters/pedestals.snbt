@@ -1,0 +1,1551 @@
+{
+	id: "7DE17548AC012723"
+	group: "0856CF7F5CBEB20A"
+	order_index: 4
+	filename: "pedestals"
+	title: "{e6e.pedestals.title0}"
+	icon: "pedestals:pedestal/stone333"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{e6e.pedestals.title1}"
+			x: 0.0d
+			y: -5.0d
+			shape: "gear"
+			subtitle: "{e6e.pedestals.subtitle0}"
+			description: [
+				"{e6e.pedestals.description0}"
+				""
+				"{e6e.pedestals.description1}"
+				""
+				"{e6e.pedestals.description2}"
+				""
+				"{e6e.pedestals.description3}"
+			]
+			size: 2.0d
+			optional: true
+			min_width: 250
+			id: "1F68F65F2A0E3229"
+			tasks: [{
+				id: "023F3AF30F3B3115"
+				type: "item"
+				item: "pedestals:pedestal/stone333"
+			}]
+			rewards: [{
+				id: "38DDD047E1FD3A07"
+				type: "item"
+				title: "{e6e.pedestals.title2}"
+				item: "pedestals:pedestal/stone333"
+				count: 2
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title3}"
+			x: 0.0d
+			y: -7.0d
+			subtitle: "{e6e.pedestals.subtitle1}"
+			description: [
+				"{e6e.pedestals.description4}"
+				""
+				"{e6e.pedestals.description5}"
+			]
+			dependencies: ["1F68F65F2A0E3229"]
+			id: "215EA91229D2CB56"
+			tasks: [{
+				id: "0399E51C27863913"
+				type: "item"
+				item: "pedestals:itemcolorpalletdefault"
+			}]
+			rewards: [
+				{
+					id: "098E3EA6ABFDA468"
+					type: "item"
+					title: "{e6e.pedestals.title4}"
+					item: "minecraft:red_dye"
+					count: 16
+				}
+				{
+					id: "79F92867195F75CE"
+					type: "item"
+					title: "{e6e.pedestals.title5}"
+					item: "minecraft:green_dye"
+					count: 16
+				}
+				{
+					id: "1EECE18CC58046AC"
+					type: "item"
+					title: "{e6e.pedestals.title6}"
+					item: "minecraft:blue_dye"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "{e6e.pedestals.title7}"
+			icon: "pedestals:coin/import"
+			x: -0.75d
+			y: 4.5d
+			shape: "rsquare"
+			subtitle: "{e6e.pedestals.subtitle2}"
+			description: ["{e6e.pedestals.description6}"]
+			dependencies: ["5519E152C45C620F"]
+			size: 1.5d
+			id: "04E9F681A7D93BC7"
+			tasks: [
+				{
+					id: "7BC584C4EB7CA040"
+					type: "item"
+					title: "{e6e.pedestals.title8}"
+					item: "pedestals:coin/import"
+				}
+				{
+					id: "6B60E2AD9BD1B2FD"
+					type: "item"
+					title: "{e6e.pedestals.title9}"
+					item: "pedestals:coin/export"
+				}
+			]
+			rewards: [{
+				id: "2D03153B0921EA16"
+				type: "command"
+				title: "{e6e.pedestals.title10}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title11}"
+			x: 4.5d
+			y: -2.5d
+			description: [
+				"{e6e.pedestals.description7}"
+				""
+				"{e6e.pedestals.description8}"
+			]
+			dependencies: ["1D239668DA764C52"]
+			id: "3D505992F1F47451"
+			tasks: [{
+				id: "2E490DE57B21553B"
+				type: "item"
+				item: "pedestals:bookadvanced"
+			}]
+			rewards: [{
+				id: "6C75052583A613E3"
+				type: "command"
+				title: "{e6e.pedestals.title12}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title13}"
+			x: -2.5d
+			y: -2.5d
+			subtitle: "{e6e.pedestals.subtitle3}"
+			description: [
+				"{e6e.pedestals.description9}"
+				""
+				"{e6e.pedestals.description10}"
+				""
+				"{e6e.pedestals.description11}"
+			]
+			dependencies: ["5519E152C45C620F"]
+			id: "3B1E29F56796E3CB"
+			tasks: [
+				{
+					id: "6DB2626B9071D2F8"
+					type: "item"
+					title: "{e6e.pedestals.title14}"
+					item: "pedestals:filter/filterbase"
+				}
+				{
+					id: "1C9B32BE95682776"
+					type: "item"
+					item: "pedestals:filterswapper"
+				}
+			]
+			rewards: [{
+				id: "75C154C379370AA9"
+				type: "command"
+				title: "{e6e.pedestals.title15}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title16}"
+			x: -3.5d
+			y: 7.5d
+			subtitle: "{e6e.pedestals.subtitle4}"
+			description: [
+				"{e6e.pedestals.description12}"
+				""
+				"{e6e.pedestals.description13}"
+				""
+				"{e6e.pedestals.description14}"
+				""
+				"{e6e.pedestals.description15}"
+			]
+			dependencies: ["04E9F681A7D93BC7"]
+			min_width: 300
+			id: "2F0BA64F120AC01D"
+			tasks: [
+				{
+					id: "2C00694467D9F744"
+					type: "item"
+					title: "{e6e.pedestals.title17}"
+					item: "pedestals:coin/attack"
+				}
+				{
+					id: "778B44D0C706315F"
+					type: "item"
+					title: "{e6e.pedestals.title18}"
+					item: "pedestals:coin/fan"
+				}
+				{
+					id: "517ED5A445756751"
+					type: "item"
+					title: "{e6e.pedestals.title19}"
+					item: "pedestals:coin/magnet"
+				}
+			]
+			rewards: [{
+				id: "285E5CC316FD0399"
+				type: "command"
+				title: "{e6e.pedestals.title20}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title21}"
+			x: -0.5d
+			y: 7.5d
+			description: [
+				"{e6e.pedestals.description16}"
+				""
+				"{e6e.pedestals.description17}"
+				""
+				"{e6e.pedestals.description18}"
+			]
+			dependencies: ["04E9F681A7D93BC7"]
+			id: "5B965827DB02DAFD"
+			tasks: [{
+				id: "1FC88CE0C0CAF005"
+				type: "item"
+				title: "{e6e.pedestals.title22}"
+				item: "pedestals:coin/cobble"
+			}]
+			rewards: [{
+				id: "524510595571DB0F"
+				type: "item"
+				title: "{e6e.pedestals.title23}"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title24}"
+			x: -2.5d
+			y: 7.5d
+			subtitle: "{e6e.pedestals.subtitle5}"
+			description: [
+				"{e6e.pedestals.description19}"
+				""
+				"{e6e.pedestals.description20}"
+				"{e6e.pedestals.description21}"
+				"{e6e.pedestals.description22}"
+				"{e6e.pedestals.description23}"
+				"{e6e.pedestals.description24}"
+				"{e6e.pedestals.description25}"
+				"{e6e.pedestals.description26}"
+			]
+			dependencies: ["2F0BA64F120AC01D"]
+			min_width: 300
+			id: "064CDAA04220C326"
+			tasks: [{
+				id: "2FEB4963910F1366"
+				type: "item"
+				title: "{e6e.pedestals.title25}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:netherite_block"
+								Count: 1b
+							}
+							{
+								id: "minecraft:emerald_block"
+								Count: 1b
+							}
+							{
+								id: "minecraft:diamond_block"
+								Count: 1b
+							}
+							{
+								id: "minecraft:gold_block"
+								Count: 1b
+							}
+							{
+								id: "minecraft:lapis_block"
+								Count: 1b
+							}
+							{
+								id: "minecraft:iron_block"
+								Count: 1b
+							}
+							{
+								id: "minecraft:coal_block"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0513EB136510EFC4"
+				type: "command"
+				title: "{e6e.pedestals.title26}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title27}"
+			x: 0.5d
+			y: 7.5d
+			subtitle: "{e6e.pedestals.subtitle6}"
+			description: [
+				"{e6e.pedestals.description27}"
+				""
+				"{e6e.pedestals.description28}"
+				""
+				"{e6e.pedestals.description29}"
+				""
+				"{e6e.pedestals.description30}"
+				""
+				"{e6e.pedestals.description31}"
+			]
+			dependencies: ["04E9F681A7D93BC7"]
+			min_width: 300
+			id: "423724779D1C1953"
+			tasks: [{
+				id: "7D5E20C46615FE41"
+				type: "item"
+				title: "{e6e.pedestals.title28}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/planter"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/grower"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/harvester"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/chopper"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/choppershrooms"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "06E7A9FE610657CD"
+					type: "item"
+					title: "{e6e.pedestals.title29}"
+					item: "farmersdelight:rich_soil_farmland"
+					count: 24
+				}
+				{
+					id: "10C04CD16CCFB794"
+					type: "command"
+					title: "{e6e.pedestals.title30}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.pedestals.title31}"
+			x: 2.25d
+			y: 4.5d
+			shape: "rsquare"
+			subtitle: "{e6e.pedestals.subtitle7}"
+			description: [
+				"{e6e.pedestals.description32}"
+				""
+				"{e6e.pedestals.description33}"
+				""
+				"{e6e.pedestals.description34}"
+			]
+			dependencies: ["5519E152C45C620F"]
+			size: 1.5d
+			id: "7A4BFA66CD8E3884"
+			tasks: [{
+				id: "4AB13C88D19A545E"
+				type: "item"
+				title: "{e6e.pedestals.title32}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/xpmagnet"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/xpgrindstone"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7B73E2B538C62D25"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "75CCFE4D8F0F7B7A"
+					type: "command"
+					title: "{e6e.pedestals.title33}"
+					icon: "kubejs:sorcerers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.pedestals.title34}"
+			x: 6.5d
+			y: 4.5d
+			description: [
+				"{e6e.pedestals.description35}"
+				""
+				"{e6e.pedestals.description36}"
+				""
+				"{e6e.pedestals.description37}"
+			]
+			dependencies: ["7A4BFA66CD8E3884"]
+			id: "78991F3E1F2CDB09"
+			tasks: [{
+				id: "2712FCFCE5FC2D8F"
+				type: "item"
+				title: "{e6e.pedestals.title35}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/xpbottler"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/xpdropper"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "69463270A467BDE5"
+					type: "command"
+					title: "{e6e.pedestals.title36}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_epic"
+					player_command: false
+				}
+				{
+					id: "5D63028F49060803"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{e6e.pedestals.title37}"
+			x: 6.5d
+			y: 5.5d
+			description: [
+				"{e6e.pedestals.description38}"
+				""
+				"{e6e.pedestals.description39}"
+			]
+			dependencies: ["7A4BFA66CD8E3884"]
+			id: "733EA0092EE4A490"
+			tasks: [{
+				id: "2885D8E72156A816"
+				type: "item"
+				title: "{e6e.pedestals.title38}"
+				item: "pedestals:coin/xpenchanter"
+			}]
+			rewards: [
+				{
+					id: "091142AE33565937"
+					type: "command"
+					title: "{e6e.pedestals.title39}"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_legendary"
+					player_command: false
+				}
+				{
+					id: "7E4890853E93CD10"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{e6e.pedestals.title40}"
+			x: 6.5d
+			y: 6.5d
+			description: [
+				"{e6e.pedestals.description40}"
+				""
+				"{e6e.pedestals.description41}"
+				""
+				"{e6e.pedestals.description42}"
+				""
+				"{e6e.pedestals.description43}"
+				""
+				"{e6e.pedestals.description44}"
+			]
+			dependencies: ["7A4BFA66CD8E3884"]
+			min_width: 300
+			id: "71548F1D17633FBC"
+			tasks: [{
+				id: "24EDA20ED95D7ADE"
+				type: "item"
+				title: "{e6e.pedestals.title41}"
+				item: "pedestals:coin/xpanvil"
+			}]
+			rewards: [
+				{
+					id: "71930DA696A6F583"
+					type: "command"
+					title: "{e6e.pedestals.title42}"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_legendary"
+					player_command: false
+				}
+				{
+					id: "1D6A6F954563D7B2"
+					type: "command"
+					title: "{e6e.pedestals.title43}"
+					icon: "kubejs:sorcerers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.pedestals.title44}"
+			x: 0.75d
+			y: 4.5d
+			shape: "rsquare"
+			subtitle: "{e6e.pedestals.subtitle8}"
+			description: ["{e6e.pedestals.description45}"]
+			dependencies: ["5519E152C45C620F"]
+			size: 1.5d
+			id: "500A2940C0C3AF6C"
+			tasks: [
+				{
+					id: "4FC68D9410BD5157"
+					type: "item"
+					title: "{e6e.pedestals.title45}"
+					item: "pedestals:coin/fluidimport"
+				}
+				{
+					id: "1DCE38E92AB8A491"
+					type: "item"
+					title: "{e6e.pedestals.title46}"
+					item: "pedestals:coin/fluidexport"
+				}
+			]
+			rewards: [{
+				id: "3BF44DDBB88BEFF0"
+				type: "command"
+				title: "{e6e.pedestals.title47}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title48}"
+			x: 4.0d
+			y: 7.5d
+			description: ["{e6e.pedestals.description46}"]
+			dependencies: ["500A2940C0C3AF6C"]
+			id: "5103383AF580A723"
+			tasks: [
+				{
+					id: "03426DC34F589B83"
+					type: "item"
+					title: "{e6e.pedestals.title49}"
+					item: "pedestals:coin/fluidpump"
+				}
+				{
+					id: "0D9AE163A1947D45"
+					type: "item"
+					title: "{e6e.pedestals.title50}"
+					item: "pedestals:coin/fluiddrain"
+				}
+			]
+			rewards: [{
+				id: "1DE68B6E8E866DE4"
+				type: "command"
+				title: "{e6e.pedestals.title51}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title52}"
+			x: 5.5d
+			y: 7.5d
+			description: ["{e6e.pedestals.description47}"]
+			dependencies: [
+				"7A4BFA66CD8E3884"
+				"500A2940C0C3AF6C"
+			]
+			dependency_requirement: "one_completed"
+			id: "1D4B0DDBC3A5523C"
+			tasks: [{
+				id: "6778060035ECD402"
+				type: "item"
+				title: "{e6e.pedestals.title53}"
+				item: "pedestals:coin/fluidxpconverter"
+			}]
+			rewards: [
+				{
+					id: "7D69D5766C6797ED"
+					type: "item"
+					title: "{e6e.pedestals.title54}"
+					item: "pneumaticcraft:memory_essence_bucket"
+					count: 4
+				}
+				{
+					id: "0B8959A9559A7AFF"
+					type: "item"
+					title: "{e6e.pedestals.title55}"
+					item: "pneumaticcraft:small_tank"
+				}
+			]
+		}
+		{
+			title: "{e6e.pedestals.title56}"
+			x: -2.25d
+			y: 4.5d
+			shape: "rsquare"
+			subtitle: "{e6e.pedestals.subtitle9}"
+			description: [
+				"{e6e.pedestals.description48}"
+				""
+				"{e6e.pedestals.description49}"
+			]
+			dependencies: ["5519E152C45C620F"]
+			size: 1.5d
+			id: "3F9545A78B985E50"
+			tasks: [
+				{
+					id: "23D0BA532E6FC8AA"
+					type: "item"
+					title: "{e6e.pedestals.title57}"
+					item: "pedestals:coin/rfimport"
+				}
+				{
+					id: "633E32DD1A37DBAC"
+					type: "item"
+					title: "{e6e.pedestals.title58}"
+					item: "pedestals:coin/rfexport"
+				}
+			]
+			rewards: [{
+				id: "63DF0CF17CEF0500"
+				type: "command"
+				title: "{e6e.pedestals.title59}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title60}"
+			x: -6.5d
+			y: 6.5d
+			description: [
+				"{e6e.pedestals.description50}"
+				""
+				"{e6e.pedestals.description51}"
+				""
+				"{e6e.pedestals.description52}"
+			]
+			dependencies: ["69E5C4BFCE2AC042"]
+			dependency_requirement: "one_completed"
+			id: "6186950B1DBA6D90"
+			tasks: [{
+				id: "2C89A17FEE1D81F5"
+				type: "item"
+				title: "{e6e.pedestals.title61}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/crusher"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfcrusher"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1ED931F1F141D930"
+				type: "command"
+				title: "{e6e.pedestals.title62}"
+				icon: "kubejs:miners_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title63}"
+			x: -5.5d
+			y: 7.5d
+			subtitle: "{e6e.pedestals.subtitle10}"
+			description: [
+				"{e6e.pedestals.description53}"
+				""
+				"{e6e.pedestals.description54}"
+				""
+				"{e6e.pedestals.description55}"
+			]
+			dependencies: ["69E5C4BFCE2AC042"]
+			dependency_requirement: "one_completed"
+			id: "1D0A4C2E2E3C3949"
+			tasks: [{
+				id: "213EE2964AAEC897"
+				type: "item"
+				title: "{e6e.pedestals.title64}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/smelter"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfsmelter"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B04CC06B42A1526"
+				type: "command"
+				title: "{e6e.pedestals.title65}"
+				icon: "kubejs:miners_delight"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title66}"
+			x: -6.5d
+			y: 5.5d
+			subtitle: "{e6e.pedestals.subtitle11}"
+			description: [
+				"{e6e.pedestals.description56}"
+				""
+				"{e6e.pedestals.description57}"
+				""
+				"{e6e.pedestals.description58}"
+			]
+			dependencies: ["69E5C4BFCE2AC042"]
+			dependency_requirement: "one_completed"
+			id: "55DA0B9C9A170193"
+			tasks: [{
+				id: "375DDC70C36E87DB"
+				type: "item"
+				title: "{e6e.pedestals.title67}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/sawmill"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfsawmill"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00EB9A9E96BE6AE7"
+					type: "item"
+					title: "{e6e.pedestals.title68}"
+					item: "minecraft:oak_log"
+					count: 32
+					random_bonus: 32
+				}
+				{
+					id: "0B94C6A7C119EBF7"
+					type: "command"
+					title: "{e6e.pedestals.title69}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.pedestals.title70}"
+			x: -4.5d
+			y: 7.5d
+			description: [
+				"{e6e.pedestals.description59}"
+				""
+				"{e6e.pedestals.description60}"
+				""
+				"{e6e.pedestals.description61}"
+			]
+			dependencies: ["04E9F681A7D93BC7"]
+			dependency_requirement: "one_completed"
+			min_width: 300
+			id: "039F6656F4A696D6"
+			tasks: [{
+				id: "2BBE9152232B22E2"
+				type: "item"
+				title: "{e6e.pedestals.title71}"
+				item: "pedestals:coin/quarry"
+			}]
+			rewards: [{
+				id: "0381C81A23FD888C"
+				type: "command"
+				title: "{e6e.pedestals.title72}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title73}"
+			x: 1.5d
+			y: 7.5d
+			subtitle: "{e6e.pedestals.subtitle12}"
+			description: [
+				"{e6e.pedestals.description62}"
+				""
+				"{e6e.pedestals.description63}"
+				""
+				"{e6e.pedestals.description64}"
+				""
+				"{e6e.pedestals.description65}"
+			]
+			dependencies: ["04E9F681A7D93BC7"]
+			id: "1E809DFCA38FD467"
+			tasks: [{
+				id: "3722F7F4F364B64B"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/harvesterhives"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/milker"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/shearer"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6B5F421D7DB51A89"
+					type: "item"
+					title: "{e6e.pedestals.title74}"
+					item: "minecraft:bee_spawn_egg"
+				}
+				{
+					id: "4C89A90467F66E70"
+					type: "item"
+					title: "{e6e.pedestals.title75}"
+					item: "minecraft:sheep_spawn_egg"
+				}
+				{
+					id: "7EB80E7590BDF726"
+					type: "item"
+					title: "{e6e.pedestals.title76}"
+					item: "minecraft:cow_spawn_egg"
+				}
+			]
+		}
+		{
+			title: "{e6e.pedestals.title77}"
+			x: 2.5d
+			y: 7.5d
+			description: [
+				"{e6e.pedestals.description66}"
+				""
+				"{e6e.pedestals.description67}"
+				""
+				"{e6e.pedestals.description68}"
+				""
+				"{e6e.pedestals.description69}"
+			]
+			dependencies: [
+				"04E9F681A7D93BC7"
+				"500A2940C0C3AF6C"
+			]
+			dependency_requirement: "one_completed"
+			min_width: 350
+			id: "0F70C994D2D08157"
+			tasks: [
+				{
+					id: "67DB4F5A0E9B46F4"
+					type: "item"
+					title: "{e6e.pedestals.title78}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pedestals:coin/compactor2"
+									Count: 1b
+								}
+								{
+									id: "pedestals:coin/compactor3"
+									Count: 1b
+								}
+								{
+									id: "pedestals:coin/crafter1"
+									Count: 1b
+								}
+								{
+									id: "pedestals:coin/crafter2"
+									Count: 1b
+								}
+								{
+									id: "pedestals:coin/crafter3"
+									Count: 1b
+								}
+								{
+									id: "pedestals:coin/fluidcrafter1"
+									Count: 1b
+								}
+								{
+									id: "pedestals:coin/fluidcrafter2"
+									Count: 1b
+								}
+								{
+									id: "pedestals:coin/fluidcrafter3"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "766693A91B7DA1E7"
+					type: "item"
+					title: "{e6e.pedestals.title79}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pedestals:coin/placeholder"
+									Count: 1b
+								}
+								{
+									id: "pedestals:coin/placeholderbucket"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1108A6323A6A28A6"
+				type: "command"
+				title: "{e6e.pedestals.title80}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title81}"
+			x: 0.0d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "{e6e.pedestals.subtitle13}"
+			description: [
+				"{e6e.pedestals.description70}"
+				""
+				"{e6e.pedestals.description71}"
+				""
+				"{e6e.pedestals.description72}"
+			]
+			dependencies: ["1F68F65F2A0E3229"]
+			size: 1.5d
+			min_width: 300
+			id: "3ECCA6558FDB4A5E"
+			tasks: [{
+				id: "1D29F32F0D57B96E"
+				type: "item"
+				item: {
+					id: "pedestals:linkingtool"
+					Count: 1b
+					tag: {
+						storedlist_z: [I; ]
+						stored_y: -2000
+						storedlist_x: [I; ]
+						stored_x: 0
+						storedlist_y: [I; ]
+						stored_z: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "17C1C8CA8C95E178"
+				type: "item"
+				title: "{e6e.pedestals.title82}"
+				item: "minecraft:gold_ingot"
+				count: 3
+				random_bonus: 6
+				only_one: true
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title83}"
+			x: -1.5d
+			y: -2.5d
+			description: [
+				"{e6e.pedestals.description73}"
+				""
+				"{e6e.pedestals.description74}"
+				""
+				"{e6e.pedestals.description75}"
+			]
+			dependencies: ["3ECCA6558FDB4A5E"]
+			id: "578398B7265DCB89"
+			tasks: [{
+				id: "6731301F006613B4"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+			rewards: [{
+				id: "6F7D317666B0957F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title84}"
+			icon: "minecraft:coal"
+			x: -5.0d
+			y: 6.0d
+			subtitle: "{e6e.pedestals.subtitle14}"
+			description: [
+				"{e6e.pedestals.description76}"
+				""
+				"{e6e.pedestals.description77}"
+				""
+				"{e6e.pedestals.description78}"
+			]
+			dependencies: [
+				"3F9545A78B985E50"
+				"04E9F681A7D93BC7"
+			]
+			dependency_requirement: "one_completed"
+			id: "69E5C4BFCE2AC042"
+			tasks: [{
+				id: "11352D320468872A"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5555385A057F11AB"
+				type: "command"
+				title: "{e6e.pedestals.title85}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title86}"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "{e6e.pedestals.subtitle15}"
+			description: [
+				"{e6e.pedestals.description79}"
+				""
+				"{e6e.pedestals.description80}"
+			]
+			dependencies: ["3ECCA6558FDB4A5E"]
+			size: 1.5d
+			id: "5519E152C45C620F"
+			tasks: [{
+				id: "4ABAE7252496C5BD"
+				type: "item"
+				item: "pedestals:coin/default"
+			}]
+			rewards: [
+				{
+					id: "4BB47F1EBB842C15"
+					type: "item"
+					title: "{e6e.pedestals.title87}"
+					item: "pedestals:coin/default"
+					count: 7
+				}
+				{
+					id: "0D53E6296F286954"
+					type: "command"
+					title: "{e6e.pedestals.title88}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			description: ["{e6e.pedestals.description81}"]
+			dependencies: ["5519E152C45C620F"]
+			id: "1A8004185DA47AF8"
+			tasks: [{
+				id: "6CF87B9FDBF0F57E"
+				type: "item"
+				item: "pedestals:upgradetool"
+			}]
+			rewards: [{
+				id: "53A40AFDE18FBBEB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			description: [
+				"{e6e.pedestals.description82}"
+				""
+				"{e6e.pedestals.description83}"
+			]
+			dependencies: ["5519E152C45C620F"]
+			id: "03FB33813D04031D"
+			tasks: [{
+				id: "195F71E5D15D557A"
+				type: "item"
+				item: "pedestals:toolswapper"
+			}]
+			rewards: [{
+				id: "429AB1D13E35C616"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title89}"
+			x: -6.5d
+			y: 4.5d
+			description: [
+				"{e6e.pedestals.description84}"
+				""
+				"{e6e.pedestals.description85}"
+				""
+				"{e6e.pedestals.description86}"
+			]
+			dependencies: ["3F9545A78B985E50"]
+			id: "5DDFF348CB1978A0"
+			tasks: [{
+				id: "13B8EBFFC9B4CFE1"
+				type: "item"
+				title: "{e6e.pedestals.title90}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/rffuelgen"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfexpgen"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "079B55734F05F67A"
+				type: "command"
+				title: "{e6e.pedestals.title91}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title92}"
+			x: 1.5d
+			y: -2.5d
+			description: [
+				"{e6e.pedestals.description87}"
+				""
+				"{e6e.pedestals.description88}"
+				"{e6e.pedestals.description89}"
+				"{e6e.pedestals.description90}"
+				"{e6e.pedestals.description91}"
+				"{e6e.pedestals.description92}"
+				"{e6e.pedestals.description93}"
+			]
+			dependencies: ["3ECCA6558FDB4A5E"]
+			id: "62A1AE30CAEF1424"
+			tasks: [{
+				id: "6FDAD12F85326869"
+				type: "item"
+				title: "{e6e.pedestals.title93}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:upgradespeed"
+								Count: 1b
+							}
+							{
+								id: "pedestals:upgradecapacity"
+								Count: 1b
+							}
+							{
+								id: "pedestals:upgraderange"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7EF6847AFBA8EF14"
+				type: "command"
+				title: "{e6e.pedestals.title94}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title95}"
+			x: 3.5d
+			y: -2.5d
+			description: ["{e6e.pedestals.description94}"]
+			dependencies: ["305B5A8507D4567A"]
+			id: "1D239668DA764C52"
+			tasks: [{
+				id: "56AAC5339E833399"
+				type: "item"
+				title: "{e6e.pedestals.title96}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:bookspeed"
+								Count: 1b
+							}
+							{
+								id: "pedestals:bookrange"
+								Count: 1b
+							}
+							{
+								id: "pedestals:bookarea"
+								Count: 1b
+							}
+							{
+								id: "pedestals:bookcapacity"
+								Count: 1b
+							}
+							{
+								id: "pedestals:bookmagnet"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D33D903DE919312"
+				type: "command"
+				title: "{e6e.pedestals.title97}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title98}"
+			x: -1.5d
+			y: 0.0d
+			description: [
+				"{e6e.pedestals.description95}"
+				""
+				"{e6e.pedestals.description96}"
+			]
+			dependencies: ["5519E152C45C620F"]
+			id: "196FD7272F86F936"
+			tasks: [{
+				id: "7AB8C73E5215ED39"
+				type: "item"
+				title: "{e6e.pedestals.title99}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/xprelay"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfrelay"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/fluidrelay"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "34316DE310845284"
+				type: "command"
+				title: "{e6e.pedestals.title100}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title101}"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "{e6e.pedestals.subtitle16}"
+			description: [
+				"{e6e.pedestals.description97}"
+				""
+				"{e6e.pedestals.description98}"
+			]
+			dependencies: ["5519E152C45C620F"]
+			id: "002E681F34281A6B"
+			tasks: [{
+				id: "22221D08292F3871"
+				type: "item"
+				title: "{e6e.pedestals.title102}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/itemtank"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rftank"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/fluidtank"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/xptank"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "157D6C650B8AFA14"
+				type: "command"
+				title: "{e6e.pedestals.title103}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			description: [
+				"{e6e.pedestals.description99}"
+				""
+				"{e6e.pedestals.description100}"
+				""
+				"{e6e.pedestals.description101}"
+				""
+				"{e6e.pedestals.description102}"
+				""
+				"{e6e.pedestals.description103}"
+				""
+				"{e6e.pedestals.description104}"
+				""
+				"{e6e.pedestals.description105}"
+			]
+			dependencies: ["5519E152C45C620F"]
+			min_width: 300
+			id: "305B5A8507D4567A"
+			tasks: [{
+				id: "6BA98FE9D6ED9FA9"
+				type: "checkmark"
+				title: "{e6e.pedestals.title104}"
+				icon: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "pedestals:upgradespeed"
+						}]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0EF443D327EE222B"
+				type: "command"
+				title: "{e6e.pedestals.title105}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.pedestals.title106}"
+			x: -1.5d
+			y: 7.5d
+			description: [
+				"{e6e.pedestals.description106}"
+				""
+				"{e6e.pedestals.description107}"
+				""
+				"{e6e.pedestals.description108}"
+				""
+				"{e6e.pedestals.description109}"
+				""
+				"{e6e.pedestals.description110}"
+			]
+			dependencies: ["04E9F681A7D93BC7"]
+			id: "189DF6D6ECA2E3D8"
+			tasks: [{
+				id: "1371F2CF8EE10097"
+				type: "item"
+				title: "{e6e.pedestals.title107}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/dropper"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/placer"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/breaker"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "2959BEBA6F82546F"
+				type: "command"
+				title: "{e6e.pedestals.title108}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pedestals_loot_epic"
+				player_command: false
+			}]
+		}
+	]
+}

@@ -1,0 +1,2761 @@
+{
+	id: "00000000000000A5"
+	group: "72A9465344128AF9"
+	order_index: 3
+	filename: "mekanism"
+	title: "{e6e.mekanism.title0}"
+	icon: "mekanism:alloy_atomic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{e6e.mekanism.title1}"
+			x: 3.5d
+			y: -3.5d
+			shape: "gear"
+			description: [
+				"{e6e.mekanism.description0}"
+				""
+				"{e6e.mekanism.description1}"
+				""
+				"{e6e.mekanism.description2}"
+				""
+				"{e6e.mekanism.description3}"
+				""
+				"{e6e.mekanism.description4}"
+			]
+			optional: true
+			id: "00000000000006A1"
+			tasks: [{
+				id: "00000000000006A2"
+				type: "checkmark"
+				icon: "mekanism:teleportation_core"
+			}]
+			rewards: [{
+				id: "0000000000000CAE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title2}"
+			icon: "mekanism:alloy_infused"
+			x: 1.5d
+			y: -1.5d
+			description: [
+				"{e6e.mekanism.description5}"
+				""
+				"{e6e.mekanism.description6}"
+			]
+			dependencies: ["00000000000006A1"]
+			id: "00000000000006A5"
+			tasks: [{
+				id: "00000000000006A6"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "00000000000006CD"
+				type: "item"
+				title: "{e6e.mekanism.title3}"
+				item: {
+					id: "mekanism:configurator"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "60000"
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title4}"
+			icon: "engineersdecor:sign_hotwire"
+			x: 5.5d
+			y: -1.5d
+			description: [
+				"{e6e.mekanism.description7}"
+				""
+				"{e6e.mekanism.description8}"
+				""
+				"{e6e.mekanism.description9}"
+				""
+				"{e6e.mekanism.description10}"
+			]
+			dependencies: [
+				"00000000000006A1"
+				"00000000000006B4"
+			]
+			id: "00000000000006A7"
+			tasks: [{
+				id: "00000000000006A8"
+				type: "checkmark"
+				title: "{e6e.mekanism.title5}"
+			}]
+			rewards: [{
+				id: "0000000000000817"
+				type: "item"
+				title: "{e6e.mekanism.title6}"
+				item: "mekanism:geiger_counter"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "{e6e.mekanism.subtitle0}"
+			description: [
+				"{e6e.mekanism.description11}"
+				""
+				"{e6e.mekanism.description12}"
+				""
+				"{e6e.mekanism.description13}"
+				""
+				"{e6e.mekanism.description14}"
+			]
+			dependencies: ["00000000000006BA"]
+			id: "00000000000006AF"
+			tasks: [{
+				id: "00000000000006B0"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+			rewards: [
+				{
+					id: "000000000000080D"
+					type: "item"
+					title: "{e6e.mekanism.title7}"
+					item: "minecraft:coal_block"
+					count: 32
+				}
+				{
+					id: "0000000000000CAA"
+					type: "item"
+					title: "{e6e.mekanism.title8}"
+					item: "mekanism:advanced_energy_cube"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			subtitle: "{e6e.mekanism.subtitle1}"
+			description: [
+				"{e6e.mekanism.description15}"
+				""
+				"{e6e.mekanism.description16}"
+			]
+			dependencies: ["00000000000006AF"]
+			id: "00000000000006B1"
+			tasks: [{
+				id: "00000000000006B2"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+			rewards: [
+				{
+					id: "000000000000080E"
+					type: "command"
+					title: "{e6e.mekanism.title9}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000864"
+					type: "item"
+					title: "{e6e.mekanism.title10}"
+					item: "mekanism:basic_universal_cable"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			subtitle: "{e6e.mekanism.subtitle2}"
+			description: [
+				"{e6e.mekanism.description17}"
+				""
+				"{e6e.mekanism.description18}"
+			]
+			dependencies: [
+				"00000000000006B1"
+				"00000000000006C3"
+			]
+			id: "00000000000006B3"
+			tasks: [{
+				id: "00000000000006B4"
+				type: "item"
+				item: "mekanismgenerators:gas_burning_generator"
+			}]
+			rewards: [{
+				id: "00000000000007D2"
+				type: "item"
+				title: "{e6e.mekanism.title11}"
+				item: "mekanism:quantum_entangloporter"
+				count: 2
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title12}"
+			icon: "mekanism:basic_induction_cell"
+			x: 4.5d
+			y: 1.0d
+			subtitle: "{e6e.mekanism.subtitle3}"
+			description: [
+				"{e6e.mekanism.description19}"
+				""
+				"{e6e.mekanism.description20}"
+				""
+				"{e6e.mekanism.description21}"
+			]
+			dependencies: ["0000000000000709"]
+			id: "00000000000006B5"
+			tasks: [
+				{
+					id: "00000000000006B6"
+					type: "item"
+					item: "mekanism:induction_casing"
+					count: 40L
+				}
+				{
+					id: "00000000000006B7"
+					type: "item"
+					item: "mekanism:induction_port"
+					count: 2L
+				}
+				{
+					id: "0000000000000707"
+					type: "item"
+					item: "mekanism:advanced_induction_cell"
+				}
+				{
+					id: "0000000000000708"
+					type: "item"
+					item: "mekanism:advanced_induction_provider"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000705"
+					type: "item"
+					title: "{e6e.mekanism.title13}"
+					item: "mekanism:advanced_induction_cell"
+				}
+				{
+					id: "000000000000086B"
+					type: "command"
+					title: "{e6e.mekanism.title14}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.mekanism.title15}"
+			icon: "mekanism:advanced_energy_cube"
+			x: -2.5d
+			y: -2.0d
+			description: ["{e6e.mekanism.description22}"]
+			dependencies: ["00000000000006A1"]
+			id: "00000000000006BA"
+			tasks: [{
+				id: "00000000000006BB"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "00000000000006CC"
+				type: "item"
+				title: "{e6e.mekanism.title16}"
+				item: {
+					id: "mekanism:network_reader"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "60000"
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "{e6e.mekanism.subtitle4}"
+			description: [
+				"{e6e.mekanism.description23}"
+				""
+				"{e6e.mekanism.description24}"
+			]
+			dependencies: ["00000000000006A5"]
+			id: "00000000000006BD"
+			tasks: [{
+				id: "00000000000006BE"
+				type: "item"
+				title: "{e6e.mekanism.title17}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:metallurgic_infuser"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_infusing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_infusing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_infusing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_infusing_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000816"
+					type: "command"
+					title: "{e6e.mekanism.title18}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000860"
+					type: "item"
+					title: "{e6e.mekanism.title19}"
+					item: "mekanism:steel_casing"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			subtitle: "{e6e.mekanism.subtitle5}"
+			description: [
+				"{e6e.mekanism.description25}"
+				""
+				"{e6e.mekanism.description26}"
+				""
+				"{e6e.mekanism.description27}"
+				""
+				"{e6e.mekanism.description28}"
+			]
+			dependencies: ["00000000000006BD"]
+			id: "00000000000006BF"
+			tasks: [{
+				id: "00000000000006C0"
+				type: "item"
+				title: "{e6e.mekanism.title20}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:enrichment_chamber"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_enriching_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_enriching_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_enriching_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_enriching_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000812"
+					type: "command"
+					title: "{e6e.mekanism.title21}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000861"
+					type: "item"
+					title: "{e6e.mekanism.title22}"
+					item: "mekanism:enriched_redstone"
+					count: 4
+				}
+				{
+					id: "0000000000000862"
+					type: "item"
+					title: "{e6e.mekanism.title23}"
+					item: "mekanism:enriched_carbon"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "{e6e.mekanism.subtitle6}"
+			description: ["{e6e.mekanism.description29}"]
+			dependencies: ["00000000000006BF"]
+			id: "00000000000006C1"
+			tasks: [{
+				id: "00000000000006C2"
+				type: "item"
+				title: "{e6e.mekanism.title24}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:crusher"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_crushing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_crushing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_crushing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_crushing_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000810"
+					type: "command"
+					title: "{e6e.mekanism.title25}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+					player_command: false
+				}
+				{
+					id: "000000000000082C"
+					type: "item"
+					title: "{e6e.mekanism.title26}"
+					item: "simplefarming:orange"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			subtitle: "{e6e.mekanism.subtitle7}"
+			description: ["{e6e.mekanism.description30}"]
+			dependencies: [
+				"00000000000006C1"
+				"00000000000006CE"
+			]
+			id: "00000000000006C3"
+			tasks: [{
+				id: "00000000000006C4"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+			rewards: [{
+				id: "000000000000080F"
+				type: "command"
+				title: "{e6e.mekanism.title27}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			subtitle: "{e6e.mekanism.subtitle8}"
+			description: ["{e6e.mekanism.description31}"]
+			dependencies: ["00000000000006BF"]
+			id: "00000000000006C5"
+			tasks: [{
+				id: "00000000000006C6"
+				type: "item"
+				title: "{e6e.mekanism.title28}"
+				icon: "mekanism:osmium_compressor"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:osmium_compressor"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_compressing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_compressing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_compressing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_compressing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ingot_refined_glowstone"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ingot_refined_obsidian"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000813"
+					type: "command"
+					title: "{e6e.mekanism.title29}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000CA9"
+					type: "item"
+					title: "{e6e.mekanism.title30}"
+					item: "mekanism:personal_chest"
+				}
+			]
+		}
+		{
+			title: "{e6e.mekanism.title31}"
+			icon: "mekanism:thermal_evaporation_controller"
+			x: 4.5d
+			y: -1.0d
+			subtitle: "{e6e.mekanism.subtitle9}"
+			description: [
+				"{e6e.mekanism.description32}"
+				""
+				"{e6e.mekanism.description33}"
+				""
+				"{e6e.mekanism.description34}"
+				""
+				"{e6e.mekanism.description35}"
+				""
+				"{e6e.mekanism.description36}"
+			]
+			dependencies: ["00000000000006A7"]
+			id: "00000000000006C7"
+			tasks: [
+				{
+					id: "00000000000006C9"
+					type: "item"
+					item: "mekanism:thermal_evaporation_block"
+					count: 36L
+				}
+				{
+					id: "00000000000006CA"
+					type: "item"
+					item: "mekanism:thermal_evaporation_valve"
+					count: 3L
+				}
+				{
+					id: "00000000000006CB"
+					type: "item"
+					item: "mekanism:thermal_evaporation_controller"
+				}
+				{
+					id: "000000000000086E"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 36L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000703"
+					type: "item"
+					title: "{e6e.mekanism.title32}"
+					item: "mekanism:resistive_heater"
+				}
+				{
+					id: "0000000000000704"
+					type: "item"
+					title: "{e6e.mekanism.title33}"
+					item: "mekanism:advanced_thermodynamic_conductor"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			subtitle: "{e6e.mekanism.subtitle10}"
+			description: [
+				"{e6e.mekanism.description37}"
+				""
+				"{e6e.mekanism.description38}"
+			]
+			dependencies: ["00000000000006BF"]
+			id: "00000000000006CE"
+			tasks: [{
+				id: "00000000000006CF"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+			rewards: [
+				{
+					id: "0000000000000829"
+					type: "item"
+					title: "{e6e.mekanism.title34}"
+					item: {
+						id: "mekanism:jetpack"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+							mekData: {
+								GasTanks: [{
+									Tank: 0b
+									stored: {
+										gasName: "mekanism:hydrogen"
+										amount: 24000L
+									}
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "000000000000086C"
+					type: "command"
+					title: "{e6e.mekanism.title35}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.mekanism.title36}"
+			icon: "mekanism:electrolytic_core"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "{e6e.mekanism.subtitle11}"
+			description: [
+				"{e6e.mekanism.description39}"
+				""
+				"{e6e.mekanism.description40}"
+				""
+				"{e6e.mekanism.description41}"
+			]
+			dependencies: ["00000000000006CE"]
+			id: "00000000000006D0"
+			tasks: [
+				{
+					id: "00000000000006E3"
+					type: "item"
+					item: "mekanism:electrolytic_separator"
+				}
+				{
+					id: "584EA4C1CB7A2268"
+					type: "item"
+					title: "{e6e.mekanism.title37}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:purification_chamber"
+									Count: 1b
+								}
+								{
+									id: "mekanism:basic_purifying_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:advanced_purifying_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:elite_purifying_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:ultimate_purifying_factory"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "2292FFBA8D9C5E76"
+					type: "item"
+					title: "{e6e.mekanism.title38}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:crusher"
+									Count: 1b
+								}
+								{
+									id: "mekanism:basic_crushing_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:advanced_crushing_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:elite_crushing_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:ultimate_crushing_factory"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "731C1D72D3C19800"
+					type: "item"
+					title: "{e6e.mekanism.title39}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:enrichment_chamber"
+									Count: 1b
+								}
+								{
+									id: "mekanism:basic_enriching_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:advanced_enriching_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:elite_enriching_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:ultimate_enriching_factory"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "183415D2ACD363E7"
+					type: "item"
+					title: "{e6e.mekanism.title40}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:energized_smelter"
+									Count: 1b
+								}
+								{
+									id: "mekanism:basic_smelting_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:advanced_smelting_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:elite_smelting_factory"
+									Count: 1b
+								}
+								{
+									id: "mekanism:ultimate_smelting_factory"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "220D5440056144D1"
+					type: "item"
+					title: "{e6e.mekanism.title41}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:clump_iron"
+									Count: 1b
+								}
+								{
+									id: "mekanism:clump_gold"
+									Count: 1b
+								}
+								{
+									id: "mekanism:clump_copper"
+									Count: 1b
+								}
+								{
+									id: "mekanism:clump_tin"
+									Count: 1b
+								}
+								{
+									id: "mekanism:clump_lead"
+									Count: 1b
+								}
+								{
+									id: "mekanism:clump_uranium"
+									Count: 1b
+								}
+								{
+									id: "mekanism:clump_osmium"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:aluminum_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:silver_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:nickel_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:zinc_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:cobalt_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:thallasium_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:iesnium_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:regalium_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:utherium_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:froststeel_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:cloggrum_clump"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:nebu_clump"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000006D5"
+					type: "item"
+					title: "{e6e.mekanism.title42}"
+					item: "mekanism:basic_tier_installer"
+					count: 3
+				}
+				{
+					id: "0000000000000814"
+					type: "command"
+					title: "{e6e.mekanism.title43}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.mekanism.title44}"
+			icon: "emendatusenigmatica:lithium_dust"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "{e6e.mekanism.subtitle12}"
+			description: [
+				"{e6e.mekanism.description42}"
+				""
+				"{e6e.mekanism.description43}"
+				""
+				"{e6e.mekanism.description44}"
+			]
+			dependencies: ["00000000000006C7"]
+			id: "0000000000000709"
+			tasks: [
+				{
+					id: "000000000000070A"
+					type: "item"
+					item: "mekanism:chemical_crystallizer"
+				}
+				{
+					id: "0A65673DD920A57E"
+					type: "item"
+					item: "mekanism:rotary_condensentrator"
+				}
+				{
+					id: "65ABA5E4FB3C53C2"
+					type: "item"
+					item: "emendatusenigmatica:lithium_dust"
+				}
+			]
+			rewards: [{
+				id: "000000000000070C"
+				type: "item"
+				title: "{e6e.mekanism.title45}"
+				item: "emendatusenigmatica:lithium_dust"
+				count: 16
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title46}"
+			icon: "emendatusenigmatica:sulfur_dust"
+			x: 9.5d
+			y: -0.5d
+			shape: "rsquare"
+			dependencies: ["0000000000000764"]
+			optional: true
+			id: "000000000000072B"
+			tasks: [{
+				id: "0000000000000737"
+				type: "checkmark"
+				title: "{e6e.mekanism.title47}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title48}"
+			icon: "emendatusenigmatica:uranium_ingot"
+			x: 13.0d
+			y: 6.5d
+			shape: "rsquare"
+			dependencies: ["0000000000000765"]
+			optional: true
+			id: "000000000000072D"
+			tasks: [{
+				id: "0000000000000736"
+				type: "checkmark"
+				title: "{e6e.mekanism.title49}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title50}"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 10.5d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: ["0000000000000733"]
+			optional: true
+			id: "000000000000072F"
+			tasks: [{
+				id: "000000000000073B"
+				type: "checkmark"
+				title: "{e6e.mekanism.title51}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title52}"
+			icon: {
+				id: "mekanism:creative_fluid_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								FluidName: "minecraft:water"
+								Amount: 2147483647
+							}
+						}]
+					}
+				}
+			}
+			x: 8.0d
+			y: 3.5d
+			shape: "rsquare"
+			dependencies: ["0000000000000765"]
+			optional: true
+			id: "0000000000000731"
+			tasks: [{
+				id: "0000000000000735"
+				type: "checkmark"
+				title: "{e6e.mekanism.title53}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title54}"
+			icon: "mekanism:chemical_oxidizer"
+			x: 9.5d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["000000000000072B"]
+			optional: true
+			id: "0000000000000733"
+			tasks: [{
+				id: "000000000000073A"
+				type: "checkmark"
+				title: "{e6e.mekanism.title55}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title56}"
+			icon: "mekanism:chemical_infuser"
+			x: 10.5d
+			y: 2.5d
+			shape: "hexagon"
+			dependencies: [
+				"000000000000072F"
+				"0000000000000741"
+			]
+			optional: true
+			id: "0000000000000738"
+			tasks: [{
+				id: "000000000000073C"
+				type: "checkmark"
+				title: "{e6e.mekanism.title57}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title58}"
+			icon: "mekanism:electrolytic_separator"
+			x: 8.5d
+			y: 2.5d
+			shape: "hexagon"
+			dependencies: ["0000000000000731"]
+			optional: true
+			id: "000000000000073D"
+			tasks: [{
+				id: "000000000000073E"
+				type: "checkmark"
+				title: "{e6e.mekanism.title59}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title60}"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 8.5d
+			y: 1.5d
+			dependencies: ["000000000000073D"]
+			optional: true
+			id: "000000000000073F"
+			tasks: [{
+				id: "0000000000000740"
+				type: "checkmark"
+				title: "{e6e.mekanism.title61}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title62}"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 9.5d
+			y: 2.5d
+			shape: "diamond"
+			dependencies: ["000000000000073D"]
+			optional: true
+			id: "0000000000000741"
+			tasks: [{
+				id: "0000000000000742"
+				type: "checkmark"
+				title: "{e6e.mekanism.title63}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title64}"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 10.5d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["0000000000000738"]
+			optional: true
+			id: "0000000000000743"
+			tasks: [{
+				id: "0000000000000744"
+				type: "checkmark"
+				title: "{e6e.mekanism.title65}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title66}"
+			icon: "mekanism:chemical_infuser"
+			x: 10.5d
+			y: 4.5d
+			shape: "hexagon"
+			dependencies: [
+				"0000000000000743"
+				"0000000000000749"
+			]
+			optional: true
+			id: "0000000000000745"
+			tasks: [{
+				id: "0000000000000746"
+				type: "checkmark"
+				title: "{e6e.mekanism.title67}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title68}"
+			icon: "mekanism:rotary_condensentrator"
+			x: 8.5d
+			y: 4.5d
+			shape: "hexagon"
+			dependencies: ["0000000000000731"]
+			optional: true
+			id: "0000000000000747"
+			tasks: [{
+				id: "0000000000000748"
+				type: "checkmark"
+				title: "{e6e.mekanism.title69}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title70}"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 9.5d
+			y: 4.5d
+			shape: "diamond"
+			dependencies: ["0000000000000747"]
+			optional: true
+			id: "0000000000000749"
+			tasks: [{
+				id: "000000000000074A"
+				type: "checkmark"
+				title: "{e6e.mekanism.title71}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title72}"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 10.5d
+			y: 5.5d
+			shape: "diamond"
+			dependencies: ["0000000000000745"]
+			optional: true
+			id: "000000000000074B"
+			tasks: [{
+				id: "000000000000074C"
+				type: "checkmark"
+				title: "{e6e.mekanism.title73}"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 6.5d
+			shape: "hexagon"
+			dependencies: [
+				"000000000000074B"
+				"000000000000074F"
+			]
+			optional: true
+			id: "000000000000074D"
+			tasks: [{
+				id: "000000000000074E"
+				type: "checkmark"
+				title: "{e6e.mekanism.title74}"
+				icon: "mekanism:chemical_dissolution_chamber"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title75}"
+			icon: "emendatusenigmatica:fluorite_gem"
+			x: 12.0d
+			y: 5.5d
+			shape: "rsquare"
+			dependencies: ["0000000000000765"]
+			optional: true
+			id: "000000000000074F"
+			tasks: [{
+				id: "0000000000000750"
+				type: "checkmark"
+				title: "{e6e.mekanism.title76}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title77}"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 9.5d
+			y: 6.5d
+			shape: "diamond"
+			dependencies: ["000000000000074D"]
+			optional: true
+			id: "0000000000000751"
+			tasks: [{
+				id: "0000000000000753"
+				type: "checkmark"
+				title: "{e6e.mekanism.title78}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title79}"
+			icon: "mekanism:chemical_infuser"
+			x: 8.5d
+			y: 6.5d
+			shape: "hexagon"
+			dependencies: [
+				"0000000000000751"
+				"0000000000000758"
+			]
+			optional: true
+			id: "0000000000000754"
+			tasks: [{
+				id: "0000000000000755"
+				type: "checkmark"
+				title: "{e6e.mekanism.title80}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title81}"
+			icon: "mekanism:yellow_cake_uranium"
+			x: 10.5d
+			y: 7.5d
+			shape: "diamond"
+			dependencies: ["000000000000075E"]
+			optional: true
+			id: "0000000000000756"
+			tasks: [{
+				id: "0000000000000757"
+				type: "checkmark"
+				title: "{e6e.mekanism.title82}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title83}"
+			icon: {
+				id: "mekanism:creative_chemical_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								gasName: "mekanism:uranium_oxide"
+								amount: 9223372036854775807L
+							}
+						}]
+					}
+				}
+			}
+			x: 8.5d
+			y: 7.5d
+			shape: "diamond"
+			dependencies: ["000000000000075C"]
+			optional: true
+			id: "0000000000000758"
+			tasks: [{
+				id: "0000000000000759"
+				type: "checkmark"
+				title: "{e6e.mekanism.title84}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title85}"
+			icon: {
+				id: "mekanism:creative_chemical_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								gasName: "mekanism:uranium_hexafluoride"
+								amount: 9223372036854775807L
+							}
+						}]
+					}
+				}
+			}
+			x: 7.5d
+			y: 6.5d
+			shape: "diamond"
+			dependencies: ["0000000000000754"]
+			optional: true
+			id: "000000000000075A"
+			tasks: [{
+				id: "000000000000075B"
+				type: "checkmark"
+				title: "{e6e.mekanism.title86}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title87}"
+			icon: "mekanism:chemical_oxidizer"
+			x: 9.5d
+			y: 7.5d
+			shape: "hexagon"
+			dependencies: ["0000000000000756"]
+			optional: true
+			id: "000000000000075C"
+			tasks: [{
+				id: "000000000000075D"
+				type: "checkmark"
+				title: "{e6e.mekanism.title88}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title89}"
+			icon: "mekanism:enrichment_chamber"
+			x: 11.5d
+			y: 7.5d
+			shape: "hexagon"
+			dependencies: ["000000000000072D"]
+			optional: true
+			id: "000000000000075E"
+			tasks: [{
+				id: "000000000000075F"
+				type: "checkmark"
+				title: "{e6e.mekanism.title90}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title91}"
+			icon: "mekanism:isotopic_centrifuge"
+			x: 7.5d
+			y: 7.5d
+			shape: "hexagon"
+			dependencies: ["000000000000075A"]
+			optional: true
+			id: "0000000000000760"
+			tasks: [{
+				id: "0000000000000761"
+				type: "checkmark"
+				title: "{e6e.mekanism.title92}"
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title93}"
+			icon: "mekanism:ultimate_chemical_tank"
+			x: 7.5d
+			y: 9.0d
+			description: ["{e6e.mekanism.description45}"]
+			dependencies: ["0000000000000760"]
+			optional: true
+			id: "0000000000000762"
+			tasks: [{
+				id: "0000000000000763"
+				type: "checkmark"
+				title: "{e6e.mekanism.title94}"
+			}]
+			rewards: [
+				{
+					id: "000000000000082B"
+					type: "item"
+					title: "{e6e.mekanism.title95}"
+					item: "farmersdelight:sweet_berry_cookie"
+					count: 3
+				}
+				{
+					id: "000000000000082D"
+					type: "item"
+					title: "{e6e.mekanism.title96}"
+					item: "farmersdelight:honey_cookie"
+					count: 3
+				}
+				{
+					id: "000000000000082E"
+					type: "item"
+					title: "{e6e.mekanism.title97}"
+					item: "simplefarming:peanut_butter_cookie"
+					count: 3
+				}
+				{
+					id: "000000000000082F"
+					type: "item"
+					title: "{e6e.mekanism.title98}"
+					item: "minecraft:cookie"
+					count: 3
+				}
+				{
+					id: "0000000000000A81"
+					type: "command"
+					title: "{e6e.mekanism.title99}"
+					icon: "kubejs:farmers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			subtitle: "{e6e.mekanism.subtitle13}"
+			description: [
+				"{e6e.mekanism.description46}"
+				""
+				"{e6e.mekanism.description47}"
+			]
+			dependencies: [
+				"00000000000006A8"
+				"00000000000006A1"
+			]
+			id: "0000000000000764"
+			tasks: [{
+				id: "0000000000000765"
+				type: "checkmark"
+				title: "{e6e.mekanism.title100}"
+				icon: "mekanism:isotopic_centrifuge"
+			}]
+			rewards: [{
+				id: "000000000000082A"
+				type: "command"
+				title: "{e6e.mekanism.title101}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title102}"
+			icon: "mekanismgenerators:control_rod_assembly"
+			x: 6.5d
+			y: 1.0d
+			subtitle: "{e6e.mekanism.subtitle14}"
+			description: [
+				"{e6e.mekanism.description48}"
+				""
+				"{e6e.mekanism.description49}"
+				""
+				"{e6e.mekanism.description50}"
+				""
+				"{e6e.mekanism.description51}"
+				"{e6e.mekanism.description52}"
+				""
+				"{e6e.mekanism.description53}"
+			]
+			dependencies: ["000000000000079A"]
+			min_width: 250
+			id: "0000000000000793"
+			tasks: [
+				{
+					id: "0000000000000794"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					count: 30L
+				}
+				{
+					id: "00000000000007A4"
+					type: "item"
+					item: "mekanismgenerators:control_rod_assembly"
+					count: 5L
+				}
+			]
+			rewards: [{
+				id: "000000000000081A"
+				type: "command"
+				title: "{e6e.mekanism.title103}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title104}"
+			icon: "mekanismgenerators:fission_reactor_casing"
+			x: 6.5d
+			y: -1.0d
+			subtitle: "{e6e.mekanism.subtitle15}"
+			description: [
+				"{e6e.mekanism.description54}"
+				""
+				"{e6e.mekanism.description55}"
+				""
+				"{e6e.mekanism.description56}"
+				""
+				"{e6e.mekanism.description57}"
+			]
+			dependencies: ["00000000000006A7"]
+			id: "0000000000000795"
+			tasks: [
+				{
+					id: "0000000000000796"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_casing"
+					count: 69L
+				}
+				{
+					id: "0000000000000798"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_port"
+					count: 4L
+				}
+				{
+					id: "0000000000000799"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 87L
+				}
+			]
+			rewards: [{
+				id: "0000000000000818"
+				type: "command"
+				title: "{e6e.mekanism.title105}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title106}"
+			x: 7.0d
+			y: 0.0d
+			subtitle: "{e6e.mekanism.subtitle16}"
+			description: [
+				"{e6e.mekanism.description58}"
+				""
+				"{e6e.mekanism.description59}"
+				""
+				"{e6e.mekanism.description60}"
+				""
+				"{e6e.mekanism.description61}"
+				""
+				"{e6e.mekanism.description62}"
+			]
+			dependencies: ["0000000000000795"]
+			min_width: 255
+			id: "000000000000079A"
+			tasks: [{
+				id: "000000000000079B"
+				type: "item"
+				item: "mekanismgenerators:fission_reactor_logic_adapter"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "000000000000079C"
+					type: "item"
+					title: "{e6e.mekanism.title107}"
+					item: "minecraft:gravel"
+				}
+				{
+					id: "000000000000079D"
+					type: "item"
+					title: "{e6e.mekanism.title108}"
+					item: "minecraft:observer"
+				}
+				{
+					id: "000000000000079E"
+					type: "item"
+					title: "{e6e.mekanism.title109}"
+					item: "minecraft:piston"
+				}
+				{
+					id: "000000000000079F"
+					type: "item"
+					title: "{e6e.mekanism.title110}"
+					item: "minecraft:redstone"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			subtitle: "{e6e.mekanism.subtitle17}"
+			description: [
+				"{e6e.mekanism.description63}"
+				""
+				"{e6e.mekanism.description64}"
+				""
+				"{e6e.mekanism.description65}"
+			]
+			dependencies: ["0000000000000793"]
+			id: "00000000000007A5"
+			tasks: [{
+				id: "00000000000007A6"
+				type: "item"
+				item: "mekanism:radioactive_waste_barrel"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "00000000000007D3"
+					type: "item"
+					title: "{e6e.mekanism.title111}"
+					item: {
+						id: "mekanism:hazmat_mask"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "00000000000007D4"
+					type: "item"
+					title: "{e6e.mekanism.title112}"
+					item: {
+						id: "mekanism:hazmat_gown"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "00000000000007D5"
+					type: "item"
+					title: "{e6e.mekanism.title113}"
+					item: {
+						id: "mekanism:hazmat_pants"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "00000000000007D7"
+					type: "item"
+					title: "{e6e.mekanism.title114}"
+					item: {
+						id: "mekanism:hazmat_boots"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "00000000000007D8"
+					type: "item"
+					title: "{e6e.mekanism.title115}"
+					item: "engineersdecor:sign_radioactive"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "{e6e.mekanism.title116}"
+			icon: "mekanism:pellet_plutonium"
+			x: 6.5d
+			y: 5.0d
+			subtitle: "{e6e.mekanism.subtitle18}"
+			description: ["{e6e.mekanism.description66}"]
+			dependencies: ["00000000000007A5"]
+			id: "00000000000007A7"
+			tasks: [
+				{
+					id: "00000000000007A8"
+					type: "item"
+					item: "mekanism:isotopic_centrifuge"
+				}
+				{
+					id: "00000000000007B0"
+					type: "item"
+					item: "mekanism:pressurized_reaction_chamber"
+				}
+				{
+					id: "000000000000081C"
+					type: "item"
+					item: "mekanism:pellet_plutonium"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "0000000000000820"
+				type: "command"
+				title: "{e6e.mekanism.title117}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title118}"
+			icon: "mekanism:pellet_polonium"
+			x: 5.5d
+			y: 5.0d
+			subtitle: "{e6e.mekanism.subtitle19}"
+			description: [
+				"{e6e.mekanism.description67}"
+				""
+				"{e6e.mekanism.description68}"
+			]
+			dependencies: ["00000000000007A5"]
+			id: "00000000000007A9"
+			tasks: [
+				{
+					id: "00000000000007AA"
+					type: "item"
+					item: "mekanism:solar_neutron_activator"
+				}
+				{
+					id: "00000000000007AF"
+					type: "item"
+					item: "mekanism:pressurized_reaction_chamber"
+				}
+				{
+					id: "000000000000081D"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "000000000000081E"
+				type: "command"
+				title: "{e6e.mekanism.title119}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title120}"
+			x: -1.0d
+			y: 3.5d
+			description: ["{e6e.mekanism.description69}"]
+			dependencies: ["00000000000006C3"]
+			id: "00000000000007AB"
+			tasks: [{
+				id: "00000000000007AC"
+				type: "item"
+				item: "mekanism:hdpe_pellet"
+				count: 64L
+			}]
+			rewards: [{
+				id: "0000000000000815"
+				type: "command"
+				title: "{e6e.mekanism.title121}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title122}"
+			icon: "mekanism:sps_casing"
+			x: 6.0d
+			y: 6.5d
+			subtitle: "{e6e.mekanism.subtitle20}"
+			description: [
+				"{e6e.mekanism.description70}"
+				""
+				"{e6e.mekanism.description71}"
+				""
+				"{e6e.mekanism.description72}"
+				""
+				"{e6e.mekanism.description73}"
+			]
+			dependencies: [
+				"00000000000007A7"
+				"00000000000007A9"
+				"00000000000007AC"
+			]
+			id: "00000000000007B1"
+			tasks: [
+				{
+					id: "00000000000007B2"
+					type: "item"
+					item: "mekanism:sps_casing"
+					count: 60L
+				}
+				{
+					id: "00000000000007B3"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 122L
+				}
+				{
+					id: "00000000000007B4"
+					type: "item"
+					item: "mekanism:sps_port"
+					count: 4L
+				}
+				{
+					id: "00000000000007B5"
+					type: "item"
+					item: "mekanism:supercharged_coil"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000007D9"
+					type: "item"
+					title: "{e6e.mekanism.title123}"
+					item: "emendatusenigmatica:uranium_ore"
+					count: 64
+				}
+				{
+					id: "0000000000000842"
+					type: "command"
+					title: "{e6e.mekanism.title124}"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.mekanism.title125}"
+			icon: "mekanismgenerators:fusion_reactor_controller"
+			x: 4.5d
+			y: 3.5d
+			subtitle: "{e6e.mekanism.subtitle21}"
+			description: [
+				"{e6e.mekanism.description74}"
+				""
+				"{e6e.mekanism.description75}"
+				""
+				"{e6e.mekanism.description76}"
+				""
+				"{e6e.mekanism.description77}"
+				""
+				"{e6e.mekanism.description78}"
+				""
+				"{e6e.mekanism.description79}"
+				""
+				"{e6e.mekanism.description80}"
+				""
+				"{e6e.mekanism.description81}"
+			]
+			dependencies: ["00000000000007A9"]
+			min_width: 300
+			id: "00000000000007B6"
+			tasks: [
+				{
+					id: "00000000000007B7"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_controller"
+				}
+				{
+					id: "00000000000007E0"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					count: 36L
+				}
+				{
+					id: "00000000000007E1"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_port"
+					count: 4L
+				}
+				{
+					id: "00000000000007E2"
+					type: "item"
+					item: "mekanismgenerators:laser_focus_matrix"
+				}
+				{
+					id: "00000000000007E3"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 24L
+				}
+			]
+			rewards: [{
+				id: "0000000000000821"
+				type: "command"
+				title: "{e6e.mekanism.title126}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title127}"
+			icon: "mekanismgenerators:turbine_blade"
+			x: 5.5d
+			y: 1.5d
+			subtitle: "{e6e.mekanism.subtitle22}"
+			description: [
+				"{e6e.mekanism.description82}"
+				""
+				"{e6e.mekanism.description83}"
+				""
+				"{e6e.mekanism.description84}"
+				""
+				"{e6e.mekanism.description85}"
+				""
+				"{e6e.mekanism.description86}"
+				""
+				"{e6e.mekanism.description87}"
+				""
+			]
+			dependencies: ["0000000000000793"]
+			min_width: 300
+			id: "00000000000007B8"
+			tasks: [
+				{
+					id: "00000000000007B9"
+					type: "item"
+					item: "mekanismgenerators:turbine_blade"
+					count: 10L
+				}
+				{
+					id: "00000000000007BA"
+					type: "item"
+					item: "mekanismgenerators:electromagnetic_coil"
+					count: 3L
+				}
+				{
+					id: "00000000000007BB"
+					type: "item"
+					item: "mekanism:pressure_disperser"
+					count: 8L
+				}
+				{
+					id: "00000000000007BC"
+					type: "item"
+					item: "mekanismgenerators:rotational_complex"
+				}
+				{
+					id: "00000000000007BD"
+					type: "item"
+					item: "mekanismgenerators:saturating_condenser"
+					count: 6L
+				}
+				{
+					id: "00000000000007BE"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 58L
+				}
+				{
+					id: "00000000000007BF"
+					type: "item"
+					item: "mekanismgenerators:turbine_casing"
+					count: 69L
+				}
+				{
+					id: "00000000000007C0"
+					type: "item"
+					item: "mekanismgenerators:turbine_rotor"
+					count: 5L
+				}
+				{
+					id: "00000000000007C1"
+					type: "item"
+					item: "mekanismgenerators:turbine_valve"
+					count: 2L
+				}
+				{
+					id: "00000000000007C2"
+					type: "item"
+					item: "mekanismgenerators:turbine_vent"
+					count: 33L
+				}
+			]
+			rewards: [{
+				id: "0000000000000819"
+				type: "command"
+				title: "{e6e.mekanism.title128}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			subtitle: "{e6e.mekanism.subtitle23}"
+			description: ["{e6e.mekanism.description88}"]
+			dependencies: ["00000000000007B1"]
+			id: "00000000000007C3"
+			tasks: [{
+				id: "00000000000007C4"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+			rewards: [{
+				id: "000000000000081F"
+				type: "command"
+				title: "{e6e.mekanism.title129}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: 9.0d
+			subtitle: "{e6e.mekanism.subtitle24}"
+			description: [
+				"{e6e.mekanism.description89}"
+				""
+				"{e6e.mekanism.description90}"
+			]
+			dependencies: ["00000000000007C3"]
+			id: "00000000000007C5"
+			tasks: [{
+				id: "00000000000007C6"
+				type: "item"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+			}]
+			rewards: [{
+				id: "0000000000000828"
+				type: "command"
+				title: "{e6e.mekanism.title130}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			subtitle: "{e6e.mekanism.subtitle25}"
+			description: ["{e6e.mekanism.description91}"]
+			dependencies: ["00000000000007A9"]
+			id: "00000000000007C7"
+			tasks: [{
+				id: "00000000000007C8"
+				type: "item"
+				item: "mekanism:qio_drive_array"
+			}]
+			rewards: [{
+				id: "0000000000000827"
+				type: "command"
+				title: "{e6e.mekanism.title131}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			subtitle: "{e6e.mekanism.subtitle26}"
+			description: ["{e6e.mekanism.description92}"]
+			dependencies: ["00000000000007C7"]
+			id: "00000000000007C9"
+			tasks: [{
+				id: "00000000000007CA"
+				type: "item"
+				item: "mekanism:qio_dashboard"
+			}]
+			rewards: [{
+				id: "0000000000000823"
+				type: "command"
+				title: "{e6e.mekanism.title132}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title133}"
+			x: 3.5d
+			y: 7.5d
+			subtitle: "{e6e.mekanism.subtitle27}"
+			description: ["{e6e.mekanism.description93}"]
+			dependencies: ["00000000000007C7"]
+			id: "00000000000007CB"
+			tasks: [
+				{
+					id: "00000000000007CC"
+					type: "item"
+					item: "mekanism:qio_importer"
+				}
+				{
+					id: "00000000000007CD"
+					type: "item"
+					item: "mekanism:qio_exporter"
+				}
+			]
+			rewards: [{
+				id: "0000000000000826"
+				type: "command"
+				title: "{e6e.mekanism.title134}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			subtitle: "{e6e.mekanism.subtitle28}"
+			description: ["{e6e.mekanism.description94}"]
+			dependencies: ["00000000000007C7"]
+			id: "00000000000007CE"
+			tasks: [{
+				id: "00000000000007CF"
+				type: "item"
+				item: "mekanism:qio_drive_base"
+			}]
+			rewards: [{
+				id: "0000000000000824"
+				type: "command"
+				title: "{e6e.mekanism.title135}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			subtitle: "{e6e.mekanism.subtitle29}"
+			description: ["{e6e.mekanism.description95}"]
+			dependencies: ["00000000000007C7"]
+			id: "00000000000007D0"
+			tasks: [{
+				id: "00000000000007D1"
+				type: "item"
+				item: "mekanism:qio_redstone_adapter"
+			}]
+			rewards: [{
+				id: "0000000000000825"
+				type: "command"
+				title: "{e6e.mekanism.title136}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title137}"
+			icon: "mekanism:laser_amplifier"
+			x: 3.5d
+			y: 4.5d
+			subtitle: "{e6e.mekanism.subtitle30}"
+			description: [
+				"{e6e.mekanism.description96}"
+				""
+				"{e6e.mekanism.description97}"
+				""
+				"{e6e.mekanism.description98}"
+				""
+				"{e6e.mekanism.description99}"
+			]
+			dependencies: ["00000000000007B6"]
+			id: "00000000000007DC"
+			tasks: [
+				{
+					id: "00000000000007DD"
+					type: "item"
+					item: "mekanism:laser_amplifier"
+					count: 2L
+				}
+				{
+					id: "00000000000007DE"
+					type: "item"
+					item: "mekanism:laser"
+					count: 9L
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000007DF"
+					type: "item"
+					title: "{e6e.mekanism.title138}"
+					item: "mekanismgenerators:hohlraum"
+				}
+				{
+					id: "0000000000000822"
+					type: "command"
+					title: "{e6e.mekanism.title139}"
+					icon: "kubejs:legendary_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+					player_command: false
+				}
+				{
+					id: "0000000000000873"
+					type: "item"
+					title: "{e6e.mekanism.title140}"
+					item: "engineersdecor:sign_laser"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "{e6e.mekanism.title141}"
+			icon: "minecraft:cod"
+			x: 5.5d
+			y: 0.0d
+			subtitle: "{e6e.mekanism.subtitle31}"
+			description: [
+				"{e6e.mekanism.description100}"
+				""
+				"{e6e.mekanism.description101}"
+				""
+				"{e6e.mekanism.description102}"
+			]
+			dependencies: ["0000000000000793"]
+			optional: true
+			id: "00000000000007E4"
+			tasks: [
+				{
+					id: "00000000000007E9"
+					type: "checkmark"
+					title: "{e6e.mekanism.title142}"
+				}
+				{
+					id: "00000000000007EA"
+					type: "item"
+					item: "minecraft:cod"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "00000000000007E6"
+				type: "command"
+				title: "{e6e.mekanism.title143}"
+				icon: "engineersdecor:sign_radioactive"
+				command: "/mek radiation removeAll"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.mekanism.title144}"
+			icon: "mekanism:superheating_element"
+			x: 4.5d
+			y: 2.0d
+			subtitle: "{e6e.mekanism.subtitle32}"
+			description: [
+				"{e6e.mekanism.description103}"
+				""
+				"{e6e.mekanism.description104}"
+				""
+				"{e6e.mekanism.description105}"
+				""
+				"{e6e.mekanism.description106}"
+				""
+				"{e6e.mekanism.description107}"
+				""
+				"{e6e.mekanism.description108}"
+				""
+				"{e6e.mekanism.description109}"
+				""
+				"{e6e.mekanism.description110}"
+				""
+			]
+			dependencies: ["00000000000007B8"]
+			min_width: 250
+			id: "0000000000000E78"
+			tasks: [
+				{
+					id: "0000000000000E79"
+					type: "item"
+					item: "mekanism:boiler_casing"
+					count: 80L
+				}
+				{
+					id: "0000000000000E7A"
+					type: "item"
+					item: "mekanism:boiler_valve"
+					count: 4L
+				}
+				{
+					id: "0000000000000E7B"
+					type: "item"
+					item: "mekanism:pressure_disperser"
+					count: 9L
+				}
+				{
+					id: "0000000000000E7C"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 78L
+				}
+				{
+					id: "0000000000000E7D"
+					type: "item"
+					item: "mekanism:superheating_element"
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "0000000000000E7E"
+				type: "command"
+				title: "{e6e.mekanism.title145}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			subtitle: "{e6e.mekanism.subtitle33}"
+			description: [
+				"{e6e.mekanism.description111}"
+				""
+				"{e6e.mekanism.description112}"
+				""
+				"{e6e.mekanism.description113}"
+			]
+			dependencies: ["00000000000006A5"]
+			id: "1100DDF4FA8D31C3"
+			tasks: [{
+				id: "590FDCF2C714EE6B"
+				type: "item"
+				item: "mekanism:gauge_dropper"
+			}]
+			rewards: [{
+				id: "3954C7F86F9C301B"
+				type: "command"
+				title: "{e6e.mekanism.title146}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			subtitle: "{e6e.mekanism.subtitle34}"
+			description: [
+				"{e6e.mekanism.description114}"
+				""
+				"{e6e.mekanism.description115}"
+			]
+			dependencies: ["00000000000006BD"]
+			id: "6AA3DA7395582D75"
+			tasks: [{
+				id: "487EEDB965838B35"
+				type: "item"
+				title: "{e6e.mekanism.title147}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:basic_tier_installer"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_tier_installer"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_tier_installer"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_tier_installer"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "21CAB75DA0FC846D"
+				type: "command"
+				title: "{e6e.mekanism.title148}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			icon: "mekanism:upgrade_gas"
+			x: -1.0d
+			y: 5.5d
+			subtitle: "{e6e.mekanism.subtitle35}"
+			description: ["{e6e.mekanism.description116}"]
+			dependencies: ["00000000000006D0"]
+			id: "504DD59B5A254183"
+			tasks: [
+				{
+					id: "581F64A5B70FD048"
+					type: "item"
+					title: "{e6e.mekanism.title149}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:shard_iron"
+									Count: 1b
+								}
+								{
+									id: "mekanism:shard_gold"
+									Count: 1b
+								}
+								{
+									id: "mekanism:shard_copper"
+									Count: 1b
+								}
+								{
+									id: "mekanism:shard_tin"
+									Count: 1b
+								}
+								{
+									id: "mekanism:shard_lead"
+									Count: 1b
+								}
+								{
+									id: "mekanism:shard_uranium"
+									Count: 1b
+								}
+								{
+									id: "mekanism:shard_osmium"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:aluminum_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:silver_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:nickel_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:zinc_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:cobalt_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:thallasium_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:iesnium_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:regalium_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:utherium_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:froststeel_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:cloggrum_shard"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:nebu_shard"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "278A00997E5A1807"
+					type: "item"
+					item: "mekanism:upgrade_gas"
+				}
+			]
+			rewards: [{
+				id: "5CB2EF184247180B"
+				type: "command"
+				title: "{e6e.mekanism.title150}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			icon: "emendatusenigmatica:fluorite_gem"
+			x: -2.5d
+			y: 6.5d
+			subtitle: "{e6e.mekanism.subtitle36}"
+			description: [
+				"{e6e.mekanism.description117}"
+				""
+				"{e6e.mekanism.description118}"
+			]
+			dependencies: ["504DD59B5A254183"]
+			id: "1BA848F73C707DCC"
+			tasks: [{
+				id: "38AF11C23B5E8A03"
+				type: "item"
+				title: "{e6e.mekanism.title151}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:crystal_iron"
+								Count: 1b
+							}
+							{
+								id: "mekanism:crystal_gold"
+								Count: 1b
+							}
+							{
+								id: "mekanism:crystal_copper"
+								Count: 1b
+							}
+							{
+								id: "mekanism:crystal_tin"
+								Count: 1b
+							}
+							{
+								id: "mekanism:crystal_lead"
+								Count: 1b
+							}
+							{
+								id: "mekanism:crystal_uranium"
+								Count: 1b
+							}
+							{
+								id: "mekanism:crystal_osmium"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:aluminum_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:silver_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:nickel_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:zinc_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:cobalt_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:thallasium_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:iesnium_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:regalium_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:utherium_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:froststeel_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:cloggrum_crystal"
+								Count: 1b
+							}
+							{
+								id: "emendatusenigmatica:nebu_crystal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F0D88FCA51E6BB3"
+				type: "command"
+				title: "{e6e.mekanism.title152}"
+				icon: "kubejs:legendary_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_legendary"
+				player_command: false
+			}]
+		}
+		{
+			icon: {
+				id: "mekanism:precision_sawmill"
+				Count: 1b
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "20000"
+						}]
+					}
+				}
+			}
+			x: 0.5d
+			y: 0.5d
+			subtitle: "{e6e.mekanism.subtitle37}"
+			description: ["{e6e.mekanism.description119}"]
+			dependencies: ["00000000000006BF"]
+			id: "46314C0EADF8EBAA"
+			tasks: [{
+				id: "02D13AC31BDBC8A2"
+				type: "item"
+				title: "{e6e.mekanism.title153}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:precision_sawmill"
+								Count: 1b
+							}
+							{
+								id: "mekanism:basic_sawing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:advanced_sawing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:elite_sawing_factory"
+								Count: 1b
+							}
+							{
+								id: "mekanism:ultimate_sawing_factory"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "483148CA72CDB1CD"
+				type: "item"
+				item: "mekanism:cardboard_box"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			subtitle: "{e6e.mekanism.subtitle38}"
+			description: [
+				"{e6e.mekanism.description120}"
+				""
+				"{e6e.mekanism.description121}"
+			]
+			dependencies: ["00000000000006BF"]
+			id: "25956D039907CBDA"
+			tasks: [{
+				id: "5E962E033F464A5C"
+				type: "item"
+				item: {
+					id: "mekanism:teleporter"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "5000000"
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0EF5031647DF246B"
+				type: "command"
+				title: "{e6e.mekanism.title154}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			subtitle: "{e6e.mekanism.subtitle39}"
+			description: [
+				"{e6e.mekanism.description122}"
+				""
+				"{e6e.mekanism.description123}"
+				""
+				"{e6e.mekanism.description124}"
+				""
+				"{e6e.mekanism.description125}"
+				""
+				"{e6e.mekanism.description126}"
+				"{e6e.mekanism.description127}"
+				"{e6e.mekanism.description128}"
+			]
+			dependencies: ["00000000000006BF"]
+			min_width: 300
+			id: "37B0CBFA4CBAD409"
+			tasks: [{
+				id: "4B3658ACF1768133"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+			rewards: [{
+				id: "2103C11313ED672B"
+				type: "command"
+				title: "{e6e.mekanism.title155}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_mekanism_loot_rare"
+				player_command: false
+			}]
+		}
+	]
+}

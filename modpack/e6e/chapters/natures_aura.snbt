@@ -1,0 +1,1240 @@
+{
+	id: "000000000000009E"
+	group: "5A8B89F87F77CF4C"
+	order_index: 6
+	filename: "natures_aura"
+	title: "{e6e.natures_aura.title0}"
+	icon: "naturesaura:gold_leaf"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 0.0d
+			height: 0.0d
+			rotation: 0.0d
+			image: "#FFFFFF"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 0.0d
+			height: 0.0d
+			rotation: 0.0d
+			image: "#FFFFFF"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 0.0d
+			height: 0.0d
+			rotation: 0.0d
+			image: "#FFFFFF"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "{e6e.natures_aura.title1}"
+			icon: "naturesaura:aura_bloom"
+			x: -0.5d
+			y: -9.0d
+			shape: "gear"
+			description: [
+				"{e6e.natures_aura.description0}"
+				""
+				"{e6e.natures_aura.description1}"
+				""
+				"{e6e.natures_aura.description2}"
+				""
+				"{e6e.natures_aura.description3}"
+			]
+			optional: true
+			id: "000000000000009F"
+			tasks: [{
+				id: "5DCF7175B494CD02"
+				type: "item"
+				title: "{e6e.natures_aura.title2}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000000A6"
+				type: "item"
+				title: "{e6e.natures_aura.title3}"
+				item: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{e6e.natures_aura.title4}"
+			x: -0.5d
+			y: -12.0d
+			subtitle: "{e6e.natures_aura.subtitle0}"
+			description: [
+				"{e6e.natures_aura.description4}"
+				""
+				"{e6e.natures_aura.description5}"
+				""
+				"{e6e.natures_aura.description6}"
+				""
+				"{e6e.natures_aura.description7}"
+			]
+			dependencies: ["00000000000000A4"]
+			id: "00000000000000A2"
+			tasks: [{
+				id: "000000000000037F"
+				type: "item"
+				item: "naturesaura:wood_stand"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "000000000000035A"
+					type: "command"
+					title: "{e6e.natures_aura.title5}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+					player_command: false
+				}
+				{
+					id: "14A7BCABC52C6E6D"
+					type: "item"
+					item: "farmingforblockheads:market"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -11.0d
+			subtitle: "{e6e.natures_aura.subtitle1}"
+			description: ["{e6e.natures_aura.description8}"]
+			dependencies: ["00000000000000A8"]
+			id: "00000000000000A4"
+			tasks: [{
+				id: "00000000000000A7"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+			}]
+			rewards: [
+				{
+					id: "000000000000035C"
+					type: "command"
+					title: "{e6e.natures_aura.title6}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000A73"
+					type: "command"
+					title: "{e6e.natures_aura.title7}"
+					icon: "kubejs:scavengers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -10.0d
+			subtitle: "{e6e.natures_aura.subtitle2}"
+			description: [
+				"{e6e.natures_aura.description9}"
+				""
+				"{e6e.natures_aura.description10}"
+			]
+			dependencies: ["000000000000009F"]
+			id: "00000000000000A8"
+			tasks: [{
+				id: "00000000000000A9"
+				type: "item"
+				item: "naturesaura:gold_fiber"
+			}]
+			rewards: [
+				{
+					id: "000000000000035B"
+					type: "command"
+					title: "{e6e.natures_aura.title8}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000A72"
+					type: "command"
+					title: "{e6e.natures_aura.title9}"
+					icon: "kubejs:farmers_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "naturesaura:offering_table"
+			x: 2.0d
+			y: -15.5d
+			subtitle: "{e6e.natures_aura.subtitle3}"
+			description: ["{e6e.natures_aura.description11}"]
+			dependencies: ["00000000000002BB"]
+			id: "0000000000000230"
+			tasks: [{
+				id: "0000000000000231"
+				type: "item"
+				item: "naturesaura:offering_table"
+			}]
+			rewards: [{
+				id: "0000000000000373"
+				type: "command"
+				title: "{e6e.natures_aura.title10}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			icon: "naturesaura:nature_altar"
+			x: 2.0d
+			y: -13.0d
+			subtitle: "{e6e.natures_aura.subtitle4}"
+			description: [
+				"{e6e.natures_aura.description12}"
+				""
+				"{e6e.natures_aura.description13}"
+				""
+				"{e6e.natures_aura.description14}"
+				""
+				"{e6e.natures_aura.description15}"
+			]
+			dependencies: ["00000000000002BF"]
+			dependency_requirement: "all_started"
+			id: "00000000000002B5"
+			tasks: [
+				{
+					id: "00000000000002B6"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "0000000000000331"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 20L
+				}
+				{
+					id: "0000000000000332"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 16L
+				}
+				{
+					id: "0000000000000333"
+					type: "item"
+					item: "naturesaura:gold_brick"
+					count: 8L
+				}
+				{
+					id: "0000000000000334"
+					type: "item"
+					item: "minecraft:chiseled_stone_bricks"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "00000000000004A2"
+				type: "command"
+				title: "{e6e.natures_aura.title11}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.natures_aura.title12}"
+			x: 3.0d
+			y: -16.0d
+			description: ["{e6e.natures_aura.description16}"]
+			dependencies: ["0000000000000230"]
+			id: "00000000000002B7"
+			tasks: [
+				{
+					id: "00000000000002B8"
+					type: "item"
+					item: "naturesaura:token_euphoria"
+				}
+				{
+					id: "00000000000002EB"
+					type: "item"
+					item: "naturesaura:token_terror"
+				}
+				{
+					id: "00000000000002EC"
+					type: "item"
+					item: "naturesaura:token_rage"
+				}
+				{
+					id: "00000000000002ED"
+					type: "item"
+					item: "naturesaura:token_grief"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000035F"
+					type: "item"
+					title: "{e6e.natures_aura.title13}"
+					item: "naturesaura:break_prevention"
+				}
+				{
+					id: "0000000000000360"
+					type: "command"
+					title: "{e6e.natures_aura.title14}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -14.0d
+			subtitle: "{e6e.natures_aura.subtitle5}"
+			description: ["{e6e.natures_aura.description17}"]
+			dependencies: ["00000000000002B5"]
+			id: "00000000000002B9"
+			tasks: [{
+				id: "00000000000002BA"
+				type: "item"
+				item: "naturesaura:tainted_gold"
+			}]
+			rewards: [{
+				id: "0000000000000376"
+				type: "command"
+				title: "{e6e.natures_aura.title15}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.5d
+			y: -14.5d
+			subtitle: "{e6e.natures_aura.subtitle6}"
+			description: ["{e6e.natures_aura.description18}"]
+			dependencies: [
+				"00000000000002B9"
+				"00000000000002BD"
+			]
+			id: "00000000000002BB"
+			tasks: [{
+				id: "00000000000002BC"
+				type: "item"
+				item: "naturesaura:calling_spirit"
+			}]
+			rewards: [{
+				id: "0000000000000374"
+				type: "command"
+				title: "{e6e.natures_aura.title16}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: -13.5d
+			subtitle: "{e6e.natures_aura.subtitle7}"
+			description: ["{e6e.natures_aura.description19}"]
+			dependencies: ["00000000000002B5"]
+			id: "00000000000002BD"
+			tasks: [{
+				id: "00000000000002BE"
+				type: "item"
+				item: "naturesaura:infused_iron"
+			}]
+			rewards: [{
+				id: "0000000000000375"
+				type: "command"
+				title: "{e6e.natures_aura.title17}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.natures_aura.title18}"
+			x: 1.0d
+			y: -12.5d
+			description: ["{e6e.natures_aura.description20}"]
+			dependencies: ["00000000000000A2"]
+			id: "00000000000002BF"
+			tasks: [
+				{
+					id: "00000000000002C0"
+					type: "item"
+					item: "naturesaura:token_joy"
+				}
+				{
+					id: "000000000000032E"
+					type: "item"
+					item: "naturesaura:token_fear"
+				}
+				{
+					id: "000000000000032F"
+					type: "item"
+					item: "naturesaura:token_anger"
+				}
+				{
+					id: "0000000000000330"
+					type: "item"
+					item: "naturesaura:token_sorrow"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000035E"
+					type: "item"
+					title: "{e6e.natures_aura.title19}"
+					item: "naturesaura:pet_reviver"
+				}
+				{
+					id: "0000000000000361"
+					type: "command"
+					title: "{e6e.natures_aura.title20}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.natures_aura.title21}"
+			x: -1.5d
+			y: -14.0d
+			subtitle: "{e6e.natures_aura.subtitle8}"
+			description: [
+				"{e6e.natures_aura.description21}"
+				""
+				"{e6e.natures_aura.description22}"
+				""
+				"{e6e.natures_aura.description23}"
+				""
+				"{e6e.natures_aura.description24}"
+			]
+			dependencies: ["00000000000000A2"]
+			id: "00000000000002C1"
+			tasks: [{
+				id: "00000000000002C2"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+			}]
+			rewards: [
+				{
+					id: "0000000000000369"
+					type: "command"
+					title: "{e6e.natures_aura.title22}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+					player_command: false
+				}
+				{
+					id: "0000000000000702"
+					type: "item"
+					title: "{e6e.natures_aura.title23}"
+					item: "naturesaura:ancient_log"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -17.5d
+			subtitle: "{e6e.natures_aura.subtitle9}"
+			description: [
+				"{e6e.natures_aura.description25}"
+				""
+				"{e6e.natures_aura.description26}"
+			]
+			dependencies: ["00000000000002E9"]
+			id: "00000000000002C3"
+			tasks: [{
+				id: "00000000000002C4"
+				type: "item"
+				item: "naturesaura:conversion_catalyst"
+			}]
+			rewards: [{
+				id: "0000000000000371"
+				type: "command"
+				title: "{e6e.natures_aura.title24}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: -12.0d
+			subtitle: "{e6e.natures_aura.subtitle10}"
+			description: [
+				"{e6e.natures_aura.description27}"
+				""
+				"{e6e.natures_aura.description28}"
+			]
+			dependencies: ["00000000000002B5"]
+			id: "00000000000002C5"
+			tasks: [{
+				id: "00000000000002C6"
+				type: "item"
+				item: "naturesaura:crushing_catalyst"
+			}]
+			rewards: [{
+				id: "0000000000000359"
+				type: "item"
+				title: "{e6e.natures_aura.title25}"
+				item: "naturesaura:gold_leaf"
+				count: 32
+			}]
+		}
+		{
+			x: 3.5d
+			y: -17.0d
+			subtitle: "{e6e.natures_aura.subtitle11}"
+			description: [
+				"{e6e.natures_aura.description29}"
+				""
+				"{e6e.natures_aura.description30}"
+			]
+			dependencies: ["00000000000002B7"]
+			id: "00000000000002C7"
+			tasks: [{
+				id: "00000000000002C8"
+				type: "item"
+				item: "naturesaura:generator_limit_remover"
+			}]
+			rewards: [{
+				id: "0000000000000378"
+				type: "command"
+				title: "{e6e.natures_aura.title26}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: -14.5d
+			subtitle: "{e6e.natures_aura.subtitle12}"
+			description: ["{e6e.natures_aura.description31}"]
+			dependencies: ["00000000000002BD"]
+			id: "00000000000002C9"
+			tasks: [{
+				id: "00000000000002CA"
+				type: "item"
+				item: "naturesaura:range_visualizer"
+			}]
+			rewards: [{
+				id: "0000000000000377"
+				type: "command"
+				title: "{e6e.natures_aura.title27}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: -12.5d
+			subtitle: "{e6e.natures_aura.subtitle13}"
+			description: [
+				"{e6e.natures_aura.description32}"
+				""
+				"{e6e.natures_aura.description33}"
+			]
+			dependencies: ["00000000000000A2"]
+			id: "00000000000002CB"
+			tasks: [{
+				id: "00000000000002CC"
+				type: "item"
+				item: "naturesaura:eye"
+			}]
+			rewards: [{
+				id: "0000000000000367"
+				type: "command"
+				title: "{e6e.natures_aura.title28}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: -13.5d
+			subtitle: "{e6e.natures_aura.subtitle14}"
+			description: [
+				"{e6e.natures_aura.description34}"
+				""
+				"{e6e.natures_aura.description35}"
+				""
+				"{e6e.natures_aura.description36}"
+			]
+			dependencies: ["00000000000002BD"]
+			id: "00000000000002CD"
+			tasks: [{
+				id: "00000000000002CE"
+				type: "item"
+				item: "naturesaura:aura_cache"
+			}]
+			rewards: [{
+				id: "000000000000032D"
+				type: "item"
+				title: "{e6e.natures_aura.title29}"
+				item: {
+					id: "naturesaura:infused_iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 5s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 5s
+								id: "minecraft:fortune"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -17.5d
+			subtitle: "{e6e.natures_aura.subtitle15}"
+			description: ["{e6e.natures_aura.description37}"]
+			dependencies: ["00000000000002E9"]
+			id: "00000000000002E4"
+			tasks: [{
+				id: "00000000000002E5"
+				type: "item"
+				item: "naturesaura:eye_improved"
+			}]
+			rewards: [{
+				id: "0000000000000370"
+				type: "command"
+				title: "{e6e.natures_aura.title30}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: -16.5d
+			subtitle: "{e6e.natures_aura.subtitle16}"
+			description: ["{e6e.natures_aura.description38}"]
+			dependencies: ["0000000000000230"]
+			id: "00000000000002E9"
+			tasks: [{
+				id: "00000000000002EA"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+			}]
+			rewards: [{
+				id: "0000000000000372"
+				type: "command"
+				title: "{e6e.natures_aura.title31}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.5d
+			y: -16.5d
+			subtitle: "{e6e.natures_aura.subtitle17}"
+			description: [
+				"{e6e.natures_aura.description39}"
+				""
+				"{e6e.natures_aura.description40}"
+				""
+				"{e6e.natures_aura.description41}"
+			]
+			dependencies: ["00000000000002E9"]
+			id: "00000000000002EE"
+			tasks: [{
+				id: "00000000000002EF"
+				type: "item"
+				item: "naturesaura:aura_trove"
+			}]
+			rewards: [{
+				id: "000000000000036F"
+				type: "command"
+				title: "{e6e.natures_aura.title32}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.natures_aura.title33}"
+			icon: "naturesaura:time_changer"
+			x: 0.5d
+			y: -15.5d
+			subtitle: "{e6e.natures_aura.subtitle18}"
+			description: ["{e6e.natures_aura.description42}"]
+			dependencies: ["0000000000000230"]
+			id: "00000000000002F0"
+			tasks: [
+				{
+					id: "00000000000002F1"
+					type: "item"
+					item: "naturesaura:clock_hand"
+				}
+				{
+					id: "00000000000002F2"
+					type: "item"
+					item: "naturesaura:time_changer"
+				}
+			]
+			rewards: [{
+				id: "000000000000036E"
+				type: "command"
+				title: "{e6e.natures_aura.title34}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			subtitle: "{e6e.natures_aura.subtitle19}"
+			description: [
+				"{e6e.natures_aura.description43}"
+				""
+				"{e6e.natures_aura.description44}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000002B5"]
+			id: "00000000000002F8"
+			tasks: [{
+				id: "00000000000002F9"
+				type: "item"
+				item: "naturesaura:animal_container"
+			}]
+			rewards: [{
+				id: "000000000000032B"
+				type: "item"
+				title: "{e6e.natures_aura.title35}"
+				item: "rsgauges:industrial_dimmer"
+			}]
+		}
+		{
+			icon: "naturesaura:animal_spawner"
+			x: 0.5d
+			y: -6.5d
+			subtitle: "{e6e.natures_aura.subtitle20}"
+			description: [
+				"{e6e.natures_aura.description45}"
+				""
+				"{e6e.natures_aura.description46}"
+				""
+				"{e6e.natures_aura.description47}"
+				""
+				"{e6e.natures_aura.description48}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["000000000000037F"]
+			id: "00000000000002FA"
+			tasks: [
+				{
+					id: "00000000000002FB"
+					type: "item"
+					item: "naturesaura:animal_spawner"
+				}
+				{
+					id: "000000000000033F"
+					type: "item"
+					item: "naturesaura:infused_brick"
+					count: 16L
+				}
+				{
+					id: "0000000000000340"
+					type: "item"
+					item: "minecraft:hay_block"
+					count: 16L
+				}
+				{
+					id: "0000000000000341"
+					type: "item"
+					item: "naturesaura:ancient_planks"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "0000000000000364"
+				type: "item"
+				title: "{e6e.natures_aura.title36}"
+				item: "naturesaura:light_staff"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -8.0d
+			subtitle: "{e6e.natures_aura.subtitle21}"
+			description: [
+				"{e6e.natures_aura.description49}"
+				""
+				"{e6e.natures_aura.description50}"
+				""
+				"{e6e.natures_aura.description51}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000002BD"]
+			id: "00000000000002FC"
+			tasks: [{
+				id: "00000000000002FD"
+				type: "item"
+				item: "naturesaura:placer"
+			}]
+			rewards: [
+				{
+					id: "000000000000031E"
+					type: "item"
+					title: "{e6e.natures_aura.title37}"
+					item: "minecraft:item_frame"
+				}
+				{
+					id: "000000000000031F"
+					type: "item"
+					title: "{e6e.natures_aura.title38}"
+					item: "naturesaura:farming_stencil"
+				}
+			]
+		}
+		{
+			title: "{e6e.natures_aura.title39}"
+			x: -3.5d
+			y: -7.5d
+			subtitle: "{e6e.natures_aura.subtitle22}"
+			description: [
+				"{e6e.natures_aura.description52}"
+				""
+				"{e6e.natures_aura.description53}"
+				""
+				"{e6e.natures_aura.description54}"
+				""
+				"{e6e.natures_aura.description55}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000002E9"
+				"00000000000002EC"
+			]
+			min_width: 450
+			id: "00000000000002FE"
+			tasks: [{
+				id: "00000000000002FF"
+				type: "item"
+				item: "naturesaura:field_creator"
+				count: 2L
+			}]
+			rewards: [{
+				id: "0000000000000362"
+				type: "command"
+				title: "{e6e.natures_aura.title40}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			icon: "naturesaura:blast_furnace_booster"
+			x: 0.5d
+			y: -8.5d
+			subtitle: "{e6e.natures_aura.subtitle23}"
+			description: ["{e6e.natures_aura.description56}"]
+			hide_dependency_lines: true
+			dependencies: ["00000000000002EB"]
+			id: "0000000000000306"
+			tasks: [
+				{
+					id: "0000000000000307"
+					type: "item"
+					item: "naturesaura:blast_furnace_booster"
+				}
+				{
+					id: "000000000000031C"
+					type: "item"
+					item: "minecraft:blast_furnace"
+				}
+			]
+			rewards: [{
+				id: "0000000000000355"
+				type: "command"
+				title: "{e6e.natures_aura.title41}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: -8.5d
+			subtitle: "{e6e.natures_aura.subtitle24}"
+			description: ["{e6e.natures_aura.description57}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000002B9"
+				"00000000000002BD"
+				"000000000000032E"
+			]
+			id: "0000000000000308"
+			tasks: [{
+				id: "0000000000000309"
+				type: "item"
+				item: "naturesaura:furnace_heater"
+			}]
+			rewards: [{
+				id: "0000000000000356"
+				type: "command"
+				title: "{e6e.natures_aura.title42}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.0d
+			subtitle: "{e6e.natures_aura.subtitle25}"
+			description: [
+				"{e6e.natures_aura.description58}"
+				""
+				"{e6e.natures_aura.description59}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000329"]
+			id: "000000000000030A"
+			tasks: [{
+				id: "000000000000030B"
+				type: "item"
+				item: "naturesaura:ender_crate"
+			}]
+			rewards: [
+				{
+					id: "000000000000033D"
+					type: "item"
+					title: "{e6e.natures_aura.title43}"
+					item: "naturesaura:ender_access"
+				}
+				{
+					id: "000000000000033E"
+					type: "item"
+					title: "{e6e.natures_aura.title44}"
+					item: "minecraft:ender_eye"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -7.5d
+			subtitle: "{e6e.natures_aura.subtitle26}"
+			description: ["{e6e.natures_aura.description60}"]
+			hide_dependency_lines: true
+			dependencies: ["00000000000002BD"]
+			id: "000000000000030C"
+			tasks: [{
+				id: "000000000000030D"
+				type: "item"
+				item: "naturesaura:hopper_upgrade"
+			}]
+			rewards: [{
+				id: "0000000000000363"
+				type: "item"
+				title: "{e6e.natures_aura.title45}"
+				item: "darkutils:charm_portal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -8.0d
+			subtitle: "{e6e.natures_aura.subtitle27}"
+			description: [
+				"{e6e.natures_aura.description61}"
+				""
+				"{e6e.natures_aura.description62}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000002BD"]
+			id: "000000000000030E"
+			tasks: [{
+				id: "000000000000030F"
+				type: "item"
+				item: "naturesaura:grated_chute"
+			}]
+			rewards: [{
+				id: "000000000000031D"
+				type: "item"
+				title: "{e6e.natures_aura.title46}"
+				item: "minecraft:item_frame"
+				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.0d
+			subtitle: "{e6e.natures_aura.subtitle28}"
+			description: [
+				"{e6e.natures_aura.description63}"
+				""
+				"{e6e.natures_aura.description64}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000002CB"
+				"0000000000000329"
+			]
+			id: "0000000000000310"
+			tasks: [{
+				id: "0000000000000311"
+				type: "item"
+				item: "naturesaura:chunk_loader"
+			}]
+			rewards: [{
+				id: "0000000000000365"
+				type: "command"
+				title: "{e6e.natures_aura.title47}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.5d
+			y: -14.5d
+			subtitle: "{e6e.natures_aura.subtitle29}"
+			description: [
+				"{e6e.natures_aura.description65}"
+				""
+				"{e6e.natures_aura.description66}"
+			]
+			dependencies: ["00000000000002C1"]
+			id: "0000000000000312"
+			tasks: [{
+				id: "0000000000000313"
+				type: "item"
+				item: "naturesaura:flower_generator"
+			}]
+			rewards: [{
+				id: "000000000000036D"
+				type: "command"
+				title: "{e6e.natures_aura.title48}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -0.5d
+			y: -14.5d
+			subtitle: "{e6e.natures_aura.subtitle30}"
+			description: ["{e6e.natures_aura.description67}"]
+			dependencies: ["00000000000002C1"]
+			id: "0000000000000314"
+			tasks: [{
+				id: "0000000000000315"
+				type: "item"
+				item: "naturesaura:moss_generator"
+			}]
+			rewards: [{
+				id: "000000000000036C"
+				type: "command"
+				title: "{e6e.natures_aura.title49}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -2.5d
+			y: -13.5d
+			subtitle: "{e6e.natures_aura.subtitle31}"
+			description: ["{e6e.natures_aura.description68}"]
+			dependencies: ["00000000000002C1"]
+			id: "0000000000000316"
+			tasks: [{
+				id: "0000000000000317"
+				type: "item"
+				item: "naturesaura:oak_generator"
+			}]
+			rewards: [{
+				id: "0000000000000368"
+				type: "command"
+				title: "{e6e.natures_aura.title50}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.natures_aura.title51}"
+			icon: "naturesaura:chorus_generator"
+			x: -1.0d
+			y: -15.5d
+			description: ["{e6e.natures_aura.description69}"]
+			dependencies: ["00000000000002C1"]
+			id: "000000000000031A"
+			tasks: [{
+				id: "000000000000031B"
+				type: "checkmark"
+				title: "{e6e.natures_aura.title52}"
+			}]
+			rewards: [{
+				id: "0000000000000863"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "{e6e.natures_aura.title53}"
+			x: -0.5d
+			y: -7.0d
+			subtitle: "{e6e.natures_aura.subtitle32}"
+			description: [
+				"{e6e.natures_aura.description70}"
+				""
+				"{e6e.natures_aura.description71}"
+				""
+				"{e6e.natures_aura.description72}"
+				""
+				"{e6e.natures_aura.description73}"
+				""
+				"{e6e.natures_aura.description74}"
+				""
+				"{e6e.natures_aura.description75}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["00000000000002C2"]
+			id: "0000000000000339"
+			tasks: [
+				{
+					id: "000000000000033A"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:nether_grass"
+						}
+					}
+				}
+				{
+					id: "0000000000000350"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:ore_spawn"
+						}
+					}
+				}
+				{
+					id: "0000000000000351"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:plant_boost"
+						}
+					}
+				}
+				{
+					id: "0000000000000352"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:animal"
+						}
+					}
+				}
+				{
+					id: "0000000000000353"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:cache_recharge"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000354"
+					type: "item"
+					title: "{e6e.natures_aura.title54}"
+					item: "naturesaura:powder_placer"
+				}
+				{
+					id: "0000000000000366"
+					type: "command"
+					title: "{e6e.natures_aura.title55}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -15.5d
+			subtitle: "{e6e.natures_aura.subtitle33}"
+			description: ["{e6e.natures_aura.description76}"]
+			dependencies: ["00000000000002C1"]
+			id: "212224CE33D89381"
+			tasks: [{
+				id: "280C9FCBE6C8646D"
+				type: "item"
+				item: "naturesstarlight:crystal_generator"
+			}]
+			rewards: [{
+				id: "6C5991B03D429D92"
+				type: "command"
+				title: "{e6e.natures_aura.title56}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_natures_aura_loot_epic"
+				player_command: false
+			}]
+		}
+	]
+}

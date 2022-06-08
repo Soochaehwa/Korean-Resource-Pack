@@ -1,0 +1,1376 @@
+{
+	id: "0000000000000002"
+	group: "72A9465344128AF9"
+	order_index: 1
+	filename: "immersive_engineering"
+	title: "{e6e.immersive_engineering.title0}"
+	icon: "immersiveengineering:heavy_engineering"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "immersiveengineering:manual"
+			x: -1.5d
+			y: -6.0d
+			shape: "gear"
+			description: ["{e6e.immersive_engineering.description0}"]
+			optional: true
+			id: "0000000000000004"
+			tasks: [{
+				id: "4C4EC117244A21C7"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B54B7BEEA99667F"
+				type: "item"
+				title: "{e6e.immersive_engineering.title1}"
+				item: "emendatusenigmatica:copper_chunk"
+				count: 3
+				random_bonus: 5
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title2}"
+			x: -1.5d
+			y: -4.5d
+			description: [
+				"{e6e.immersive_engineering.description1}"
+				""
+				"{e6e.immersive_engineering.description2}"
+				""
+				"{e6e.immersive_engineering.description3}"
+			]
+			dependencies: ["0000000000000004"]
+			id: "0000000000000007"
+			tasks: [
+				{
+					id: "20930556EBD4C23B"
+					type: "item"
+					item: {
+						id: "immersiveengineering:wirecutter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "49501ECA376AF301"
+					type: "item"
+					item: "immersiveengineering:screwdriver"
+				}
+			]
+			rewards: [{
+				id: "14FA4A24C7409F77"
+				type: "command"
+				title: "{e6e.immersive_engineering.title3}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title4}"
+			icon: "immersiveengineering:coke_oven"
+			x: -3.5d
+			y: -3.0d
+			description: ["{e6e.immersive_engineering.description4}"]
+			dependencies: ["0000000000000007"]
+			id: "0000000000000009"
+			tasks: [
+				{
+					id: "000000000000000B"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 27L
+				}
+				{
+					id: "000000000000000C"
+					type: "item"
+					title: "{e6e.immersive_engineering.title5}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:gems/coal_coke"
+						}
+					}
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "000000000000060A"
+				type: "item"
+				title: "{e6e.immersive_engineering.title6}"
+				item: "emendatusenigmatica:coke_gem"
+				count: 8
+			}]
+		}
+		{
+			icon: "immersiveengineering:windmill"
+			x: -6.5d
+			y: -4.5d
+			description: ["{e6e.immersive_engineering.description5}"]
+			dependencies: ["000000000000000F"]
+			id: "000000000000000D"
+			tasks: [
+				{
+					id: "000000000000000E"
+					type: "item"
+					item: "immersiveengineering:windmill"
+				}
+				{
+					id: "0000000000000016"
+					type: "item"
+					item: "immersiveengineering:dynamo"
+				}
+			]
+			rewards: [{
+				id: "0000000000000615"
+				type: "item"
+				title: "{e6e.immersive_engineering.title7}"
+				item: "immersiveengineering:wirecoil_copper_ins"
+				count: 2
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title8}"
+			icon: "immersiveengineering:wirecoil_copper"
+			x: -5.0d
+			y: -6.0d
+			description: ["{e6e.immersive_engineering.description6}"]
+			dependencies: ["0000000000000004"]
+			id: "000000000000000F"
+			tasks: [
+				{
+					id: "0000000000000010"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+				}
+				{
+					id: "0000000000000011"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+			]
+			rewards: [{
+				id: "000000000000060B"
+				type: "item"
+				title: "{e6e.immersive_engineering.title9}"
+				item: "immersiveengineering:connector_lv"
+				count: 4
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title10}"
+			icon: "immersiveengineering:blast_furnace"
+			x: -3.5d
+			y: -1.5d
+			description: ["{e6e.immersive_engineering.description7}"]
+			dependencies: ["0000000000000009"]
+			id: "0000000000000012"
+			tasks: [{
+				id: "0000000000000013"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "0000000000000613"
+				type: "item"
+				title: "{e6e.immersive_engineering.title11}"
+				item: "emendatusenigmatica:steel_ingot"
+				count: 8
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title12}"
+			x: -8.5d
+			y: -6.0d
+			description: ["{e6e.immersive_engineering.description8}"]
+			dependencies: ["000000000000000F"]
+			id: "0000000000000014"
+			tasks: [{
+				id: "0000000000000015"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper_ins"
+			}]
+			rewards: [
+				{
+					id: "000000000000060C"
+					type: "item"
+					title: "{e6e.immersive_engineering.title13}"
+					item: "immersiveengineering:hemp_fiber"
+					count: 16
+				}
+				{
+					id: "000000000000060D"
+					type: "command"
+					title: "{e6e.immersive_engineering.title14}"
+					icon: "kubejs:rare_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			description: ["{e6e.immersive_engineering.description9}"]
+			dependencies: [
+				"0000000000000009"
+				"000000000000000F"
+			]
+			id: "0000000000000017"
+			tasks: [{
+				id: "0000000000000018"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+			rewards: [{
+				id: "0000000000000614"
+				type: "command"
+				title: "{e6e.immersive_engineering.title15}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			description: ["{e6e.immersive_engineering.description10}"]
+			dependencies: ["0000000000000009"]
+			id: "0000000000000019"
+			tasks: [
+				{
+					id: "000000000000001A"
+					type: "item"
+					item: "immersiveengineering:workbench"
+				}
+				{
+					id: "16E5DF7E27BAB713"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "components"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0911E6C5BB0AF5E5"
+				type: "item"
+				item: "immersiveengineering:component_iron"
+				count: 8
+			}]
+		}
+		{
+			icon: "immersiveengineering:watermill"
+			x: -1.5d
+			y: -3.0d
+			description: ["{e6e.immersive_engineering.description11}"]
+			dependencies: ["0000000000000012"]
+			id: "000000000000001B"
+			tasks: [
+				{
+					id: "000000000000001C"
+					type: "item"
+					item: "immersiveengineering:watermill"
+				}
+				{
+					id: "000000000000001D"
+					type: "item"
+					item: "immersiveengineering:dynamo"
+				}
+			]
+			rewards: [{
+				id: "0000000000000617"
+				type: "item"
+				title: "{e6e.immersive_engineering.title16}"
+				item: "immersiveengineering:wirecoil_copper_ins"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			description: ["{e6e.immersive_engineering.description12}"]
+			dependencies: ["0000000000000004"]
+			id: "000000000000001E"
+			tasks: [{
+				id: "000000000000001F"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+			}]
+			rewards: [{
+				id: "000000000000060E"
+				type: "command"
+				title: "{e6e.immersive_engineering.title17}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title18}"
+			icon: "immersiveengineering:crusher"
+			x: -5.5d
+			y: -0.5d
+			description: [
+				"{e6e.immersive_engineering.description13}"
+				""
+				"{e6e.immersive_engineering.description14}"
+			]
+			dependencies: ["0000000000000012"]
+			id: "0000000000000020"
+			tasks: [
+				{
+					id: "0000000000000021"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "000000000000002D"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+				{
+					id: "000000000000002E"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "000000000000002F"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8L
+				}
+				{
+					id: "0000000000000030"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "0000000000000621"
+				type: "command"
+				title: "{e6e.immersive_engineering.title19}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title20}"
+			icon: "immersiveengineering:metal_press"
+			x: -1.5d
+			y: -0.5d
+			description: [
+				"{e6e.immersive_engineering.description15}"
+				""
+				"{e6e.immersive_engineering.description16}"
+			]
+			dependencies: ["0000000000000012"]
+			id: "0000000000000022"
+			tasks: [
+				{
+					id: "0000000000000028"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "0000000000000029"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 2L
+				}
+				{
+					id: "000000000000002A"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "000000000000002B"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "000000000000002C"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000061E"
+					type: "item"
+					title: "{e6e.immersive_engineering.title21}"
+					item: "emendatusenigmatica:iron_plate"
+					count: 8
+				}
+				{
+					id: "000000000000061F"
+					type: "item"
+					title: "{e6e.immersive_engineering.title22}"
+					item: "emendatusenigmatica:steel_plate"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{e6e.immersive_engineering.title23}"
+			icon: "immersiveengineering:advanced_blast_furnace"
+			x: -5.5d
+			y: -1.5d
+			description: [
+				"{e6e.immersive_engineering.description17}"
+				""
+				"{e6e.immersive_engineering.description18}"
+			]
+			dependencies: ["0000000000000012"]
+			id: "0000000000000024"
+			tasks: [
+				{
+					id: "0000000000000025"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "0000000000000031"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+			]
+			rewards: [{
+				id: "0000000000000620"
+				type: "command"
+				title: "{e6e.immersive_engineering.title24}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title25}"
+			icon: "immersiveengineering:alloy_smelter"
+			x: 0.0d
+			y: -3.0d
+			description: ["{e6e.immersive_engineering.description19}"]
+			dependencies: ["0000000000000007"]
+			id: "0000000000000026"
+			tasks: [{
+				id: "0000000000000027"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+			rewards: [{
+				id: "0000000000000608"
+				type: "item"
+				title: "{e6e.immersive_engineering.title26}"
+				item: "emendatusenigmatica:copper_ingot"
+				count: 8
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title27}"
+			icon: "immersiveengineering:arc_furnace"
+			x: -6.5d
+			y: 0.0d
+			description: [
+				"{e6e.immersive_engineering.description20}"
+				""
+				"{e6e.immersive_engineering.description21}"
+			]
+			dependencies: ["0000000000000020"]
+			id: "0000000000000032"
+			tasks: [
+				{
+					id: "0000000000000033"
+					type: "item"
+					item: {
+						id: "immersiveengineering:graphite_electrode"
+						Count: 1b
+						tag: {
+							graphDmg: 0
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "000000000000006D"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 8L
+				}
+				{
+					id: "000000000000006E"
+					type: "item"
+					title: "{e6e.immersive_engineering.title28}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/steel"
+						}
+					}
+					count: 6L
+				}
+				{
+					id: "000000000000006F"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 14L
+				}
+				{
+					id: "0000000000000070"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "0000000000000071"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "0000000000000072"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0000000000000073"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "0000000000000074"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "0000000000000075"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000622"
+					type: "command"
+					title: "{e6e.immersive_engineering.title29}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_epic"
+					player_command: false
+				}
+				{
+					id: "0000000000000623"
+					type: "command"
+					title: "{e6e.immersive_engineering.title30}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			description: ["{e6e.immersive_engineering.description22}"]
+			dependencies: ["000000000000000F"]
+			id: "0000000000000034"
+			tasks: [{
+				id: "0000000000000035"
+				type: "item"
+				item: "immersiveengineering:furnace_heater"
+			}]
+			rewards: [{
+				id: "0000000000000616"
+				type: "command"
+				title: "{e6e.immersive_engineering.title31}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			description: ["{e6e.immersive_engineering.description23}"]
+			dependencies: ["0000000000000012"]
+			id: "0000000000000036"
+			tasks: [{
+				id: "0000000000000037"
+				type: "item"
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+			rewards: [{
+				id: "0000000000000618"
+				type: "item"
+				title: "{e6e.immersive_engineering.title32}"
+				item: "minecraft:blue_ice"
+				count: 4
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title33}"
+			icon: "immersiveengineering:sawmill"
+			x: -1.5d
+			y: 0.5d
+			description: [
+				"{e6e.immersive_engineering.description24}"
+				""
+				"{e6e.immersive_engineering.description25}"
+			]
+			dependencies: ["0000000000000012"]
+			id: "0000000000000038"
+			tasks: [
+				{
+					id: "0000000000000039"
+					type: "item"
+					item: {
+						id: "immersiveengineering:sawblade"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000005B"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 8L
+				}
+				{
+					id: "000000000000005C"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 6L
+				}
+				{
+					id: "000000000000005D"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "000000000000005E"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "000000000000005F"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0000000000000060"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "000000000000061D"
+				type: "command"
+				title: "{e6e.immersive_engineering.title34}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title35}"
+			icon: "immersiveengineering:fermenter"
+			x: -2.5d
+			y: 0.5d
+			description: [
+				"{e6e.immersive_engineering.description26}"
+				""
+				"{e6e.immersive_engineering.description27}"
+			]
+			dependencies: ["0000000000000012"]
+			id: "000000000000003A"
+			tasks: [
+				{
+					id: "000000000000003B"
+					type: "item"
+					item: "immersiveengineering:plantoil_bucket"
+				}
+				{
+					id: "000000000000006C"
+					type: "item"
+					item: "immersiveengineering:ethanol_bucket"
+				}
+				{
+					id: "70D08B4C82FB5C6B"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 4L
+				}
+				{
+					id: "4441E2386DEA216C"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 4L
+				}
+				{
+					id: "5ED3D91D2AD0971A"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "464B4E72E3BC8AED"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+					count: 2L
+				}
+				{
+					id: "7666B18B85178129"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 3L
+				}
+				{
+					id: "052258FF50F1F0B4"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 12L
+				}
+				{
+					id: "01D48BF4891BC4B4"
+					type: "item"
+					item: "immersiveengineering:wooden_barrel"
+					count: 4L
+				}
+				{
+					id: "1DFE9615C079A317"
+					type: "item"
+					item: "minecraft:cauldron"
+					count: 4L
+				}
+				{
+					id: "0070E8EF982C0C6B"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000619"
+					type: "item"
+					title: "{e6e.immersive_engineering.title36}"
+					item: "immersiveengineering:seed"
+					count: 24
+				}
+				{
+					id: "7FF68906D9C40250"
+					type: "command"
+					title: "{e6e.immersive_engineering.title37}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_epic"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.immersive_engineering.title38}"
+			icon: "immersiveengineering:diesel_generator"
+			x: -3.5d
+			y: 2.5d
+			description: [
+				"{e6e.immersive_engineering.description28}"
+				""
+				"{e6e.immersive_engineering.description29}"
+			]
+			dependencies: [
+				"7A3633A43D7AB0F2"
+				"09AEE48CED288DD1"
+			]
+			dependency_requirement: "one_completed"
+			id: "000000000000003C"
+			tasks: [
+				{
+					id: "37AAA90BDAB5CD72"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+				{
+					id: "284769224493A777"
+					type: "item"
+					item: "immersiveengineering:generator"
+					count: 4L
+				}
+				{
+					id: "459D17A377D44D7F"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 13L
+				}
+				{
+					id: "63E9727F7E04EBDA"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 9L
+				}
+				{
+					id: "06375C08B6AE1B06"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "3D8DA60F68FB5A23"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+			]
+			rewards: [{
+				id: "0000000000000624"
+				type: "command"
+				title: "{e6e.immersive_engineering.title39}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title40}"
+			icon: "immersiveengineering:bucket_wheel"
+			x: -6.5d
+			y: 1.0d
+			description: [
+				"{e6e.immersive_engineering.description30}"
+				""
+				"{e6e.immersive_engineering.description31}"
+				""
+				"{e6e.immersive_engineering.description32}"
+			]
+			dependencies: ["0000000000000061"]
+			id: "0000000000000040"
+			tasks: [
+				{
+					id: "5B9AAE9A66CF1A1F"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "14152385FF2C7F94"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 9L
+				}
+				{
+					id: "715D9FF0DF871042"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0DC27129321B844B"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 3L
+				}
+				{
+					id: "486083D949A6EB82"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 16L
+				}
+				{
+					id: "14349203FE43E315"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 26L
+				}
+				{
+					id: "1CA9D0AFE77C2611"
+					type: "item"
+					title: "{e6e.immersive_engineering.title41}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/steel"
+						}
+					}
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "000000000000061C"
+				type: "command"
+				title: "{e6e.immersive_engineering.title42}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title43}"
+			icon: "immersiveengineering:sample_drill"
+			x: -5.5d
+			y: 0.5d
+			description: [
+				"{e6e.immersive_engineering.description33}"
+				""
+				"{e6e.immersive_engineering.description34}"
+			]
+			dependencies: ["0000000000000012"]
+			id: "0000000000000061"
+			tasks: [{
+				id: "0000000000000062"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+			rewards: [
+				{
+					id: "63F8CD5DAAB0252B"
+					type: "item"
+					title: "{e6e.immersive_engineering.title44}"
+					item: {
+						id: "immersiveengineering:survey_tools"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35731B5937BBF8EB"
+					type: "command"
+					title: "{e6e.immersive_engineering.title45}"
+					icon: "kubejs:miners_delight"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.immersive_engineering.title46}"
+			x: -8.5d
+			y: -3.0d
+			description: ["{e6e.immersive_engineering.description35}"]
+			dependencies: ["0000000000000019"]
+			id: "0000000000000241"
+			tasks: [{
+				id: "0000000000000242"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [{
+				id: "0000000000000611"
+				type: "command"
+				title: "{e6e.immersive_engineering.title47}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title48}"
+			icon: "immersiveengineering:electric_lantern"
+			x: -8.5d
+			y: -4.5d
+			description: [
+				"{e6e.immersive_engineering.description36}"
+				""
+				"{e6e.immersive_engineering.description37}"
+			]
+			dependencies: ["0000000000000019"]
+			id: "0000000000000243"
+			tasks: [
+				{
+					id: "0000000000000244"
+					type: "item"
+					item: "immersiveengineering:electric_lantern"
+				}
+				{
+					id: "0000000000000245"
+					type: "item"
+					item: "immersiveengineering:floodlight"
+				}
+			]
+			rewards: [{
+				id: "0000000000000610"
+				type: "item"
+				title: "{e6e.immersive_engineering.title49}"
+				item: "minecraft:glowstone"
+				count: 4
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title50}"
+			icon: "immersiveengineering:auto_workbench"
+			x: -8.5d
+			y: -1.5d
+			description: [
+				"{e6e.immersive_engineering.description38}"
+				""
+				"{e6e.immersive_engineering.description39}"
+			]
+			dependencies: ["0000000000000019"]
+			id: "0000000000000246"
+			tasks: [
+				{
+					id: "0000000000000247"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "0000000000000248"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 4L
+				}
+				{
+					id: "0000000000000249"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "000000000000024A"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "000000000000024B"
+					type: "item"
+					item: "immersiveengineering:slab_treated_wood_horizontal"
+					count: 2L
+				}
+				{
+					id: "000000000000024C"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "0000000000000612"
+				type: "command"
+				title: "{e6e.immersive_engineering.title51}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title52}"
+			icon: "immersivepetroleum:pumpjack"
+			x: -4.5d
+			y: 0.5d
+			description: [
+				"{e6e.immersive_engineering.description40}"
+				""
+				"{e6e.immersive_engineering.description41}"
+				""
+				"{e6e.immersive_engineering.description42}"
+			]
+			dependencies: [
+				"0000000000000012"
+				"0000000000000061"
+			]
+			id: "16D342C092566FC6"
+			tasks: [
+				{
+					id: "5A23A05F50722946"
+					type: "item"
+					item: "pneumaticcraft:oil_bucket"
+				}
+				{
+					id: "00C3EC1299DC28D3"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 4L
+				}
+				{
+					id: "0979E7EEF3363277"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "4E9E3DB8FE1E9406"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "121E4FCB71513163"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "324063E74778D1C4"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 4L
+				}
+				{
+					id: "36B2E60B1BBB4CD2"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 11L
+				}
+				{
+					id: "6391CC96CDA5D45C"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 2L
+				}
+				{
+					id: "7CB80FBAE32E36B9"
+					type: "item"
+					item: "immersiveengineering:treated_fence"
+					count: 6L
+				}
+			]
+			rewards: [{
+				id: "476B1A4F7D366E7E"
+				type: "command"
+				title: "{e6e.immersive_engineering.title53}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title54}"
+			icon: "immersivepetroleum:distillationtower"
+			x: -4.5d
+			y: 1.5d
+			description: [
+				"{e6e.immersive_engineering.description43}"
+				""
+				"{e6e.immersive_engineering.description44}"
+				""
+				"{e6e.immersive_engineering.description45}"
+			]
+			dependencies: ["16D342C092566FC6"]
+			id: "7A3633A43D7AB0F2"
+			tasks: [
+				{
+					id: "4B40C2072585A5BE"
+					type: "item"
+					item: "immersivepetroleum:diesel_sulfur_bucket"
+				}
+				{
+					id: "23D0F4ECEEEB2BF9"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 17L
+				}
+				{
+					id: "1EC253B069B31B15"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "21E025217CA464E6"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "26987C7F97249516"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 60L
+				}
+				{
+					id: "36C971AF0DBF15ED"
+					type: "item"
+					item: "immersiveengineering:slab_steel_scaffolding_grate_top"
+					count: 30L
+				}
+				{
+					id: "2AADE46005D7EF64"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 25L
+				}
+			]
+			rewards: [{
+				id: "055894AE837032DE"
+				type: "command"
+				title: "{e6e.immersive_engineering.title55}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title56}"
+			icon: "immersiveengineering:refinery"
+			x: -2.5d
+			y: 1.5d
+			description: [
+				"{e6e.immersive_engineering.description46}"
+				""
+				"{e6e.immersive_engineering.description47}"
+			]
+			dependencies: ["000000000000003A"]
+			id: "09AEE48CED288DD1"
+			tasks: [
+				{
+					id: "54C23E962353498A"
+					type: "item"
+					item: "immersiveengineering:biodiesel_bucket"
+				}
+				{
+					id: "1A67249D2C25F193"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+				{
+					id: "5F4622889A0ABCD6"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "574214EAB054A87C"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "24F2731428E8E04E"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "470D34BD4B7D2F05"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 16L
+				}
+				{
+					id: "1B5140A06836C865"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "7B4485A51E367C74"
+				type: "command"
+				title: "{e6e.immersive_engineering.title57}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: [
+				"{e6e.immersive_engineering.description48}"
+				""
+				"{e6e.immersive_engineering.description49}"
+			]
+			dependencies: ["0000000000000007"]
+			id: "2A0DC00944171C4C"
+			tasks: [{
+				id: "2EE6CC769EA7C9E7"
+				type: "item"
+				item: "immersivepetroleum:projector"
+			}]
+			rewards: [{
+				id: "1CEC542F2D9E02C3"
+				type: "command"
+				title: "{e6e.immersive_engineering.title58}"
+				icon: "kubejs:rare_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.immersive_engineering.title59}"
+			icon: "immersivepetroleum:hydrotreater"
+			x: -3.5d
+			y: 1.0d
+			description: [
+				"{e6e.immersive_engineering.description50}"
+				""
+				"{e6e.immersive_engineering.description51}"
+				""
+				"{e6e.immersive_engineering.description52}"
+			]
+			dependencies: ["7A3633A43D7AB0F2"]
+			optional: true
+			id: "083FA0F4798DB004"
+			tasks: [
+				{
+					id: "77ECA1413ED192BB"
+					type: "item"
+					item: "immersivepetroleum:diesel_bucket"
+				}
+				{
+					id: "7F0822582FEA876F"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+				{
+					id: "5714B2F9CF70C81D"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "5D301DE5DBD9394E"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 15L
+				}
+				{
+					id: "60815F073AA151B2"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "5DAE6B0A4A353636"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "21679391A74BB3C7"
+				type: "command"
+				title: "{e6e.immersive_engineering.title60}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_immersive_engineering_loot_epic"
+				player_command: false
+			}]
+		}
+	]
+}

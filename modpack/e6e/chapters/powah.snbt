@@ -1,0 +1,1362 @@
+{
+	id: "000000000000016E"
+	group: "72A9465344128AF9"
+	order_index: 5
+	filename: "powah"
+	title: "{e6e.powah.title0}"
+	icon: "powah:dielectric_casing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "powah:book"
+			x: 1.5d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "{e6e.powah.subtitle0}"
+			description: [
+				"{e6e.powah.description0}"
+				"{e6e.powah.description1}"
+				""
+				"{e6e.powah.description2}"
+				"{e6e.powah.description3}"
+				""
+				"{e6e.powah.description4}"
+			]
+			optional: true
+			id: "000000000000016F"
+			tasks: [{
+				id: "4C763494FAB6F8A2"
+				type: "item"
+				item: "powah:dielectric_paste"
+			}]
+			rewards: [{
+				id: "413EB9C7629D2B60"
+				type: "item"
+				title: "{e6e.powah.title1}"
+				item: {
+					id: "powah:wrench"
+					Count: 1b
+					tag: {
+						PowahWrenchNBT: { }
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "powah:wrench"
+				Count: 1b
+				tag: {
+					PowahWrenchNBT: { }
+				}
+			}
+			x: 0.5d
+			y: -2.0d
+			shape: "diamond"
+			subtitle: "{e6e.powah.subtitle1}"
+			description: [
+				"{e6e.powah.description5}"
+				"{e6e.powah.description6}"
+				""
+				"{e6e.powah.description7}"
+				"{e6e.powah.description8}"
+			]
+			dependencies: ["000000000000016F"]
+			id: "0000000000000172"
+			tasks: [{
+				id: "0000000000000173"
+				type: "checkmark"
+				title: "{e6e.powah.title2}"
+			}]
+			rewards: [{
+				id: "0000000000000CA8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "{e6e.powah.title3}"
+			icon: "powah:dielectric_casing"
+			x: 1.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "{e6e.powah.subtitle2}"
+			description: [
+				"{e6e.powah.description9}"
+				""
+				"{e6e.powah.description10}"
+				"{e6e.powah.description11}"
+			]
+			dependencies: ["000000000000016F"]
+			size: 1.5d
+			id: "0000000000000174"
+			tasks: [{
+				id: "0000000000000175"
+				type: "item"
+				item: "powah:dielectric_casing"
+			}]
+			rewards: [{
+				id: "7698C3956B71648E"
+				type: "item"
+				title: "{e6e.powah.title4}"
+				item: "powah:dielectric_casing"
+				count: 2
+			}]
+		}
+		{
+			title: "{e6e.powah.title5}"
+			icon: "powah:furnator_basic"
+			x: 1.5d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "{e6e.powah.subtitle3}"
+			description: [
+				"{e6e.powah.description12}"
+				""
+				"{e6e.powah.description13}"
+				"{e6e.powah.description14}"
+			]
+			dependencies: ["0000000000000174"]
+			id: "0000000000000176"
+			tasks: [{
+				id: "0000000000000177"
+				type: "item"
+				title: "{e6e.powah.title6}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:furnator_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:furnator_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:furnator_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:furnator_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:furnator_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:furnator_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000001B2"
+					type: "item"
+					title: "{e6e.powah.title7}"
+					item: "minecraft:coal_block"
+					count: 4
+				}
+				{
+					id: "0000000000000288"
+					type: "command"
+					title: "{e6e.powah.title8}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.powah.title9}"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "{e6e.powah.subtitle4}"
+			description: [
+				"{e6e.powah.description15}"
+				"{e6e.powah.description16}"
+				""
+				"{e6e.powah.description17}"
+			]
+			dependencies: ["0000000000000174"]
+			optional: true
+			id: "000000000000017C"
+			tasks: [{
+				id: "000000000000017D"
+				type: "item"
+				title: "{e6e.powah.title10}"
+				icon: "powah:energy_cable_basic"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:energy_cable_starter"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cable_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cable_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cable_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cable_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cable_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cable_nitro"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_gate_starter"
+								Count: 1b
+								tag: {
+									lollipoptile_stack_nbt: {
+										energy_stored_main_energy: 0L
+									}
+								}
+							}
+							{
+								id: "powah:ender_gate_basic"
+								Count: 1b
+								tag: {
+									lollipoptile_stack_nbt: {
+										energy_stored_main_energy: 0L
+									}
+								}
+							}
+							{
+								id: "powah:ender_gate_hardened"
+								Count: 1b
+								tag: {
+									lollipoptile_stack_nbt: {
+										energy_stored_main_energy: 0L
+									}
+								}
+							}
+							{
+								id: "powah:ender_gate_blazing"
+								Count: 1b
+								tag: {
+									lollipoptile_stack_nbt: {
+										energy_stored_main_energy: 0L
+									}
+								}
+							}
+							{
+								id: "powah:ender_gate_niotic"
+								Count: 1b
+								tag: {
+									lollipoptile_stack_nbt: {
+										energy_stored_main_energy: 0L
+									}
+								}
+							}
+							{
+								id: "powah:ender_gate_spirited"
+								Count: 1b
+								tag: {
+									lollipoptile_stack_nbt: {
+										energy_stored_main_energy: 0L
+									}
+								}
+							}
+							{
+								id: "powah:ender_gate_nitro"
+								Count: 1b
+								tag: {
+									lollipoptile_stack_nbt: {
+										energy_stored_main_energy: 0L
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000289"
+				type: "command"
+				title: "{e6e.powah.title11}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.powah.title12}"
+			icon: "powah:magmator_basic"
+			x: 1.5d
+			y: 3.0d
+			subtitle: "{e6e.powah.subtitle5}"
+			description: ["{e6e.powah.description18}"]
+			dependencies: ["0000000000000176"]
+			optional: true
+			id: "000000000000017E"
+			tasks: [{
+				id: "000000000000017F"
+				type: "item"
+				title: "{e6e.powah.title13}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:magmator_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:magmator_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:magmator_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:magmator_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:magmator_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:magmator_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000001B4"
+				type: "item"
+				title: "{e6e.powah.title14}"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			title: "{e6e.powah.title15}"
+			icon: "powah:thermo_generator_basic"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "{e6e.powah.subtitle6}"
+			description: [
+				"{e6e.powah.description19}"
+				""
+				"{e6e.powah.description20}"
+				""
+				"{e6e.powah.description21}"
+			]
+			dependencies: ["0000000000000176"]
+			optional: true
+			id: "0000000000000180"
+			tasks: [{
+				id: "0000000000000181"
+				type: "item"
+				title: "{e6e.powah.title16}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:thermo_generator_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:thermo_generator_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:thermo_generator_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:thermo_generator_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:thermo_generator_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:thermo_generator_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000001B6"
+					type: "item"
+					item: "industrialforegoing:water_condensator"
+				}
+				{
+					id: "000000000000064D"
+					type: "command"
+					title: "{e6e.powah.title17}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.powah.title18}"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "{e6e.powah.subtitle7}"
+			description: [
+				"{e6e.powah.description22}"
+				"{e6e.powah.description23}"
+			]
+			dependencies: ["0000000000000176"]
+			optional: true
+			id: "0000000000000182"
+			tasks: [{
+				id: "0000000000000183"
+				type: "item"
+				title: "{e6e.powah.title19}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:solar_panel_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:solar_panel_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:solar_panel_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:solar_panel_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:solar_panel_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:solar_panel_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "000000000000028A"
+				type: "command"
+				title: "{e6e.powah.title20}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.powah.title21}"
+			x: 3.0d
+			y: 4.5d
+			shape: "diamond"
+			subtitle: "{e6e.powah.subtitle8}"
+			description: ["{e6e.powah.description24}"]
+			dependencies: ["0000000000000182"]
+			optional: true
+			id: "0000000000000184"
+			tasks: [{
+				id: "0000000000000185"
+				type: "item"
+				item: "powah:lens_of_ender"
+			}]
+			rewards: [{
+				id: "000000000000064C"
+				type: "command"
+				title: "{e6e.powah.title22}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.powah.title23}"
+			x: 3.0d
+			y: -1.5d
+			subtitle: "{e6e.powah.subtitle9}"
+			description: [
+				"{e6e.powah.description25}"
+				""
+				"{e6e.powah.description26}"
+			]
+			dependencies: ["000000000000018C"]
+			id: "0000000000000186"
+			tasks: [{
+				id: "0000000000000187"
+				type: "item"
+				item: "powah:uraninite"
+				count: 32L
+			}]
+			rewards: [{
+				id: "00000000000001BB"
+				type: "item"
+				title: "{e6e.powah.title24}"
+				item: "powah:uraninite_block"
+				count: 8
+			}]
+		}
+		{
+			title: "{e6e.powah.title25}"
+			icon: "powah:reactor_basic"
+			x: 3.0d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "{e6e.powah.subtitle10}"
+			description: [
+				"{e6e.powah.description27}"
+				"{e6e.powah.description28}"
+				""
+				"{e6e.powah.description29}"
+				"{e6e.powah.description30}"
+				""
+				"{e6e.powah.description31}"
+			]
+			dependencies: ["0000000000000186"]
+			size: 1.5d
+			id: "0000000000000188"
+			tasks: [{
+				id: "0000000000000189"
+				type: "item"
+				title: "{e6e.powah.title26}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:reactor_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:reactor_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:reactor_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:reactor_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:reactor_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:reactor_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+				count: 36L
+			}]
+			rewards: [
+				{
+					id: "00000000000001BD"
+					type: "item"
+					title: "{e6e.powah.title27}"
+					item: "powah:uraninite"
+					count: 32
+					only_one: true
+				}
+				{
+					id: "00000000000001BE"
+					type: "item"
+					title: "{e6e.powah.title28}"
+					item: "minecraft:blue_ice"
+					count: 32
+					only_one: true
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			shape: "diamond"
+			subtitle: "{e6e.powah.subtitle11}"
+			description: ["{e6e.powah.description32}"]
+			dependencies: ["0000000000000188"]
+			optional: true
+			id: "000000000000018A"
+			tasks: [{
+				id: "000000000000018B"
+				type: "item"
+				item: "powah:dry_ice"
+				count: 16L
+			}]
+			rewards: [{
+				id: "00000000000001C2"
+				type: "item"
+				title: "{e6e.powah.title29}"
+				item: "powah:charged_snowball"
+				count: 8
+			}]
+		}
+		{
+			title: "{e6e.powah.title30}"
+			icon: "powah:energizing_orb"
+			x: 3.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "{e6e.powah.subtitle12}"
+			description: [
+				"{e6e.powah.description33}"
+				""
+				"{e6e.powah.description34}"
+				"{e6e.powah.description35}"
+				"{e6e.powah.description36}"
+			]
+			dependencies: ["000000000000016F"]
+			id: "000000000000018C"
+			tasks: [
+				{
+					id: "000000000000018D"
+					type: "item"
+					item: "powah:energizing_orb"
+				}
+				{
+					id: "00000000000001C3"
+					type: "item"
+					title: "{e6e.powah.title31}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "powah:energizing_rod_basic"
+									Count: 1b
+								}
+								{
+									id: "powah:energizing_rod_hardened"
+									Count: 1b
+								}
+								{
+									id: "powah:energizing_rod_blazing"
+									Count: 1b
+								}
+								{
+									id: "powah:energizing_rod_niotic"
+									Count: 1b
+								}
+								{
+									id: "powah:energizing_rod_spirited"
+									Count: 1b
+								}
+								{
+									id: "powah:energizing_rod_nitro"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "00000000000001C5"
+				type: "item"
+				title: "{e6e.powah.title32}"
+				item: "powah:energizing_rod_basic"
+				count: 2
+			}]
+		}
+		{
+			title: "{e6e.powah.title33}"
+			icon: "powah:energy_cell_basic"
+			x: 3.0d
+			y: 1.5d
+			subtitle: "{e6e.powah.subtitle13}"
+			description: [
+				"{e6e.powah.description37}"
+				"{e6e.powah.description38}"
+				""
+				"{e6e.powah.description39}"
+			]
+			dependencies: ["0000000000000174"]
+			id: "000000000000018E"
+			tasks: [{
+				id: "000000000000018F"
+				type: "item"
+				title: "{e6e.powah.title34}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:energy_cell_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cell_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cell_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cell_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cell_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:energy_cell_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "000000000000028E"
+				type: "command"
+				title: "{e6e.powah.title35}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.powah.title36}"
+			icon: "powah:ender_cell_basic"
+			x: 4.5d
+			y: 1.5d
+			subtitle: "{e6e.powah.subtitle14}"
+			description: [
+				"{e6e.powah.description40}"
+				""
+				"{e6e.powah.description41}"
+				"{e6e.powah.description42}"
+				"{e6e.powah.description43}"
+				"{e6e.powah.description44}"
+				""
+				"{e6e.powah.description45}"
+			]
+			dependencies: ["000000000000018E"]
+			min_width: 300
+			id: "0000000000000190"
+			tasks: [{
+				id: "0000000000000191"
+				type: "item"
+				title: "{e6e.powah.title37}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:ender_cell_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_cell_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_cell_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_cell_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_cell_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_cell_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000226"
+				type: "item"
+				title: "{e6e.powah.title38}"
+				item: "powah:energy_cell_hardened"
+			}]
+		}
+		{
+			title: "{e6e.powah.title39}"
+			icon: "powah:player_transmitter_basic"
+			x: 4.5d
+			y: 3.0d
+			subtitle: "{e6e.powah.subtitle15}"
+			description: [
+				"{e6e.powah.description46}"
+				"{e6e.powah.description47}"
+				""
+				"{e6e.powah.description48}"
+				"{e6e.powah.description49}"
+			]
+			dependencies: ["000000000000018E"]
+			id: "0000000000000192"
+			tasks: [
+				{
+					id: "0000000000000193"
+					type: "item"
+					title: "{e6e.powah.title40}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "powah:player_transmitter_basic"
+									Count: 1b
+								}
+								{
+									id: "powah:player_transmitter_hardened"
+									Count: 1b
+								}
+								{
+									id: "powah:player_transmitter_blazing"
+									Count: 1b
+								}
+								{
+									id: "powah:player_transmitter_niotic"
+									Count: 1b
+								}
+								{
+									id: "powah:player_transmitter_spirited"
+									Count: 1b
+								}
+								{
+									id: "powah:player_transmitter_nitro"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "0000000000000224"
+					type: "item"
+					item: "powah:binding_card"
+				}
+			]
+			rewards: [{
+				id: "000000000000028F"
+				type: "command"
+				title: "{e6e.powah.title41}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.powah.title42}"
+			icon: "powah:ender_gate_basic"
+			x: 6.0d
+			y: 1.5d
+			shape: "diamond"
+			subtitle: "{e6e.powah.subtitle16}"
+			description: [
+				"{e6e.powah.description50}"
+				"{e6e.powah.description51}"
+			]
+			dependencies: ["0000000000000190"]
+			optional: true
+			id: "0000000000000194"
+			tasks: [{
+				id: "0000000000000195"
+				type: "item"
+				title: "{e6e.powah.title43}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:ender_gate_basic"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_gate_hardened"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_gate_blazing"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_gate_niotic"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_gate_spirited"
+								Count: 1b
+							}
+							{
+								id: "powah:ender_gate_nitro"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000227"
+				type: "item"
+				title: "{e6e.powah.title44}"
+				item: "powah:ender_core"
+				count: 4
+			}]
+		}
+		{
+			title: "{e6e.powah.title45}"
+			x: 4.5d
+			y: 4.5d
+			shape: "diamond"
+			subtitle: "{e6e.powah.subtitle17}"
+			description: ["{e6e.powah.description52}"]
+			dependencies: ["0000000000000192"]
+			optional: true
+			id: "0000000000000198"
+			tasks: [{
+				id: "0000000000000199"
+				type: "item"
+				item: "powah:binding_card_dim"
+			}]
+			rewards: [{
+				id: "0000000000000290"
+				type: "command"
+				title: "{e6e.powah.title46}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.powah.title47}"
+			x: 4.5d
+			y: 0.0d
+			subtitle: "{e6e.powah.subtitle18}"
+			description: ["{e6e.powah.description53}"]
+			dependencies: ["000000000000018C"]
+			id: "000000000000019A"
+			tasks: [{
+				id: "000000000000019B"
+				type: "item"
+				item: "powah:steel_energized"
+			}]
+			rewards: [{
+				id: "0000000000000215"
+				type: "item"
+				title: "{e6e.powah.title48}"
+				item: {
+					id: "powah:battery_hardened"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "{e6e.powah.subtitle19}"
+			description: ["{e6e.powah.description54}"]
+			dependencies: ["000000000000019A"]
+			id: "000000000000019C"
+			tasks: [{
+				id: "000000000000019D"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
+			rewards: [{
+				id: "0000000000000217"
+				type: "item"
+				title: "{e6e.powah.title49}"
+				item: "powah:energized_steel_block"
+				count: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			subtitle: "{e6e.powah.subtitle20}"
+			description: [
+				"{e6e.powah.description55}"
+				""
+				"{e6e.powah.description56}"
+			]
+			dependencies: ["000000000000019C"]
+			id: "000000000000019E"
+			tasks: [{
+				id: "000000000000019F"
+				type: "item"
+				item: "powah:crystal_niotic"
+			}]
+			rewards: [{
+				id: "0000000000000219"
+				type: "item"
+				title: "{e6e.powah.title50}"
+				item: "powah:energizing_rod_niotic"
+				count: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			subtitle: "{e6e.powah.subtitle21}"
+			description: ["{e6e.powah.description57}"]
+			dependencies: ["000000000000019E"]
+			id: "00000000000001A0"
+			tasks: [{
+				id: "00000000000001A1"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
+			rewards: [
+				{
+					id: "000000000000021B"
+					type: "item"
+					title: "{e6e.powah.title51}"
+					item: "powah:uraninite_block"
+					count: 8
+				}
+				{
+					id: "000000000000021C"
+					type: "item"
+					title: "{e6e.powah.title52}"
+					item: "powah:niotic_crystal_block"
+					count: 8
+				}
+				{
+					id: "000000000000021D"
+					type: "item"
+					title: "{e6e.powah.title53}"
+					item: "powah:dry_ice"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "{e6e.powah.subtitle22}"
+			description: [
+				"{e6e.powah.description58}"
+				"{e6e.powah.description59}"
+			]
+			dependencies: ["00000000000001A0"]
+			size: 1.5d
+			id: "00000000000001A2"
+			tasks: [{
+				id: "00000000000001A3"
+				type: "item"
+				item: "powah:crystal_nitro"
+			}]
+			rewards: [
+				{
+					id: "000000000000021F"
+					type: "item"
+					title: "{e6e.powah.title54}"
+					item: "powah:energy_cell_nitro"
+				}
+				{
+					id: "0000000000000294"
+					type: "command"
+					title: "{e6e.powah.title55}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.powah.title56}"
+			x: 4.5d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "{e6e.powah.subtitle23}"
+			description: [
+				"{e6e.powah.description60}"
+				""
+				"{e6e.powah.description61}"
+			]
+			dependencies: ["000000000000019A"]
+			optional: true
+			id: "00000000000001A4"
+			tasks: [{
+				id: "00000000000001A5"
+				type: "item"
+				item: "powah:capacitor_hardened"
+				count: 16L
+			}]
+			rewards: [{
+				id: "0000000000000291"
+				type: "command"
+				title: "{e6e.powah.title57}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.powah.title58}"
+			x: 6.0d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "{e6e.powah.subtitle24}"
+			description: ["{e6e.powah.description62}"]
+			dependencies: ["000000000000019C"]
+			optional: true
+			id: "00000000000001A6"
+			tasks: [{
+				id: "00000000000001A7"
+				type: "item"
+				item: "powah:capacitor_blazing"
+				count: 24L
+			}]
+			rewards: [{
+				id: "0000000000000292"
+				type: "command"
+				title: "{e6e.powah.title59}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.powah.title60}"
+			x: 7.5d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "{e6e.powah.subtitle25}"
+			description: ["{e6e.powah.description63}"]
+			dependencies: ["000000000000019E"]
+			optional: true
+			id: "00000000000001A8"
+			tasks: [{
+				id: "00000000000001A9"
+				type: "item"
+				item: "powah:capacitor_niotic"
+				count: 32L
+			}]
+			rewards: [{
+				id: "0000000000000293"
+				type: "command"
+				title: "{e6e.powah.title61}"
+				icon: "kubejs:epic_lootbox"
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+				player_command: false
+			}]
+		}
+		{
+			title: "{e6e.powah.title62}"
+			x: 9.0d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "{e6e.powah.subtitle26}"
+			description: ["{e6e.powah.description64}"]
+			dependencies: ["00000000000001A0"]
+			optional: true
+			id: "00000000000001AA"
+			tasks: [{
+				id: "00000000000001AB"
+				type: "item"
+				item: "powah:capacitor_spirited"
+				count: 48L
+			}]
+			rewards: [{
+				id: "000000000000021E"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+		}
+		{
+			title: "{e6e.powah.title63}"
+			x: 10.5d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "{e6e.powah.subtitle27}"
+			description: ["{e6e.powah.description65}"]
+			dependencies: ["00000000000001A2"]
+			optional: true
+			id: "00000000000001AC"
+			tasks: [{
+				id: "00000000000001AD"
+				type: "item"
+				item: "powah:capacitor_nitro"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "0000000000000221"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					id: "0000000000000223"
+					type: "command"
+					title: "{e6e.powah.title64}"
+					icon: "powah:ender_core"
+					command: "/say @p has completed Powah's final crafting challenge! I bet you can't!"
+					player_command: false
+				}
+				{
+					id: "0000000000000295"
+					type: "command"
+					title: "{e6e.powah.title65}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{e6e.powah.title66}"
+			icon: {
+				id: "powah:battery_nitro"
+				Count: 1b
+				tag: { }
+			}
+			x: 4.5d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "{e6e.powah.subtitle28}"
+			description: [
+				"{e6e.powah.description66}"
+				"{e6e.powah.description67}"
+				""
+				"{e6e.powah.description68}"
+				"{e6e.powah.description69}"
+				""
+				"{e6e.powah.description70}"
+			]
+			dependencies: ["0000000000000188"]
+			hide: true
+			optional: true
+			id: "00000000000001AE"
+			tasks: [{
+				id: "4D1EA493FB926104"
+				type: "item"
+				title: "{e6e.powah.title67}"
+				icon: {
+					id: "mekanism:basic_induction_cell"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "8000000000"
+							}]
+						}
+					}
+				}
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:basic_induction_cell"
+								Count: 1b
+								tag: {
+									mekData: {
+										EnergyContainers: [{
+											Container: 0b
+											stored: "8000000000"
+										}]
+									}
+								}
+							}
+							{
+								id: "itemfilters:strong_nbt"
+								Count: 1b
+								tag: {
+									value: {
+										mekData: {
+											EnergyContainers: [{
+												Container: 0b
+												stored: "8000000000"
+											}]
+										}
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000001C0"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					id: "00000000000001C1"
+					type: "command"
+					title: "{e6e.powah.title68}"
+					icon: {
+						id: "powah:battery_nitro"
+						Count: 1b
+						tag: { }
+					}
+					auto: "enabled"
+					command: "/say @p completed Powah's Ultimate Power Quest! Woot!"
+					player_command: false
+				}
+				{
+					id: "000000000000064B"
+					type: "command"
+					title: "{e6e.powah.title69}"
+					icon: "kubejs:epic_lootbox"
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_powah_loot"
+					player_command: false
+				}
+			]
+		}
+	]
+}
