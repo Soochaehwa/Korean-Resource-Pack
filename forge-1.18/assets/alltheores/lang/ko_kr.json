@@ -292,5 +292,7 @@
     "slurry.alltheores.clean_zinc": "순수한 아연 슬러리",
     "block.alltheores.ruby_block": "루비 블록",
     "block.alltheores.ruby_ore": "루비 광석",
-    "block.alltheores.ruby_slate_ore": "심층암 루비 광석"
+    "block.alltheores.ruby_slate_ore": "심층암 루비 광석",
+    "item.alltheores.ruby": "루비",
+    "item.alltheores.ruby_dust": "루비 가루"
 }
