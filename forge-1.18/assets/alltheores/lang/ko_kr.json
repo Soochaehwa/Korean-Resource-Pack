@@ -294,5 +294,15 @@
     "block.alltheores.ruby_ore": "루비 광석",
     "block.alltheores.ruby_slate_ore": "심층암 루비 광석",
     "item.alltheores.ruby": "루비",
-    "item.alltheores.ruby_dust": "루비 가루"
+    "item.alltheores.ruby_dust": "루비 가루",
+    "block.alltheores.sapphire_block": "사파이어 블록",
+    "block.alltheores.sapphire_ore": "사파이어 광석",
+    "block.alltheores.sapphire_slate_ore": "심층암 사파이어 광석",
+    "item.alltheores.sapphire": "사파이어",
+    "item.alltheores.sapphire_dust": "사파이어 가루",
+    "block.alltheores.peridot_block": "감람석 블록",
+    "block.alltheores.peridot_ore": "감람석 광석",
+    "block.alltheores.peridot_slate_ore": "심층암 감람석 광석",
+    "item.alltheores.peridot": "감람석",
+    "item.alltheores.peridot_dust": "감람석 가루"
 }
