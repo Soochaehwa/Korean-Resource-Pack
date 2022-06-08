@@ -1495,7 +1495,7 @@
     "block.allthecompressed.tuff_block_8x": "응회암 블록 8x",
     "item.allthecompressed.tuff_block_9x": "응회암 블록 9x",
     "block.allthecompressed.tuff_block_9x": "응회암 블록 9x",
-    "itemGroup.allthecompressed": "",
+    "itemGroup.allthecompressed": "AllTheCompressed",
     "block.allthecompressed.acacia_log_block_4x": "아카시아나무 원목 블록 4x",
     "block.allthecompressed.cobbled_deepslate_block_7x": "짙은 참나무 조약돌 블록 7x",
     "block.allthecompressed.oak_plank_block_8x": "참나무 판자 블록 8x",
