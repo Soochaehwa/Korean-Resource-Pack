@@ -1,0 +1,37 @@
+name: 요청
+description: 모드, 모드팩 추가 및 업데이트 요청
+title: "[요청]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ![735](https://user-images.githubusercontent.com/43947445/172617464-cfd8ff45-dde7-456e-914a-1f132352f6fc.png)
+        
+        저게 프로젝트 ID
+  - type: input
+    id: contact
+    attributes:
+      label: 프로젝트 ID
+      description: 프로젝트 ID 입력
+      placeholder: ex. 238222
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: 버전
+      description: 마인크래프트 버전 선택
+      options:
+        - 1.18
+    validations:
+      required: true
+  - type: dropdown
+    id: loader
+    attributes:
+      label: 로더
+      description: 모드로더 선택
+      options:
+        - Forge
+        - Fabirc
+    validations:
+      required: true
