@@ -1,6 +1,6 @@
 {
     "itemGroup.allthetweaks": "AllTheTweaks",
-    "block.allthetweaks.trophy_atm": "올 더 모드 트로피",
+    "block.allthetweaks.trophy_atm": "All The Mods 트로피",
     "block.allthetweaks.ender_pearl_block": "엔더 진주 블록",
     "block.allthetweaks.atm_star_block": "ATM 별 블록",
     "block.allthetweaks.nether_star_block": "네더의 별 블록",
@@ -13,5 +13,7 @@
     "item.allthetweaks.oblivion_shard": "망각의 조각",
     "item.allthetweaks.patrick_star": "뚱이",
     "item.allthetweaks.dimensional_seed": "차원의 씨앗",
-    "item.allthetweaks.improbable_probability_device": "불가능한 확률 장치"
+    "item.allthetweaks.improbable_probability_device": "불가능한 확률 장치",
+    "item.allthetweaks.nexium_emitter": "넥시움 신호 방출기",
+    "item.allthetweaks.allthecatalystium": "올더촉매 "
 }
