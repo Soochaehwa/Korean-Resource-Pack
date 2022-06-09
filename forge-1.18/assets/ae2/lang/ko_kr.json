@@ -175,13 +175,13 @@
     "gui.ae2.CraftingPlan": "제작 계획 - %s",
     "gui.ae2.CraftingStatus": "제작 상황",
     "gui.ae2.CraftingTerminal": "조합 단말기",
-    "gui.ae2.Crafts": "다음을 조합:",
+    "gui.ae2.Crafts": "조합",
     "gui.ae2.Cyan": "청록색",
     "gui.ae2.Drive": "ME 드라이브",
     "gui.ae2.Efficiency": "효율: %s%%",
     "gui.ae2.Empty": "비어있음",
     "gui.ae2.Encoded": "기록됨",
-    "gui.ae2.EnergyDrain": "에너지 유출: %s",
+    "gui.ae2.EnergyDrain": "에너지 사용: %s",
     "gui.ae2.EnergyLevelEmitter": "ME 에너지 레벨 측정기",
     "gui.ae2.Excluded": "제외됨",
     "gui.ae2.ExportBus": "ME 반출 버스",
@@ -730,5 +730,11 @@
     "chat.ae2.MaxUpgradesOfTypeInstalled": "이 업그레이드 카드는 더이상 설치할 수 없습니다.",
     "chat.ae2.UnsupportedUpgrade": "이 업그레이드는 이 장치에 사용할 수 없습니다.",
     "gui.ae2.AttachedTo": "%s에(게) 부착됨",
-    "gui.ae2.ChannelEnergyDrain": "채널 기본 사용량 : %s"
+    "gui.ae2.ChannelEnergyDrain": "채널 기본 사용량 : %s",
+    "gui.ae2.CompatibleUpgrade": "%s (%s)",
+    "gui.ae2.CompatibleUpgrades": "호환가능한 업그레이드:",
+    "gui.ae2.CraftingInterface": "ME 패턴 공급기",
+    "gui.ae2.ETAFormat": "HH:mm:ss",
+    "gui.ae2.ExternalStorage": "외부 저장소 (%s)",
+    "gui.ae2.Fluids": "액체"
 }
