@@ -35,5 +35,11 @@
     "item.archers_paradox.shulker_arrow": "셜커 화살",
     "item.archers_paradox.slime_arrow": "슬라임 화살",
     "item.archers_paradox.slime_arrow.desc": "여러번 튕깁니다. 피해량은 낮고, 멀리 밀쳐냅니다.",
-    "item.archers_paradox.spore_arrow": "균 화살"
+    "item.archers_paradox.spore_arrow": "균 화살",
+    "item.archers_paradox.spore_arrow.desc": "아름다운 균을 흩뿌립니다.",
+    "item.archers_paradox.training_arrow": "연습용 화살",
+    "item.archers_paradox.verdant_arrow": "초록 화살",
+    "item.archers_paradox.verdant_arrow.desc": "세계를 좀 더 풍요롭게 만듭니다.",
+    "item.archers_paradox.training_arrow.desc": "피해를 주지 않습니다. 궁수의 능력을 측정할 때 사용합니다. 화살을 쏠 때마다 어려워집니다.",
+    "item.archers_paradox.shulker_arrow.desc": "대상을 향해 날아갑니다."
 }
