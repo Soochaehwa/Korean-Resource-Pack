@@ -1,1 +1,4 @@
-{}
+{
+    "button.mods.count": "(%s 로드됨)",
+    "button.mods.count.compact": "(%s)"
+}
