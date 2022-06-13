@@ -1,1 +1,17 @@
-{}
+{
+    "block.chimes.bamboo_chimes": "대나무 풍경",
+    "block.chimes.carved_bamboo_chimes": "조각된 대나무 풍경",
+    "block.chimes.iron_chimes": "철 풍경",
+    "block.chimes.copper_chimes": "구리 풍경",
+    "block.chimes.amethyst_chimes": "자수정 풍경",
+    "chimes.configGui.title": "Chimes 설정",
+    "chimes.configGui.animations.button": "풍경 애니메이션",
+    "chimes.configGui.bamboo_leaf.button": "떨어지는 대나무 잎",
+    "chimes.configGui.options.animated": "애니메이션",
+    "chimes.configGui.options.static": "정적인",
+    "chimes.configGui.options.on": "활성화",
+    "chimes.configGui.options.off": "비활성화",
+    "chimes.subtitles.wind_chime.chimes": "풍경이 울림",
+    "chimes.subtitles.wind_chime.twinkle": "풍경이 딸랑거림",
+    "chimes.subtitles.wind_chime.tunes": "풍경이 부딫힘"
+}
