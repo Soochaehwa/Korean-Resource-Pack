@@ -1,1 +1,18 @@
-{}
+{
+  "item.boatcontainer.birch_chest_boat": "자작나무 상자 보트",
+  "item.boatcontainer.jungle_chest_boat": "정글 나무 상자 보트",
+  "item.boatcontainer.acacia_chest_boat": "아카시아나무 상자 보트",
+  "item.boatcontainer.dark_oak_chest_boat": "짙은 참나무 상자 보트",
+  "item.boatcontainer.acacia_ender_chest_boat": "아카시아나무 엔더 상자 보트",
+  "item.boatcontainer.dark_oak_ender_chest_boat": "짙은 참나무 엔더 상자 보트",
+  "item.boatcontainer.jungle_ender_chest_boat": "정글 나무 엔더 상자 보트",
+  "item.boatcontainer.birch_ender_chest_boat": "자작나무 엔더 상자 보트",
+  "item.boatcontainer.oak_ender_chest_boat": "참나무 엔더 상자 보트",
+  "item.boatcontainer.stripped_bamboo_ender_chest_boat": "껍질 벗긴 대나무 엔더 상자 보트",
+  "entity.boatcontainer.chest_boat": "상자 보트",
+  "entity.boatcontainer.ender_chest_boat": "엔더 상자 보트",
+  "item.boatcontainer.oak_chest_boat": "참나무 상자 보트",
+  "item.boatcontainer.spruce_chest_boat": "가문비나무 상자 보트",
+  "item.boatcontainer.spruce_ender_chest_boat": "가문비나무 엔더 상자 보트",
+  "item.boatcontainer.stripped_bamboo_chest_boat": "껍질 벗긴 대나무 상자 보트"
+}

@@ -1,5 +1,4 @@
 {
-  "item.itemfilters.missing": "아이템이 없음",
   "item.itemfilters.filter": "아이템 필터",
   "item.itemfilters.or": "OR 필터",
   "item.itemfilters.or.description": "최소 하나가 참이여야 함",
