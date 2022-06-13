@@ -202,7 +202,8 @@
     "name": "Infusion Table",
     "id": 531783,
     "fabric": {
-      "1.18": 3566189
+      "1.18": 3566189,
+      "1.18.1": 3823566
     }
   },
   "chalk-fabric": {
@@ -264,14 +265,14 @@
     "name": "CIT Resewn",
     "id": 521427,
     "fabric": {
-      "1.18.1": 3697502
+      "1.18.1": 3825841
     }
   },
   "bookshelf": {
     "name": "Bookshelf",
     "id": 228525,
     "fabric": {
-      "1.18.2": 3815575
+      "1.18.2": 3821561
     },
     "forge": {
       "1.18.2": 3815576
@@ -302,7 +303,7 @@
     "name": "Iron Chests (Fabric)",
     "id": 498534,
     "fabric": {
-      "1.18.2": 3805802
+      "1.18.2": 3818401
     }
   },
   "decorative-blocks": {
@@ -350,7 +351,8 @@
     "name": "Enchanted ToolTips",
     "id": 331965,
     "fabric": {
-      "1.18.1": 3554179
+      "1.18.1": 3554179,
+      "1.18.2": 3820409
     }
   },
   "falling-leaves-fabric": {
@@ -433,7 +435,7 @@
     "name": "LevelZ",
     "id": 517130,
     "fabric": {
-      "1.18.2": 3813700
+      "1.18.2": 3830222
     }
   },
   "forge-config-api-port-fabric": {
@@ -491,7 +493,7 @@
     "name": "Harvest Scythes",
     "id": 412225,
     "fabric": {
-      "1.18.2": 3684872
+      "1.18.2": 3822990
     }
   },
   "guard-villagers-fabric": {
@@ -549,7 +551,7 @@
     "name": "Xaero's World Map",
     "id": 317780,
     "fabric": {
-      "1.18.2": 3811537
+      "1.18.2": 3819367
     },
     "forge": {
       "1.18.2": 3811538
@@ -559,7 +561,7 @@
     "name": "Mob Scarecrows",
     "id": 560657,
     "fabric": {
-      "1.18.2": 3696068
+      "1.18.2": 3828473
     }
   },
   "yungs-better-strongholds-fabric": {
@@ -580,7 +582,7 @@
     "name": "Flytre Lib (FlytreLib)",
     "id": 444498,
     "fabric": {
-      "1.18.2": 3789249
+      "1.18.2": 3818660
     },
     "forge": {
       "1.18.2": 3789250
@@ -597,7 +599,8 @@
     "name": "Quartz Elevator",
     "id": 442509,
     "fabric": {
-      "1.18.1": 3670913
+      "1.18.1": 3670913,
+      "1.18.2": 3818011
     }
   },
   "auth-me": {
@@ -621,14 +624,14 @@
     "name": "Wilder World",
     "id": 551211,
     "fabric": {
-      "1.18.2": 3814628
+      "1.18.2": 3825335
     }
   },
   "creativecore": {
     "name": "CreativeCore",
     "id": 257814,
     "fabric": {
-      "1.18.2": 3803832
+      "1.18.2": 3827354
     },
     "forge": {
       "1.18.2": 3757894
@@ -648,7 +651,7 @@
     "name": "Roughly Enough Items Fabric/Forge (REI)",
     "id": 310111,
     "fabric": {
-      "1.18.2": 3816876
+      "1.18.2": 3827653
     },
     "forge": {
       "1.18.2": 3816874
@@ -665,7 +668,7 @@
     "name": "Xaero's Minimap",
     "id": 263420,
     "fabric": {
-      "1.18.2": 3811525
+      "1.18.2": 3819353
     },
     "forge": {
       "1.18.2": 3811526
@@ -703,7 +706,7 @@
     "name": "Continuity",
     "id": 531351,
     "fabric": {
-      "1.18.2": 3675822
+      "1.18.2": 3822250
     }
   },
   "patchouli-fabric": {
@@ -731,21 +734,21 @@
     "name": "AdventureZ",
     "id": 390991,
     "fabric": {
-      "1.18.2": 3686504
+      "1.18.2": 3830510
     }
   },
   "architects-palette-fabric": {
     "name": "Architect's Palette [FABRIC]",
     "id": 487364,
     "fabric": {
-      "1.18.2": 3815878
+      "1.18.2": 3818279
     }
   },
   "geckolib": {
     "name": "GeckoLib",
     "id": 388172,
     "fabric": {
-      "1.18.2": 3817033
+      "1.18.2": 3827255
     },
     "forge": {
       "1.18.2": 3817009
@@ -755,7 +758,7 @@
     "name": "Iris Shaders",
     "id": 455508,
     "fabric": {
-      "1.18.2": 3770305
+      "1.18.2": 3820231
     }
   },
   "betterf3": {
@@ -772,7 +775,7 @@
     "name": "Applied Energistics 2",
     "id": 223794,
     "fabric": {
-      "1.18.2": 3817114
+      "1.18.2": 3825348
     },
     "forge": {
       "1.18.2": 3792686
@@ -782,7 +785,7 @@
     "name": "Immersive Weathering [FABRIC]",
     "id": 571035,
     "fabric": {
-      "1.18.2": 3807698
+      "1.18.2": 3820404
     }
   },
   "additional-additions": {
@@ -824,7 +827,7 @@
     "name": "Create Fabric",
     "id": 624165,
     "fabric": {
-      "1.18.2": 3815636
+      "1.18.2": 3820156
     }
   },
   "trinkets": {
@@ -890,7 +893,7 @@
     "name": "Golden Hoppers",
     "id": 442268,
     "fabric": {
-      "1.18.2": 3753605
+      "1.18.2": 3825160
     }
   },
   "can-i-mine-this-block": {
@@ -987,7 +990,7 @@
     "name": "Enchantment Descriptions",
     "id": 250419,
     "fabric": {
-      "1.18.2": 3754811
+      "1.18.2": 3821022
     },
     "forge": {
       "1.18.2": 3754812
@@ -1004,7 +1007,7 @@
     "name": "Magical Forest",
     "id": 383666,
     "fabric": {
-      "1.18.2": 3732062
+      "1.18.2": 3823406
     },
     "forge": {
       "1.18.2": 3732063
@@ -1197,7 +1200,7 @@
     "name": "Auto Workstations (Fabric)",
     "id": 623678,
     "fabric": {
-      "1.18.2": 3792896
+      "1.18.2": 3820482
     }
   },
   "farming-for-blockheads-fabric": {
@@ -1256,7 +1259,7 @@
     "name": "Applied Energistics 2 Wireless Terminals",
     "id": 459929,
     "fabric": {
-      "1.18.2": 3793593
+      "1.18.2": 3817707
     },
     "forge": {
       "1.18.2": 3793592
@@ -1342,21 +1345,21 @@
     "name": "Bits And Chisels",
     "id": 420709,
     "fabric": {
-      "1.18.2": 3772450
+      "1.18.2": 3817463
     }
   },
   "ftb-library-fabric": {
     "name": "FTB Library (Fabric)",
     "id": 438495,
     "fabric": {
-      "1.18.2": 3794622
+      "1.18.2": 3822757
     }
   },
   "expanded-storage": {
     "name": "Expanded Storage",
     "id": 317856,
     "fabric": {
-      "1.18.2": 3817059
+      "1.18.2": 3818504
     }
   },
   "straw-dummy": {
@@ -1425,14 +1428,14 @@
     "name": "FTB Chunks (Fabric)",
     "id": 472657,
     "fabric": {
-      "1.18.2": 3787347
+      "1.18.2": 3824538
     }
   },
   "shulkerboxtooltip": {
     "name": "ShulkerBoxTooltip",
     "id": 315811,
     "fabric": {
-      "1.18.2": 3790208
+      "1.18.2": 3828067
     }
   },
   "simple-void-world": {
@@ -1456,7 +1459,7 @@
     "name": "RightClickHarvest",
     "id": 452834,
     "fabric": {
-      "1.18.1": 3814508
+      "1.18.1": 3822509
     }
   },
   "structure-tools": {
@@ -1643,7 +1646,7 @@
     "name": "Egg Tab - Fabric",
     "id": 360449,
     "fabric": {
-      "1.18.1": 3711184
+      "1.18.1": 3823522
     }
   },
   "macaws-lights-and-lamps": {
@@ -1660,14 +1663,14 @@
     "name": "The Graveyard (FABRIC)",
     "id": 514468,
     "fabric": {
-      "1.18.2": 3792651
+      "1.18.2": 3818277
     }
   },
   "croptopia-fabric": {
     "name": "Croptopia [FABRIC/FORGE]",
     "id": 415438,
     "fabric": {
-      "1.18.2": 3816093
+      "1.18.2": 3820867
     },
     "forge": {
       "1.18.2": 3805873
@@ -1684,7 +1687,7 @@
     "name": "Charm",
     "id": 318872,
     "fabric": {
-      "1.18.2": 3811825
+      "1.18.2": 3829803
     }
   },
   "macaws-doors": {
@@ -1708,7 +1711,7 @@
     "name": "Modern Industrialization",
     "id": 405388,
     "fabric": {
-      "1.18.2": 3775815
+      "1.18.2": 3818691
     }
   },
   "bosses-of-mass-destruction": {
@@ -1746,7 +1749,7 @@
     "name": "Bewitchment",
     "id": 394915,
     "fabric": {
-      "1.18.2": 3790211
+      "1.18.2": 3827599
     }
   },
   "fabric-chisel": {
@@ -1767,7 +1770,7 @@
     "name": "Repurposed Structures (Fabric)",
     "id": 391366,
     "fabric": {
-      "1.18.2": 3815329
+      "1.18.2": 3820311
     }
   },
   "biome-makeover": {
@@ -1788,28 +1791,28 @@
     "name": "Botania (Fabric)",
     "id": 421839,
     "fabric": {
-      "1.18.2": 3789681
+      "1.18.2": 3818544
     }
   },
   "spectrum": {
     "name": "Spectrum",
     "id": 556967,
     "fabric": {
-      "1.18.2": 3816088
+      "1.18.2": 3820749
     }
   },
   "oh-the-biomes-youll-go-fabric": {
     "name": "Oh The Biomes You'll Go Refabricated",
     "id": 391378,
     "fabric": {
-      "1.18.2": 3815305
+      "1.18.2": 3825948
     }
   },
   "charmonium": {
     "name": "Charmonium",
     "id": 378696,
     "fabric": {
-      "1.18.2": 3667869
+      "1.18.2": 3829808
     }
   },
   "health-overlay-fabric": {
@@ -1833,7 +1836,7 @@
     "name": "Inventory Sorting",
     "id": 325471,
     "fabric": {
-      "1.18.2": 3669320
+      "1.18.2": 3822195
     }
   },
   "industrial-revolution": {
@@ -1847,7 +1850,7 @@
     "name": "Macaw's Fences and Walls",
     "id": 453925,
     "fabric": {
-      "1.18.2": 3755730
+      "1.18.2": 3817474
     },
     "forge": {
       "1.18.2": 3755729
@@ -1867,7 +1870,7 @@
     "name": "Dark Utilities",
     "id": 242195,
     "fabric": {
-      "1.18.2": 3753812
+      "1.18.2": 3830308
     },
     "forge": {
       "1.18.2": 3753813
@@ -1946,7 +1949,7 @@
     "name": "Fabric Waystones",
     "id": 410902,
     "fabric": {
-      "1.18.2": 3800618
+      "1.18.2": 3820904
     }
   },
   "deepslatecutting": {
@@ -2040,7 +2043,8 @@
     "name": "MmmMmmMmmMmm (Target Dummy)",
     "id": 225738,
     "fabric": {
-      "1.18.1": 3642328
+      "1.18.1": 3642328,
+      "1.18.2": 3820500
     },
     "forge": {
       "1.18.1": 3641681
@@ -2144,7 +2148,7 @@
     "name": "Totally Enough Pain",
     "id": 541387,
     "fabric": {
-      "1.18.2": 3807028
+      "1.18.2": 3829957
     }
   },
   "this-rocks": {
@@ -2158,7 +2162,7 @@
     "name": "Give Me Hats! [FABRIC/FORGE]",
     "id": 384009,
     "fabric": {
-      "1.18.2": 3791432
+      "1.18.2": 3822522
     },
     "forge": {
       "1.18.1": 3804813
@@ -2168,7 +2172,7 @@
     "name": "MidnightLib",
     "id": 488090,
     "fabric": {
-      "1.18.1": 3657092
+      "1.18.1": 3821194
     }
   },
   "unforgiving-void": {
@@ -2328,7 +2332,7 @@
     "name": "Mining Dimensions [FABRIC]",
     "id": 442921,
     "fabric": {
-      "1.18.2": 3771077
+      "1.18.2": 3818585
     }
   },
   "more-banner-features": {
@@ -2349,7 +2353,7 @@
     "name": "Overweight Farming",
     "id": 591666,
     "fabric": {
-      "1.18.2": 3753571
+      "1.18.2": 3828990
     },
     "forge": {
       "1.18.2": 3813212
@@ -2407,7 +2411,7 @@
     "name": "Voyager v2 - Custom Origin",
     "id": 621280,
     "fabric": {
-      "1.18.1": 3786360
+      "1.18.1": 3822975
     }
   },
   "beenfo": {
@@ -2490,7 +2494,7 @@
     "name": "Sodium Extra",
     "id": 447673,
     "fabric": {
-      "1.18.2": 3793985
+      "1.18.2": 3821006
     }
   },
   "besmirchment-2": {
@@ -2525,7 +2529,7 @@
     "name": "Halfdoors",
     "id": 596375,
     "fabric": {
-      "1.18.2": 3793358
+      "1.18.2": 3818943
     }
   },
   "shetiphiancore-fabric": {
@@ -2670,7 +2674,7 @@
     "name": "MC Dungeons Weapons",
     "id": 407311,
     "fabric": {
-      "1.18.1": 3773032
+      "1.18.1": 3829392
     }
   },
   "chest-tracker": {
@@ -2719,7 +2723,7 @@
     "name": "Red Bits",
     "id": 403914,
     "fabric": {
-      "1.18.2": 3692322
+      "1.18.2": 3822702
     }
   },
   "archon": {
@@ -2740,7 +2744,7 @@
     "name": "Magic Fungi",
     "id": 506412,
     "fabric": {
-      "1.18.2": 3793728
+      "1.18.2": 3817227
     }
   },
   "villager-names-fabric": {
@@ -2844,7 +2848,7 @@
     "name": "ValleyCraft",
     "id": 527942,
     "fabric": {
-      "1.18.2": 3737716
+      "1.18.2": 3825553
     }
   },
   "mobz": {
@@ -2893,7 +2897,7 @@
     "name": "Emotecraft (Fabric)",
     "id": 397809,
     "fabric": {
-      "1.18.1": 3816946
+      "1.18.1": 3828193
     }
   },
   "paradise-lost": {
@@ -2914,7 +2918,7 @@
     "name": "Item Filters",
     "id": 309674,
     "fabric": {
-      "1.18.2": 3787856
+      "1.18.2": 3829226
     },
     "forge": {
       "1.18.2": 3787857
@@ -2931,7 +2935,7 @@
     "name": "Exline's Furniture Mod",
     "id": 504919,
     "fabric": {
-      "1.18.2": 3814269
+      "1.18.2": 3824945
     },
     "forge": {
       "1.18.2": 3800630
@@ -2941,7 +2945,7 @@
     "name": "Extra Origins",
     "id": 398419,
     "fabric": {
-      "1.18.2": 3755062
+      "1.18.2": 3821321
     }
   },
   "skylib": {
@@ -2996,7 +3000,7 @@
     "name": "Inventory Profiles Next",
     "id": 495267,
     "fabric": {
-      "1.18.2": 3810331
+      "1.18.2": 3825206
     },
     "forge": {
       "1.18.2": 3810339
@@ -3006,7 +3010,7 @@
     "name": "Lightstones",
     "id": 368263,
     "fabric": {
-      "1.18.2": 3802563
+      "1.18.2": 3817915
     },
     "forge": {
       "1.18.2": 3745640
@@ -3023,7 +3027,7 @@
     "name": "MCDoom",
     "id": 368765,
     "fabric": {
-      "1.18.2": 3816482
+      "1.18.2": 3830022
     },
     "forge": {
       "1.18.2": 3816478
@@ -3060,7 +3064,8 @@
     "name": "Boat Container",
     "id": 526274,
     "fabric": {
-      "1.18.2": 3783209
+      "1.18.2": 3783209,
+      "1.18.1": 3820873
     }
   },
   "moreachievements-fabric": {
@@ -3144,7 +3149,7 @@
     "name": "Puzzle",
     "id": 563977,
     "fabric": {
-      "1.18.1": 3697550
+      "1.18.1": 3819533
     }
   },
   "vanilla-degus": {
@@ -3224,7 +3229,7 @@
     "name": "CraftTweaker",
     "id": 239197,
     "fabric": {
-      "1.18.2": 3817112
+      "1.18.2": 3825072
     },
     "forge": {
       "1.18.2": 3817113
@@ -3258,7 +3263,7 @@
     "name": "Eden Ring",
     "id": 546590,
     "fabric": {
-      "1.18.2": 3764686
+      "1.18.2": 3827244
     }
   },
   "fabric-extended-armor-bars-forked": {
@@ -4592,7 +4597,7 @@
       "1.18.2": 3796379
     },
     "fabric": {
-      "1.18.2": 3796377
+      "1.18.2": 3820038
     }
   },
   "observable": {
@@ -4990,7 +4995,7 @@
       "1.18.2": 3803226
     },
     "fabric": {
-      "1.18.2": 3815553
+      "1.18.2": 3827468
     }
   },
   "more-villagers": {
@@ -5057,10 +5062,13 @@
     }
   },
   "another-furniture": {
-    "name": "Another Furniture Compendium",
+    "name": "Another Furniture",
     "id": 610492,
     "forge": {
       "1.18.1": 3784455
+    },
+    "fabric": {
+      "1.18.2": 3828257
     }
   },
   "rubidium": {
@@ -5161,7 +5169,7 @@
       "1.18.2": 3750652
     },
     "fabric": {
-      "1.18.2": 3750651
+      "1.18.2": 3817495
     }
   },
   "this-rocks-forge": {
@@ -5925,7 +5933,7 @@
       "1.18.2": 3797962
     },
     "fabric": {
-      "1.18.2": 3797961
+      "1.18.2": 3817854
     }
   },
   "waddles": {
@@ -6050,7 +6058,7 @@
       "1.18.2": 3794345
     },
     "fabric": {
-      "1.18.2": 3802070
+      "1.18.2": 3817768
     }
   },
   "enigmatic-legacy": {
