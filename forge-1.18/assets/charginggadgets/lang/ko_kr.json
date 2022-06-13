@@ -1,1 +1,7 @@
-{}
+{
+    "block.charginggadgets.charging_station": "충전기",
+    "itemGroup.charginggadgets": "Charging Gadgets",
+    "screen.charginggadgets.energy": "에너지: %s/%s FE",
+    "screen.charginggadgets.no_fuel": "연료 없음",
+    "screen.charginggadgets.burn_time": "잔여 연료 소모 시간: %ss"
+}
