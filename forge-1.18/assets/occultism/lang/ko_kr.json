@@ -1,6 +1,6 @@
 {
     "_comment": "JEI",
-    "itemGroup.occultism": "오컬티즘",
+    "itemGroup.occultism": "Occultism",
     "item.occultism.pentacle": "펜타클",
     "item.occultism.debug_foliot_lumberjack": "디버그 호출 폴리오트 벌목기",
     "item.occultism.debug_djinni_manage_machine": "디버그 호출 정령 관리기",
