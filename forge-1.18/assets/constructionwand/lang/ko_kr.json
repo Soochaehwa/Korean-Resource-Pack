@@ -1,1 +1,20 @@
-{}
+{
+    "item.constructionwand.stone_wand": "돌 완드",
+    "item.constructionwand.iron_wand": "철 완드",
+    "item.constructionwand.diamond_wand": "다이아몬드 완드",
+    "item.constructionwand.infinity_wand": "무한의 완드",
+    "item.constructionwand.core_angel": "천사 완드 코어",
+    "constructionwand.tooltip.blocks": "최대. %d 블록",
+    "constructionwand.tooltip.shift": "[쉬프트]를 누르세요",
+    "constructionwand.tooltip.cores": "완드 코어:",
+    "constructionwand.tooltip.core_tip": "제작대에서 완드와 코어를 함께 합치세요",
+    "constructionwand.option.cores.constructionwand:core_angel": "§6천사 코어",
+    "constructionwand.option.cores.constructionwand:core_destruction": "§c파괴 코어",
+    "constructionwand.option.lock.horizontal": "§a좌/우",
+    "constructionwand.option.lock.vertical": "§a위/아래",
+    "constructionwand.option.lock.northsouth": "§6북/남",
+    "constructionwand.option.lock.eastwest": "§6동/서",
+    "constructionwand.option.lock.nolock": "§c비활성화",
+    "item.constructionwand.core_destruction": "파괴 완드 코어",
+    "constructionwand.option.cores.constructionwand:default": "건설 코어"
+}
