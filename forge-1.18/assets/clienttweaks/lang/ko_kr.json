@@ -30,5 +30,7 @@
     "clienttweaks.disableLogStripping": "나무 껍질 벗기기 비활성화: %s",
     "text.autoconfig.clienttweaks.option.tweaks.noOffhandTorchWithFood": "음식을 들고 횃불을 사용할 수 없음",
     "text.autoconfig.clienttweaks.option.tweaks.disableLogStripping": "나무 껍질 벗기기 비활성화",
-    "text.autoconfig.clienttweaks.option.tweaks.paneBuildingSupport": "유리판 건축 지원"
+    "text.autoconfig.clienttweaks.option.tweaks.paneBuildingSupport": "유리판 건축 지원",
+    "text.autoconfig.clienttweaks.option.customization.shieldItems": "방패 아이템",
+    "text.autoconfig.clienttweaks.option.tweaks.noRecipeBookShifting": "조합법 책 창 움직임 금지"
 }
