@@ -10,7 +10,7 @@
     "item.ironjetpacks.elite_coil": "엘리트 코일",
     "item.ironjetpacks.ultimate_coil": "궁극 코일",
     "item.ironjetpacks.cell": "%s 에너지 셀",
-    "itemGroup.ironjetpacks": "철 제트팩",
+    "itemGroup.ironjetpacks": "",
     "keybind.ironjetpacks.engine": "엔진 켜기 / 끄기",
     "item.ironjetpacks.thruster": "%s 추진기",
     "item.ironjetpacks.capacitor": "%s 축전기",
