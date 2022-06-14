@@ -1,1 +1,12 @@
-{}
+{
+    "_comment": "# 기능 설정",
+    "capability.commoncapabilities.inventoryState": "인벤토리 상태",
+    "config.commoncapabilities": "%s 설정",
+    "recipecomponent.minecraft.itemstack": "아이템",
+    "recipecomponent.minecraft.fluidstack": "액체",
+    "recipecomponent.minecraft.energy": "에너지",
+    "capability.commoncapabilities.temperature": "온도",
+    "capability.commoncapabilities.worker": "작업자",
+    "capability.commoncapabilities.worldNameable": "명명 가능한 세계",
+    "capability.commoncapabilities.wrench": "렌치"
+}
