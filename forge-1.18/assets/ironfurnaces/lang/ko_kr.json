@@ -112,5 +112,7 @@
     "tooltip.ironfurnaces.gui_redstone_low": "레드스톤 신호가 낮을 때",
     "tooltip.ironfurnaces.gui_redstone_high": "레드스톤 신호가 높을 때",
     "tooltip.ironfurnaces.gui_redstone_comparator": "레드스톤 비교기 비교 모드",
-    "tooltip.ironfurnaces.gui_shift_more_options": " 를 눌러 더 많은 옵션 확인"
+    "tooltip.ironfurnaces.gui_shift_more_options": " 를 눌러 더 많은 옵션 확인",
+    "tooltip.ironfurnaces.gui_hold_shift": " ",
+    "tooltip.ironfurnaces.hold": " "
 }
