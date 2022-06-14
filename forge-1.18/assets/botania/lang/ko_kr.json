@@ -6,7 +6,7 @@
     "_comment4": "Untranslated entries will automatically be inherited from en_US",
     "itemGroup.botania": "Botania",
     "generator.botania-skyblock": "잔디의 정원",
-    "generator.botania-skyblock.info": "보타니아를 처음하는 분에게는 권장하지 않습니다.",
+    "generator.botania-skyblock.info": "보타니아를 처음하는 분에게는 권장하지 않습니다",
     "botaniamisc.color": "%s 색",
     "botaniamisc.manaUsage": "마나 사용량",
     "botaniamisc.flareColor": "%s 색",
@@ -1297,5 +1297,7 @@
     "botania.page.runeAltar16": "$(item)게으름의 룬$(0) 제작하기",
     "botania.page.runeAltar17": "$(item)격노의 룬$(0) 제작하기",
     "botania.page.runeAltar18": "$(item)질투의 룬$(0) 제작하기",
-    "botania.page.runeAltar19": "$(item)교만의 룬$(0) 제작하기"
+    "botania.page.runeAltar19": "$(item)교만의 룬$(0) 제작하기",
+    "botania.landing": "마법, 기술. Naturally.$(br2)Botania는 자연 마법을 테마로 한 기술 모드이다. $(thing)Mana$()의 형태로 대지의 힘을 이용해 마법의 꽃과 장치를 만드는 것이 주요 컨셉이다.",
+    "attribute.name.botania.pixieSpawnChance": "Pixie 소환 확률"
 }
