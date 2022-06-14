@@ -83,5 +83,10 @@
     "item.artifacts.helium_flamingo.tooltip.0": "공중에서 잠깐 비행할 수 있습니다",
     "item.artifacts.helium_flamingo.tooltip.1": "%s 를 눌러서 사용하세요",
     "item.artifacts.aqua_dashers.tooltip": "수면 위를 달릴 수 있습니다",
-    "item.artifacts.charm_of_sinking.tooltip": "수중에서의 움직임이 자유로워집니다"
+    "item.artifacts.charm_of_sinking.tooltip": "수중에서의 움직임이 자유로워집니다",
+    "artifacts.subtitles.entity.mimic.close": "미믹이 닫힘",
+    "artifacts.subtitles.entity.mimic.open": "미믹이 뛰어오름",
+    "artifacts.subtitles.entity.mimic.hurt": "미믹이 상처를 입음",
+    "artifacts.subtitles.entity.mimic.death": "미믹이 죽음",
+    "artifacts.subtitles.item.whoopee_cushion.fart": "뿡"
 }
