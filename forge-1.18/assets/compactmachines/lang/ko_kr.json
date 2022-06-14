@@ -1,1 +1,7 @@
-{}
+{
+    "advancement.compactmachines.claimed_machine_giant": "공간은 충분하나요?",
+    "advancement.compactmachines.claimed_machine_normal": "더 큰 내부",
+    "advancement.compactmachines.claimed_machine_max": "활동을 위한 공간!",
+    "advancement.compactmachines.claimed_machine_small": "숨 쉴 수 있다",
+    "advancement.compactmachines.claimed_machine_tiny": "작은 공간, 큰 아이디어"
+}
