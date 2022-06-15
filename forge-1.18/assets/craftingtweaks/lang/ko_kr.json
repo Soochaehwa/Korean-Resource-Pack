@@ -1,1 +1,24 @@
-{}
+{
+    "key.categories.craftingtweaks": "Crafting Tweaks",
+    "key.craftingtweaks.rotate_counter_clockwise": "그리드 회전 (시계반대방향)",
+    "key.craftingtweaks.decompressAll": "전부 압축해제",
+    "tooltip.craftingtweaks.balance": "그리드 평균 맞추기",
+    "tooltip.craftingtweaks.spread": "그리드 채우기",
+    "tooltip.craftingtweaks.clear": "그리드 초기화",
+    "key.craftingtweaks.rotate": "그리드 회전",
+    "key.craftingtweaks.force_clear": "강제 그리드 초기화",
+    "key.craftingtweaks.clear": "그리드 초기화",
+    "key.craftingtweaks.balance": "그리드 평균 맞추기",
+    "key.craftingtweaks.spread": "그리드 채우기",
+    "key.craftingtweaks.toggleButtons": "토글 버튼",
+    "key.craftingtweaks.compressOne": "아이템 압축",
+    "key.craftingtweaks.compressStack": "스택 압축",
+    "key.craftingtweaks.compressAll": "전부 압축",
+    "key.craftingtweaks.decompressOne": "아이템 압축해제",
+    "key.craftingtweaks.decompressStack": "스택 압축해제",
+    "key.craftingtweaks.refill_last": "최근 아이템 가져오기",
+    "key.craftingtweaks.refill_last_stack": "최근 아이템 가져오기(스택)",
+    "tooltip.craftingtweaks.rotate": "그리드 회전",
+    "tooltip.craftingtweaks.forceClear": "강제 그리드 초기화",
+    "tooltip.craftingtweaks.forceClearInfo": "필요하면 아이템 떨어뜨리기"
+}
