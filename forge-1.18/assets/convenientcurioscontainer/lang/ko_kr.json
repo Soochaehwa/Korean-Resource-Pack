@@ -1,1 +1,6 @@
-{}
+{
+    "item.convenientcurioscontainer.curios_container": "Curios 보관함",
+    "container_info": "보관함 내부의 아이템 :",
+    "container_RMB": "우클릭하여 사용할 수 있는 첫번째 Curio 슬롯에 넣거나 교체합니다.",
+    "container_SRMB": "쉬프트 우클릭하여 사용할 수 있는 두번째 Curio 슬롯에 넣거나 교체합니다."
+}
