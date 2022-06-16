@@ -73,7 +73,7 @@
     "block.additionalbars.waxed_horizontal_crossed_weathered_copper_bars": "밀랍칠한 수평 십자형 녹슨 구리 창",
     "block.additionalbars.waxed_horizontal_crossed_oxidized_copper_bars": "밀랍칠한 수평 십자형 산화된 구리 창",
     "itemGroup.additionalBars": "Additional Bars",
-    "itemGroup.horizontaladditionalbars": "Additional Bars (Horizontal)",
+    "itemGroup.horizontaladditionalbars": "Additional Bars (수평)",
     "__version": "3",
     "tooltip.gamma1772.horizontal": "수평",
     "tooltip.gamma1772.nether": "네더",
