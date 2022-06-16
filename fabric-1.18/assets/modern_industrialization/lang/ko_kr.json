@@ -77,7 +77,6 @@
     "advancements.modern_industrialization.large_steam_boiler.description": "대형 증기 보일러를 제작하세요",
     "advancements.modern_industrialization.large_steam_turbine": "노예가 된 허리케인",
     "advancements.modern_industrialization.large_steam_turbine.description": "대형 증기 터빈을 제작하세요",
-    "advancements.modern_industrialization.lv_polarizer.description": "자화기를 제작하세요",
     "advancements.modern_industrialization.lv_steam_turbine": "태양 패널보다 낫다",
     "advancements.modern_industrialization.lv_steam_turbine.description": "증기 터빈을 제작하세요",
     "advancements.modern_industrialization.mixed_ingot_iridium": "오레오 주괴",
@@ -1079,13 +1078,8 @@
     "text.autoconfig.modern_industrialization.option.respawnWithGuideBook": "리스폰 시 가이드북 지급",
     "text.autoconfig.modern_industrialization.option.spawnWithGuideBook": "첫 스폰 시 가이드북 지급",
     "text.autoconfig.modern_industrialization.title": "Modern Industrialization 메뉴",
-    "text.modern_industrialization.cable_tier_mv": "Medium Voltage",
     "text.modern_industrialization.durability_cost": "내구도 소모 : %d",
-    "text.modern_industrialization.eu_generation_mode": "EU 발전",
     "text.modern_industrialization.gravichestplate_true": "중력 흉갑 활성화!",
-    "text.modern_industrialization.maj_to_tooltip": "+ [Maj] 눌러 완전한 툴팁 보기",
     "text.modern_industrialization.neutron_interaction": "중성자 상호작용",
-    "text.modern_industrialization.pipe_connection_help": "클릭하여 변경",
-    "text.modern_industrialization.shape_error": "멀티블록 모양 오류 (%d, %d, %d): %s",
-    "text.modern_industrialization.steam_drill_profit": "3) 3x3 섬세한 손길 즐기기."
+    "text.modern_industrialization.shape_error": "멀티블록 모양 오류 (%d, %d, %d): %s"
 }
