@@ -4,7 +4,6 @@
     "jm.advanced.announcemod.tooltip": "JourneyMap이 준비되었다는 것을 채팅창에 알립니다.",
     "jm.advanced.automappoll": "오토맵 폴 빈도",
     "jm.advanced.automappoll.tooltip": "지역 오토맵(AutoMap) 작업간의 시간간격(밀리초 ms 단위). 낮은 값은 오토맵 작업시간을 단축하지만 성능에 악영향을 줄수 있습니다.",
-    "jm.advanced.browserpoll": "브라우저 폴",
     "jm.advanced.browserpoll.tooltip": "웹 형태 맵의 업데이트 요청간 지연시간(밀리초 ms 단위). 낮은 값은 성능에 악영향을 줄수 있습니다.",
     "jm.advanced.cache_animals": "동물 캐시",
     "jm.advanced.cache_animals.tooltip": "새로운 동물들을 확인하기전 레이더 데이터가 캐시되는 시간(밀리초 ms 단위). 낮은 값은 성능에 악영향을 줄수 있습니다.",
