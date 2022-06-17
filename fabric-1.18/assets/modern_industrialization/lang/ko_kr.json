@@ -1078,6 +1078,5 @@
     "text.autoconfig.modern_industrialization.option.respawnWithGuideBook": "리스폰 시 가이드북 지급",
     "text.autoconfig.modern_industrialization.option.spawnWithGuideBook": "첫 스폰 시 가이드북 지급",
     "text.autoconfig.modern_industrialization.title": "Modern Industrialization 메뉴",
-    "text.modern_industrialization.gravichestplate_true": "중력 흉갑 활성화!",
     "text.modern_industrialization.shape_error": "멀티블록 모양 오류 (%d, %d, %d): %s"
 }
