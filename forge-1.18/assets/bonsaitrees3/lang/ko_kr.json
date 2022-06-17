@@ -9,9 +9,12 @@
     "gui.bonsaitrees3.label.button.cut_tree.tooltip.ok": "클릭해서 나무 자르기",
     "gui.bonsaitrees3.label.jei.upgrade.autocut": "자동으로 나무를 자릅니다",
     "gui.bonsaitrees3.label.jei.upgrade.bees": "수분을 해서 과일을 얻습니다",
-    "gui.bonsaitrees3.label.jei.upgrade.fortune": "드랍 확률을 늘려줍니다",
+    "gui.bonsaitrees3.label.jei.upgrade.fortune": "아이템이 나올 확률을 늘려줍니다",
     "gui.bonsaitrees3.label.jei.upgrade.hopper": "아래에 있는 블록으로 아이템을 내보냅니다",
     "jei.bonsaitrees3.chance": "확률: %d%%",
     "jei.bonsaitrees3.recipes.title": "분재 화분으로 기르기",
-    "jei.bonsaitrees3.requiresBees": "벌집 업그레이드가 필요함"
+    "jei.bonsaitrees3.requiresBees": "벌집 업그레이드가 필요함",
+    "jei.bonsaitrees3.requiresUpgrade": "다음 업그레이드 중 하나가 필요함:",
+    "jei.bonsaitrees3.soiltime": "자라는 시간을 %s로 바꿈",
+    "jei.bonsaitrees3.upgrades.title": "분재 화분 업그레이드"
 }
