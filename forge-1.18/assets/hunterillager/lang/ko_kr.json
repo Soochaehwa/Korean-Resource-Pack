@@ -1,1 +1,17 @@
-{}
+{
+    "item.hunterillager.spawnegg_hunterillager": "사냥꾼 생성 알",
+    "item.hunterillager.quivers": "화살통",
+    "item.hunterillager.boomerang": "부메랑",
+    "item.hunterillager.quiver.desc": "화살통과 화살을 든 상태에서 우클릭하여 화살살을 저장할 수 있습니다.",
+    "entity.hunterillager.hunterillager": "사냥꾼",
+    "subtitles.hunterillager.idle": "사냥꾼이 중얼거림",
+    "subtitles.hunterillager.hurt": "사냥꾼이 다침",
+    "subtitles.hunterillager.death": "사냥꾼이 죽음",
+    "subtitles.hunterillager.cheer": "사냥꾼이 환호함",
+    "subtitles.hunterillager.laugh": "사냥꾼이 웃음",
+    "death.attack.hunterillager.boomerang": "%1$s은(는) %2$s의 부메랑에 맞았습니다",
+    "hunterillager.config.structureSpacing": "사냥꾼의 오두막 생성 거리",
+    "hunterillager.config.foodWhitelist": "사냥꾼이 섭취하는 음식 화이트리스트",
+    "hunterillager.config.attackableWhitelist": "사냥꾼이 공격하는 대상 화이트리스트",
+    "enchantment.hunterillager.bounce": "탄성"
+}
