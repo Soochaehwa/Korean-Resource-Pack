@@ -6184,5 +6184,12 @@
     "forge": {
       "1.18.2": 3810627
     }
+  },
+  "industrial-foregoing": {
+    "name": "Industrial Foregoing",
+    "id": 266515,
+    "forge": {
+      "1.18.2": 3829542
+    }
   }
 }
