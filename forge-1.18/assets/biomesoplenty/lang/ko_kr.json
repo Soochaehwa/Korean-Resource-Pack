@@ -1,9 +1,9 @@
 {
     "advancements.biomesoplenty.root.title": "Biomes O' Plenty",
-    "advancements.biomesoplenty.root.description": "세계를 탐험합니다.",
+    "advancements.biomesoplenty.root.description": "세계를 탐험합니다",
     "advancements.biomesoplenty.all_biomes.title": "방랑자",
-    "advancements.biomesoplenty.all_biomes.description": "Biomes O' Plenty에 있는 모든 생물군계를 탐험합니다.",
-    "commands.biomesoplenty.gendata.success": "데이터를 생성했습니다.",
+    "advancements.biomesoplenty.all_biomes.description": "Biomes O' Plenty에 있는 모든 생물군계를 탐험합니다",
+    "commands.biomesoplenty.gendata.success": "데이터를 생성했습니다",
     "itemGroup.biomesoplenty": "Biomes O' Plenty",
     "biome.biomesoplenty.bamboo_grove": "작은 대나무 숲",
     "biome.biomesoplenty.bayou": "강어귀",
@@ -420,5 +420,7 @@
     "block.biomesoplenty.willow_wood": "버드나무",
     "block.biomesoplenty.wilted_lily": "시든 백합",
     "block.biomesoplenty.yellow_autumn_leaves": "노란가을나무 잎",
-    "block.biomesoplenty.yellow_autumn_sapling": "노란가을나무 묘목"
+    "block.biomesoplenty.yellow_autumn_sapling": "노란가을나무 묘목",
+    "biome.biomesoplenty.rocky_rainforest": "바위투성이 우림",
+    "entity.biomesoplenty.boat": "보트"
 }
