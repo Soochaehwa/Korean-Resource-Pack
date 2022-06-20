@@ -1,1 +1,5 @@
-{}
+{
+    "itemGroup.Simple Shops": "Simple Shops",
+    "block.simpleshops.simple_shop": "간편 상점",
+    "block.simpleshops.creative_simple_shop": "크리에이티브 간편 상점"
+}
