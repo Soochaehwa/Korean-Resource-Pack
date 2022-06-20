@@ -2,9 +2,9 @@
     "block.advgenerators.fluid_input": "액체 주입 밸브",
     "block.advgenerators.fuel_tank": "연료 탱크",
     "block.advgenerators.fuel_turbine_controller": "터빈 조작기",
-    "block.advgenerators.eu_output_lv": "LV 방출블럭",
-    "block.advgenerators.eu_output_mv": "MV 방출블럭",
-    "block.advgenerators.eu_output_hv": "HV 방출블럭",
+    "block.advgenerators.eu_output_lv": "LV 방출 블록",
+    "block.advgenerators.eu_output_mv": "MV 방출 블록",
+    "block.advgenerators.eu_output_hv": "HV 방출 블록",
     "block.advgenerators.fe_output": "Flux 발전기",
     "item.advgenerators.iron_frame": "철 프레임",
     "item.advgenerators.power_io": "파워 IO 모듈",
@@ -191,5 +191,14 @@
     "bdlib.unit.carbon": "탄소",
     "bdlib.unit.carbon_short": "C",
     "bdlib.unit.hu": "HU",
-    "bdlib.unit.rpm": "RPM"
+    "bdlib.unit.rpm": "RPM",
+    "block.advgenerators.eu_output_ev": "EV 방출 블록",
+    "block.advgenerators.eu_output_iv": "IV 방출 블록",
+    "block.advgenerators.pressure_output_select": "압력 출력 밸브",
+    "block.advgenerators.pressure_input": "압력 입력 밸브",
+    "block.advgenerators.gas_input": "기체 입력 밸브",
+    "block.advgenerators.generators_data_port": "기계 데이터 포트",
+    "advgenerators.module.GeneratorsDataPort.name": "기계 데이터 포트",
+    "advgenerators.tooltip.carbon": "탄소값: %s",
+    "advgenerators.tooltip.eu": "%s 티어, 출력 %s EU/t"
 }
