@@ -1,1 +1,13 @@
-{}
+{
+    "key.toggleLiquids": "액체 표시 토글",
+    "key.toggleVisible": "표시 토글",
+    "key.categories.theoneprobe": "The One Probe",
+    "item.theoneprobe.probe": "관찰기",
+    "item.theoneprobe.probe_goggles": "관찰기(장신구)",
+    "item.theoneprobe.diamond_helmet_probe": "관찰기가 달린 다이아몬드 투구",
+    "item.theoneprobe.gold_helmet_probe": "관찰기가 달린 금 투구",
+    "item.theoneprobe.iron_helmet_probe": "관찰기가 달린 철 투구",
+    "item.theoneprobe.creativeprobe": "크리에이티브 관찰기",
+    "item.theoneprobe.probenote": "The One Probe 설명서",
+    "itemGroup.Probe": "The One Probe"
+}
