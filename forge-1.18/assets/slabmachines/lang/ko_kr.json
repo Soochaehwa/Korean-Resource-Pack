@@ -1,1 +1,11 @@
-{}
+{
+    "_comment": "Entity",
+    "itemGroup.slabmachines": "Slab Machines",
+    "slabmachines.config.title": "Slab Machines 설정",
+    "block.slabmachines.crafting_table_slab": "제작대 반 블록",
+    "block.slabmachines.furnace_slab": "화로 반 블록",
+    "block.slabmachines.trapped_chest_slab": "덫 상자 반 블록",
+    "block.slabmachines.chest_slab": "상자 반 블록",
+    "block.slabmachines.note_slab": "노트 반 블록",
+    "block.slabmachines.tnt_slab": "TNT 반 블록"
+}
