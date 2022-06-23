@@ -1,1 +1,17 @@
-{}
+{
+    "block.snuffles.snuffle_fluff": "킁킁이 털뭉치",
+    "block.snuffles.snuffle_fluff_carpet": "킁킁이 털 양탄자",
+    "block.snuffles.frosty_fluff": "서리내린 털뭉치",
+    "block.snuffles.frosty_fluff_carpet": "서리낸 털 양탄자",
+    "item.snuffles.snuffle_spawn_egg": "킁킁이 생성 알",
+    "entity.snuffles.snuffle": "킁킁이",
+    "snuffles.subtitles.block.frosty_fluff.thaw": "킁킁이가 녹음",
+    "snuffles.subtitles.entity.snuffle.ambient": "킁킁이가 킁킁거림",
+    "snuffles.subtitles.entity.snuffle.death": "킁킁이가 죽음",
+    "snuffles.subtitles.entity.snuffle.eat": "킁킁이가 섭취함",
+    "snuffles.subtitles.entity.snuffle.hurt": "킁킁이가 다침",
+    "snuffles.subtitles.entity.snuffle.shake": "킁킁이가 몸을 텀",
+    "snuffles.subtitles.entity.snuffle.step": "킁킁이가 걸음",
+    "snuffles.subtitles.entity.snuffle.style": "슬라임볼이 찌그러짐",
+    "snuffles.subtitles.entity.snuffle.thaw": "킁킁이가 녹음"
+}
