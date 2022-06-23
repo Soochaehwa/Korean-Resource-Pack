@@ -1,1 +1,8 @@
-{}
+{
+    "item.snowpig.frozen_porkchop": "얼어붙은 돼지고기",
+    "item.snowpig.frozen_ham": "얼어붙은 햄",
+    "item.snowpig.snow_pig_spawn_egg": "눈 돼지 생성 알",
+    "item.snowpig.music_disc_frosty_snig": "음반",
+    "item.snowpig.music_disc_frosty_snig.desc": "Luz - Frosty Snig",
+    "entity.snowpig.snow_pig": "눈 돼지"
+}
