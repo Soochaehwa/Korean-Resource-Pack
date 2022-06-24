@@ -21,5 +21,12 @@
     "block.blockydoors.door_brown_mushroom": "갈색 버섯 문",
     "block.blockydoors.door_end_stone": "엔드 돌 문",
     "block.blockydoors.door_obsidian": "흑요석 문",
-    "block.blockydoors.door_cracked_stone_bricks": "금 간 석재 벽돌 문"
+    "block.blockydoors.door_cracked_stone_bricks": "금 간 석재 벽돌 문",
+    "block.blockydoors.door_end_stone_bricks": "엔드 석재 벽돌 문",
+    "block.blockydoors.door_polished_blackstone_bricks": "윤나는 흑암 벽돌 문",
+    "block.blockydoors.door_red_nether_bricks": "붉은 네더 벽돌 문",
+    "block.blockydoors.door_prismarine_bricks": "프리즈머린 벽돌 문",
+    "block.blockydoors.door_dark_prismarine_bricks": "짙은 프리즈머린 문",
+    "block.blockydoors.door_end_dark_prismarine": "짙은 프리즈머린 문",
+    "itemGroup.blockydoors": "Blocky Doors"
 }
