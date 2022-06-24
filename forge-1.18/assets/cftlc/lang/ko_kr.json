@@ -1,1 +1,23 @@
-{}
+{
+    "block.cftlc.moss_bricks": "이끼 벽돌",
+    "block.cftlc.moss_bricks_wall": "이끼 벽돌 담장",
+    "advancements.spyglass_at_moss_walker.description": "망원경으로 걸어다니는 이끼를 관찰하세요",
+    "itemGroup.cftlcblocktab": "Creatures from the Lush Cave 블록",
+    "subtitles.moss_walker_death": "걸어다니는 이끼가 죽음",
+    "block.cftlc.moss_bricks_slab": "이끼 벽돌 반 블록",
+    "block.cftlc.moss_bricks_stairs": "이끼 벽돌 계단",
+    "block.cftlc.moss_block_slab": "이끼 반 블록",
+    "block.cftlc.moss_block_stairs": "이끼 계단",
+    "block.cftlc.moss_block_wall": "이끼 담장",
+    "item.cftlc.moss_horse_armor": "이끼 말 갑옷",
+    "advancements.spyglass_at_moss_walker.title": "스트라이더인가?",
+    "itemGroup.cftlcitemtab": "Creatures from the Lush Cave",
+    "item.cftlc.wheat_with_moss": "이끼 낀 밀",
+    "item.cftlc.moss_walker_spawn_egg": "걸어다니는 이끼 생성 알",
+    "item.cftlc.lush_warden_spawn_egg": "무성한 워든 생성 알",
+    "entity.cftlc.moss_walker": "걸어다니는 이끼",
+    "entity.cftlc.lush_warden": "무성한 워든",
+    "subtitles.moss_walker_idle": "걸어다니는 이끼가 소리를 냄",
+    "subtitles.moss_walker_hurt": "걸어다니는 이끼가 상처를 입음",
+    "subtitles.moss_walker_step": "발소리"
+}
