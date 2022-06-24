@@ -1,1 +1,25 @@
-{}
+{
+    "block.blockydoors.door_sandstone": "사암 문",
+    "block.blockydoors.door_smooth_stone": "매끄러운 돌 문",
+    "block.blockydoors.door_mossy_stone_bricks": "이끼 낀 석재 벽돌 문",
+    "block.blockydoors.door_stone": "돌 문",
+    "block.blockydoors.door_cobblestone": "조약돌 문",
+    "block.blockydoors.door_blackstone": "흑암 문",
+    "block.blockydoors.door_granite": "화강암 문",
+    "block.blockydoors.door_andesite": "안산암 문",
+    "block.blockydoors.door_diorite": "섬록암 문",
+    "block.blockydoors.door_bricks": "벽돌 문",
+    "block.blockydoors.door_prismarine": "프리즈머린 문",
+    "block.blockydoors.door_purpur": "퍼퍼 문",
+    "block.blockydoors.door_red_sandstone": "붉은 사암 문",
+    "block.blockydoors.door_quartz": "석영 문",
+    "block.blockydoors.door_mossy_cobblestone": "이끼 낀 조약돌 문",
+    "block.blockydoors.door_stone_bricks": "석재 벽돌 문",
+    "block.blockydoors.door_netherrack": "네더랙 문",
+    "block.blockydoors.door_nether_bricks": "네더 벽돌 문",
+    "block.blockydoors.door_red_mushroom": "빨간색 버섯 문",
+    "block.blockydoors.door_brown_mushroom": "갈색 버섯 문",
+    "block.blockydoors.door_end_stone": "엔드 돌 문",
+    "block.blockydoors.door_obsidian": "흑요석 문",
+    "block.blockydoors.door_cracked_stone_bricks": "금 간 석재 벽돌 문"
+}
