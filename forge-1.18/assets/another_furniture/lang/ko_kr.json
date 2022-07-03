@@ -1,4 +1,18 @@
 {
     "itemGroup.another_furniture": "Another Furniture",
-    "itemGroup.another_furniture.tab": "Another Furniture"
+    "itemGroup.another_furniture.tab": "Another Furniture",
+    "block.another_furniture.service_bell.use": "벨이 울림",
+    "block.another_furniture.oak_chair": "참나무 의자",
+    "block.another_furniture.spruce_chair": "가문비나무 의자",
+    "block.another_furniture.birch_chair": "자작나무 의자",
+    "block.another_furniture.acacia_chair": "아카시아나무 의자",
+    "block.another_furniture.dark_oak_chair": "짙은 참나무 의자",
+    "block.another_furniture.crimson_chair": "진홍빛 의자",
+    "block.another_furniture.warped_chair": "뒤틀린 의자",
+    "block.another_furniture.jungle_chair": "정글나무 의자",
+    "block.everycomp.table": "%s 테이블",
+    "block.everycomp.chair": "%s 의자",
+    "block.everycomp.shelf": "%s 선반",
+    "block.everycomp.shutter": "%s 셔터",
+    "block.everycomp.planter_box": "%s 식물 상자"
 }
