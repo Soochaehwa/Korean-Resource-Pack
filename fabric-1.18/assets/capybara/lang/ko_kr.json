@@ -1,7 +1,7 @@
 {
-  "entity.capybara.capybara": "카피바라",
-  "subtitle.capybara.capybara.hurt": "카피바라가 상처를 입음",
-  "subtitle.capybara.capybara.death": "카피바라가 죽음",
-  "text.autoconfig.capybara.option.debugMode": "디버그 모드",
-  "item.capybara.capybara_spawn_egg": "카피바라 생성 알"
+    "entity.capybara.capybara": "카피바라",
+    "subtitle.capybara.capybara.hurt": "카피바라가 상처를 입음",
+    "subtitle.capybara.capybara.death": "카피바라가 죽음",
+    "text.autoconfig.capybara.option.debugMode": "디버그 모드",
+    "item.capybara.capybara_spawn_egg": "카피바라 생성 알"
 }

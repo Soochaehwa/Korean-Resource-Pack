@@ -1,15 +1,15 @@
 {
-  "itemGroup.autoworkstations.items": "Auto Workstations",
-  "block.autoworkstations.iron_auto_crafting_table": "Iron Auto Crafting Table",
-  "block.autoworkstations.gold_auto_crafting_table": "Gold Auto Crafting Table",
-  "block.autoworkstations.auto_furnace": "Iron Auto Furnace",
-  "block.autoworkstations.iron_auto_furnace": "Iron Auto Furnace",
-  "block.autoworkstations.gold_auto_furnace": "Gold Auto Furnace",
-  "block.autoworkstations.auto_enchanting_table_xp_inside": "Unobtainable XP Inside Auto Enchanting Table",
-  "block.autoworkstations.iron_auto_enchanting_table": "Iron Auto Enchanting Table",
-  "block.autoworkstations.gold_auto_enchanting_table": "Gold Auto Enchanting Table",
-  "block.autoworkstations.iron_auto_experience_orb_vacuum": "Iron Auto Experience Orb Vacuum",
-  "block.autoworkstations.gold_auto_experience_orb_vacuum": "Gold Auto Experience Orb Vacuum",
-  "block.autoworkstations.iron_auto_anvil": "Iron Auto Anvil",
-  "block.autoworkstations.gold_auto_anvil": "Gold Auto Anvil"
+    "itemGroup.autoworkstations.items": "Auto Workstations",
+    "block.autoworkstations.iron_auto_crafting_table": "Iron Auto Crafting Table",
+    "block.autoworkstations.gold_auto_crafting_table": "Gold Auto Crafting Table",
+    "block.autoworkstations.auto_furnace": "Iron Auto Furnace",
+    "block.autoworkstations.iron_auto_furnace": "Iron Auto Furnace",
+    "block.autoworkstations.gold_auto_furnace": "Gold Auto Furnace",
+    "block.autoworkstations.auto_enchanting_table_xp_inside": "Unobtainable XP Inside Auto Enchanting Table",
+    "block.autoworkstations.iron_auto_enchanting_table": "Iron Auto Enchanting Table",
+    "block.autoworkstations.gold_auto_enchanting_table": "Gold Auto Enchanting Table",
+    "block.autoworkstations.iron_auto_experience_orb_vacuum": "Iron Auto Experience Orb Vacuum",
+    "block.autoworkstations.gold_auto_experience_orb_vacuum": "Gold Auto Experience Orb Vacuum",
+    "block.autoworkstations.iron_auto_anvil": "Iron Auto Anvil",
+    "block.autoworkstations.gold_auto_anvil": "Gold Auto Anvil"
 }
