@@ -1,16 +1,9 @@
 {
-    "block.adchimneys.stone_bricks_chimney": "석재 벽돌 굴뚝",
     "block.adchimneys.glass_chimney": "유리 굴뚝",
-    "block.adchimneys.black_glazed_terracotta_chimney": "검은색 유광 테라코타 굴뚝",
     "block.adchimneys.cut_red_sandstone_chimney": "깎인 붉은 사암 굴뚝",
-    "block.adchimneys.nether_bricks_vent": "네더 벽돌 통풍구",
     "block.adchimneys.red_concrete_vent": "빨간색 콘크리트 통풍구",
-    "block.adchimneys.red_stained_glass_vent": "빨간색 색유리 통풍구",
     "block.adchimneys.white_glazed_terracotta_vent": "하얀색 유광 테라코타 통풍구",
-    "block.adchimneys.cracked_stone_bricks_pump": "금 간 석재 벽돌 배기 펌프",
     "block.adchimneys.orange_concrete_pump": "주황색 콘크리트 배기 펌프",
-    "block.adchimneys.orange_stained_glass_pump": "주황색 색유리 배기 펌프",
     "block.adchimneys.pink_glazed_terracotta_pump": "분홍색 유광 테라코타 배기 펌프",
-    "block.adchimneys.chiseled_polished_blackstone_chimney": "조각된 윤나는 흑암 굴뚝",
     "block.adchimneys.pipe": "펌프 파이프"
 }
