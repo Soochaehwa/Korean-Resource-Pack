@@ -1,6 +1,6 @@
 {
-  "block.tinkers_reforged.aluminum_block": "알루미늄 블록",
-  "block.tinkers_reforged.aluminum_ore": "보크사이트 광석",
-  "block.tinkers_reforged.deepslate_aluminum_ore": "심층암 보크사이트 광석",
-  "block.tinkers_reforged.raw_aluminum_block": "보크사이트 원석 블록"
+    "block.tinkers_reforged.aluminum_block": "알루미늄 블록",
+    "block.tinkers_reforged.aluminum_ore": "보크사이트 광석",
+    "block.tinkers_reforged.deepslate_aluminum_ore": "심층암 보크사이트 광석",
+    "block.tinkers_reforged.raw_aluminum_block": "보크사이트 원석 블록"
 }

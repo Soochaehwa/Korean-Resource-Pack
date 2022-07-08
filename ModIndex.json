@@ -20,7 +20,8 @@
       "1.18.1": 3570678
     },
     "forge": {
-      "1.18.1": 3570677
+      "1.18.1": 3570677,
+      "1.18.2": 3850450
     }
   },
   "tool-stats": {
@@ -47,7 +48,7 @@
       "1.18.1": 3796917
     },
     "forge": {
-      "1.18.1": 3796914
+      "1.18.1": 3840760
     }
   },
   "blossom": {
@@ -277,7 +278,7 @@
       "1.18.2": 3832269
     },
     "forge": {
-      "1.18.2": 3832270
+      "1.18.2": 3862524
     }
   },
   "bisecthosting-server-integration-menu-fabric": {
@@ -488,7 +489,7 @@
       "1.18.2": 3777696
     },
     "forge": {
-      "1.18.2": 3777696
+      "1.18.2": 3856246
     }
   },
   "harvest-scythes": {
@@ -536,7 +537,7 @@
       "1.18.2": 3779851
     },
     "forge": {
-      "1.18.2": 3779852
+      "1.18.2": 3842192
     }
   },
   "ecologics": {
@@ -546,7 +547,7 @@
       "1.18.2": 3765565
     },
     "forge": {
-      "1.18.2": 3827166
+      "1.18.2": 3850590
     }
   },
   "xaeros-world-map": {
@@ -556,7 +557,7 @@
       "1.18.2": 3819367
     },
     "forge": {
-      "1.18.2": 3819368
+      "1.18.2": 3861268
     }
   },
   "mob-scarecrows": {
@@ -619,7 +620,7 @@
       "1.18.2": 3816761
     },
     "forge": {
-      "1.18.2": 3817882
+      "1.18.2": 3853529
     }
   },
   "wilder-world": {
@@ -636,7 +637,7 @@
       "1.18.2": 3827354
     },
     "forge": {
-      "1.18.2": 3825231
+      "1.18.2": 3834521
     }
   },
   "cloth-config": {
@@ -656,7 +657,7 @@
       "1.18.2": 3827653
     },
     "forge": {
-      "1.18.2": 3827651
+      "1.18.2": 3861269
     }
   },
   "mouse-wheelie": {
@@ -673,7 +674,7 @@
       "1.18.2": 3819353
     },
     "forge": {
-      "1.18.2": 3819354
+      "1.18.2": 3851498
     }
   },
   "mo-glass": {
@@ -753,7 +754,7 @@
       "1.18.2": 3827255
     },
     "forge": {
-      "1.18.2": 3827265
+      "1.18.2": 3856641
     }
   },
   "irisshaders": {
@@ -780,7 +781,7 @@
       "1.18.2": 3825348
     },
     "forge": {
-      "1.18.2": 3825350
+      "1.18.2": 3859642
     }
   },
   "immersive-weathering-fabric": {
@@ -996,7 +997,7 @@
       "1.18.2": 3821022
     },
     "forge": {
-      "1.18.2": 3821023
+      "1.18.2": 3859408
     }
   },
   "croptopias-chocolaterie-fabric": {
@@ -1075,7 +1076,7 @@
       "1.18.2": 3758405
     },
     "forge": {
-      "1.18.2": 3758406
+      "1.18.2": 3860454
     }
   },
   "trashslot-fabric-edition": {
@@ -1123,7 +1124,7 @@
       "1.18.2": 3684915
     },
     "forge": {
-      "1.18.2": 3684917
+      "1.18.2": 3858196
     }
   },
   "basic-aiots": {
@@ -1265,7 +1266,7 @@
       "1.18.2": 3817707
     },
     "forge": {
-      "1.18.2": 3817705
+      "1.18.2": 3858426
     }
   },
   "impaled": {
@@ -1341,7 +1342,7 @@
       "1.18.2": 3682902
     },
     "forge": {
-      "1.18.2": 3682901
+      "1.18.2": 3851696
     }
   },
   "bits-and-chisels": {
@@ -1393,7 +1394,7 @@
       "1.18.1": 3808018
     },
     "forge": {
-      "1.18.2": 3808012
+      "1.18.2": 3849569
     }
   },
   "macaws-windows": {
@@ -1493,7 +1494,7 @@
       "1.18.1": 3679841
     },
     "forge": {
-      "1.18.2": 3779786
+      "1.18.2": 3846597
     }
   },
   "createplus": {
@@ -2062,10 +2063,13 @@
     }
   },
   "climb-ladders-fast": {
-    "name": "Climb Ladders Fast",
+    "name": "Climb Ladders Fast [Fabric/Forge]",
     "id": 459522,
     "fabric": {
       "1.18.1": 3710457
+    },
+    "forge": {
+      "1.18.1": 3842097
     }
   },
   "cull-leaves": {
@@ -2103,7 +2107,7 @@
       "1.18.2": 3765362
     },
     "forge": {
-      "1.18.2": 3764373
+      "1.18.2": 3858183
     }
   },
   "creeper-spores": {
@@ -2121,10 +2125,13 @@
     }
   },
   "spoorn-weapon-attributes": {
-    "name": "Spoorn Weapon Attributes",
+    "name": "Spoorn Weapon Attributes [Fabric/Forge]",
     "id": 573200,
     "fabric": {
       "1.18.1": 3752301
+    },
+    "forge": {
+      "1.18.1": 3856143
     }
   },
   "on-soul-fire": {
@@ -2185,6 +2192,9 @@
     "id": 274863,
     "fabric": {
       "1.18.2": 3772208
+    },
+    "forge": {
+      "1.18.2": 3856748
     }
   },
   "mcdar": {
@@ -2361,7 +2371,7 @@
       "1.18.2": 3828990
     },
     "forge": {
-      "1.18.2": 3813212
+      "1.18.2": 3846945
     }
   },
   "resource-tools-fabric": {
@@ -2637,7 +2647,8 @@
       "1.18.2": 3689026
     },
     "forge": {
-      "1.18.1": 3604368
+      "1.18.1": 3604368,
+      "1.18.2": 3842529
     }
   },
   "multibeds-fabric": {
@@ -3035,7 +3046,7 @@
       "1.18.2": 3833602
     },
     "forge": {
-      "1.18.2": 3833603
+      "1.18.2": 3851027
     }
   },
   "mine-pop": {
@@ -3237,7 +3248,7 @@
       "1.18.2": 3833808
     },
     "forge": {
-      "1.18.2": 3833809
+      "1.18.2": 3856959
     }
   },
   "enhanced-celestials-fabric": {
@@ -3316,7 +3327,7 @@
       "1.18.2": 3803040
     },
     "forge": {
-      "1.18.2": 3803038
+      "1.18.2": 3862183
     }
   },
   "mod-name-tooltip": {
@@ -3365,7 +3376,7 @@
     "name": "Angel Ring",
     "id": 333396,
     "forge": {
-      "1.18.1": 3601021
+      "1.18.1": 3849197
     }
   },
   "iron-jetpacks": {
@@ -3400,7 +3411,7 @@
     "name": "Simple Magnets",
     "id": 394140,
     "forge": {
-      "1.18.1": 3773842
+      "1.18.1": 3862608
     }
   },
   "just-enough-effect-descriptions-jeed": {
@@ -3414,7 +3425,8 @@
     "name": "More Overlays Updated",
     "id": 391382,
     "forge": {
-      "1.18.1": 3639155
+      "1.18.1": 3639155,
+      "1.18.2": 3834839
     }
   },
   "little-contraptions": {
@@ -3456,14 +3468,14 @@
     "name": "Eccentric Tome",
     "id": 597522,
     "forge": {
-      "1.18.2": 3769039
+      "1.18.2": 3835270
     }
   },
   "placebo": {
     "name": "Placebo",
     "id": 283644,
     "forge": {
-      "1.18.2": 3781199
+      "1.18.2": 3845997
     }
   },
   "shrink_": {
@@ -3683,14 +3695,15 @@
     "name": "Cucumber Library",
     "id": 272335,
     "forge": {
-      "1.18.2": 3804158
+      "1.18.2": 3859559
     }
   },
   "cable-tiers": {
     "name": "Cable Tiers",
     "id": 454382,
     "forge": {
-      "1.18.1": 3623371
+      "1.18.1": 3623371,
+      "1.18.2": 3856245
     }
   },
   "openblocks-elevator": {
@@ -3725,14 +3738,14 @@
     "name": "Oh My Gourd",
     "id": 377322,
     "forge": {
-      "1.18.2": 3790295
+      "1.18.2": 3837817
     }
   },
   "mystical-agradditions": {
     "name": "Mystical Agradditions",
     "id": 256247,
     "forge": {
-      "1.18.2": 3741099
+      "1.18.2": 3859536
     }
   },
   "silent-lib": {
@@ -3803,7 +3816,7 @@
     "name": "RFTools Builder",
     "id": 347706,
     "forge": {
-      "1.18.2": 3814226
+      "1.18.2": 3841160
     }
   },
   "libnonymous": {
@@ -3824,7 +3837,7 @@
     "name": "Tom's Simple Storage Mod",
     "id": 378609,
     "forge": {
-      "1.18.2": 3815038
+      "1.18.2": 3837387
     }
   },
   "farming-for-blockheads": {
@@ -3866,7 +3879,7 @@
     "name": "Curios API (Forge)",
     "id": 309927,
     "forge": {
-      "1.18.2": 3748873
+      "1.18.2": 3841948
     }
   },
   "wireless-chargers": {
@@ -3908,7 +3921,7 @@
     "name": "Applied Mekanistics",
     "id": 574300,
     "forge": {
-      "1.18.2": 3807443
+      "1.18.2": 3847653
     }
   },
   "xnet": {
@@ -3947,10 +3960,10 @@
     }
   },
   "selene": {
-    "name": "Selene Lib",
+    "name": "Moonlight Lib",
     "id": 499980,
     "forge": {
-      "1.18.2": 3828748
+      "1.18.2": 3842421
     }
   },
   "platforms": {
@@ -3971,7 +3984,7 @@
     "name": "The Lost Cities",
     "id": 269024,
     "forge": {
-      "1.18.2": 3711555
+      "1.18.2": 3864535
     }
   },
   "just-enough-resources-jer": {
@@ -3999,7 +4012,7 @@
     "name": "Sophisticated Backpacks",
     "id": 422301,
     "forge": {
-      "1.18.2": 3830234
+      "1.18.2": 3847503
     }
   },
   "rftools-power": {
@@ -4034,7 +4047,7 @@
     "name": "Structure Gel API",
     "id": 378802,
     "forge": {
-      "1.18.2": 3832964
+      "1.18.2": 3861133
     }
   },
   "mining-gadgets": {
@@ -4048,7 +4061,7 @@
     "name": "Aquaculture 2",
     "id": 60028,
     "forge": {
-      "1.18.2": 3750710
+      "1.18.2": 3844973
     }
   },
   "utilitix": {
@@ -4069,7 +4082,7 @@
     "name": "Patchouli",
     "id": 306770,
     "forge": {
-      "1.18.2": 3831438
+      "1.18.2": 3846086
     }
   },
   "mantle": {
@@ -4104,7 +4117,7 @@
     "name": "CoFH Core",
     "id": 69162,
     "forge": {
-      "1.18.2": 3803484
+      "1.18.2": 3838025
     }
   },
   "structurize": {
@@ -4119,7 +4132,7 @@
     "name": "Domum Ornamentum",
     "id": 527361,
     "forge": {
-      "1.18.2": 3745606
+      "1.18.2": 3863762
     }
   },
   "super-circuit-maker": {
@@ -4147,14 +4160,14 @@
     "name": "ATO - All the Ores",
     "id": 405593,
     "forge": {
-      "1.18.2": 3822835
+      "1.18.2": 3860919
     }
   },
   "apotheosis": {
     "name": "Apotheosis",
     "id": 313970,
     "forge": {
-      "1.18.2": 3781524
+      "1.18.2": 3846000
     }
   },
   "advanced-generators": {
@@ -4175,7 +4188,7 @@
     "name": "Deep Resonance",
     "id": 233398,
     "forge": {
-      "1.18.2": 3833379
+      "1.18.2": 3853562
     }
   },
   "absent-by-design": {
@@ -4210,28 +4223,28 @@
     "name": "Sophisticated Core",
     "id": 618298,
     "forge": {
-      "1.18.2": 3830180
+      "1.18.2": 3847441
     }
   },
   "ensorcellation": {
     "name": "Ensorcellation",
     "id": 349447,
     "forge": {
-      "1.18.2": 3790294
+      "1.18.2": 3837816
     }
   },
   "pneumaticcraft-repressurized": {
     "name": "PneumaticCraft: Repressurized",
     "id": 281849,
     "forge": {
-      "1.18.2": 3815728
+      "1.18.2": 3858835
     }
   },
   "engineers-decor": {
     "name": "Engineer's Decor",
     "id": 313866,
     "forge": {
-      "1.18.2": 3816765
+      "1.18.2": 3837935
     }
   },
   "just-enough-professions-jep": {
@@ -4245,7 +4258,7 @@
     "name": "Mob Grinding Utils",
     "id": 254241,
     "forge": {
-      "1.18.2": 3798438
+      "1.18.2": 3852031
     }
   },
   "time-in-a-bottle-standalone": {
@@ -4266,7 +4279,7 @@
     "name": "Just Enough Items (JEI)",
     "id": 238222,
     "forge": {
-      "1.18.2": 3832909
+      "1.18.2": 3847103
     },
     "fabric": {
       "1.18.2": 3832908
@@ -4321,14 +4334,14 @@
     "name": "Elemental Craft",
     "id": 395158,
     "forge": {
-      "1.18.2": 3831715
+      "1.18.2": 3855229
     }
   },
   "cc-tweaked": {
     "name": "CC: Tweaked",
     "id": 282001,
     "forge": {
-      "1.18.2": 3825460
+      "1.18.2": 3845705
     }
   },
   "wither-skeleton-tweaks": {
@@ -4349,7 +4362,7 @@
     "name": "Farmer's Delight",
     "id": 398521,
     "forge": {
-      "1.18.2": 3784851
+      "1.18.2": 3834150
     }
   },
   "colytra": {
@@ -4377,14 +4390,14 @@
     "name": "Allthemodium",
     "id": 364466,
     "forge": {
-      "1.18.2": 3826741
+      "1.18.2": 3862033
     }
   },
   "blockui": {
     "name": "BlockUI",
     "id": 522992,
     "forge": {
-      "1.18.1": 3816719
+      "1.18.1": 3845150
     }
   },
   "create-confectionery": {
@@ -4419,21 +4432,21 @@
     "name": "Archer's Paradox",
     "id": 353399,
     "forge": {
-      "1.18.2": 3790291
+      "1.18.2": 3837815
     }
   },
   "evilcraft": {
     "name": "EvilCraft",
     "id": 74610,
     "forge": {
-      "1.18.2": 3824486
+      "1.18.2": 3853061
     }
   },
   "mythicbotany": {
     "name": "MythicBotany",
     "id": 400058,
     "forge": {
-      "1.18.2": 3830590
+      "1.18.2": 3847453
     }
   },
   "rftools-base": {
@@ -4461,7 +4474,7 @@
     "name": "Integrated Dynamics",
     "id": 236307,
     "forge": {
-      "1.18.2": 3832129
+      "1.18.2": 3851758
     }
   },
   "simply-light": {
@@ -4475,7 +4488,7 @@
     "name": "Silent Gear",
     "id": 297039,
     "forge": {
-      "1.18.2": 3811128
+      "1.18.2": 3863515
     }
   },
   "ftb-backups-2": {
@@ -4492,7 +4505,7 @@
     "name": "Mahou Tsukai",
     "id": 342543,
     "forge": {
-      "1.18.2": 3833997
+      "1.18.2": 3863731
     }
   },
   "security-craft": {
@@ -4513,7 +4526,7 @@
     "name": "Ars Nouveau",
     "id": 401955,
     "forge": {
-      "1.18.2": 3829983
+      "1.18.2": 3860816
     }
   },
   "ftb-quests-forge": {
@@ -4527,7 +4540,7 @@
     "name": "Thermal Foundation",
     "id": 222880,
     "forge": {
-      "1.18.2": 3803495
+      "1.18.2": 3837827
     }
   },
   "blocky-doors": {
@@ -4541,7 +4554,7 @@
     "name": "Occultism",
     "id": 361026,
     "forge": {
-      "1.18.2": 3809335
+      "1.18.2": 3863823
     }
   },
   "mrcrayfish-furniture-mod": {
@@ -4569,7 +4582,7 @@
     "name": "All The Tweaks",
     "id": 364120,
     "forge": {
-      "1.18.2": 3833628
+      "1.18.2": 3851716
     }
   },
   "immersive-engineering": {
@@ -4590,14 +4603,14 @@
     "name": "Create",
     "id": 328085,
     "forge": {
-      "1.18.2": 3737418
+      "1.18.2": 3864525
     }
   },
   "supplementaries": {
     "name": "Supplementaries",
     "id": 412082,
     "forge": {
-      "1.18.2": 3832545
+      "1.18.2": 3853896
     }
   },
   "journeymap": {
@@ -4631,7 +4644,7 @@
     "name": "Botania",
     "id": 225643,
     "forge": {
-      "1.18.2": 3818541
+      "1.18.2": 3847141
     }
   },
   "bad-wither-no-cookie-reloaded": {
@@ -4645,7 +4658,7 @@
     "name": "MineColonies",
     "id": 245506,
     "forge": {
-      "1.18.2": 3832155,
+      "1.18.2": 3857623,
       "1.18.1": 3815408
     }
   },
@@ -4653,7 +4666,7 @@
     "name": "MEGA Cells",
     "id": 622112,
     "forge": {
-      "1.18.2": 3822520
+      "1.18.2": 3859532
     }
   },
   "trashslot": {
@@ -4698,7 +4711,7 @@
     "name": "Connected Glass",
     "id": 383129,
     "forge": {
-      "1.18.1": 3818756
+      "1.18.1": 3856668
     }
   },
   "item-collectors": {
@@ -4733,21 +4746,21 @@
     "name": "FramedBlocks",
     "id": 441647,
     "forge": {
-      "1.18.2": 3833944
+      "1.18.2": 3850130
     }
   },
   "productivebees": {
     "name": "Productive Bees",
     "id": 377897,
     "forge": {
-      "1.18.2": 3824425
+      "1.18.2": 3863253
     }
   },
   "ironchests": {
     "name": "Iron Chests: Restocked",
     "id": 498794,
     "forge": {
-      "1.18.2": 3791053
+      "1.18.2": 3837131
     },
     "fabric": {
       "1.18.2": 3791051
@@ -4764,7 +4777,7 @@
     "name": "Functional Storage",
     "id": 556861,
     "forge": {
-      "1.18.2": 3820051
+      "1.18.2": 3846268
     }
   },
   "refined-storage": {
@@ -4778,7 +4791,7 @@
     "name": "Corail Tombstone",
     "id": 243707,
     "forge": {
-      "1.18.2": 3819385
+      "1.18.2": 3836530
     }
   },
   "mekanism": {
@@ -4996,14 +5009,14 @@
     "name": "Friends&Foes (Forge)",
     "id": 602059,
     "forge": {
-      "1.18.2": 3815831
+      "1.18.2": 3842725
     }
   },
   "jade": {
     "name": "Jade 🔍",
     "id": 324717,
     "forge": {
-      "1.18.2": 3822510
+      "1.18.2": 3845190
     },
     "fabric": {
       "1.18.2": 3827468
@@ -5013,7 +5026,7 @@
     "name": "More Villagers",
     "id": 484954,
     "forge": {
-      "1.18.2": 3831419
+      "1.18.2": 3843498
     }
   },
   "corpse": {
@@ -5041,7 +5054,7 @@
     "name": "Backpacked",
     "id": 352835,
     "forge": {
-      "1.18.2": 3755666
+      "1.18.2": 3834883
     }
   },
   "enchant-with-mob": {
@@ -5062,7 +5075,7 @@
     "name": "The Graveyard (FORGE)",
     "id": 531188,
     "forge": {
-      "1.18.2": 3818278
+      "1.18.2": 3837172
     }
   },
   "dragon-mounts-legacy": {
@@ -5077,7 +5090,7 @@
     "id": 610492,
     "forge": {
       "1.18.1": 3784455,
-      "1.18.2": 3828259
+      "1.18.2": 3841697
     },
     "fabric": {
       "1.18.2": 3828257
@@ -5150,14 +5163,14 @@
     "name": "Blueprint",
     "id": 382216,
     "forge": {
-      "1.18.2": 3756782
+      "1.18.2": 3840203
     }
   },
   "nourished-nether": {
     "name": "Nourished Nether",
     "id": 479296,
     "forge": {
-      "1.18.2": 3692447
+      "1.18.2": 3854326
     }
   },
   "oculus": {
@@ -5178,7 +5191,7 @@
     "name": "Additional Banners",
     "id": 230137,
     "forge": {
-      "1.18.2": 3817496
+      "1.18.2": 3835686
     },
     "fabric": {
       "1.18.2": 3817495
@@ -5202,7 +5215,7 @@
     "name": "Farmer's Respite",
     "id": 551453,
     "forge": {
-      "1.18.2": 3740887
+      "1.18.2": 3859156
     }
   },
   "bygone-nether": {
@@ -5293,7 +5306,7 @@
     "name": "Biome Makeover (Forge)",
     "id": 567709,
     "forge": {
-      "1.18.2": 3814451
+      "1.18.2": 3863108
     }
   },
   "l_ender-s-cataclysm": {
@@ -5307,7 +5320,7 @@
     "name": "Quark",
     "id": 243121,
     "forge": {
-      "1.18.2": 3800462
+      "1.18.2": 3840125
     }
   },
   "excavated-variants": {
@@ -5324,7 +5337,7 @@
     "name": "Alex's Mobs",
     "id": 426558,
     "forge": {
-      "1.18.2": 3829342
+      "1.18.2": 3853078
     }
   },
   "stalwart-dungeons": {
@@ -5422,7 +5435,7 @@
     "name": "ZeroCore 2",
     "id": 247921,
     "forge": {
-      "1.18.2": 3833589
+      "1.18.2": 3855563
     }
   },
   "sushigocrafting": {
@@ -5481,35 +5494,35 @@
     "name": "Tetra",
     "id": 289712,
     "forge": {
-      "1.18.2": 3813582
+      "1.18.2": 3844400
     }
   },
   "chisels-bits": {
     "name": "Chisels & Bits - For Forge",
     "id": 231095,
     "forge": {
-      "1.18.2": 3813904
+      "1.18.2": 3864040
     }
   },
   "pretty-pipes": {
     "name": "Pretty Pipes",
     "id": 376737,
     "forge": {
-      "1.18.2": 3798343
+      "1.18.2": 3854605
     }
   },
   "meet-your-fight": {
     "name": "Meet Your Fight",
     "id": 409371,
     "forge": {
-      "1.18.2": 3756913
+      "1.18.2": 3837351
     }
   },
   "extreme-reactors": {
     "name": "Extreme Reactors",
     "id": 250277,
     "forge": {
-      "1.18.2": 3823224
+      "1.18.2": 3855572
     }
   },
   "inventory-essentials": {
@@ -5566,7 +5579,7 @@
     "name": "Portable Tanks",
     "id": 503920,
     "forge": {
-      "1.18.1": 3598490
+      "1.18.1": 3842509
     }
   },
   "ping": {
@@ -5685,7 +5698,7 @@
     "name": "Ender Mail",
     "id": 374771,
     "forge": {
-      "1.18.2": 3793044
+      "1.18.2": 3858458
     }
   },
   "chargers": {
@@ -5706,7 +5719,7 @@
     "name": "Advanced Chimneys",
     "id": 244830,
     "forge": {
-      "1.18.2": 3807675
+      "1.18.2": 3864196
     }
   },
   "theobsidianboat": {
@@ -5741,7 +5754,7 @@
     "name": "Global XP",
     "id": 268647,
     "forge": {
-      "1.18.2": 3772985
+      "1.18.2": 3864506
     }
   },
   "slab-machines": {
@@ -5769,14 +5782,14 @@
     "name": "Wormhole (Portals)",
     "id": 396803,
     "forge": {
-      "1.18.1": 3635700
+      "1.18.1": 3856620
     }
   },
   "gobber": {
     "name": "Gobber [FORGE]",
     "id": 301700,
     "forge": {
-      "1.18.2": 3793707
+      "1.18.2": 3847359
     }
   },
   "uppers": {
@@ -5887,7 +5900,7 @@
     "name": "Tesseract",
     "id": 379232,
     "forge": {
-      "1.18.1": 3775967
+      "1.18.1": 3840302
     }
   },
   "lavasponge": {
@@ -5929,7 +5942,7 @@
     "name": "Origins (Forge)",
     "id": 474438,
     "forge": {
-      "1.18.2": 3761477
+      "1.18.2": 3860015
     }
   },
   "pams-harvestcraft-2-food-extended": {
@@ -5943,7 +5956,7 @@
     "name": "ProbeJS",
     "id": 585406,
     "forge": {
-      "1.18.2": 3817856
+      "1.18.2": 3857603
     },
     "fabric": {
       "1.18.2": 3817854
@@ -5960,7 +5973,7 @@
     "name": "Project MMO",
     "id": 353935,
     "forge": {
-      "1.18.2": 3810951
+      "1.18.2": 3855516
     }
   },
   "randomite-classic": {
@@ -6026,21 +6039,21 @@
     "name": "Nomadic Tents",
     "id": 238794,
     "forge": {
-      "1.18.2": 3829966
+      "1.18.2": 3859993
     }
   },
   "nethers-exoticism": {
     "name": "Nether's Exoticism",
     "id": 486029,
     "forge": {
-      "1.18.2": 3780959
+      "1.18.2": 3857262
     }
   },
   "tinkers-reforged": {
     "name": "Tinkers' Reforged",
     "id": 376876,
     "forge": {
-      "1.18.2": 3806549
+      "1.18.2": 3841103
     }
   },
   "multibeds": {
@@ -6054,7 +6067,7 @@
     "name": "Cyclic",
     "id": 239286,
     "forge": {
-      "1.18.2": 3819253
+      "1.18.2": 3851582
     }
   },
   "chance-cubes": {
@@ -6078,7 +6091,7 @@
     "name": "Enigmatic Legacy",
     "id": 336184,
     "forge": {
-      "1.18.2": 3832264
+      "1.18.2": 3852970
     }
   },
   "re-skin": {
@@ -6095,7 +6108,7 @@
     "name": "Assembly Line Machines",
     "id": 388282,
     "forge": {
-      "1.18.2": 3805823
+      "1.18.2": 3861080
     }
   },
   "armorplus": {
@@ -6130,21 +6143,21 @@
     "name": "Builder's Delight (Forge)",
     "id": 563734,
     "forge": {
-      "1.18.2": 3726470
+      "1.18.2": 3857874
     }
   },
   "futurepack": {
     "name": "Futurepack Mod - Now with flyable Spaceships!",
     "id": 237333,
     "forge": {
-      "1.18.2": 3823001
+      "1.18.2": 3855485
     }
   },
   "mana-and-artifice": {
     "name": "Mana and Artifice",
     "id": 406360,
     "forge": {
-      "1.18.2": 3827974
+      "1.18.2": 3847671
     }
   },
   "prefab": {
@@ -6158,7 +6171,7 @@
     "name": "Vanilla Expanded - Orcz",
     "id": 581652,
     "forge": {
-      "1.18.2": 3734754
+      "1.18.2": 3846006
     }
   },
   "embellished-enchanting": {
@@ -6189,7 +6202,21 @@
     "name": "Industrial Foregoing",
     "id": 266515,
     "forge": {
-      "1.18.2": 3829542
+      "1.18.2": 3848558
+    }
+  },
+  "croptopia": {
+    "name": "Croptopia",
+    "id": 415438,
+    "forge": {
+      "1.18.2": 3820865
+    }
+  },
+  "easy-shulker-boxes": {
+    "name": "Easy Shulker Boxes [Forge|Fabric]",
+    "id": 594006,
+    "forge": {
+      "1.18.2": 3718047
     }
   }
 }
