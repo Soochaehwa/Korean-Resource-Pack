@@ -1,6 +1,13 @@
 {
     "block.adchimneys.glass_chimney": "유리 굴뚝",
-    "block.adchimneys.red_concrete_vent": "빨간색 콘크리트 통풍구",
     "block.adchimneys.orange_concrete_pump": "주황색 콘크리트 배기 펌프",
-    "block.adchimneys.pipe": "펌프 파이프"
+    "block.adchimneys.pipe": "펌프 파이프",
+    "itemGroup.advanced_chimneys": "Advanced Chimneys",
+    "block.adchimneys.stone_chimney": "돌 굴뚝",
+    "block.adchimneys.stone_pump": "돌 펌프",
+    "block.adchimneys.stone_vent": "돌 통풍구",
+    "item.adchimneys.wooden_paintbrush": "나무 붓",
+    "block.adchimneys.metal_chimney": "금속 굴뚝",
+    "block.adchimneys.metal_pump": "금속 펌프",
+    "block.adchimneys.metal_vent": "금속 통풍구"
 }
