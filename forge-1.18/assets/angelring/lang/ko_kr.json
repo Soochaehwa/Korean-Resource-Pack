@@ -1,5 +1,12 @@
 {
-    "item.angelring.itemring": "천사 고리",
-    "item.angelring.itemdiamondring": "다이아몬드 고리",
-    "curios.identifier.angelring": "천사 고리"
+    "item.angelring.itemring": "천사의 반지",
+    "item.angelring.itemdiamondring": "다이아몬드 반지",
+    "curios.identifier.angelring": "천사의 반지",
+    "item.angelring.itemring.not_enough_xp": "날기 위해서는 경험치가 필요합니다. 다시 날기 위해서는 더 많은 경험치를 얻으세요.",
+    "item.angelring.itemring.tooltip": "§eShift§7를 눌러서 자세한 정보를 확인하세요!",
+    "item.angelring.itemring.desc1": "만약 플레이어의 경험치가 1레벨보다 낮아지면,",
+    "item.angelring.itemring.desc2": "마법은 사라지고 날 수 없습니다.",
+    "item.angelring.itemring.desc0": "Angel Ring은 나는 동안 플레이어의 경험치를 사용합니다.",
+    "item.angelring.itemring.classic.desc0": "Angel Ring이 클래식 모드로 전환되었습니다. Curios 슬롯에 있는 동안 크리에이티브 모드처럼 비행할 수 있습니다.",
+    "itemGroup.angelring2": "Angel Ring 2"
 }
